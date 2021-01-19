@@ -1,0 +1,35 @@
+Sub RefreshZoomForTech()
+
+    Dim ws As Worksheet
+    Dim targetZoom As Integer
+    Dim currentWS As Worksheet
+    
+    Set currentWS = ActiveSheet
+
+        targetZoom = InputBox(Prompt:="Target Zoom:", _
+            Title:="Target Zoom", Default:="Enter Desired Zoom")
+            
+    Application.Calculation = xlCalculationManual
+            
+    For Each ws In Worksheets
+    
+         If ws.Visible = xlSheetHidden Or ws.Visible = xlSheetVeryHidden Then GoTo Line1
+        
+         ws.Select
+         ActiveWindow.View = xlNormalView
+         ActiveWindow.Zoom = targetZoom
+         ws.Rows("2:2").Select
+         ActiveWindow.FreezePanes = True
+         
+         Range("F1,R1,AD1,AP1,BB1").Select
+         Selection.Columns.AutoFit
+         Selection.Rows.AutoFit
+         
+         ws.Range("a1").Activate
+   
+Line1:    Next ws
+    
+    Application.Calculation = xlCalculationAutomatic
+    currentWS.Activate
+
+End Sub
