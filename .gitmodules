@@ -1,0 +1,6 @@
+[submodule "git/git-extras"]
+	path = git/git-extras
+	url = https://github.com/tj/git-extras.git
+[submodule "git/git-crypt"]
+	path = git/git-crypt
+	url = git@github.com:AGWA/git-crypt
