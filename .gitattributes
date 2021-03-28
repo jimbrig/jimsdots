@@ -1,1 +1,4 @@
-aws-credentials.csv filter=git-crypt diff=git-crypt
+.gitattributes !filter !diff
+
+aws/aws-credentials.csv filter=git-crypt diff=git-crypt
+aws/credentials filter=git-crypt diff=git-crypt
