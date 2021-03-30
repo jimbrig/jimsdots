@@ -1,0 +1,10 @@
+{
+  "id": "snippets",
+  "name": "Snippets plugin",
+  "version": "0.0.2",
+  "minAppVersion": "0.9.12",
+  "description": "Execute simple scripts/snippets from obsidian. This plugin is experimental",
+  "author": "Pelao",
+  "authorUrl": "https://cristianvasquez.me",
+  "isDesktopOnly": false
+}

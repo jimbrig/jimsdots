@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-query2table",
+  "name": "query2table",
+  "author": "avirut",
+  "version": "0.1.1",
+  "minAppVersion": "0.10.6",
+  "description": "Represent files returned by a query as a table of their YAML frontmatter",
+  "authorURL": "https://avirut.me/",
+  "isDesktopOnly": "false"
+}

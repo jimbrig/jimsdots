@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-yfm-templater-plugin",
+	"name": "YAML front matter template plugin",
+	"version": "0.0.1",
+	"minAppVersion": "0.10.2",
+	"description": "Create templates using various JS template engines and YAML front matter as data.",
+	"author": "Miltiadis Orfanos",
+	"authorUrl": "https://github.com/m-orfanos",
+	"isDesktopOnly": false
+}

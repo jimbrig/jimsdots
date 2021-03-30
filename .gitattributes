@@ -16,3 +16,4 @@ gcloud/** filter=git-crypt diff=git-crypt
 boto/.boto filter=git-crypt diff=git-crypt
 gdrive/* filter=git-crypt diff=git-crypt
 vault/.vault-token filter=git-crypt diff=git-crypt
+obsidian/todoist-token filter=git-crypt diff=git-crypt

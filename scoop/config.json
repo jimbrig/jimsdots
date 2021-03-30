@@ -1,0 +1,8 @@
+{
+    "lastupdate":  "258|2021-03-30 00:33:44",
+    "SCOOP_REPO":  "https://github.com/Ash258/Scoop-Core",
+    "SCOOP_BRANCH":  "master",
+    "MSIEXTRACT_USE_LESSMSI":  true,
+    "aria2-enabled":  true,
+    "virustotal_api_key":  "f3d35f2c6cc7add9dd586d0adbe46e9bb5282b678e58a54891a2c4cf48ee219c"
+}

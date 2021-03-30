@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "9a760513f06c8dee",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d50ad338af60f17",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "@WIP/Dotfiles.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d6fafecf67b6e085",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "@WIP/Dotfiles.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1cd59c14acd27caa",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "@WIP/Dotfiles.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6a575ea39314046",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1f8ee2fd4bcf3fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c4a7da25cd70226",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b16fbc1538788848",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "dotfiles",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4f98e3f06098dda9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "c9c82e1f4b98ac91",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "29090feefee13492",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a1585ff2ec60a39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9876ee5a0d6f5823",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "@WIP/Dotfiles.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1c9950f6a025dbf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "67e698e421192e60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "@WIP/Dotfiles.md"
+              }
+            }
+          },
+          {
+            "id": "03f8eb99827dd9bb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "b657188b2408b800",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bd28f478e4ca9b4",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 558,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "@WIP/Dotfiles.md",
+    "@WIP/Decluttering  and Organizing Computer.md",
+    "@WIP/Configuration.md",
+    "GCP/Google Cloud Platform - Overview.md",
+    "GTD/GTD.md",
+    "A Guide to Markdown.md",
+    "Backend Web Architecture.md",
+    "BASB - An Overview.md",
+    "BASB Infographics.md",
+    "Chrome Tips and Tricks.md"
+  ]
+}
