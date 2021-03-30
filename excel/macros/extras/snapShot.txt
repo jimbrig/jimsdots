@@ -1,0 +1,72 @@
+Sub snapShot()
+'
+' setupChecks Macro
+' Adds rows and columns up and pastes values, then checks to see if anything has changed after modification. Used for tech review purposes.
+
+    Application.Calculation = xlCalculationManual
+
+    'Sets a cell equal to everything in print range
+    Range("Xba2").Select
+    ActiveCell.FormulaR1C1 = "=RC[-16276]"
+    Range("Xba2").Copy
+    
+    Range("Xba2:XFD1000").Select
+    ActiveSheet.Paste
+    ActiveSheet.Calculate
+    Selection.Copy
+    
+    'Pastes values of everything in print range and checks to see if two are equivalent.
+    Range("Xba1002").Select
+    Selection.PasteSpecial Paste:=xlPasteValues
+        
+    Range("Xba2002").Select
+    ActiveCell.FormulaR1C1 = "=R[-1000]C=R[-2000]C"
+    Range("Xba2002").Copy
+    Range("Xba2002:Xfd3000").Select
+    ActiveSheet.Paste
+    
+    
+    'Counts the number of true and false values and checks to see if these change.
+    
+    Range("xk1").Select
+    ActiveCell.FormulaR1C1 = "=COUNTIF(R[1]:R[99999],TRUE)"
+    ActiveSheet.Calculate
+    Selection.Copy
+    
+    Range("xm1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues
+
+    Range("xl1").Select
+    ActiveCell.FormulaR1C1 = "=COUNTIF(R[1]:R[99999],FALSE)"
+    Calculate
+    Selection.Copy
+    
+    Range("xn1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues
+    
+    Range("F1").Select
+    ActiveCell.FormulaR1C1 = "=AND(RC[629]=RC[631],RC[630]=RC[632])"
+    Range("R1").Select
+    ActiveCell.FormulaR1C1 = "=RC[-12]"
+    Range("ad1").Select
+    ActiveCell.FormulaR1C1 = "=RC[-12]"
+    Range("ap1").Select
+    ActiveCell.FormulaR1C1 = "=RC[-12]"
+    Range("bb1").Select
+    ActiveCell.FormulaR1C1 = "=RC[-12]"
+   
+    
+    'Makes the cell easier to read
+    Range("f1,r1,ad1,ap1,bb1").Select
+    Selection.Font.Size = 20
+    Selection.Font.Color = -16776961
+    Selection.Interior.Color = 65535
+    Selection.Font.Bold = True
+    Selection.Columns.AutoFit
+    Selection.Rows.AutoFit
+    
+    Range("a1").Select
+    
+    Application.Calculation = xlCalculationAutomatic
+
+End Sub

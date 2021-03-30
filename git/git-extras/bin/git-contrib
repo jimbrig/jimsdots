@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+user="$*"
+
+test -z "$user" && echo "user name required." 1>&2 && exit 1
+
+git shortlog --format=format:"%h %s" --author="$user"

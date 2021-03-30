@@ -1,0 +1,30 @@
+git-delete-submodule(1) -- Delete submodules
+============================================
+
+## SYNOPSIS
+
+`git-delete-submodule` &lt;path&gt;
+
+## DESCRIPTION
+
+## OPTIONS
+
+  &lt;path&gt;
+
+  The path of the submodule to delete.
+
+## EXAMPLES
+
+    $ git delete-submodule lib/foo
+
+## AUTHOR
+
+Written by Jonhnny Weslley &lt;<jw@jonhnnyweslley.net>&gt;
+
+## REPORTING BUGS
+
+&lt;<https://github.com/tj/git-extras/issues>&gt;
+
+## SEE ALSO
+
+&lt;<https://github.com/tj/git-extras>&gt;

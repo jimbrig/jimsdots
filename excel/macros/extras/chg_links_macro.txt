@@ -1,0 +1,31 @@
+Sub ChgLinks()
+
+Dim cell As Range
+Dim rng As Range
+Dim old_link As String
+Dim new_link As String
+Dim wb As Workbook
+
+Set wb = ActiveWorkbook
+Set rng = Range("links_rng")
+
+For Each cell In rng
+
+If cell.Value = "UPDATED" Then GoTo Line2
+
+old_link = cell.Offset(, 2).Text
+new_link = cell.Offset(, 3).Text
+
+On Error GoTo Line2
+Workbooks.Open Filename:=new_link
+
+wb.Activate
+ActiveWorkbook.ChangeLink Name:=old_link, NewName:=new_link, Type:=xlExcelLinks
+cell.Value = "UPDATED"
+
+'Workbooks.Close Filename:=new_link
+
+Line2: Next cell
+
+End Sub
+

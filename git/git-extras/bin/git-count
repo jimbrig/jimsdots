@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if test "$1" = "--all"; then
+  git shortlog -n -s | awk '{print substr($0,index($0,$2)) " (" $1 ")"}'
+  echo
+fi
+
+echo total `git rev-list --count HEAD`

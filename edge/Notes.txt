@@ -1,0 +1,5 @@
+Use edge://version to retrieve PATH where profile specific settings are stored in %localappdata% for Edge.
+
+Can extract "database" flat files using DB Browser SQLite application.
+
+I exported keywords.csv from that, which houses information on my custom SearchEngines "edge://settings/searchEngines".

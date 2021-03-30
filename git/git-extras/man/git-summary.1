@@ -1,0 +1,132 @@
+.\" generated with Ronn/v0.7.3
+.\" http://github.com/rtomayko/ronn/tree/0.7.3
+.
+.TH "GIT\-SUMMARY" "1" "August 2020" "" "Git Extras"
+.
+.SH "NAME"
+\fBgit\-summary\fR \- Show repository summary
+.
+.SH "SYNOPSIS"
+\fBgit\-summary\fR [\-\-line] [\-\-dedup\-by\-email] [<committish>]
+.
+.SH "DESCRIPTION"
+Shows a summary of the repository\.
+.
+.SH "OPTIONS"
+<committish>
+.
+.P
+Summarize only the range of commits included in the <committish>\.
+.
+.P
+\-\-dedup\-by\-email
+.
+.P
+Remove duplicate authors who belong to the same email address\. For example,
+.
+.IP "" 4
+.
+.nf
+
+$ git summary
+\.\.\.
+133  TJ Holowaychuk            9\.9%
+115  Tj Holowaychuk            8\.5%
+
+$ git summary \-\-dedup\-by\-email
+\.\.\.
+248  TJ Holowaychuk            18\.4%
+.
+.fi
+.
+.IP "" 0
+.
+.P
+This option can not be used together with \fB\-\-line\fR\.
+.
+.P
+\-\-line
+.
+.P
+Summarize with lines other than commits\. Any <committish> is ignored when \-\-line is specified\.
+.
+.SH "EXAMPLES"
+Outputs a repo summary:
+.
+.IP "" 4
+.
+.nf
+
+$ git summary
+
+project  : express
+repo age : 10 months ago
+commits  : 1893
+active   : 93 days
+files    : 111
+authors  :
+ 1285 visionmedia
+  478 Tj Holowaychuk
+   48 Aaron Heckmann
+   34 csausdev
+   26 ciaranj
+    6 Guillermo Rauch
+    3 Nick Poulden
+    2 Brian McKinney
+    2 Benny Wong
+    1 Justin Lilly
+    1 James Herdman
+    1 Adam Sanderson
+    1 Viktor Kelemen
+    1 Gregory Ritter
+    1 Greg Ritter
+    1 ewoudj
+    1 isaacs
+    1 Matt Colyer
+.
+.fi
+.
+.IP "" 0
+.
+.P
+This command can also take a committish, and will print a summary for the range of commits included in the committish:
+.
+.IP "" 4
+.
+.nf
+
+$ git summary v42\.\.
+.
+.fi
+.
+.IP "" 0
+.
+.P
+Outputs a repo summary by line:
+.
+.IP "" 4
+.
+.nf
+
+$ git summary \-\-line
+
+project  : git\-extras
+lines    : 26820
+authors  :
+  \.\.\.
+.
+.fi
+.
+.IP "" 0
+.
+.P
+The committish is ignored when \-\-line is specified\.
+.
+.SH "AUTHOR"
+Written by Tj Holowaychuk <\fItj@vision\-media\.ca\fR>
+.
+.SH "REPORTING BUGS"
+<\fIhttps://github\.com/tj/git\-extras/issues\fR>
+.
+.SH "SEE ALSO"
+<\fIhttps://github\.com/tj/git\-extras\fR>

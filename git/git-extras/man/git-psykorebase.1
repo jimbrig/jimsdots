@@ -1,0 +1,46 @@
+.\" generated with Ronn-NG/v0.9.0
+.\" http://github.com/apjanke/ronn-ng/tree/0.9.0
+.TH "GIT\-PSYKOREBASE" "1" "March 2020" "" "Git Extras"
+.SH "NAME"
+\fBgit\-psykorebase\fR \- Rebase a branch with a merge commit
+.SH "SYNOPSIS"
+\fBgit\-psykorebase\fR <target_branch> [<feature_branch>] [\-\-no\-ff]
+.P
+\fBgit\-psykorebase\fR \-\-continue
+.SH "DESCRIPTION"
+Rebase the \fBfeature_branch\fR on top of the \fBtarget_branch\fR, the \fBfeature_branch\fR defaults to the current one\.
+.SH "OPTIONS"
+\fB\-\-no\-ff\fR Force a commit message even if there are no conflicts\.
+.P
+\fB\-\-continue\fR Continue the rebase after conflicts have been resolved\.
+.SH "EXAMPLES"
+Rebase current branch on top of master:
+.IP "" 4
+.nf
+$ git psykorebase master \-\-no\-ff
+.fi
+.IP "" 0
+.P
+Handle conflicts:
+.IP "" 4
+.nf
+$ git add README\.md
+.fi
+.IP "" 0
+.P
+Continue rebase:
+.IP "" 4
+.nf
+$ git psykorebase \-\-continue
+.fi
+.IP "" 0
+.SH "AUTHOR"
+Written by Rémy Hubscher <\fI\%mailto:hubscher\.remy@gmail\.com\fR>
+.P
+Based on Benoît Bryon <\fI\%mailto:benoit@marmelune\.net\fR> implementation in Python\.
+.SH "REPORTING BUGS"
+<\fI\%https://github\.com/tj/git\-extras/issues\fR>
+.SH "SEE ALSO"
+<\fI\%https://github\.com/tj/git\-extras\fR>
+.P
+<\fI\%https://github\.com/benoitbryon/psykorebase\fR>
