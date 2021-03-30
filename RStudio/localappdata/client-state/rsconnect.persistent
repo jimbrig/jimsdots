@@ -1,0 +1,22 @@
+{
+    "rsconnectDirectories": {
+        "dir_map": {
+            "~/Dev/jimbrig/profile_app": {
+                "name": "profile_app",
+                "title": "profile_app",
+                "appId": null,
+                "account": "jimbrigapps",
+                "server": "shinyapps.io",
+                "url": ""
+            },
+            "~/Dev/docs/task-views/shiny_app": {
+                "name": "task-views-app",
+                "title": null,
+                "appId": "3688055",
+                "account": "jimbrigapps",
+                "server": "shinyapps.io",
+                "url": ""
+            }
+        }
+    }
+}

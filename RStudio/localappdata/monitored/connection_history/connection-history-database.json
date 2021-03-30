@@ -1,0 +1,78 @@
+[
+    {
+        "id": {
+            "type": "PqConnection",
+            "host": "34.93.37.61"
+        },
+        "connect_code": "library(connections)\nlibrary(RPostgres)\ncon <- connection_open(Postgres(), host = \"34.93.37.61\", dbname = \"powwater_dev\",user = \"postgres\", password = \"2G8qkzEFpPOqw06N\", port = \"5432\")",
+        "display_name": "powwater_dev",
+        "last_used": 1616739605713.0,
+        "actions": [],
+        "object_types": [
+            {
+                "name": "catalog",
+                "contains": "schema",
+                "icon_path": "",
+                "icon_data": "connections/objects/catalog.png"
+            },
+            {
+                "name": "schema",
+                "contains": "table",
+                "icon_path": "",
+                "icon_data": "connections/objects/schema.png"
+            },
+            {
+                "name": "table",
+                "contains": "",
+                "icon_path": "",
+                "icon_data": "connections/objects/table.png"
+            },
+            {
+                "name": "view",
+                "contains": "",
+                "icon_path": "",
+                "icon_data": "connections/objects/view.png"
+            }
+        ],
+        "icon_path": "",
+        "icon_data": "connections/drivers/odbc.png"
+    },
+    {
+        "id": {
+            "type": "PqConnection",
+            "host": "PqConnection"
+        },
+        "connect_code": "",
+        "display_name": "PqConnection",
+        "last_used": 1617035751022.0,
+        "actions": [],
+        "object_types": [
+            {
+                "name": "catalog",
+                "contains": "schema",
+                "icon_path": "",
+                "icon_data": "connections/objects/catalog.png"
+            },
+            {
+                "name": "schema",
+                "contains": "table",
+                "icon_path": "",
+                "icon_data": "connections/objects/schema.png"
+            },
+            {
+                "name": "table",
+                "contains": "",
+                "icon_path": "",
+                "icon_data": "connections/objects/table.png"
+            },
+            {
+                "name": "view",
+                "contains": "",
+                "icon_path": "",
+                "icon_data": "connections/objects/view.png"
+            }
+        ],
+        "icon_path": "",
+        "icon_data": "connections/drivers/odbc.png"
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "jimstools::open_project": "Alt+Shift+P",
+    "prefixer::rImportFrom": "Ctrl+Shift+Tab",
+    "prefixer::prefixer": "Ctrl+Alt+P",
+    "jimstools::paste_winslash": "Alt+V",
+    "shrtcts::shortcut_01": "Alt+Shift+P",
+    "shrtcts::shortcut_02": "Ctrl+Alt+P",
+    "shrtcts::shortcut_03": "Ctrl+Shift+Tab",
+    "addinit::quick_header": "Alt+Shift+H",
+    "shrtcts::shortcut_11": "Ctrl+Alt+I",
+    "shrtcts::shortcut_08": "Ctrl+Shift+F9"
+}

@@ -1,0 +1,1293 @@
+# Main help -------------------------------------------------------------------
+snippet help
+	${0}<!-- Help/Documentation snippets -->
+	help
+
+	<!-- R Markdown related snippets -->
+	help-rmd
+	help-bookdown
+	help-yaml
+	help-yaml-html
+	help-symbols
+
+	<!-- Descriptive statistics -->
+	help-desc
+
+	<!-- Documentation about functions, operators or some other topic -->
+	?
+	compare-r-syntax
+
+	<!-- END: Help snippets -->
+
+snippet ?
+	```{r, eval=FALSE}
+	?${0}
+	```
+
+snippet ???
+	```{r, eval=FALSE}
+	???${0}
+	```
+
+snippet compare-r-syntax
+	```{r, eval=FALSE}
+	compare-r-syntax${0}
+	```
+
+snippet help-desc
+	```{r, eval=FALSE}
+	help-desc${0}
+	```
+
+snippet help-data-types
+	<!--
+	The abbreviations (used in the Tidyverse) of the most common R data types:
+
+	- `<fct>`  -- nominal (factor, categorical);
+	- `<ord>`  -- ordinal;
+	- `<int>`  -- numeric (integers);
+	- `<dbl>`  -- numeric (doubles, real numbers);
+	- `<lgl>`  -- logical;
+	- `<chr>`  -- text (character, strings);
+	- `<date>` -- dates;
+	- `<dttm>` -- dates and times;
+	- `<list>` -- list column (more complex data structures than usual vectors).
+
+	-->
+# R Markdown syntax: Bookdown extensions -------------------------------------
+snippet help-bookdown
+	${0}<!-- START: Snippets for Bookdown projects/files -->
+	<!--
+	Abbreviations:
+	1. cap -- caption
+	2. ref -- reference
+
+	3. eq         -- equation
+	4. exm        -- example
+	5. exr        -- exercise
+	6. fig, f     -- figure
+	7. t          -- table
+	8. youtube, v -- video
+
+	E.g., "reff" means reference (ref) for figure (f);
+	      "reft" means reference (ref) for table (t).
+	-->
+
+	<!-- Insert objects -->
+	eq
+	exm
+	exr
+	fig
+	youtube
+	youtube-css
+
+	<!-- Insert captions -->
+	cap
+	capeq
+	capf
+	capt
+	capv
+
+	<!-- Insert references -->
+	ref
+	refeq
+	refexr
+	refexm
+	reff
+	reft
+	refv
+
+	<!-- Prefix snippets: after the hyphen use a word (text) without spaces -->
+	ref-
+	     ref-eq
+	     ref-fig
+
+	 cap-
+	     cap-eq
+	     cap-fig
+
+	<!-- END: Snippets for Bookdown projects/files -->
+
+snippet eq
+	<!-- Equation ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+	\begin{equation}
+
+	  ${0:equation}
+	  (\#eq:${1:equation-ID})
+
+	\end{equation}
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+snippet exr
+	```{exercise, ${1:exercise-ID}, echo=TRUE}
+	${0}
+	```
+
+snippet exm
+	```{example, ${1:exercise-ID}, echo=TRUE}
+	${0}
+	```
+
+snippet youtube-css
+	<style>
+	/* Make resizeable YouTube video ------------------------------------------- */
+
+	.iframe-container{
+	  position: relative;
+	  width: 100%;
+	  padding-bottom: 56.25%;
+	  height: 0;
+	}
+	.iframe-container iframe{
+	  position: absolute;
+	  top:0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	</style>
+
+snippet youtube
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+	<br>
+	<center>
+	<!-- video -->
+	<div class="iframe-container">	<iframe width="640" height="360"
+	src="https://www.youtube${1:-nocookie}.com/embed/${2:youtube-code-of-vieo}?rel=0"
+	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+	frameborder="0" allowfullscreen> </iframe> 	</div>
+	</center>
+	```{corollary, ${3:video-ID}}
+	${4:video-caption}
+	```
+	<br>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+snippet cap-
+	(\#$$) ${1:caption/label}
+
+snippet cap
+	(\#${1:label-ID}) ${2:caption/label}
+
+snippet capeq
+	(\#eq:${1:equation-ID})
+
+snippet capf
+	(\#fig:${1:fig-ID}) ${2:fig-caption}
+
+snippet capt
+	(\#tab:${1:table-ID}) ${2:table-caption}
+
+snippet capv
+	(\#cor:${1:video-ID}) ${2:video-caption}
+
+snippet ref-
+	\@ref($$:${1:ID})
+
+snippet ref
+	\@ref(${1:label-ID})
+
+snippet refeq
+	\@ref(eq:${1:equation-ID})
+
+snippet refexr
+	\@ref(exr:${1:exercise-ID})
+
+snippet refexm
+	\@ref(exr:${1:example-ID})
+
+snippet reff
+	\@ref(fig:${1:fig-ID})
+
+snippet reft
+	\@ref(tab:${1:table-ID})
+
+snippet refv
+	\@ref(cor:${1:video-ID})
+# R Markdown syntax: chunks  --------------------------------------------------
+snippet r
+	```{r${1}}
+	${0}
+	```
+
+snippet rr
+	```{r ${1:label}, ${2:options}}
+	${0}
+	```
+
+snippet py
+	```{python ${1:label}, ${2:options}}
+	${0}
+	```
+
+snippet rcpp
+	```{Rcpp}
+	#include <Rcpp.h>
+	using namespace Rcpp;
+
+	${0}
+
+	```
+
+snippet sql
+	```{sql connection=${1}}
+	${0}
+	```
+
+snippet setup0
+	setupo
+
+snippet setupo
+	```{r setup, include=FALSE}
+	# Packages ------------------------------------------------------------------
+	${1}
+
+	# Settings ------------------------------------------------------------------
+	knitr::opts_chunk\$set(
+	    echo = ${2:TRUE}
+	)
+	${0}
+
+	```
+
+snippet setup
+	```{r setup, include=FALSE}
+	# Packages ------------------------------------------------------------------
+
+	lib-tidyverse
+	lib-fs
+	lib-file-io
+	lib-ggplot2-extra
+	lib-stat-analysis
+	lib-md-tables
+
+	# Settings ------------------------------------------------------------------
+
+	locale-lt
+
+	opts-chunk
+	opts-r-numbers
+	opts-desctools
+	opts-pander
+
+	ggplot2::theme_set(ggplot2::theme_bw()) # Default ggplot2 theme
+
+	conflicted::conflict_prefer("filter", "dplyr")
+	conflicted::conflict_prefer("lag",    "dplyr")
+	${0}
+	set.seed(`r format(Sys.Date(), "%Y%m%d")`) # Initial condition for random processes.
+	```
+
+snippet setupq
+	```{r setup, include=FALSE}
+	# Packages ------------------------------------------------------------------
+	${1}
+	library(conflicted)      # Get a warning/error if several functions with the same name exist.
+	library(tidyverse)       # The main "tidyverse" packages.
+	library(magrittr)        # Operator %>% and additional pipe-friendly functions.
+	# library(fs)            # Manage files and directories.
+
+	# library(data.table)    # Function `fread()` to read data from text files.
+	# library(readxl)        # Read Excel data.
+	# library(writexl)       # Write data to Excel files.
+	# library(openxlsx)      # Write data to Excel files.
+
+	# library(DescTools)     # Descriptive statistics, statistical tests, etc.
+	# library(gtsummary)     # Presentation-Ready Data Summary and Analytic Result Tables.
+	# library(summarytools)  # Descriptive statistics.
+
+	# library(ggpubr)        # Statistical plots and utilities for ggplot2.
+	# library(ggstatsplot)   # Statistical plots based on ggplot2.
+	# library(ggmosaic)      # Mosaic plot (ggplot2).
+	# library(qqplotr)       # Quantile comparison diagrams (QQ plots).
+	# library(ggtext)        # Improved Text Rendering Support for ggplot2.
+	# library(ggrepel)       # Labels for ggplot2 that do not overlap.
+	# library(patchwork)     # Join several ggplot2 plots into single figure.
+	# library(gghighlight)   # Highlight Lines and Points in ggplot2.
+	# library(latex2exp)     # LaTeX-based equations in plots.
+	# library(officer)       # Create and manipulate PowerPoint, Word, etc. documents.
+	# library(rvg)           # To save editable plots in PowerPoint.
+
+	# library(broom)         # Convert results of statistical analysis to data frames.
+	# library(rstatix)       # Pipe-friendly basic statistical tests.
+	# library(rcompanion)    # Statistical analysis.
+	# library(RVAideMemoire) # Statistical analysis.
+	# library(PMCMRplus)     # Non-parametric statistical tests.
+	# library(vcd)           # Analysis of categorical data.
+	# library(fitdistrplus)  # Fit parametric distributions.
+	# library(mlr)           # Machine learning in R.
+	# library(mlr3)          # Machine learning in R (new generation).
+	# library(factoextra)    # Extract and visualize the results of multivariate data analyses.
+	# library(userfriendlyscience) # Statistical analysis.
+
+	# library(pander)        # Function `pander()` to report results of statistical analysis.
+	# library(knitr)         # Function `kable()` to convert data frames into tables for reports.
+
+	# Settings ------------------------------------------------------------------
+
+	knitr::opts_chunk\$set(
+	  echo       = TRUE,    # Should blocks with program code be shown in knitted documents?
+	  eval       = TRUE,    # Should program code be evaluated?
+	  fig.height = 3,       # Default height for plots.
+	  fig.width  = 5,       # Default width for plots.
+	  fig.align  = "center" # Default alignment for plots in knitted documents.
+	)
+
+	# Sys.setlocale(locale = "${3:`r if (.Platform$OS.type == "windows") "Lithuanian" else "lt_LT.UTF-8"`}")
+	theme_set(theme_bw()) # Default ggplot2 theme
+
+	options(        # For more detais see ?options
+	  scipen = 8,   # Show at least 8 digits in numbers before converting to exponential notation.
+		digits = `r getOption("digits", default = 7)`,   # Number of significant digits to print numbers.
+		OutDec = "`r getOption("OutDec", default = ".")`", # Default decimal separator to print numbers.
+		knitr.kable.NA = NA # Replacement for NA values in knitr::kable()
+	)
+
+	conflict_prefer("filter", "dplyr")
+	conflict_prefer("lag",    "dplyr")
+
+	${0}
+
+	set.seed(`r format(Sys.Date(), "%Y%m%d")`) # Initial condition for random processes.
+	```
+
+# Comments  ------------------------------------------------------------------
+snippet msg
+	<!-- =========================================================================
+	${0:Comment / Message / etc.}
+	========================================================================== -->
+
+snippet date
+	`r paste("<!--", Sys.Date(), "------------------------------ -->\n")`
+
+snippet time
+	`r paste("<!--", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), "--------------------- -->\n")`
+
+snippet ts
+	`r paste(format(Sys.time(), "%Y-%m-%d %H:%M:%S"))`
+
+snippet FIX
+	<!-- FIXME: ${0} -->
+
+snippet fix
+	<!-- FIXME: ${0} -->
+
+snippet TODO
+	<!-- TODO: ${0} -->
+
+snippet todo
+	<!-- TODO: ${0} -->
+# HTML code ------------------------------------------------------------------
+snippet kbd
+	<kbd>${0:Ctrl}</kbd>
+
+snippet style
+	<style>
+	${1}
+	</style>
+	${0}
+
+snippet space
+	&${1:nbsp};${0}
+
+snippet nbsp
+	&${1:nbsp};${0}
+
+snippet font
+	<font color = "${1:red}">${0}</font>
+# Symbols --------------------------------------------------------------------
+
+snippet help-symbols
+	# Mathematical symbols
+	approx      (≈)
+	pm          (±)
+	mp          (∓)
+	ne          (≠)
+	le          (≤)
+	ge          (≥)
+	times       (×)
+	cdot        (·)
+	permile     (‰)
+	deg         (°)
+	degree      (°)
+
+	# Superscript symbols
+	0-sup       (⁰)
+	1-sup       (¹)
+	2-sup       (²)
+	sq          (²)
+	3-sup       (³)
+	4-sup       (⁴)
+	5-sup       (⁵)
+	6-sup       (⁶)
+	7-sup       (⁷)
+	8-sup       (⁸)
+	9-sup       (⁹)
+	+-sup       (⁺)
+	--sup       (⁻)
+	=-sup       (⁼)
+	(-sup       (⁽)
+	)-sup       (⁾)
+	a-sup       (ª)
+	n-sup       (ⁿ)
+	o-sup       (º)
+	i-sup       (ⁱ)
+
+	# Subscript symbols
+	0-sub       (₀)
+	1-sub       (₁)
+	2-sub       (₂)
+	3-sub       (₃)
+	4-sub       (₄)
+	5-sub       (₅)
+	6-sub       (₆)
+	7-sub       (₇)
+	8-sub       (₈)
+	9-sub       (₉)
+	+-sub       (₊)
+	--sub       (₋)
+	=-sub       (₌)
+	(-sub       (₍)
+	)-sub       (₎)
+	a-sub       (ₐ)
+	e-sub       (ₑ)
+	o-sub       (ₒ)
+	x-sub       (ₓ)
+	i-sub       (ᵢ)
+	j-sub       (ⱼ)
+	h-sub       (ₕ)
+	k-sub       (ₖ)
+	l-sub       (ₗ)
+	m-sub       (ₘ)
+	n-sub       (ₙ)
+	p-sub       (ₚ)
+	s-sub       (ₛ)
+	t-sub       (ₜ)
+
+	# Capital Greek letters
+	Alpha       (Α)
+	Beta        (Β)
+	Gamma       (Γ)
+	Delta       (Δ)
+	Epsilon     (Ε)
+	Zeta        (Ζ)
+	Eta         (Η)
+	Theta       (Θ)
+	Iota        (Ι)
+	Kappa       (Κ)
+	Lambda      (Λ)
+	Mu          (Μ)
+	Nu          (Ν)
+	Xi          (Ξ)
+	Omicron     (Ο)
+	Pi          (Π)
+	Rho         (Ρ)
+	Sigma       (Σ)
+	Tau         (Τ)
+	Upsilon     (Υ)
+	Phi         (Φ)
+	Chi         (Χ)
+	Psi         (Ψ)
+	Omega       (Ω)
+
+	# Non-capital Greek letters
+	alpha       (α)
+	beta        (β)
+	gamma       (γ)
+	delta       (δ)
+	epsilon     (ε)
+	zeta        (ζ)
+	eta         (η)
+	theta       (θ)
+	iota        (ι)
+	kappa       (κ)
+	lambda      (λ)
+	mu          (μ)
+	nu          (ν)
+	xi          (ξ)
+	omicron     (ο)
+	pi          (π)
+	rho         (ρ)
+	final-sigma (ς)
+	sigma       (σ)
+	tau         (τ)
+	upsilon     (υ)
+	phi         (φ)
+	chi         (χ)
+	psi         (ψ)
+	omega       (ω)
+
+
+# Mathematical symbols ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# approximtely (≈)
+snippet approx
+	`r "\u2248"`
+
+# plus-minus (±)
+snippet pm
+	`r "\u00B1"`
+
+# minus-plus (∓)
+snippet mp
+	`r "\u2213"`
+
+# not equal (≠)
+snippet ne
+	`r "\u2260"`
+
+# less or equal (≤)
+snippet le
+	`r "\u2264"`
+
+# greater or equal (≥)
+snippet ge
+	`r "\u2265"`
+
+# times (×)
+snippet times
+	`r "\u00D7"`
+
+# central dot (·)
+snippet cdot
+	`r "\u00B7"`
+
+# permile (‰)
+snippet permile
+	`r "\u2030"`
+
+# degree (°)
+snippet deg
+	`r "\u00B0"`
+
+# degree (°)
+snippet degree
+	`r "\u00B0"`
+
+
+# Superscript symbols ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Superscript 0 (⁰)
+snippet 0-sup
+	`r "\u2070"`
+
+# Superscript 1 (¹)
+snippet 1-sup
+	`r "\u00B9"`
+
+# Superscript 2 (²)
+snippet 2-sup
+	`r "\u00B2"`
+
+# sq (²)
+snippet sq
+	${1}`r "\u00B2"`${0}
+
+# Superscript 3 (³)
+snippet 3-sup
+	`r "\u00B3"`
+
+# Superscript 4 (⁴)
+snippet 4-sup
+	`r "\u2074"`
+
+# Superscript 5 (⁵)
+snippet 5-sup
+	`r "\u2075"`
+
+# Superscript 6 (⁶)
+snippet 6-sup
+	`r "\u2076"`
+
+# Superscript 7 (⁷)
+snippet 7-sup
+	`r "\u2077"`
+
+# Superscript 8 (⁸)
+snippet 8-sup
+	`r "\u2078"`
+
+# Superscript 9 (⁹)
+snippet 9-sup
+	`r "\u2079"`
+
+# Superscript + (⁺)
+snippet +-sup
+	`r "\u207A"`
+
+# Superscript - (⁻)
+snippet --sup
+	`r "\u207B"`
+
+# Superscript = (⁼)
+snippet =-sup
+	`r "\u207C"`
+
+# Superscript ( (⁽)
+snippet (-sup
+	`r "\u207D"`
+
+# Superscript ) (⁾)
+snippet )-sup
+	`r "\u207E"`
+
+# Superscript a (ª)
+snippet a-sup
+	`r "\u00AA"`
+
+# Superscript n (ⁿ)
+snippet n-sup
+	`r "\u207F"`
+
+# Superscript o (º)
+snippet o-sup
+	`r "\u00BA"`
+
+# Superscript i (ⁱ)
+snippet i-sup
+	`r "\u2071"`
+
+
+# Subscript symbols ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Subscript 0 (₀)
+snippet 0-sub
+	`r "\u2080"`
+
+# Subscript 1 (₁)
+snippet 1-sub
+	`r "\u2081"`
+
+# Subscript 2 (₂)
+snippet 2-sub
+	`r "\u2082"`
+
+# Subscript 3 (₃)
+snippet 3-sub
+	`r "\u2083"`
+
+# Subscript 4 (₄)
+snippet 4-sub
+	`r "\u2084"`
+
+# Subscript 5 (₅)
+snippet 5-sub
+	`r "\u2085"`
+
+# Subscript 6 (₆)
+snippet 6-sub
+	`r "\u2086"`
+
+# Subscript 7 (₇)
+snippet 7-sub
+	`r "\u2087"`
+
+# Subscript 8 (₈)
+snippet 8-sub
+	`r "\u2088"`
+
+# Subscript 9 (₉)
+snippet 9-sub
+	`r "\u2089"`
+
+# Subscript + (₊)
+snippet +-sub
+	`r "\u208A"`
+
+# Subscript - (₋)
+snippet --sub
+	`r "\u208B"`
+
+# Subscript = (₌)
+snippet =-sub
+	`r "\u208C"`
+
+# Subscript ( (₍)
+snippet (-sub
+	`r "\u208D"`
+
+# Subscript ) (₎)
+snippet )-sub
+	`r "\u208E"`
+
+# Subscript a (ₐ)
+snippet a-sub
+	`r "\u2090"`
+
+# Subscript e (ₑ)
+snippet e-sub
+	`r "\u2091"`
+
+# Subscript o (ₒ)
+snippet o-sub
+	`r "\u2092"`
+
+# Subscript x (ₓ)
+snippet x-sub
+	`r "\u2093"`
+
+# Subscript i (ᵢ)
+snippet i-sub
+	`r "\u1D62"`
+
+# Subscript j (ⱼ)
+snippet j-sub
+	`r "\u2C7C"`
+
+# Subscript h (ₕ)
+snippet h-sub
+	`r "\u2095"`
+
+# Subscript k (ₖ)
+snippet k-sub
+	`r "\u2096"`
+
+# Subscript l (ₗ)
+snippet l-sub
+	`r "\u2097"`
+
+# Subscript m (ₘ)
+snippet m-sub
+	`r "\u2098"`
+
+# Subscript n (ₙ)
+snippet n-sub
+	`r "\u2099"`
+
+# Subscript p (ₚ)
+snippet p-sub
+	`r "\u209A"`
+
+# Subscript s (ₛ)
+snippet s-sub
+	`r "\u209B"`
+
+# Subscript t (ₜ)
+snippet t-sub
+	`r "\u209C"`
+
+# Greek letters ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Alpha (Α)
+snippet Alpha
+	`r "\u0391"`
+
+# Beta (Β)
+snippet Beta
+	`r "\u0392"`
+
+# Gamma (Γ)
+snippet Gamma
+	`r "\u0393"`
+
+# Delta (Δ)
+snippet Delta
+	`r "\u0394"`
+
+# Epsilon (Ε)
+snippet Epsilon
+	`r "\u0395"`
+
+# Zeta (Ζ)
+snippet Zeta
+	`r "\u0396"`
+
+# Eta (Η)
+snippet Eta
+	`r "\u0397"`
+
+# Theta (Θ)
+snippet Theta
+	`r "\u0398"`
+
+# Iota (Ι)
+snippet Iota
+	`r "\u0399"`
+
+# Kappa (Κ)
+snippet Kappa
+	`r "\u039A"`
+
+# Lambda (Λ)
+snippet Lambda
+	`r "\u039B"`
+
+# Mu (Μ)
+snippet Mu
+	`r "\u039C"`
+
+# Nu (Ν)
+snippet Nu
+	`r "\u039D"`
+
+# Xi (Ξ)
+snippet Xi
+	`r "\u039E"`
+
+# Omicron (Ο)
+snippet Omicron
+	`r "\u039F"`
+
+# Pi (Π)
+snippet Pi
+	`r "\u03A0"`
+
+# Rho (Ρ)
+snippet Rho
+	`r "\u03A1"`
+
+# Sigma (Σ)
+snippet Sigma
+	`r "\u03A3"`
+
+# Tau (Τ)
+snippet Tau
+	`r "\u03A4"`
+
+# Upsilon (Υ)
+snippet Upsilon
+	`r "\u03A5"`
+
+# Phi (Φ)
+snippet Phi
+	`r "\u03A6"`
+
+# Chi (Χ)
+snippet Chi
+	`r "\u03A7"`
+
+# Psi (Ψ)
+snippet Psi
+	`r "\u03A8"`
+
+# Omega (Ω)
+snippet Omega
+	`r "\u03A9"`
+
+
+# Alpha (α)
+snippet alpha
+	`r "\u03B1"`
+
+# Beta (β)
+snippet beta
+	`r "\u03B2"`
+
+# Gamma (γ)
+snippet gamma
+	`r "\u03B3"`
+
+# Delta (δ)
+snippet delta
+	`r "\u03B4"`
+
+# Epsilon (ε)
+snippet epsilon
+	`r "\u03B5"`
+
+# Zeta (ζ)
+snippet zeta
+	`r "\u03B6"`
+
+# Eta (η)
+snippet eta
+	`r "\u03B7"`
+
+# Theta (θ)
+snippet theta
+	`r "\u03B8"`
+
+# Iota (ι)
+snippet iota
+	`r "\u03B9"`
+
+# Kappa (κ)
+snippet kappa
+	`r "\u03BA"`
+
+# Lambda (λ)
+snippet lambda
+	`r "\u03BB"`
+
+# Mu (μ)
+snippet mu
+	`r "\u03BC"`
+
+# Nu (ν)
+snippet nu
+	`r "\u03BD"`
+
+# Xi (ξ)
+snippet xi
+	`r "\u03BE"`
+
+# Omicron (ο)
+snippet omicron
+	`r "\u03BF"`
+
+# Pi (π)
+snippet pi
+	`r "\u03C0"`
+
+# Rho (ρ)
+snippet rho
+	`r "\u03C1"`
+
+# Final Sigma (ς)
+snippet final-sigma
+	`r "\u03C2"`
+
+# Sigma (σ)
+snippet sigma
+	`r "\u03C3"`
+
+# Tau (τ)
+snippet tau
+	`r "\u03C4"`
+
+# Upsilon (υ)
+snippet upsilon
+	`r "\u03C5"`
+
+# Phi (φ)
+snippet phi
+	`r "\u03C6"`
+
+# Chi (χ)
+snippet chi
+	`r "\u03C7"`
+
+# Psi (ψ)
+snippet psi
+	`r "\u03C8"`
+
+# Omega (ω)
+snippet omega
+	`r "\u03C9"`
+# R Markdown syntax help  -----------------------------------------------------
+snippet help-rmd
+	${0}<!-- START: Markdown and R Markdown snippets -->
+	<!-- You have just inserted a snippet that contains keywords for other snippets -->
+
+	<!-- Help/Documentation snippets: -->
+	help
+	help-yaml
+	help-yaml-html
+	help-bookdown
+	compare-r-syntax
+	?
+
+	<!-- R code chunk snippets: -->
+	<!-- The same name for a chunk (e.g., "setup") can be used only once in the file. -->
+	setupo
+	setup
+	r
+	rr
+
+	<!-- Plots/Figures: -->
+	plot
+	plott
+	fig
+	figg
+	fig2
+
+	<!-- Tables: -->
+	kbl
+	pan
+
+	kable
+	pander
+
+	<!-- Other code chunk snippets: -->
+	py
+	rcpp
+	sql
+
+	<!-- Markdown snippets: -->
+	<!-- For lnk1, lnk2, etc., install package remotes::install_github("ropenscilabs/icon") -->
+	r-
+	rr-
+	[
+	![
+	lnk
+	lnk1
+	lnk2
+	lnk3
+
+	<!-- Prefix snippets: -->
+	<!--
+	     After "url-" use URL without spaces.
+	     For external URLs use http:// https:// ftps:// ftp:// etc.
+	-->
+
+	url-
+	     url-google.com/
+	     url-https://www.google.com/
+	     url-https://mokymai.github.io
+
+
+	<!-- HTML snippets: -->
+	style
+	font
+	kbd
+	space
+	nbsp
+
+	<!-- Other snippets: -->
+	date
+	time
+	ts
+	msg
+	fix
+	FIX
+	todo
+	TODO
+
+	<!-- END: Markdown and R Markdown snippets -->
+
+
+# R Markdown syntax: default  -------------------------------------------------
+snippet r-
+	`r "\u0060"`${1:r-code-to-display-as-is}`r "\u0060"`{.r}${0}
+
+snippet rr-
+	`r "\u0060"`r ${1:r-code-to-evaluate}`r "\u0060"`${0}
+
+snippet url-
+	[${0}]($$){target="_blank"}
+
+snippet lnk
+	[${1:label}](${2:location}){target="_blank"}
+
+snippet lnk1
+	[${1:label} `r "\u0060"`r icon::fa("external-link-alt")`r "\u0060"`](${2:location}){target="_blank"}
+
+snippet lnk2
+	[${1:label} `r "\u0060"`r icon::fa("download")`r "\u0060"`](${2:location}){target="_blank"}
+
+snippet lnk3
+	[${1:label} `r "\u0060"`r icon::fa("file-pdf-o")`r "\u0060"`](${2:location}){target="_blank"}
+
+snippet [
+	[${1:label}](${2:location})
+
+snippet ![
+	![${1:label}](${2:location})
+
+snippet plot
+	```{r ${1:fig-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}, echo=FALSE, fig.cap=CAPTION}
+	# Caption/Description.
+	CAPTION = "${2:**Fig. ${3:1}.** }${4:Description}  "
+
+	${0:The code for your plot}
+	```
+
+snippet plott
+	```{r ${1:fig-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}, echo=FALSE, fig.cap=CAPTION}
+	# Caption/Description.
+	CAPTION = "${2:Description}  "
+
+	${0:The code for your plot}
+	```
+
+snippet fig
+	```{r ${1:fig-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}, echo=FALSE, fig.cap=CAPTION}
+	# Caption/Description.
+	CAPTION = "${2:**Fig. ${3:1}.** }${4:Description}  "
+
+	# Path or URL to the figure.
+	${5:knitr::include_graphics("${0}")}
+	```
+
+snippet figg
+	```{r ${1:fig-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}, echo=FALSE, fig.cap=CAPTION}
+	# Caption/Description.
+	CAPTION = "${2:Description}  "
+
+	# Path or URL to the figure.
+	${3:knitr::include_graphics("${0}")}
+	```
+
+snippet fig2
+	```{r ${1:fig-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}, echo=FALSE, fig.cap=CAPTION}
+	${6:# DELETE THIS: To quick-search for file/folder, put cursor between quotes ("|") and press TAB.}
+	${7:# DELETE THIS: If you chose a folder, press TAB again to continue the browsing.}
+	# Path or URL to the figure.
+	knitr::include_graphics("${0}")
+
+	# Caption/Description.
+	CAPTION = "${2:**Fig. ${3:1}.** }${4:Description}  "
+	${5:# DELETE THIS: It is recommended to leave at least two spaces before the closing quote.}
+	```
+
+# TODO: These are snippets to do.
+
+# Tables
+snippet kbl
+	```{r ${1:table-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}${2:, echo=${3:FALSE}}}
+	knitr::kable(${4:data}, caption = "${5:Table caption/description.}  ")
+	```
+
+snippet kable
+	```{r ${1:table-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}${2:, echo=${3:FALSE}}}
+	knitr::kable(
+	  ${4:data},
+	  format = "${4:pandoc}", # latex, html, markdown, pandoc, rst
+	  digits = ${5:`r getOption("digits")`},
+	  format.args = list(big.mark = "${6:,}", decimal.mark = "${7:.}", nsmall = ${8:0}),
+	  caption = "${9:Table caption/description.}  "
+	)
+	```
+
+snippet kable-eur
+	```{r ${1:table-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}${2:, echo=${3:FALSE}}}
+	knitr::kable(
+	  ${4:data},
+	  format = "${4:pandoc}", # latex, html, markdown, pandoc, rst
+	  digits = ${5:`r getOption("digits")`},
+	  format.args = list(big.mark = "${6: }", decimal.mark = "${7:,}", nsmall = ${8:0}),
+	  caption = "${9:Lenteles pavadinimas/aprasymas.}  "
+	)
+	```
+
+snippet pan
+	```{r ${1:table-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}${2:, echo=${3:FALSE}}}
+	pander::pander(${4:data}, caption = "${9:Table caption/description.}  ")
+	```
+
+snippet pander
+	```{r ${1:table-ID-`r paste0(round(as.integer(Sys.time())), "-", sample(0:999, 1))`}${2:, echo=${3:FALSE}}}
+	pander::pander(
+	  ${4:data},
+	  digits = ${5:`r getOption("digits")`},
+	  caption = "${6:Table caption/description.}  "
+	)
+	```
+
+# YAML options ---------------------------------------------------------------
+snippet help-yaml
+	<!-- YAML header snippets:  -->
+	<!--
+	When you insert these snippets, please, note if syntax highlighting is correct
+	(YAML keywords should be highlighted in a different color). If YAML syntax
+	highlighting is incorrect, it means that the code is in a wrong position:
+	YAML header must start at line 1 column 1 (no leading spaces or blank lines
+	should be present before/above the header). It's also recommended to install
+	the package "whoami" (Who am I?)
+
+	These snippets work only in R Markdown environment!
+
+	Available snippets for YAML headers:
+	-->
+	help-yaml-html
+
+	---1
+	---2a
+	---2
+	---html-1
+	---bib
+
+	<!-- END: YAML header snippets -->
+
+snippet help-yaml-html
+	<!--
+	In "html_document" and "bookdown::html_document2" you may use the options:
+
+	- Options for the main theme of a document ("theme"):
+	  default, cerulean, journal, flatly, readable, spacelab, united, cosmo,
+	  lumen, paper, sandstone, simplex, yeti.
+
+	- Options for code syntax highlighting theme ("highlight"):
+	  default, tango, pygments, kate, monochrome, espresso, zenburn, haddock,
+	  textmate.
+
+	- Code folding ("code_folding"): none, show, hide.
+
+	- Download code ("code_download"): yes, no
+
+	- Data frame print options ("df_print"): default, paged, kable, tibble.
+
+	- More explanations at:
+	  https://rmarkdown.rstudio.com/docs/reference/html_document.html
+	-->
+
+snippet ---html-1
+	---
+	title:    "${1:___}"
+	subtitle: "${2:}"
+	author:   "${3:`r whoami::fullname()`}"
+	date:     "${4:`r Sys.Date()`}"
+	output:
+	  html_document:
+	    number_sections: ${5:yes}
+	    toc:       ${6:yes}
+	    toc_float: ${7:yes}
+	    toc_depth: ${8:2}
+	---
+
+snippet ---1
+	---
+	title:    "${1:___}"
+	subtitle: "${2:}"
+	author:   "${3:`r whoami::fullname()`}"
+	date:     "${4:`r "\u0060"`r Sys.Date()`r "\u0060"`}" # Automatic date
+	output:
+	  html_document:
+	    fig_caption: ${5:yes}
+	    number_sections: ${6:yes}
+	    toc:       ${7:yes}
+	    toc_float: ${8:yes}
+	    toc_depth: ${9:3}
+	    df_print:  ${10:default} # paged kable tibble default
+	---
+
+snippet ---2a
+	---
+	title:    "${1:___}"
+	subtitle: "${2:}"
+	author:   "${3:`r whoami::fullname()`}"
+	date:     "${4:`r "\u0060"`r Sys.Date()`r "\u0060"`}" # Automatic date
+	output:
+	  bookdown::html_document2:
+	    fig_caption: ${5:yes}
+	    number_sections: ${6:yes}
+	    toc:       ${7:yes}
+	    toc_float: ${8:yes}
+	    toc_depth: ${9:3}
+	    df_print:  ${10:default} # paged kable tibble default
+	---
+
+snippet ---2
+	---
+	# General Information --------------------------------------------------------
+	title:    "${1:___}"
+	subtitle: "${2:}"
+	author:   "${3:`r whoami::fullname()`}"
+	date:     "${4:`r "\u0060"`r Sys.Date()`r "\u0060"`}" # Automatic date
+	# Document Format and Appearance ---------------------------------------------
+	output:
+	  bookdown::html_document2: # Enables automatic numbering of figures & tables
+	    highlight:       ${5:pygments} # default tango kate monochrome espresso ...
+	    code_folding:    ${6:none}     # none show hide
+			code_download:   ${7:yes}      # yes no
+	    number_sections: ${8:yes}      # Automatic numbering of sections: yes no
+	    toc:         ${9:yes}          # Table of contents (toc): yes no
+	    toc_float:   ${10:yes}          # yes no
+	    toc_depth:   ${11:3}            # 1 2 3 4 5
+	    fig_caption: ${12:yes}          # yes no
+	    theme:       ${13:default}      # cerulean journal flatly readable paper sandstone ...
+	    df_print:    ${14:default}      # paged kable tibble default
+	---
+
+snippet ---bib
+	---
+	# Bibliographies and Citations -----------------------------------------------
+	suppress-bibliography: ${1:no}
+	biblio-title: "${2:References}"
+	bibliography: "${3:path/to/bib-file.bib}" # Path to the file with bibliography entries.
+	csl: "${4:path/to/csl-file.csl}" # Path to the file with citation style (csl).
+	link-citations: ${5:yes}
+	# nocite: | # To include items in the bibliography without actually citing them.
+	#    @item1, @item2
+	---
+
+

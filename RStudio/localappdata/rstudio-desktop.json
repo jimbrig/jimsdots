@@ -1,0 +1,25 @@
+{
+    "context_id": "E51AC7A1",
+    "theme": {
+        "name": "rscodeio",
+        "url": "theme/custom/local/rscodeio.rstheme",
+        "isDark": true
+    },
+    "publish_account": {
+        "name": "jimbrigapps",
+        "server": "shinyapps.io"
+    },
+    "visual_mode_confirmed": true,
+    "zotero_connection_type": "web",
+    "zotero_api_key": "gisTD7Uunb3wA7tg98qcqFaK",
+    "error_handler_type": "custom",
+    "document_outline_width": 172,
+    "export_viewer_options": {
+        "width": 750,
+        "height": 703,
+        "format": "png",
+        "keepRatio": true,
+        "viewAfterSave": true,
+        "copyAsMetafile": false
+    }
+}

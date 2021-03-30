@@ -1,0 +1,1332 @@
+snippet init
+	rstudioapi::initializeProject()
+snippet help
+	# START: keywords for help/documentation snippets ==========================~
+	# Help about functions, operators or other topics:
+	?
+	# Snippets for basic R code :
+	help-r
+	# Abbreviations of the most common R data types:
+	help-data-types
+	# Functions for quick summary/descriptive statistics:
+	help-desc
+	# Symbols (mathematical, Greek, etc.)
+	help-symbols
+	# Comparison of different R syntax to achieve the same goals:
+	compare-r-syntax
+	# END: keywords for help/documentation snippets   ==========================~
+
+snippet ?
+	help(${1:"${2:function name, operator, other topic}"${3:, package = "${4:package-name}"}${5:, try.all.packages = ${6:TRUE}}})
+# R code snippets: code elements
+snippet help-r
+	# R code snippets -----------------------------------------------------------
+	# library(), require(), source()
+	lib
+	req
+	src
+
+	# matrix()
+	mat
+
+	# S4 objects
+	sg
+	sm
+	sc
+
+	# if, else, else if, switch
+	if
+	el
+	ei
+	switch
+
+	# Function, annonymous function, return
+	fun
+	funn
+	ret
+
+	# Loops
+	for
+	while
+
+	# The apply family functions
+	apply
+	lapply
+	sapply
+	mapply
+	tappy
+	vappy
+	rapply
+
+	# purrr::map()
+	map
+	map_
+
+	# Operator %>%
+	pipe
+	aa
+	aa-
+
+	# R locales
+	locale
+	locale-en
+	locale-lt
+
+snippet lib
+	library(${0:package})
+
+snippet req
+	require(${0:package})
+
+snippet src
+	source("${0:file.R}", encoding = "UTF-8")
+
+snippet mat
+	matrix(${1:data}, nrow = ${2:rows}, ncol = ${3:cols})
+
+snippet sg
+	setGeneric("${1:generic}", function(${2:x, ...}) {
+		standardGeneric("${1:generic}")
+	})
+
+snippet sm
+	setMethod("${1:generic}", ${2:class}, function(${2:x, ...}) {
+		${0}
+	})
+
+snippet sc
+	setClass("${1:Class}", slots = c(${2:name = "type"}))
+
+snippet if
+	if (${1:condition}) {
+		${0}
+	}
+
+snippet el
+	else {
+		${0}
+	}
+
+snippet ei
+	else if (${1:condition}) {
+		${0}
+	}
+
+snippet fun
+	${1:name} <- function(${2:variables}) {
+		${0}
+	}
+
+snippet funn
+	function(${2:variables}) {
+		${0}
+	}
+
+snippet ret
+	return(${0:code})
+
+snippet for
+	for (${1:variable} in ${2:vector}) {
+		${0}
+	}
+
+snippet while
+	while (${1:condition}) {
+		${0}
+	}
+
+snippet switch
+	switch(
+		${1:object},
+		${2:case} = ${3:action}
+	)
+
+snippet apply
+	apply(${1:array}, ${2:margin}, ${3:...})
+
+snippet lapply
+	lapply(${1:list}, ${2:function})
+
+snippet sapply
+	sapply(${1:list}, ${2:function})
+
+snippet mapply
+	mapply(${1:function}, ${2:...})
+
+snippet tapply
+	tapply(${1:vector}, ${2:index}, ${3:function})
+
+snippet vapply
+	vapply(${1:list}, ${2:function}, FUN.VALUE = ${3:type}, ${4:...})
+
+snippet rapply
+	rapply(${1:list}, ${2:function})
+
+snippet map
+	${1:purrr::}map(${2:data}, ${3:function})
+
+snippet map_
+	${1:purrr::}map_${2:chr}(${3:data}, ${4:function})
+
+
+snippet pipe-
+	$$ <-
+	  $$ %>%
+	  ${0:code}
+
+snippet pipe
+	${1:dataset} <-
+	  ${1} %>%
+	  ${0:code}
+
+snippet aa-
+	$$ <-
+	  $$ %>%
+	  ${0:code}
+
+snippet aa
+	${1:dataset} <-
+	  ${1} %>%
+	  ${0:code}
+
+snippet locale
+	Sys.${1:g}etlocale(${2})${0}
+
+snippet locale-en
+	Sys.setlocale(locale = "${1:`r if (.Platform$OS.type == "windows") "English" else "en_US.UTF-8"`}")${0}
+
+snippet locale-lt
+	Sys.setlocale(locale = "${1:`r if (.Platform$OS.type == "windows") "Lithuanian" else "lt_LT.UTF-8"`}")${0}
+
+
+snippet FIX
+	# FIXME: ${0}
+
+snippet fix
+	# FIXME: ${0}
+
+snippet TODO
+	# TODO: ${0}
+
+snippet todo
+	# TODO: ${0}
+
+snippet date
+	`r paste("#", Sys.Date(), "------------------------------\n")`
+
+snippet time
+	`r paste("#", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), "---------------------\n")`
+
+snippet ts
+	`r paste(format(Sys.time(), "%Y-%m-%d %H:%M:%S"))`
+
+snippet msg
+	# =========================================================================
+	# ${0:Comment / Message / etc.}
+	# =========================================================================
+
+snippet help-data-types
+	# The abbreviations (used in the Tidyverse) of the most common R data types:
+	#     <fct>  -- nominal (factor, categorical);
+	#     <ord>  -- ordinal;
+	#     <int>  -- numeric (integers);
+	#     <dbl>  -- numeric (doubles, real numbers);
+	#     <lgl>  -- logical;
+	#     <chr>  -- text (character, strings);
+	#     <date> -- dates;
+	#     <dttm> -- dates and times;
+	#     <list> -- list column (more complex data structures than usual vectors).
+	#
+	#     Other data types are also possible.
+
+# FIXME: this part (options) must be carefully reviewed
+# Options --------------------------------------------------------------------
+snippet help-opts
+	opts-r-numbers
+	opts-pander
+	opts-desctools
+
+snippet opts-r-numbers
+	# Options to format numbers
+	options(        # For more detais see ?options
+	  scipen = 8,   # Show at least 8 digits in numbers before converting to exponential notation.
+		digits = `r getOption("digits", default = 7)`,   # Number of significant digits to print numbers.
+		OutDec = "`r getOption("OutDec", default = ".")`", # Default decimal separator to print numbers.
+		knitr.kable.NA = NA # Replacement for NA values in knitr::kable()
+	)
+	${0}
+
+snippet opts-kable
+	options(
+	  scipen = 8,
+	  digits = getOption("digits"),
+	  OutDec = "."
+	  knitr.kable.NA = "",
+	)
+	${0}
+
+snippet opts-pander
+	# Options for package "pander"
+	options(pander = modifyList(pander::panderOptions(),
+	  list(
+	    digits = getOption("digits", default = 4),
+	    round  = Inf,
+	    decimal.mark = getOption("OutDec", default = "."),
+	    big.mark = "",
+	    keep.trailing.zeros = TRUE,
+	    missing = getOption("knitr.kable.NA", default = NA),
+	    table.style = "multiline", # "multiline", "grid", "simple", "rmarkdown"
+	    table.split.table = 80,
+	    table.split.cells = 30,
+	    table.continues   = "Table continues below",
+	    table.continues.affix = "(continued below)",
+	    p.wrap   = "_",
+	    p.sep    = ", ",
+	    p.copula = " and ",
+	    knitr.auto.asis = TRUE
+	  ))
+	${0}
+
+snippet opts-desctools
+	# Options for package "DescTools"
+	options(scipen = 8)
+	DescToolsOptions(
+	  stamp  = ${1:NULL}, # stamp for figures
+	  digits = ${2:3},    # the number of fixed digits in printing
+		# abs – count (whole) numbers, num – real numbers, per – percentages
+	  fmt = list(
+	    abs = Fmt("abs", big.mark = "${3}"),
+	    num = Fmt("num", big.mark = "${3}", digits = ${4:3}),
+	    per = Fmt("per", big.mark = "${3}", digits = ${5:1})
+	  )
+	)
+	${0}
+
+snippet opts-chunk
+	# Chunk options
+	knitr::opts_chunk\$set(
+	  echo       = TRUE,    # Should blocks with program code be shown in knitted documents?
+	  eval       = TRUE,    # Should program code be evaluated?
+	  fig.height = 3,       # Default height for plots.
+	  fig.width  = 5,       # Default width for plots.
+	  fig.align  = "center" # Default alignment for plots in knitted documents.
+	)
+	${0}
+# FIXME: this part (options) must be carefully reviewed
+# Options --------------------------------------------------------------------
+snippet help-lib
+	lib
+	lib-tidyverse
+	lib-fs
+	lib-file-io
+	lib-ggplot2-extra
+	lib-stat-analysis
+	lib-md-tables
+
+snippet lib-tidyverse
+	library(conflicted)    # Get a warning/error if several functions with the same name exist.
+	library(magrittr)      # Operator %>% and additional pipe-friendly functions.
+	library(tidyverse)     # The main "tidyverse" packages.
+	${0}
+
+snippet lib-fs
+	library(fs)            # Manage files and directories.
+	${0}
+
+snippet lib-file-io
+	library(data.table)    # Function `fread()` to read data from text files.
+	library(readxl)        # Read Excel data.
+	library(writexl)       # Write data to Excel files.
+	library(openxlsx)      # Write data to Excel files.
+	${0}
+
+snippet lib-summary
+	library(DescTools)     # Descriptive statistics, statistical tests, etc.
+	library(gtsummary)     # Presentation-Ready Data Summary and Analytic Result Tables.
+	library(summarytools)  # Descriptive statistics.
+	${0}
+
+snippet lib-ggplot2-extra
+	library(ggpubr)        # Statistical plots and utilities for ggplot2.
+	library(ggstatsplot)   # Statistical plots based on ggplot2.
+	library(ggmosaic)      # Mosaic plot (ggplot2).
+	library(qqplotr)       # Quantile comparison diagrams (QQ plots).
+	library(ggtext)        # Improved Text Rendering Support for ggplot2.
+	library(ggrepel)       # Labels for ggplot2 that do not overlap.
+	library(patchwork)     # Join several ggplot2 plots into single figure.
+	library(gghighlight)   # Highlight Lines and Points in ggplot2.
+	library(latex2exp)     # LaTeX-based equations in plots.
+	library(officer)       # Create and manipulate PowerPoint, Word, etc. documents.
+	library(rvg)           # To save editable plots in PowerPoint.
+	${0}
+
+snippet lib-stat-analysis
+	library(broom)         # Convert results of statistical analysis to data frames.
+	library(rstatix)       # Pipe-friendly basic statistical tests.
+	library(rcompanion)    # Statistical analysis.
+	library(RVAideMemoire) # Statistical analysis.
+	library(PMCMRplus)     # Non-parametric statistical tests.
+	library(vcd)           # Analysis of categorical data.
+	library(fitdistrplus)  # Fit parametric distributions.
+	library(mlr)           # Machine learning in R.
+	library(mlr3)          # Machine learning in R (new generation).
+	library(factoextra)    # Extract and visualize the results of multivariate data analyses.
+	library(userfriendlyscience) # Statistical analysis.
+	${0}
+
+snippet lib-md-tables
+	library(pander)        # Function `pander()` to report results of statistical analysis.
+	library(knitr)         # Function `kable()` to convert data frames into tables for reports.
+	library(DT)            # Interactive tables for HTML documents (DataTables).
+	library(gt)            # Easily Create Presentation-Ready Display Tables.
+	library(flextable)     # Functions for Tabular Reporting.
+	${0}
+
+snippet save-plot-to-pptx
+	# ~ Load the packages  -------------------------------------------------------
+	library(tidyverse)
+	library(rvg)
+	library(officer)
+
+	# ~ Select a file name  ------------------------------------------------------
+	file <- "${1:PowerPoint-file-name-for-R-plot}.pptx"
+
+	if (file.exists(file)) {
+	  input_file <- output_file <- file
+	  if (suppressWarnings()!file.rename(from = file, to = file))) {
+	    stop("Please close this PowerPoint file: \n", file)
+	  }
+	} else {
+	  input_file  <- NULL
+	  output_file <- file
+	}
+
+	# ~ Create the instructions for creating vector graphics  --------------------
+	dml_plot <- dml(
+	  bg = NULL, pointsize = 12, editable = TRUE,
+	  code = {
+	    # The code of your plot, e.g.:
+	    ${2:barplot(1:5, col = 2:6)}
+	  }
+	)
+
+	location_on_slide <- ph_location(left = ${3:1}, top = ${4:1}, width = ${5:8}, height = ${6:5.5})
+
+	# ~ Save to PowerPoint -------------------------------------------------------
+	path_to_pptx_file <-
+	  read_pptx(input_file) %>%
+	  add_slide(layout = "Blank", master = "Office Theme") %>%
+	  ph_with(dml_plot, location = location_on_slide) %>%
+	  print(target = output_file)
+
+	# ~ Open the pptx file ------------------------------------------------------
+	browseURL(path_to_pptx_file)
+
+
+
+
+snippet save-ggplot-to-pptx
+	# ~ Load the packages  -------------------------------------------------------
+	library(tidyverse)
+	library(rvg)
+	library(officer)
+
+	# ~ Select a file name  ------------------------------------------------------
+	file <- "${1:PowerPoint-file-name-for-R-plot}.pptx"
+
+	if (file.exists(file)) {
+	  input_file <- output_file <- file
+	  if (suppressWarnings(!file.rename(from = file, to = file))) {
+	    stop("Please close this PowerPoint file: \n", file)
+	  }
+	} else {
+	  input_file  <- NULL
+	  output_file <- file
+	}
+
+	# ~ Create the instructions for creating vector graphics  --------------------
+	dml_plot <-
+	  dml(ggobj = ${2:gg_object_name}, bg = NULL, pointsize = 12, editable = TRUE)
+
+	location_on_slide <- ph_location(left = ${3:1}, top = ${4:1}, width = ${5:8}, height = ${6:5.5})
+
+	# ~ Save to PowerPoint -------------------------------------------------------
+	path_to_pptx_file <-
+	  read_pptx(input_file) %>%
+	  add_slide(layout = "Blank", master = "Office Theme") %>%
+	  ph_with(dml_plot, location = location_on_slide) %>%
+	  print(target = output_file)
+
+	# ~ Open the pptx file ------------------------------------------------------
+	browseURL(path_to_pptx_file)
+snippet help-desc
+	${0}# Snippets for quick descriptive statistics
+	# NOTE: Packages tidyverse, summarytools, and DescTools must be loaded!!!
+
+	# Load packages and set options for descriptive statistics
+	desc-opts
+
+	# Describe the structure of dataset
+	desc-str
+
+	# Describe all variables in a dataset
+	desc-df
+
+	# Describe missing values in a dataset
+	desc-na
+
+	# Describe the structure, variable values and missing values of a dataset
+	desc-all
+
+	# Describe a single numeric variable
+	desc-num
+
+	# Describe a single factor (categorical) variable
+	desc-fct
+
+	# Describe a pair of variables: numeric by numeric
+	desc-num-num
+
+	# Describe a pair of variables: numeric by categorical
+	desc-num-fct
+
+	# Describe a pair of variables: categorical by numeric
+	desc-fct-num
+
+	# Describe a pair of variables: categorical by categorical
+	desc-fct-fct
+
+snippet desc-opts
+	# Move this code to "setup" chunk
+	library(tidyverse)
+	library(summarytools)
+	library(DescTools)
+
+	opts-desctools
+	${0}
+
+snippet desc-na
+	${1:data} %>% PlotMiss(main = "Missing values plot")
+	${1:data} %>% CountCompCases()
+
+snippet desc-str
+	${1:data} %>% class()
+	${1:data} %>% object.size() %>% print(unit = "auto")
+	${1:data} %>% dim()
+
+	${1:data} %>% View() # interactive function. Use chunk option: eval=FALSE
+
+	${1:data} %>% glimpse()
+
+snippet desc-df
+	${1:data} %>% Desc(ord = "level")
+
+	${1:data} %>% dfSummary() %>% summarytools::view() # use chunk option: eval=FALSE
+	${1:data} %>% dfSummary()
+	${1:data} %>% select_if(is.numeric) %>% descr(round.digits = ${2:2)
+	${1:data} %>% select_if(is.factor)  %>% freq(round.digits  = ${3:2})
+
+snippet desc-all
+	${1:data} %>% class()
+	${1:data} %>% object.size() %>% print(unit = "auto")
+	${1:data} %>% dim()
+
+	${1:data} %>% View() # use chunk option: eval=FALSE
+	${1:data} %>% data.table::as.data.table() %>% print(ntop = 5, nrows = 10)
+	${1:data} %>% glimpse()
+
+	${1:data} %>% PlotMiss(main = "Missing values plot")
+	${1:data} %>% CountCompCases()
+
+	${1:data} %>% Desc(ord = "level")
+
+	${1:data} %>% dfSummary() %>% summarytools::view() # use chunk option: eval=FALSE
+	${1:data} %>% dfSummary()
+	${1:data} %>% select_if(is.numeric) %>% descr(round.digits = ${2:2)
+	${1:data} %>% select_if(is.factor)  %>% freq(round.digits  = ${3:1})
+
+snippet ++desc-
+	$$ %>% class()
+	$$ %>% object.size() %>% print(unit = "auto")
+	$$ %>% dim()
+
+	$$ %>% View() # interactive function. Use chunk option: eval=FALSE
+	$$ %>% data.table::as.data.table() %>% print(ntop = 5, nrows = 10)
+	$$ %>% glimpse()
+
+	$$ %>% PlotMiss(main = "Missing values plot")
+	$$ %>% CountCompCases()
+
+	$$ %>% Desc(ord = "level")
+
+	$$ %>% dfSummary() %>% summarytools::view() # use chunk option: eval=FALSE
+	$$ %>% dfSummary()
+	$$ %>% select_if(is.numeric) %>% descr(round.digits = ${2:2})
+	$$ %>% select_if(is.factor)  %>% freq(round.digits  = ${3:1})
+
+snippet desc-num
+	${1:data} %>% with(boxplot(${2:numeric_variable}))
+	${1:data} %>% with(Desc(${2:numeric_variable}, ord = "level"))
+	${1:data} %>% descr(${2:numeric_variable}, round.digits = ${3:2})
+	${1:data} %>% with(Freq(${2:numeric_variable}, useNA = "ifany", dig.lab = ${4:8}))
+
+snippet desc-fct
+	${1:data} %>% with(plot(${2:factor_variable}))
+	${1:data} %>% with(Desc(${2:factor_variable}, ord = "level"))
+	${1:data} %>% freq(${2:factor_variable}, round.digits = ${3:1})
+	${1:data} %>% with(Freq(${2:factor_variable}, useNA = "ifany", ord = "level"))
+
+snippet desc-num-num
+	${1:data} %>% with(plot(${2:numeric_variable_1} ~ ${3:numeric_variable_2}))
+	${1:data} %>% with(Desc(${2:numeric_variable_1} ~ ${3:numeric_variable_2}))
+
+snippet desc-num-fct
+	${1:data} %>% with(Desc(${2:numeric_variable} ~ ${3:factor_variable}, ord = "level"))
+	${1:data} %>%
+		group_by(${3:factor_variable}) %>%
+		descr(${2:numeric_variable}, round.digits = ${4:2})
+
+snippet desc-fct-num
+	${1:data} %>% with(Desc(${3:factor_variable} ~ ${2:numeric_variable}, ord = "level"))
+
+snippet desc-fct-fct
+	${1:data} %>% with(  Desc(${2:factor_variable_1} ~ ${3:factor_variable_2}, ord = "level"))
+	${1:data} %>% with(ctable(${2:factor_variable_1},  ${3:factor_variable_2}, prop = "${4:t}"))
+	${5:# prop = "r" - row, "c" - column, "t" -- total, "n"- no percentage}
+# Symbols --------------------------------------------------------------------
+
+snippet help-symbols
+	# Mathematical symbols
+	approx      (≈)
+	pm          (±)
+	mp          (∓)
+	ne          (≠)
+	le          (≤)
+	ge          (≥)
+	times       (×)
+	cdot        (·)
+	permile     (‰)
+	deg         (°)
+	degree      (°)
+
+	# Superscript symbols
+	0-sup       (⁰)
+	1-sup       (¹)
+	2-sup       (²)
+	sq          (²)
+	3-sup       (³)
+	4-sup       (⁴)
+	5-sup       (⁵)
+	6-sup       (⁶)
+	7-sup       (⁷)
+	8-sup       (⁸)
+	9-sup       (⁹)
+	+-sup       (⁺)
+	--sup       (⁻)
+	=-sup       (⁼)
+	(-sup       (⁽)
+	)-sup       (⁾)
+	a-sup       (ª)
+	n-sup       (ⁿ)
+	o-sup       (º)
+	i-sup       (ⁱ)
+
+	# Subscript symbols
+	0-sub       (₀)
+	1-sub       (₁)
+	2-sub       (₂)
+	3-sub       (₃)
+	4-sub       (₄)
+	5-sub       (₅)
+	6-sub       (₆)
+	7-sub       (₇)
+	8-sub       (₈)
+	9-sub       (₉)
+	+-sub       (₊)
+	--sub       (₋)
+	=-sub       (₌)
+	(-sub       (₍)
+	)-sub       (₎)
+	a-sub       (ₐ)
+	e-sub       (ₑ)
+	o-sub       (ₒ)
+	x-sub       (ₓ)
+	i-sub       (ᵢ)
+	j-sub       (ⱼ)
+	h-sub       (ₕ)
+	k-sub       (ₖ)
+	l-sub       (ₗ)
+	m-sub       (ₘ)
+	n-sub       (ₙ)
+	p-sub       (ₚ)
+	s-sub       (ₛ)
+	t-sub       (ₜ)
+
+	# Capital Greek letters
+	Alpha       (Α)
+	Beta        (Β)
+	Gamma       (Γ)
+	Delta       (Δ)
+	Epsilon     (Ε)
+	Zeta        (Ζ)
+	Eta         (Η)
+	Theta       (Θ)
+	Iota        (Ι)
+	Kappa       (Κ)
+	Lambda      (Λ)
+	Mu          (Μ)
+	Nu          (Ν)
+	Xi          (Ξ)
+	Omicron     (Ο)
+	Pi          (Π)
+	Rho         (Ρ)
+	Sigma       (Σ)
+	Tau         (Τ)
+	Upsilon     (Υ)
+	Phi         (Φ)
+	Chi         (Χ)
+	Psi         (Ψ)
+	Omega       (Ω)
+
+	# Non-capital Greek letters
+	alpha       (α)
+	beta        (β)
+	gamma       (γ)
+	delta       (δ)
+	epsilon     (ε)
+	zeta        (ζ)
+	eta         (η)
+	theta       (θ)
+	iota        (ι)
+	kappa       (κ)
+	lambda      (λ)
+	mu          (μ)
+	nu          (ν)
+	xi          (ξ)
+	omicron     (ο)
+	pi          (π)
+	rho         (ρ)
+	final-sigma (ς)
+	sigma       (σ)
+	tau         (τ)
+	upsilon     (υ)
+	phi         (φ)
+	chi         (χ)
+	psi         (ψ)
+	omega       (ω)
+
+
+# Mathematical symbols ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# approximtely (≈)
+snippet approx
+	`r "\u2248"`
+
+# plus-minus (±)
+snippet pm
+	`r "\u00B1"`
+
+# minus-plus (∓)
+snippet mp
+	`r "\u2213"`
+
+# not equal (≠)
+snippet ne
+	`r "\u2260"`
+
+# less or equal (≤)
+snippet le
+	`r "\u2264"`
+
+# greater or equal (≥)
+snippet ge
+	`r "\u2265"`
+
+# times (×)
+snippet times
+	`r "\u00D7"`
+
+# central dot (·)
+snippet cdot
+	`r "\u00B7"`
+
+# permile (‰)
+snippet permile
+	`r "\u2030"`
+
+# degree (°)
+snippet deg
+	`r "\u00B0"`
+
+# degree (°)
+snippet degree
+	`r "\u00B0"`
+
+
+# Superscript symbols ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Superscript 0 (⁰)
+snippet 0-sup
+	`r "\u2070"`
+
+# Superscript 1 (¹)
+snippet 1-sup
+	`r "\u00B9"`
+
+# Superscript 2 (²)
+snippet 2-sup
+	`r "\u00B2"`
+
+# sq (²)
+snippet sq
+	${1}`r "\u00B2"`${0}
+
+# Superscript 3 (³)
+snippet 3-sup
+	`r "\u00B3"`
+
+# Superscript 4 (⁴)
+snippet 4-sup
+	`r "\u2074"`
+
+# Superscript 5 (⁵)
+snippet 5-sup
+	`r "\u2075"`
+
+# Superscript 6 (⁶)
+snippet 6-sup
+	`r "\u2076"`
+
+# Superscript 7 (⁷)
+snippet 7-sup
+	`r "\u2077"`
+
+# Superscript 8 (⁸)
+snippet 8-sup
+	`r "\u2078"`
+
+# Superscript 9 (⁹)
+snippet 9-sup
+	`r "\u2079"`
+
+# Superscript + (⁺)
+snippet +-sup
+	`r "\u207A"`
+
+# Superscript - (⁻)
+snippet --sup
+	`r "\u207B"`
+
+# Superscript = (⁼)
+snippet =-sup
+	`r "\u207C"`
+
+# Superscript ( (⁽)
+snippet (-sup
+	`r "\u207D"`
+
+# Superscript ) (⁾)
+snippet )-sup
+	`r "\u207E"`
+
+# Superscript a (ª)
+snippet a-sup
+	`r "\u00AA"`
+
+# Superscript n (ⁿ)
+snippet n-sup
+	`r "\u207F"`
+
+# Superscript o (º)
+snippet o-sup
+	`r "\u00BA"`
+
+# Superscript i (ⁱ)
+snippet i-sup
+	`r "\u2071"`
+
+
+# Subscript symbols ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Subscript 0 (₀)
+snippet 0-sub
+	`r "\u2080"`
+
+# Subscript 1 (₁)
+snippet 1-sub
+	`r "\u2081"`
+
+# Subscript 2 (₂)
+snippet 2-sub
+	`r "\u2082"`
+
+# Subscript 3 (₃)
+snippet 3-sub
+	`r "\u2083"`
+
+# Subscript 4 (₄)
+snippet 4-sub
+	`r "\u2084"`
+
+# Subscript 5 (₅)
+snippet 5-sub
+	`r "\u2085"`
+
+# Subscript 6 (₆)
+snippet 6-sub
+	`r "\u2086"`
+
+# Subscript 7 (₇)
+snippet 7-sub
+	`r "\u2087"`
+
+# Subscript 8 (₈)
+snippet 8-sub
+	`r "\u2088"`
+
+# Subscript 9 (₉)
+snippet 9-sub
+	`r "\u2089"`
+
+# Subscript + (₊)
+snippet +-sub
+	`r "\u208A"`
+
+# Subscript - (₋)
+snippet --sub
+	`r "\u208B"`
+
+# Subscript = (₌)
+snippet =-sub
+	`r "\u208C"`
+
+# Subscript ( (₍)
+snippet (-sub
+	`r "\u208D"`
+
+# Subscript ) (₎)
+snippet )-sub
+	`r "\u208E"`
+
+# Subscript a (ₐ)
+snippet a-sub
+	`r "\u2090"`
+
+# Subscript e (ₑ)
+snippet e-sub
+	`r "\u2091"`
+
+# Subscript o (ₒ)
+snippet o-sub
+	`r "\u2092"`
+
+# Subscript x (ₓ)
+snippet x-sub
+	`r "\u2093"`
+
+# Subscript i (ᵢ)
+snippet i-sub
+	`r "\u1D62"`
+
+# Subscript j (ⱼ)
+snippet j-sub
+	`r "\u2C7C"`
+
+# Subscript h (ₕ)
+snippet h-sub
+	`r "\u2095"`
+
+# Subscript k (ₖ)
+snippet k-sub
+	`r "\u2096"`
+
+# Subscript l (ₗ)
+snippet l-sub
+	`r "\u2097"`
+
+# Subscript m (ₘ)
+snippet m-sub
+	`r "\u2098"`
+
+# Subscript n (ₙ)
+snippet n-sub
+	`r "\u2099"`
+
+# Subscript p (ₚ)
+snippet p-sub
+	`r "\u209A"`
+
+# Subscript s (ₛ)
+snippet s-sub
+	`r "\u209B"`
+
+# Subscript t (ₜ)
+snippet t-sub
+	`r "\u209C"`
+
+# Greek letters ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Alpha (Α)
+snippet Alpha
+	`r "\u0391"`
+
+# Beta (Β)
+snippet Beta
+	`r "\u0392"`
+
+# Gamma (Γ)
+snippet Gamma
+	`r "\u0393"`
+
+# Delta (Δ)
+snippet Delta
+	`r "\u0394"`
+
+# Epsilon (Ε)
+snippet Epsilon
+	`r "\u0395"`
+
+# Zeta (Ζ)
+snippet Zeta
+	`r "\u0396"`
+
+# Eta (Η)
+snippet Eta
+	`r "\u0397"`
+
+# Theta (Θ)
+snippet Theta
+	`r "\u0398"`
+
+# Iota (Ι)
+snippet Iota
+	`r "\u0399"`
+
+# Kappa (Κ)
+snippet Kappa
+	`r "\u039A"`
+
+# Lambda (Λ)
+snippet Lambda
+	`r "\u039B"`
+
+# Mu (Μ)
+snippet Mu
+	`r "\u039C"`
+
+# Nu (Ν)
+snippet Nu
+	`r "\u039D"`
+
+# Xi (Ξ)
+snippet Xi
+	`r "\u039E"`
+
+# Omicron (Ο)
+snippet Omicron
+	`r "\u039F"`
+
+# Pi (Π)
+snippet Pi
+	`r "\u03A0"`
+
+# Rho (Ρ)
+snippet Rho
+	`r "\u03A1"`
+
+# Sigma (Σ)
+snippet Sigma
+	`r "\u03A3"`
+
+# Tau (Τ)
+snippet Tau
+	`r "\u03A4"`
+
+# Upsilon (Υ)
+snippet Upsilon
+	`r "\u03A5"`
+
+# Phi (Φ)
+snippet Phi
+	`r "\u03A6"`
+
+# Chi (Χ)
+snippet Chi
+	`r "\u03A7"`
+
+# Psi (Ψ)
+snippet Psi
+	`r "\u03A8"`
+
+# Omega (Ω)
+snippet Omega
+	`r "\u03A9"`
+
+
+# Alpha (α)
+snippet alpha
+	`r "\u03B1"`
+
+# Beta (β)
+snippet beta
+	`r "\u03B2"`
+
+# Gamma (γ)
+snippet gamma
+	`r "\u03B3"`
+
+# Delta (δ)
+snippet delta
+	`r "\u03B4"`
+
+# Epsilon (ε)
+snippet epsilon
+	`r "\u03B5"`
+
+# Zeta (ζ)
+snippet zeta
+	`r "\u03B6"`
+
+# Eta (η)
+snippet eta
+	`r "\u03B7"`
+
+# Theta (θ)
+snippet theta
+	`r "\u03B8"`
+
+# Iota (ι)
+snippet iota
+	`r "\u03B9"`
+
+# Kappa (κ)
+snippet kappa
+	`r "\u03BA"`
+
+# Lambda (λ)
+snippet lambda
+	`r "\u03BB"`
+
+# Mu (μ)
+snippet mu
+	`r "\u03BC"`
+
+# Nu (ν)
+snippet nu
+	`r "\u03BD"`
+
+# Xi (ξ)
+snippet xi
+	`r "\u03BE"`
+
+# Omicron (ο)
+snippet omicron
+	`r "\u03BF"`
+
+# Pi (π)
+snippet pi
+	`r "\u03C0"`
+
+# Rho (ρ)
+snippet rho
+	`r "\u03C1"`
+
+# Final Sigma (ς)
+snippet final-sigma
+	`r "\u03C2"`
+
+# Sigma (σ)
+snippet sigma
+	`r "\u03C3"`
+
+# Tau (τ)
+snippet tau
+	`r "\u03C4"`
+
+# Upsilon (υ)
+snippet upsilon
+	`r "\u03C5"`
+
+# Phi (φ)
+snippet phi
+	`r "\u03C6"`
+
+# Chi (χ)
+snippet chi
+	`r "\u03C7"`
+
+# Psi (ψ)
+snippet psi
+	`r "\u03C8"`
+
+# Omega (ω)
+snippet omega
+	`r "\u03C9"`
+snippet compare-r-syntax
+	compare-r-syntax-1
+	compare-r-syntax-2
+
+snippet compare-r-syntax-1
+	# === Ways to select columns from a data frame ===============================
+
+	library(tibble) # Tibble is an enhanced data frame.
+
+	data <- tibble(
+		column   =   1:2,
+		column_a =  20:21,
+		column_b = 300:301,
+		column_c = 400:401
+	)
+
+	some_function  <- function(...) print(paste(...))
+
+	something_else <- c("A", "B", "C", "D")
+
+
+	# Operators $ and [[ ]]. -----------------------------------------------------
+
+	data\$column       # For analysis
+	data[["column"]]   # For programming
+
+	# Function with() ------------------------------------------------------------
+
+	# Function with() allows using column names without $ and [[ ]] operators.
+	with(data, some_function(column))
+	with(data, some_function(column_a, column_b, column_c))
+
+	# Instead of:
+	some_function(data\$column_a, data\$column_b, data\$column_c)
+
+
+	# Operators %>% and %$% ------------------------------------------------------
+
+	library(tidyverse) # Loads %>% (pipe) operator.
+	library(magrittr)  # Loads %>% and %$% operators.
+	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	# By default, %>% inserts "data" as the first argument of "some_function".
+	some_function(data)
+
+	# is equivalent to
+	data %>% some_function()
+	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	# If a dot (.) is present, %>% inserts "data" instead of the dot.
+	some_function(something_else, arg_2 = data)
+
+	# is equivalent to
+	data %>% some_function(something_else, arg_2 = .)
+	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	# %$% inserts columns of "data" into "some_function".
+	some_function(data\$column)
+
+	# is equivalent to
+	data %$% some_function(column)
+	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	# %$% can insert any number of columns.
+	data %$% some_function(column_a, column_b, column_c)
+
+	# is equivalent to
+	some_function(data\$column_a, data\$column_b, data\$column_c)
+
+	# is equivalent to
+	with(data, some_function(column_a, column_b, column_c))
+
+	# is equivalent to
+	data %>% with(some_function(column_a, column_b, column_c))
+	# ===========================================================================~
+
+snippet compare-r-syntax-2
+	# === Examples ===============================================================
+
+	library(tidyverse) # Loads %>% (pipe) operator.
+	library(magrittr)  # Loads %>% and %$% operators.
+
+	# Each section will present different syntax that does the same operation.
+
+
+	# Functions that accept a vector as an input ---------------------------------
+	# Dataset:     CO2
+	# Column (y):  uptake
+
+	mean(CO2\$uptake)
+	mean(CO2[["uptake"]])
+	with(CO2, mean(uptake))
+	CO2 %>% with(mean(uptake)) # Required packages: tidyverse or magrittr
+	CO2 %$% mean(uptake)       # Required packages: magrittr
+
+
+	# Functions that accept one-sided model formulas -----------------------------
+	# Dataset:     CO2
+	# Column (y):  Treatment
+	# Column (y2): Type
+
+	# Read ~ as "by"
+	# function(~ y, data = data)
+
+	# %>% puts input instead of dot (.)
+
+	xtabs(~ Type, data = CO2)
+	CO2 %>% xtabs(~ Type, data = .) # Required packages: tidyverse or magrittr
+	CO2 %$% xtabs(~ Type)           # Required packages: magrittr
+
+	# function(~ y + y2, data = data)
+
+	xtabs(~ Type + Treatment, data = CO2)
+	CO2 %>% xtabs(~ Type + Treatment, data = .) # Required packages: tidyverse or magrittr
+	CO2 %$% xtabs(~ Type + Treatment)           # Required packages: magrittr
+
+
+	# Functions that accept two-sided model formulas -----------------------------
+	# Dataset:     CO2
+	# Column (x):  Treatment
+	# Column (y):  uptake
+
+	# Note: first comes y, then x
+	# function(y ~ x, data = data)
+
+	oneway.test(extra ~ group, data = sleep)
+	sleep %>% oneway.test(extra ~ group, data = .) # Required packages: tidyverse or magrittr
+	sleep %$% oneway.test(extra ~ group)           # Required packages: magrittr
+
+	# Tidyverse style functions -------------------------------------------------
+
+	# Tidyverse style functions that are designed for datasets manipulation,
+	# usually accepts dataset as their first argument and unquoted column names
+	# as some other arguments. This allows pipe (%>%) syntax.
+
+	count(CO2, Type)     # Required packages: tidyverse
+	CO2 %>% count(Type)  # Required packages: tidyverse
+
+	# ===========================================================================~
+
+snippet module
+	${1:name}ui <- function(id){
+		ns <- NS(id)
+		tagList(
+		${0}
+			)
+		}
+
+	${1:name} <- function(input, output, session){
+		ns <- session\$ns
+	}
+
+	# Copy in UI
+	#${1:name}ui("${1:name}ui")
+
+	# Copy in server
+	#callModule(${1:name}, "${1:name}ui")
+
+snippet observe_event
+	observeEvent( ${1:event} , {
+	${0}
+	})
+
+snippet with_progress
+	withProgress( message = "${1:message}" , {
+	${0}
+	})
+
+snippet aa
+	${1:dataset} <- ${1:dataset} %>% ${0}
+

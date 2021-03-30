@@ -1,0 +1,512 @@
+conn %>% dplyr::tbl("customers"),
+by = c("customer_uid" = "uid", "customer_name")
+) %>%
+dplyr::rename(customer_location_url = customer_location_url.x, customer_location_url_full = customer_location_url.y) %>%
+dplyr::select(-customer_location) %>%
+left_join(
+conn %>% dplyr::tbl("order_routes") %>% dplyr::select(-uid, -order_uid, -c(created_at:modified_by)),
+by = c("customer_location_uid")
+) %>%
+left_join(
+conn %>% dplyr::tbl("vendor_locations") %>% dplyr::select(-c(created_at:modified_by)),
+by = c("vendor_location_uid" = "uid")
+) %>%
+collect()
+out <- conn %>%
+dplyr::tbl("orders") %>%
+dplyr::filter(.data$vendor_uid == vendor_id) %>%
+dplyr::distinct(customer_uid) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customer_locations") %>%
+dplyr::select(-c(created_at:modified_by)) %>%
+rename(customer_location_uid = uid),
+by = c("customer_uid")
+) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customers"),
+by = c("customer_uid" = "uid")
+)
+out_ <- out %>% collect()
+View(out_)
+out <- conn %>%
+dplyr::tbl("orders") %>%
+dplyr::filter(.data$vendor_uid == vendor_id) %>%
+dplyr::distinct(customer_uid) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customer_locations") %>%
+dplyr::select(-c(created_at:modified_by)) %>%
+rename(customer_location_uid = uid),
+by = c("customer_uid")
+) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customers"),
+by = c("customer_uid" = "uid")
+) %>%
+dplyr::rename(customer_location_url = customer_location_url.x, customer_location_url_full = customer_location_url.y) %>%
+dplyr::select(-customer_location) %>%
+left_join(
+conn %>% dplyr::tbl("order_routes") %>% dplyr::select(-uid, -order_uid, -c(created_at:modified_by)),
+by = c("customer_location_uid")
+) %>%
+left_join(
+conn %>% dplyr::tbl("vendor_locations") %>% dplyr::select(-c(created_at:modified_by)),
+by = c("vendor_location_uid" = "uid")
+) %>%
+collect()
+View(out)
+out <- conn %>%
+dplyr::tbl("orders") %>%
+filter(.data$vendor_uid == vendor_id) %>%
+rename(order_uid = uid) %>%
+collect()
+View(out)
+out <- conn %>%
+dplyr::tbl("orders") %>%
+filter(.data$vendor_uid == vendor_id) %>%
+rename(order_uid = uid) %>%
+left_join(
+conn %>% tbl("customers") %>%
+select(customer_uid = uid, customer_name),
+by = c("customer_uid")
+) %>%
+left_join(
+conn %>% tbl("vendors") %>%
+select(vendor_uid = uid, vendor_name),
+by = c("vendor_uid")
+) %>%
+left_join(
+conn %>% tbl("riders") %>%
+select(rider_uid = uid, rider_name),
+by = c("rider_uid")
+) %>%
+collect()
+View(out)
+factor_cols <- c(
+"customer_name",
+"rider_name",
+"order_type",
+"order_status",
+"order_delivery_status",
+"vendor_response",
+"payment_type"
+)
+rating_cols <- c("vendor_rating")
+out <- out %>%
+mutate_at(vars(tidyselect::all_of(factor_cols)), as.factor) %>%
+ratings_to_stars(cols = rating_cols)
+#' @importFrom shiny icon tagAppendAttributes
+#' @importFrom tidyselect all_of
+ratings_to_stars <- function(dat, cols = c("rating")) {
+mutate_at(dat, vars(tidyselect::all_of(cols)), function(rating) {
+rating = case_when(
+is.na(rating) || is.null(rating) ~ paste0(tags$span(shiny::icon('star'))),
+rating == 0 ~ paste0(tags$span(shiny::icon('star'))),
+rating == 0.5 ~ paste0(tags$span(
+shiny::icon('star-half') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)),
+rating == 1 ~ paste0(tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)),
+rating == 1.5 ~ paste0(tagList(
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star-half') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)
+)),
+rating == 2 ~ paste0(tagList(
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)
+)),
+rating == 2.5 ~ paste0(tagList(
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star-half') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)
+)),
+rating == 3 ~ paste0(tagList(
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)
+)),
+rating == 3.5 ~ paste0(tagList(
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star-half') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)
+)),
+rating == 4 ~ paste0(tagList(
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)
+)),
+rating == 4.5 ~ paste0(
+tagList(
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star-half') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)
+),
+rating == 5 ~ paste0(
+tagList(
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+),
+tags$span(
+shiny::icon('star') %>% shiny::tagAppendAttributes(style = "color: orange;")
+)
+}
+)
+}
+out <- out %>%
+mutate_at(vars(tidyselect::all_of(factor_cols)), as.factor) %>%
+ratings_to_stars(cols = rating_cols)
+out$order_status
+levels(out$order_status)
+runApp('shiny_app')
+x <- tibble(x = 1, y = 2)
+x %>%
+filter(x == "Pending" || is.na(x)) %>%
+nrow()
+runApp('shiny_app')
+shiny::runApp('shiny_app')
+# load config yaml file
+app_config <- config::get()
+conn <- DBI::dbConnect(
+RPostgres::Postgres(),
+host = app_config$db$host,
+dbname = app_config$db$dbname,
+user = app_config$db$user,
+password = app_config$db$password
+)
+vend = "c401b531-719d-4cad-82e7-71db3ffba166"
+out <- get_orders_by_vendor(vend, conn)
+get_customer_locations_by_vendor <- function(vendor_id, conn) {
+conn %>%
+dplyr::tbl("orders") %>%
+dplyr::filter(.data$vendor_uid == vendor_id) %>%
+dplyr::distinct(customer_uid) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customer_locations") %>%
+dplyr::select(-c(created_at:modified_by)) %>%
+rename(customer_location_uid = uid),
+by = c("customer_uid")
+) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customers"),
+by = c("customer_uid" = "uid")
+) %>%
+dplyr::rename(customer_location_url = customer_location_url.x, customer_location_url_full = customer_location_url.y) %>%
+dplyr::select(-customer_location) %>%
+left_join(
+conn %>% dplyr::tbl("order_routes") %>% dplyr::select(-uid, -order_uid, -c(created_at:modified_by)),
+by = c("customer_location_uid")
+) %>%
+left_join(
+conn %>% dplyr::tbl("vendor_locations") %>% dplyr::select(-c(created_at:modified_by)),
+by = c("vendor_location_uid" = "uid")
+) %>%
+collect()
+}
+get_orders_by_vendor <- function(vendor_id, conn) {
+conn %>%
+dplyr::tbl("orders") %>%
+filter(.data$vendor_uid == vendor_id) %>%
+rename(order_uid = uid) %>%
+left_join(
+conn %>% tbl("customers") %>%
+select(customer_uid = uid, customer_name),
+by = c("customer_uid")
+) %>%
+left_join(
+conn %>% tbl("vendors") %>%
+select(vendor_uid = uid, vendor_name),
+by = c("vendor_uid")
+) %>%
+left_join(
+conn %>% tbl("riders") %>%
+select(rider_uid = uid, rider_name),
+by = c("rider_uid")
+) %>%
+collect()
+}
+get_routes_by_vendor <- function(vendor_location_id, conn) {
+conn %>%
+dplyr::tbl("order_routes") %>%
+dplyr::filter(vendor_location_uid == vendor_location_id) %>%
+left_join(
+conn %>%
+tbl('vendor_locations') %>%
+select(vendor_location_uid = uid,
+vendor_uid,
+vendor_location_lat,
+vendor_location_lon,
+vendor_location_name,
+vendor_location_address,
+vendor_location_place_id),
+by = "vendor_location_uid"
+) %>%
+left_join(
+conn %>%
+tbl('customer_locations') %>%
+select(customer_location_uid = uid,
+customer_uid,
+customer_location_lat,
+customer_location_lon,
+customer_location_name,
+customer_location_address,
+customer_location_place_id),
+by = "customer_location_uid"
+) %>%
+dplyr::collect()
+}
+out <- get_orders_by_vendor(vend, conn)
+View(out)
+runApp('shiny_app')
+View(out)
+vend = "c401b531-719d-4cad-82e7-71db3ffba166"
+conn <- DBI::dbConnect(
+RPostgres::Postgres(),
+host = app_config$db$host,
+dbname = app_config$db$dbname,
+user = app_config$db$user,
+password = app_config$db$password
+)
+out <- get_orders_by_vendor(vend, conn)
+get_customer_locations_by_vendor <- function(vendor_id, conn) {
+conn %>%
+dplyr::tbl("orders") %>%
+dplyr::filter(.data$vendor_uid == vendor_id) %>%
+dplyr::distinct(customer_uid) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customer_locations") %>%
+dplyr::select(-c(created_at:modified_by)) %>%
+rename(customer_location_uid = uid),
+by = c("customer_uid")
+) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customers"),
+by = c("customer_uid" = "uid")
+) %>%
+dplyr::rename(customer_location_url = customer_location_url.x, customer_location_url_full = customer_location_url.y) %>%
+dplyr::select(-customer_location) %>%
+left_join(
+conn %>% dplyr::tbl("order_routes") %>% dplyr::select(-uid, -order_uid, -c(created_at:modified_by)),
+by = c("customer_location_uid")
+) %>%
+left_join(
+conn %>% dplyr::tbl("vendor_locations") %>% dplyr::select(-c(created_at:modified_by)),
+by = c("vendor_location_uid" = "uid")
+) %>%
+collect()
+}
+get_orders_by_vendor <- function(vendor_id, conn) {
+conn %>%
+dplyr::tbl("orders") %>%
+filter(.data$vendor_uid == vendor_id) %>%
+rename(order_uid = uid) %>%
+left_join(
+conn %>% tbl("customers") %>%
+select(customer_uid = uid, customer_name),
+by = c("customer_uid")
+) %>%
+left_join(
+conn %>% tbl("vendors") %>%
+select(vendor_uid = uid, vendor_name),
+by = c("vendor_uid")
+) %>%
+left_join(
+conn %>% tbl("riders") %>%
+select(rider_uid = uid, rider_name),
+by = c("rider_uid")
+) %>%
+collect()
+}
+get_routes_by_vendor <- function(vendor_location_id, conn) {
+conn %>%
+dplyr::tbl("order_routes") %>%
+dplyr::filter(vendor_location_uid == vendor_location_id) %>%
+left_join(
+conn %>%
+tbl('vendor_locations') %>%
+select(vendor_location_uid = uid,
+vendor_uid,
+vendor_location_lat,
+vendor_location_lon,
+vendor_location_name,
+vendor_location_address,
+vendor_location_place_id),
+by = "vendor_location_uid"
+) %>%
+left_join(
+conn %>%
+tbl('customer_locations') %>%
+select(customer_location_uid = uid,
+customer_uid,
+customer_location_lat,
+customer_location_lon,
+customer_location_name,
+customer_location_address,
+customer_location_place_id),
+by = "customer_location_uid"
+) %>%
+dplyr::collect()
+}
+out <- get_orders_by_vendor(vend, conn)
+View(out)
+runApp('shiny_app')
+vend = "c401b531-719d-4cad-82e7-71db3ffba166"
+conn <- DBI::dbConnect(
+RPostgres::Postgres(),
+host = app_config$db$host,
+dbname = app_config$db$dbname,
+user = app_config$db$user,
+password = app_config$db$password
+)
+out <- get_orders_by_vendor(vend, conn)
+get_customer_locations_by_vendor <- function(vendor_id, conn) {
+conn %>%
+dplyr::tbl("orders") %>%
+dplyr::filter(.data$vendor_uid == vendor_id) %>%
+dplyr::distinct(customer_uid) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customer_locations") %>%
+dplyr::select(-c(created_at:modified_by)) %>%
+rename(customer_location_uid = uid),
+by = c("customer_uid")
+) %>%
+dplyr::left_join(
+conn %>% dplyr::tbl("customers"),
+by = c("customer_uid" = "uid")
+) %>%
+dplyr::rename(customer_location_url = customer_location_url.x, customer_location_url_full = customer_location_url.y) %>%
+dplyr::select(-customer_location) %>%
+left_join(
+conn %>% dplyr::tbl("order_routes") %>% dplyr::select(-uid, -order_uid, -c(created_at:modified_by)),
+by = c("customer_location_uid")
+) %>%
+left_join(
+conn %>% dplyr::tbl("vendor_locations") %>% dplyr::select(-c(created_at:modified_by)),
+by = c("vendor_location_uid" = "uid")
+) %>%
+collect()
+}
+get_orders_by_vendor <- function(vendor_id, conn) {
+conn %>%
+dplyr::tbl("orders") %>%
+filter(.data$vendor_uid == vendor_id) %>%
+rename(order_uid = uid) %>%
+left_join(
+conn %>% tbl("customers") %>%
+select(customer_uid = uid, customer_name),
+by = c("customer_uid")
+) %>%
+left_join(
+conn %>% tbl("vendors") %>%
+select(vendor_uid = uid, vendor_name),
+by = c("vendor_uid")
+) %>%
+left_join(
+conn %>% tbl("riders") %>%
+select(rider_uid = uid, rider_name),
+by = c("rider_uid")
+) %>%
+collect()
+}
+get_routes_by_vendor <- function(vendor_location_id, conn) {
+conn %>%
+dplyr::tbl("order_routes") %>%
+dplyr::filter(vendor_location_uid == vendor_location_id) %>%
+left_join(
+conn %>%
+tbl('vendor_locations') %>%
+select(vendor_location_uid = uid,
+vendor_uid,
+vendor_location_lat,
+vendor_location_lon,
+vendor_location_name,
+vendor_location_address,
+vendor_location_place_id),
+by = "vendor_location_uid"
+) %>%
+left_join(
+conn %>%
+tbl('customer_locations') %>%
+select(customer_location_uid = uid,
+customer_uid,
+customer_location_lat,
+customer_location_lon,
+customer_location_name,
+customer_location_address,
+customer_location_place_id),
+by = "customer_location_uid"
+) %>%
+dplyr::collect()
+}
+out <- get_orders_by_vendor(vend, conn)
+out$order_uid
+out %>% filter(order_status == "Completed")
+runApp('shiny_app')
+completed_orders()
+orders()
+completed_orders()
+runApp('shiny_app')
+install.packages('RPostgres')
+install.packages('dbx')
+install.packages('tychobratools')
+install.packages('htmltools')
+install.packages('lubridate')
+install.packages('attempt')

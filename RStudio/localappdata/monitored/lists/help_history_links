@@ -1,0 +1,15 @@
+help/library/pkgdown/html/deploy_site_github.html,R: Deploy a pkgdown site on Travis-CI to Github Pages
+help/library/pkgdown/html/deploy_to_branch.html,R: Build and deploy a site locally
+help/library/knitr/html/include_graphics.html,R: Embed external images in 'knitr' documents
+help/library/pkgdown/html/build_articles.html,R: Build articles section
+help/library/dm/html/dm_add_pk.html,R: Add/remove a primary key
+help/library/dm/html/dm_get_all_pks.html,R: Get all primary keys of a 'dm' object
+help/library/dm/html/dm_draw.html,R: Draw a diagram of the data model
+help/library/rstudioapi/html/savePlotAsImage.html,R: Save active RStudio plot image
+help/library/datamodelr/html/to_html_table.html,R: Data frame to html table
+help/library/datamodelr/html/dm_read_yaml.html,R: Read YAML
+help/library/datamodelr/html/00Index.html,R: Define and Plot Data Model Diagrams
+help/library/googleway/html/add_markers.html,R: Add markers
+help/library/shiny.fluent/html/Nav.html,R: Nav
+help/library/rsconnect/html/deployApp.html,R: Deploy an Application
+help/library/googleway/html/google_directions.html,R: Google Directions

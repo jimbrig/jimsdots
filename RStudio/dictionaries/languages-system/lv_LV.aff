@@ -1,0 +1,1989 @@
+# Latviešu valodas affix fails lietošanai ar OpenOffice 1.1.x
+# Latvian affix table for OpenOffice 1.1.x
+#
+# Copyright (C) 2002 Janis Eisaks, jancs@dv.lv
+#
+# Version info: 0.7
+# Izmainīta pieeja darbības vārdu locīšanai - no dalītas pa konjugācijām 
+# uz dalītām pa laikiem un tipiem (tag, pak, nak, izt formas, ciesh k, divd.)
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+# 
+# Faila radīšanai izmantotā literatūra  
+#  1. B.Ceplīte, L.Ceplītis
+#     Latviešu valodas praktiskā gramatika
+#
+# Pateicos Dr. Andrejam Spektoram un LU Mākslīgā Intelekta laboratorijai
+# par iespēju izmantot apkopoto vārdu krājumu; Edvīnam Malnačam, 
+# Egonam Spalānam, Valdemāram Rozenbergam, kā arī citiem brīvprātīgajiem 
+# par nesavtīgu atbalstu projekta realizācijā
+#
+# Faila formāts: myspell
+#
+# Here's a part of flags used, in case you want to add new ones.
+#
+#        !@#$%^&*()_+-=1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+# Used:  --------------------------+++-++++++-+++++++++++++
+#                                abcdefghijklmnopqrstuvwxyz
+# Used:                          --++++++------+++++++---++
+#
+# extended keys, starting form ASCII(123)
+#
+# Used    {|}~
+#         +++++++++++++++++
+#140
+#       ”¢£¤„¦§Ø©Ŗ«¬­®Æ°±²³“µ¶·ø¹ŗ»¼½
+#      +     +++++++++++++++++++++++++++++++++++++++++++  (free - 189)
+
+SET UTF-8
+TRY ianseātumpojšrkdīzlēvbgcķūņļčžfģhASMVLDIKERBGJZTNPHUOFCĀĶŽĒĢŠĪŪČŅĻ
+
+PFX + Y 1
+PFX +  0  ne .
+
+SFX B Y 21
+SFX B   t     šu     [^sz]t
+SFX B   t     si     [^sz]t
+SFX B   t     s      [^sz]t
+SFX B   t     sim    [^sz]t
+SFX B   t     siet   [^sz]t
+SFX B   t     sit    [^sz]t
+SFX B   t     šot    [^sz]t     #atst izt.v.nak
+SFX B   st    tīšu   [s]t
+SFX B   st    tīsi   [s]t
+SFX B   st    tīs    [s]t
+SFX B   st    tīsim  [s]t
+SFX B   st    tīsiet [s]t
+SFX B   st    tīsit  [s]t
+SFX B   st    tīšot  [s]t     #atst izt.v.nak
+SFX B   t     īšu     [z]t
+SFX B   t     īsi     [z]t
+SFX B   t     īs      [z]t
+SFX B   t     īsim    [z]t
+SFX B   t     īsiet   [z]t
+SFX B   t     īsit    [z]t
+SFX B   t     īšot    [z]t     #atst izt.v.nak
+
+SFX F Y 7
+SFX F   t     īšu     [s]t
+SFX F   t     īsi     [s]t
+SFX F   t     īs      [s]t
+SFX F   t     īsim    [s]t
+SFX F   t     īsiet   [s]t
+SFX F   t     īsit    [s]t
+SFX F   t     īšot    [s]t     #atst izt.v.nak
+
+SFX E Y 37
+SFX E   st    dīšu     [s]t
+SFX E   st    dīsi     [s]t
+SFX E   st    dīs      [s]t
+SFX E   st    dīsim    [s]t
+SFX E   st    dīsiet   [s]t
+SFX E   st    dīsit    [s]t
+SFX E   st    dīšot    [s]t    #atst izt.v.nak
+SFX E   st    du       [s]t     #pagātne
+SFX E   st    di       [s]t
+SFX E   st    da       [s]t
+SFX E   st    dām      [s]t
+SFX E   st    dāt      [s]t
+SFX E   st   dis      [s]t
+SFX E   st   duša     [s]t
+SFX E   st   dušam    [s]t
+SFX E   st   dušu     [s]t
+SFX E   st   dušā     [s]t
+SFX E   st   dusi     [s]t
+SFX E   st   dušas    [s]t
+SFX E   st   dušai    [s]t
+SFX E   st   duši     [s]t
+SFX E   st   dušiem   [s]t
+SFX E   st   dušus    [s]t
+SFX E   st   dušos    [s]t
+SFX E   st   dušām    [s]t
+SFX E   st   dušās    [s]t
+SFX E   st   dušais   [s]t
+SFX E   st   dušajam  [s]t
+SFX E   st   dušo     [s]t
+SFX E   st   dušajā   [s]t
+SFX E   st   dusī     [s]t
+SFX E   st   dušajai  [s]t
+SFX E   st   dušie    [s]t
+SFX E   st   dušajiem [s]t
+SFX E   st   dušajos  [s]t
+SFX E   st   dušajām  [s]t
+SFX E   st   dušajās  [s]t
+
+SFX 4 Y 15
+SFX 4   t     u       [^īū]t
+SFX 4   t     i       [^īū]t
+SFX 4   t     a       [^īū]t
+SFX 4   t     ām      [^īū]t
+SFX 4   t     āt      [^īū]t
+SFX 4   īt    inu     [ī]t
+SFX 4   īt    ini     [ī]t
+SFX 4   īt    ina     [ī]t
+SFX 4   īt    inām    [ī]t
+SFX 4   īt    ināt    [ī]t
+SFX 4   ūt    uvu     [ū]t
+SFX 4   ūt    uvi     [ū]t
+SFX 4   ūt    uva     [ū]t
+SFX 4   ūt    uvām    [ū]t
+SFX 4   ūt    uvāt    [ū]t
+
+SFX 5 Y 65
+SFX 5   gt    dzu     [g]t
+SFX 5   gt    dzi     [g]t
+SFX 5   gt    dza     [g]t
+SFX 5   gt    dzām    [g]t
+SFX 5   gt    dzāt    [g]t
+SFX 5   kt    cu      [k]t
+SFX 5   kt    ci      [k]t
+SFX 5   kt    ca      [k]t
+SFX 5   kt    cām     [k]t
+SFX 5   kt    cāt     [k]t
+SFX 5   st    ju      [s]t
+SFX 5   st    ji      [s]t
+SFX 5   st    ja      [s]t
+SFX 5   st    jām     [s]t
+SFX 5   st    jāt     [s]t
+SFX 5   aut   āvu     [a]ut
+SFX 5   aut   āvi     [a]ut
+SFX 5   aut   āva     [a]ut
+SFX 5   aut   āvām    [a]ut
+SFX 5   aut   āvāt    [a]ut
+SFX 5   t     u       [^eiu]lt
+SFX 5   t     i       [^eiu]lt
+SFX 5   t     a       [^eiu]lt
+SFX 5   t     ām      [^eiu]lt
+SFX 5   t     āt      [^eiu]lt
+SFX 5   elt   ēlu     [e]lt
+SFX 5   elt   ēli     [e]lt
+SFX 5   elt   ēla     [e]lt
+SFX 5   elt   ēlām    [e]lt
+SFX 5   elt   ēlāt    [e]lt
+SFX 5   ilt   īlu     [i]lt
+SFX 5   ilt   īli     [i]lt
+SFX 5   ilt   īla     [i]lt
+SFX 5   ilt   īlām    [i]lt
+SFX 5   ilt   īlāt    [i]lt
+SFX 5   ult   ūlu     [u]lt
+SFX 5   ult   ūli     [u]lt
+SFX 5   ult   ūla     [u]lt
+SFX 5   ult   ūlām    [u]lt
+SFX 5   ult   ūlāt    [u]lt
+SFX 5   t     u       [^aeiu]rt
+SFX 5   t     i       [^aeiu]rt
+SFX 5   t     a       [^aeiu]rt
+SFX 5   t     ām      [^aeiu]rt
+SFX 5   t     āt      [^aeiu]rt
+SFX 5   art   āru     [a]rt
+SFX 5   art   āri     [a]rt
+SFX 5   art   āra     [a]rt
+SFX 5   art   ārām    [a]rt
+SFX 5   art   ārāt    [a]rt
+SFX 5   ert   ēru     [e]rt
+SFX 5   ert   ēri     [e]rt
+SFX 5   ert   ēra     [e]rt
+SFX 5   ert   ērām    [e]rt
+SFX 5   ert   ērāt    [e]rt
+SFX 5   irt   īru     [i]rt
+SFX 5   irt   īri     [i]rt
+SFX 5   irt   īra     [i]rt
+SFX 5   irt   īrām    [i]rt
+SFX 5   irt   īrāt    [i]rt
+SFX 5   urt   ūru     [u]rt
+SFX 5   urt   ūri     [u]rt
+SFX 5   urt   ūra     [u]rt
+SFX 5   urt   ūrām    [u]rt
+SFX 5   urt   ūrāt    [u]rt
+
+SFX 1 Y 5
+SFX 1   t     ju      [āēīoū]t
+SFX 1   t     ji      [āēīoū]t
+SFX 1   t     ja      [āēīoū]t
+SFX 1   t     jām     [āēīoū]t
+SFX 1   t     jāt     [āēīoū]t
+
+SFX H Y 6
+SFX H   t   ju    [āēīoū]t
+SFX H   t   0     [āēīoū]t
+SFX H   t   jam   [āēīoū]t
+SFX H   t   jat   [āēīoū]t
+SFX H   t   jiet  [āēīoū]t
+SFX H   t   jot   [āēīoū]t
+
+SFX G Y 5
+SFX G   t   jas     [āēīoū]t    # IIk refl. tagadne
+SFX G   t   jamies  [āēīoū]t
+SFX G   t   jaties  [āēīoū]t    # beigas tagadnei
+SFX G   t   jieties [āēīoū]t    # IIk refl. pavēle
+SFX G   t   joties  [āēīoū]t    # IIk refl. atst.izt.v.tag.
+
+SFX C Y 20
+SFX C  āt  u       [^j][ā]t     #tag, Ip
+SFX C  āt  i       [^j][ā]t     #tag, Ip
+SFX C  āt  a       [^j][ā]t     #tag, Ip
+SFX C  āt  ām      [^j][ā]t     #tag, Ip
+SFX C  āt  ot      [^j][ā]t     #atst.izst.v.tag
+SFX C  āt  iet     [^j][ā]t     #pavēle
+SFX C  ēt  u        [ē]t     #tag, Ip
+SFX C  ēt  i        [ē]t     #tag, IIp
+SFX C  ēt  0        [ē]t     #tag, IIIp
+SFX C  ēt  am       [ē]t     #tag, Ip
+SFX C  ēt  at       [ē]t     #tag, IIp
+SFX C  ēt  iet      [ē]t     #pavēle
+SFX C  ēt  ot       [ē]t     #atst.izst.v.tag
+SFX C  īt  u        [ī]t     #tag, Ip
+SFX C  īt  i        [ī]t     #tag, IIp
+SFX C  īt  a        [ī]t     #tag, IIIp
+SFX C  īt  ām       [ī]t     #tag, Ip
+SFX C  īt  āt       [ī]t     #tag, IIp
+SFX C  īt  iet      [ī]t     #pavēle
+SFX C  īt  ot       [ī]t     #atst.izst.v.tag
+
+SFX c Y 25
+SFX c  0   ies    [ā]t    #relf.nenoteiksme
+SFX c  āt  os     [ā]t    #tag, Ip
+SFX c  āt  ies    [ā]t    #tag, IIp
+SFX c  t   mies   [ā]t    #tag, Ip
+SFX c  āt  ieties [ā]t    #pavēle
+SFX c  āt  oties  [ā]t    #atst.izst.v.tag
+SFX c  t   šoties [ā]t    #atst.izst.v.nak
+SFX c  0   ies    [ē]t    #relf.nenoteiksme ----------
+SFX c  ēt  os     [ē]t    #tag, Ip 
+SFX c  ēt  ies    [ē]t    #tag, IIp
+SFX c  ēt  as     [ē]t    #tag, IIIp
+SFX c  ēt  amies  [ē]t    #tag, Ip.d.
+SFX c  ēt  aties  [ē]t    #tag, IIp.d
+SFX c  ēt  ieties [ē]t    #pavēle
+SFX c  ēt  oties  [ē]t    #atst.izst.v.tag
+SFX c  t   šoties [ē]t    #atst.izst.v.nak ------
+SFX c  0   ies    [ī]t    #relf.nenoteiksme
+SFX c  īt  os     [ī]t    #tag, Ip
+SFX c  īt  ies    [ī]t    #tag, Ip
+SFX c  īt  ās     [ī]t    #tag, Ip
+SFX c  īt  āmies  [ī]t    #tag, Ip
+SFX c  īt  āties  [ī]t    #tag, Ip
+SFX c  īt  ieties [ī]t    #
+SFX c  īt  oties  [ī]t    #atst.izst.v.tag
+SFX c  t   šoties [ī]t    #atst.izst.v.nak
+#SFX c  0   os     [ā]t    #cieshamaa k.
+#SFX c  0   os     [ē]t    #cieshamaa k.
+#SFX c  0   os     [ī]t    #cieshamaa k.
+
+SFX 6 Y 104
+SFX 6   t     ju      [āēubmp]t
+SFX 6   t     0       [bmp]t
+SFX 6   t     j       [āēubmp]t
+SFX 6   t     jam     [āēubmp]t
+SFX 6   t     jat     [āēubmp]t
+SFX 6   t     jot     [āēubmp]t    #atst.izt.v.tag
+SFX 6   t     jiet    [āēu]t    #pavēle
+SFX 6   t     iet    [bmp]t    #pavēle
+SFX 6   t     j       [āēu]t
+SFX 6   gt    dzu     [g]t
+SFX 6   gt    dz      [g]t
+SFX 6   gt    dzam    [g]t
+SFX 6   gt    dzat    [g]t
+SFX 6   gt    dzot    [g]t    #atst.izt.v.tag
+SFX 6   gt    dziet   [g]t
+SFX 6   kt    cu      [k]t
+SFX 6   kt    c       [k]t
+SFX 6   kt    cam     [k]t
+SFX 6   kt    cat     [k]t
+SFX 6   kt    cot     [k]t    #atst.izt.v.tag
+SFX 6   kt    ciet    [k]t
+SFX 6   ūt    uju     [ū]t
+SFX 6   ūt    uj      [ū]t
+SFX 6   ūt    ujam    [ū]t
+SFX 6   ūt    ujat    [ū]t
+SFX 6   ūt    ujot    [ū]t    #atst.izt.v.tag
+SFX 6   ūt    ujiet   [ū]t
+SFX 6   zt    žu      [z]t
+SFX 6   t     0       [z]t
+SFX 6   zt    ž       [z]t
+SFX 6   zt    žam     [z]t
+SFX 6   zt    žat     [z]t
+SFX 6   zt    žot     [z]t    #atst.izt.v.tag
+SFX 6   t     iet     [lz]t
+SFX 6   lt    ļu      [l]t
+SFX 6   t     0       [l]t
+SFX 6   lt    ļ       [l]t
+SFX 6   lt    ļam     [l]t
+SFX 6   lt    ļat     [l]t
+SFX 6   lt    ļot     [l]t    #atst.izt.v.tag
+SFX 6   t     u       [^āē][r]t
+SFX 6   t     0       [^āē][r]t
+SFX 6   t     am      [^āē][r]t
+SFX 6   t     at      [^āē][r]t
+SFX 6   t     iet     [^āē][r]t
+SFX 6   t     ot     [^āē][r]t
+SFX 6   ārt   aru     [ā]rt
+SFX 6   ārt   ar      [ā]rt  # ā ē speciālie
+SFX 6   ārt   aram    [ā]rt
+SFX 6   ārt   arat    [ā]rt
+SFX 6   ārt   arot    [ā]rt    #atst.izt.v.tag
+SFX 6   ārt   ariet   [ā]rt
+SFX 6   ērt   eru     [ē]rt
+SFX 6   ērt   er      [ē]rt  # ā ē speciālie
+SFX 6   ērt   eram    [ē]rt
+SFX 6   ērt   erat    [ē]rt
+SFX 6   ērt   erot    [ē]rt    #atst.izt.v.tag
+SFX 6   ērt   eriet   [ē]rt
+SFX 6  zt   žošs     [z]t
+SFX 6  zt   žoša     [z]t
+SFX 6  zt   žošam    [z]t
+SFX 6  zt   žošu     [z]t
+SFX 6  zt   žošā     [z]t
+SFX 6  zt   žošas    [z]t
+SFX 6  zt   žošai    [z]t
+SFX 6  zt   žoši     [z]t
+SFX 6  zt   žošiem   [z]t
+SFX 6  zt   žošus    [z]t
+SFX 6  zt   žošos    [z]t
+SFX 6  zt   žošām    [z]t
+SFX 6  zt   žošās    [z]t
+SFX 6  zt   žošais   [z]t
+SFX 6  zt   žošajam  [z]t
+SFX 6  zt   žošo     [z]t
+SFX 6  zt   žošajā   [z]t
+SFX 6  zt   žošajai  [z]t
+SFX 6  zt   žošie    [z]t
+SFX 6  zt   žošajiem [z]t
+SFX 6  zt   žošajos  [z]t
+SFX 6  zt   žošajām  [z]t
+SFX 6  zt   žošajās  [z]t
+SFX 6  zt   žams     [z]t
+SFX 6  zt   žama     [z]t
+SFX 6  zt   žamam    [z]t
+SFX 6  zt   žamu     [z]t
+SFX 6  zt   žamā     [z]t
+SFX 6  zt   žamas    [z]t
+SFX 6  zt   žamai    [z]t
+SFX 6  zt   žami     [z]t
+SFX 6  zt   žamiem   [z]t
+SFX 6  zt   žamus    [z]t
+SFX 6  zt   žamos    [z]t
+SFX 6  zt   žamām    [z]t
+SFX 6  zt   žamās    [z]t
+SFX 6  zt   žamais   [z]t
+SFX 6  zt   žamajam  [z]t
+SFX 6  zt   žamo     [z]t
+SFX 6  zt   žamajā   [z]t
+SFX 6  zt   žamajai  [z]t
+SFX 6  zt   žamie    [z]t
+SFX 6  zt   žamajiem [z]t
+SFX 6  zt   žamajos  [z]t
+SFX 6  zt   žamajām  [z]t
+SFX 6  zt   žamajās  [z]t
+
+SFX 2 Y 7
+SFX 2   st     žu     [s]t   # tagadne
+SFX 2   st     d      [s]t
+SFX 2   st     ž      [s]t
+SFX 2   st     žam    [s]t
+SFX 2   st     žat    [s]t
+SFX 2   st     žot    [s]t    #atst.izt.v.tag
+SFX 2   st     diet   [s]t
+
+SFX 3 Y 6
+SFX 3   st     šu     [s]t
+SFX 3   t      0      [s]t
+SFX 3   st     š      [s]t
+SFX 3   st     šam    [s]t
+SFX 3   st     šat    [s]t
+SFX 3   st     šot    [s]t    #atst.izt.v.tag
+
+SFX 7 Y 12
+SFX 7   t   stu   [^sz]t
+SFX 7   t   sti   [^sz]t
+SFX 7   t   st    [^sz]t
+SFX 7   t   stam  [^sz]t
+SFX 7   t   stat  [^sz]t
+SFX 7   t   stot  [^sz]t
+SFX 7   t   stiet [^sz]t
+SFX 7   0   i    [sz]t
+SFX 7   0   am   [sz]t
+SFX 7   0   at   [sz]t
+SFX 7   0   ot   [sz]t
+SFX 7   0   iet  [sz]t
+
+SFX M Y 4
+SFX M   t    dams    t
+SFX M   t    dama    t
+SFX M   t    dami    t
+SFX M   t    damas   t
+
+SFX N Y 4
+SFX N   st   zdams   [s]t
+SFX N   st   zdama   [s]t
+SFX N   st   zdami   [s]t
+SFX N   st   zdamas  [s]t
+
+#modificēts 2006.04.06
+SFX [ Y 5
+SFX [   t    damies    t
+SFX [   t    damās     t
+SFX [   t    šanos     [^sz]t
+SFX [   st   šanos     [s]t
+SFX [   zt   šanos     [z]t
+
+
+SFX ] Y 2
+SFX ]   st   zdamies [s]t
+SFX ]   st   zdamās  [s]t
+
+SFX { Y 3
+SFX { t  jušies    t
+SFX { t  jusies    t
+SFX { t  jošies    t
+#SFX { t  jies      t
+
+#2006-08-06 - pievienots sfx -ošies (III konj, piem.)
+SFX } Y 3
+SFX } t  ušies    t
+SFX } t  usies    t
+SFX } t  ošies    t
+#SFX } t  ies      t
+
+SFX Z Y 23
+SFX Z   t   stams     t
+SFX Z   t   stama     t
+SFX Z   t   stamam    t
+SFX Z   t   stamu     t
+SFX Z   t   stamā     t
+SFX Z   t   stamas    t
+SFX Z   t   stamai    t
+SFX Z   t   stami     t
+SFX Z   t   stamiem   t
+SFX Z   t   stamus    t
+SFX Z   t   stamos    t
+SFX Z   t   stamām    t
+SFX Z   t   stamās    t
+SFX Z   t   stamais   t
+SFX Z   t   stamajam  t
+SFX Z   t   stamo     t
+SFX Z   t   stamajā   t
+SFX Z   t   stamajai  t
+SFX Z   t   stamie    t
+SFX Z   t   stamajiem t
+SFX Z   t   stamajos  t
+SFX Z   t   stamajām  t
+SFX Z   t   stamajās  t
+
+SFX )   Y 23
+SFX )   t   jams     t
+SFX )   t   jama     t
+SFX )   t   jamam    t
+SFX )   t   jamu     t
+SFX )   t   jamā     t
+SFX )   t   jamas    t
+SFX )   t   jamai    t
+SFX )   t   jami     t
+SFX )   t   jamiem   t
+SFX )   t   jamus    t
+SFX )   t   jamos    t
+SFX )   t   jamām    t
+SFX )   t   jamās    t
+SFX )   t   jamais   t
+SFX )   t   jamajam  t
+SFX )   t   jamo     t
+SFX )   t   jamajā   t
+SFX )   t   jamajai  t
+SFX )   t   jamie    t
+SFX )   t   jamajiem t
+SFX )   t   jamajos  t
+SFX )   t   jamajām  t
+SFX )   t   jamajās  t
+
+#iebāzti III konjugācijas am (tipa [^āēī]t
+SFX ( Y 184
+SFX (   t   ams      [^āēī]t
+SFX (   t   ama      [^āēī]t
+SFX (   t   amā      [^āēī]t
+SFX (   t   amai     [^āēī]t
+SFX (   t   amais    [^āēī]t
+SFX (   t   amajā    [^āēī]t
+SFX (   t   amajai   [^āēī]t
+SFX (   t   amajam   [^āēī]t
+SFX (   t   amajām   [^āēī]t
+SFX (   t   amajās   [^āēī]t
+SFX (   t   amajiem  [^āēī]t
+SFX (   t   amajos   [^āēī]t
+SFX (   t   amam     [^āēī]t
+SFX (   t   amām     [^āēī]t
+SFX (   t   amas     [^āēī]t
+SFX (   t   amās     [^āēī]t
+SFX (   t   ami      [^āēī]t
+SFX (   t   amie     [^āēī]t
+SFX (   t   amiem    [^āēī]t
+SFX (   t   amo      [^āēī]t
+SFX (   t   amos     [^āēī]t
+SFX (   t   amu      [^āēī]t
+SFX (   t   amus     [^āēī]t
+SFX (   īt   āms     [^cz][ī]t
+SFX (   īt   āma     [^cz][ī]t
+SFX (   īt   āmam    [^cz][ī]t
+SFX (   īt   āmu     [^cz][ī]t
+SFX (   īt   āmā     [^cz][ī]t
+SFX (   īt   āmas    [^cz][ī]t
+SFX (   īt   āmai    [^cz][ī]t
+SFX (   īt   āmi     [^cz][ī]t
+SFX (   īt   āmiem   [^cz][ī]t
+SFX (   īt   āmus    [^cz][ī]t
+SFX (   īt   āmos    [^cz][ī]t
+SFX (   īt   āmām    [^cz][ī]t
+SFX (   īt   āmās    [^cz][ī]t
+SFX (   īt   āmais   [^cz][ī]t
+SFX (   īt   āmajam  [^cz][ī]t
+SFX (   īt   āmo     [^cz][ī]t
+SFX (   īt   āmajā   [^cz][ī]t
+SFX (   īt   āmajai  [^cz][ī]t
+SFX (   īt   āmie    [^cz][ī]t
+SFX (   īt   āmajiem [^cz][ī]t
+SFX (   īt   āmajos  [^cz][ī]t
+SFX (   īt   āmajām  [^cz][ī]t
+SFX (   īt   āmajās  [^cz][ī]t
+SFX (   cīt  kāms     [c][ī]t
+SFX (   cīt  kāma     [c][ī]t
+SFX (   cīt  kāmam    [c][ī]t
+SFX (   cīt  kāmu     [c][ī]t
+SFX (   cīt  kāmā     [c][ī]t
+SFX (   cīt  kāmas    [c][ī]t
+SFX (   cīt  kāmai    [c][ī]t
+SFX (   cīt  kāmi     [c][ī]t
+SFX (   cīt  kāmiem   [c][ī]t
+SFX (   cīt  kāmus    [c][ī]t
+SFX (   cīt  kāmos    [c][ī]t
+SFX (   cīt  kāmām    [c][ī]t
+SFX (   cīt  kāmās    [c][ī]t
+SFX (   cīt  kāmais   [c][ī]t
+SFX (   cīt  kāmajam  [c][ī]t
+SFX (   cīt  kāmo     [c][ī]t
+SFX (   cīt  kāmajā   [c][ī]t
+SFX (   cīt  kāmajai  [c][ī]t
+SFX (   cīt  kāmie    [c][ī]t
+SFX (   cīt  kāmajiem [c][ī]t
+SFX (   cīt  kāmajos  [c][ī]t
+SFX (   cīt  kāmajām  [c][ī]t
+SFX (   cīt  kāmajās  [c][ī]t
+SFX (   īt   āms     [^d]zīt
+SFX (   īt   āma     [^d]zīt
+SFX (   īt   āmam    [^d]zīt
+SFX (   īt   āmu     [^d]zīt
+SFX (   īt   āmā     [^d]zīt
+SFX (   īt   āmas    [^d]zīt
+SFX (   īt   āmai    [^d]zīt
+SFX (   īt   āmi     [^d]zīt
+SFX (   īt   āmiem   [^d]zīt
+SFX (   īt   āmus    [^d]zīt
+SFX (   īt   āmos    [^d]zīt
+SFX (   īt   āmām    [^d]zīt
+SFX (   īt   āmās    [^d]zīt
+SFX (   īt   āmais   [^d]zīt
+SFX (   īt   āmajam  [^d]zīt
+SFX (   īt   āmo     [^d]zīt
+SFX (   īt   āmajā   [^d]zīt
+SFX (   īt   āmajai  [^d]zīt
+SFX (   īt   āmie    [^d]zīt
+SFX (   īt   āmajiem [^d]zīt
+SFX (   īt   āmajos  [^d]zīt
+SFX (   īt   āmajām  [^d]zīt
+SFX (   īt   āmajās  [^d]zīt
+SFX (   dzīt  gāms     [d]zīt
+SFX (   dzīt  gāma     [d]zīt
+SFX (   dzīt  gāmam    [d]zīt
+SFX (   dzīt  gāmu     [d]zīt
+SFX (   dzīt  gāmā     [d]zīt
+SFX (   dzīt  gāmas    [d]zīt
+SFX (   dzīt  gāmai    [d]zīt
+SFX (   dzīt  gāmi     [d]zīt
+SFX (   dzīt  gāmiem   [d]zīt
+SFX (   dzīt  gāmus    [d]zīt
+SFX (   dzīt  gāmos    [d]zīt
+SFX (   dzīt  gāmām    [d]zīt
+SFX (   dzīt  gāmās    [d]zīt
+SFX (   dzīt  gāmais   [d]zīt
+SFX (   dzīt  gāmajam  [d]zīt
+SFX (   dzīt  gāmo     [d]zīt
+SFX (   dzīt  gāmajā   [d]zīt
+SFX (   dzīt  gāmajai  [d]zīt
+SFX (   dzīt  gāmie    [d]zīt
+SFX (   dzīt  gāmajiem [d]zīt
+SFX (   dzīt  gāmajos  [d]zīt
+SFX (   dzīt  gāmajām  [d]zīt
+SFX (   dzīt  gāmajās  [d]zīt
+SFX (   ēt   ams      [^t][ē]t
+SFX (   ēt   ama      [^t][ē]t
+SFX (   ēt   amā      [^t][ē]t
+SFX (   ēt   amai     [^t][ē]t
+SFX (   ēt   amais    [^t][ē]t
+SFX (   ēt   amajā    [^t][ē]t
+SFX (   ēt   amajai   [^t][ē]t
+SFX (   ēt   amajam   [^t][ē]t
+SFX (   ēt   amajām   [^t][ē]t
+SFX (   ēt   amajās   [^t][ē]t
+SFX (   ēt   amajiem  [^t][ē]t
+SFX (   ēt   amajos   [^t][ē]t
+SFX (   ēt   amam     [^t][ē]t
+SFX (   ēt   amām     [^t][ē]t
+SFX (   ēt   amas     [^t][ē]t
+SFX (   ēt   amās     [^t][ē]t
+SFX (   ēt   ami      [^t][ē]t
+SFX (   ēt   amie     [^t][ē]t
+SFX (   ēt   amiem    [^t][ē]t
+SFX (   ēt   amo      [^t][ē]t
+SFX (   ēt   amos     [^t][ē]t
+SFX (   ēt   amu      [^t][ē]t
+SFX (   ēt   amus     [^t][ē]t
+SFX (   tēt   tams    [t][ē]t
+SFX (   tēt   tama      [t][ē]t
+SFX (   tēt   tamā      [t][ē]t
+SFX (   tēt   tamai     [t][ē]t
+SFX (   tēt   tamais    [t][ē]t
+SFX (   tēt   tamajā    [t][ē]t
+SFX (   tēt   tamajai   [t][ē]t
+SFX (   tēt   tamajam   [t][ē]t
+SFX (   tēt   tamajām   [t][ē]t
+SFX (   tēt   tamajās   [t][ē]t
+SFX (   tēt   tamajiem  [t][ē]t
+SFX (   tēt   tamajos   [t][ē]t
+SFX (   tēt   tamam     [t][ē]t
+SFX (   tēt   tamām     [t][ē]t
+SFX (   tēt   tamas     [t][ē]t
+SFX (   tēt   tamās     [t][ē]t
+SFX (   tēt   tami      [t][ē]t
+SFX (   tēt   tamie     [t][ē]t
+SFX (   tēt   tamiem    [t][ē]t
+SFX (   tēt   tamo      [t][ē]t
+SFX (   tēt   tamos     [t][ē]t
+SFX (   tēt   tamu      [t][ē]t
+SFX (   tēt   tamus     [t][ē]t
+SFX (   t   ms      [ā]t
+SFX (   t   ma      [ā]t
+SFX (   t   mam     [ā]t
+SFX (   t   mu      [ā]t
+SFX (   t   mā      [ā]t
+SFX (   t   mas     [ā]t
+SFX (   t   mai     [ā]t
+SFX (   t   mi      [ā]t
+SFX (   t   miem    [ā]t
+SFX (   t   mus     [ā]t
+SFX (   t   mos     [ā]t
+SFX (   t   mām     [ā]t
+SFX (   t   mās     [ā]t
+SFX (   t   mais    [ā]t
+SFX (   t   majam   [ā]t
+SFX (   t   mo      [ā]t
+SFX (   t   majā    [ā]t
+SFX (   t   majai   [ā]t
+SFX (   t   mie     [ā]t
+SFX (   t   majiem  [ā]t
+SFX (   t   majos   [ā]t
+SFX (   t   majām   [ā]t
+SFX (   t   majās   [ā]t
+
+
+SFX ^ Y 23
+SFX ^   t   stošs     t
+SFX ^   t   stoša     t
+SFX ^   t   stošam    t
+SFX ^   t   stošu     t
+SFX ^   t   stošā     t
+SFX ^   t   stošas    t
+SFX ^   t   stošai    t
+SFX ^   t   stoši     t
+SFX ^   t   stošiem   t
+SFX ^   t   stošus    t
+SFX ^   t   stošos    t
+SFX ^   t   stošām    t
+SFX ^   t   stošās    t
+SFX ^   t   stošais   t
+SFX ^   t   stošajam  t
+SFX ^   t   stošo     t
+SFX ^   t   stošajā   t
+SFX ^   t   stošajai  t
+SFX ^   t   stošie    t
+SFX ^   t   stošajiem t
+SFX ^   t   stošajos  t
+SFX ^   t   stošajām  t
+SFX ^   t   stošajās  t
+
+SFX $ Y 23
+SFX $   t   jošs     t
+SFX $   t   joša     t
+SFX $   t   jošam    t
+SFX $   t   jošu     t
+SFX $   t   jošā     t
+SFX $   t   jošas    t
+SFX $   t   jošai    t
+SFX $   t   joši     t
+SFX $   t   jošiem   t
+SFX $   t   jošus    t
+SFX $   t   jošos    t
+SFX $   t   jošām    t
+SFX $   t   jošās    t
+SFX $   t   jošais   t
+SFX $   t   jošajam  t
+SFX $   t   jošo     t
+SFX $   t   jošajā   t
+SFX $   t   jošajai  t
+SFX $   t   jošie    t
+SFX $   t   jošajiem t
+SFX $   t   jošajos  t
+SFX $   t   jošajām  t
+SFX $   t   jošajās  t
+
+SFX h Y 161
+SFX h   t   oša      [^āēī]t
+SFX h   t   ošā      [^āēī]t
+SFX h   t   ošai     [^āēī]t
+SFX h   t   ošais    [^āēī]t
+SFX h   t   ošajā    [^āēī]t
+SFX h   t   ošajai   [^āēī]t
+SFX h   t   ošajam   [^āēī]t
+SFX h   t   ošajām   [^āēī]t
+SFX h   t   ošajās   [^āēī]t
+SFX h   t   ošajiem  [^āēī]t
+SFX h   t   ošajos   [^āēī]t
+SFX h   t   ošam     [^āēī]t
+SFX h   t   ošām     [^āēī]t
+SFX h   t   ošas     [^āēī]t
+SFX h   t   ošās     [^āēī]t
+SFX h   t   oši      [^āēī]t
+SFX h   t   ošie     [^āēī]t
+SFX h   t   ošiem    [^āēī]t
+SFX h   t   ošo      [^āēī]t
+SFX h   t   ošos     [^āēī]t
+SFX h   t   ošs      [^āēī]t
+SFX h   t   ošu      [^āēī]t
+SFX h   t   ošus     [^āēī]t
+SFX h   ēt   oša      [ē]t
+SFX h   ēt   ošā      [ē]t
+SFX h   ēt   ošai     [ē]t
+SFX h   ēt   ošais    [ē]t
+SFX h   ēt   ošajā    [ē]t
+SFX h   ēt   ošajai   [ē]t
+SFX h   ēt   ošajam   [ē]t
+SFX h   ēt   ošajām   [ē]t
+SFX h   ēt   ošajās   [ē]t
+SFX h   ēt   ošajiem  [ē]t
+SFX h   ēt   ošajos   [ē]t
+SFX h   ēt   ošam     [ē]t
+SFX h   ēt   ošām     [ē]t
+SFX h   ēt   ošas     [ē]t
+SFX h   ēt   ošās     [ē]t
+SFX h   ēt   oši      [ē]t
+SFX h   ēt   ošie     [ē]t
+SFX h   ēt   ošiem    [ē]t
+SFX h   ēt   ošo      [ē]t
+SFX h   ēt   ošos     [ē]t
+SFX h   ēt   ošs      [ē]t
+SFX h   ēt   ošu      [ē]t
+SFX h   ēt   ošus     [ē]t
+SFX h   īt   oša      [^cz][ī]t
+SFX h   īt   ošā      [^cz][ī]t
+SFX h   īt   ošai     [^cz][ī]t
+SFX h   īt   ošais    [^cz][ī]t
+SFX h   īt   ošajā    [^cz][ī]t
+SFX h   īt   ošajai   [^cz][ī]t
+SFX h   īt   ošajam   [^cz][ī]t
+SFX h   īt   ošajām   [^cz][ī]t
+SFX h   īt   ošajās   [^cz][ī]t
+SFX h   īt   ošajiem  [^cz][ī]t
+SFX h   īt   ošajos   [^cz][ī]t
+SFX h   īt   ošam     [^cz][ī]t
+SFX h   īt   ošām     [^cz][ī]t
+SFX h   īt   ošas     [^cz][ī]t
+SFX h   īt   ošās     [^cz][ī]t
+SFX h   īt   oši      [^cz][ī]t
+SFX h   īt   ošie     [^cz][ī]t
+SFX h   īt   ošiem    [^cz][ī]t
+SFX h   īt   ošo      [^cz][ī]t
+SFX h   īt   ošos     [^cz][ī]t
+SFX h   īt   ošs      [^cz][ī]t
+SFX h   īt   ošu      [^cz][ī]t
+SFX h   īt   ošus     [^cz][ī]t
+SFX h   cīt  koša      [c]īt
+SFX h   cīt  košā      [c]īt
+SFX h   cīt  košai     [c]īt
+SFX h   cīt  košais    [c]īt
+SFX h   cīt  košajā    [c]īt
+SFX h   cīt  košajai   [c]īt
+SFX h   cīt  košajam   [c]īt
+SFX h   cīt  košajām   [c]īt
+SFX h   cīt  košajās   [c]īt
+SFX h   cīt  košajiem  [c]īt
+SFX h   cīt  košajos   [c]īt
+SFX h   cīt  košam     [c]īt
+SFX h   cīt  košām     [c]īt
+SFX h   cīt  košas     [c]īt
+SFX h   cīt  košās     [c]īt
+SFX h   cīt  koši      [c]īt
+SFX h   cīt  košie     [c]īt
+SFX h   cīt  košiem    [c]īt
+SFX h   cīt  košo      [c]īt
+SFX h   cīt  košos     [c]īt
+SFX h   cīt  košs      [c]īt
+SFX h   cīt  košu      [c]īt
+SFX h   cīt  košus     [c]īt
+SFX h   īt   oša      [^d]zīt
+SFX h   īt   ošā      [^d]zīt
+SFX h   īt   ošai     [^d]zīt
+SFX h   īt   ošais    [^d]zīt
+SFX h   īt   ošajā    [^d]zīt
+SFX h   īt   ošajai   [^d]zīt
+SFX h   īt   ošajam   [^d]zīt
+SFX h   īt   ošajām   [^d]zīt
+SFX h   īt   ošajās   [^d]zīt
+SFX h   īt   ošajiem  [^d]zīt
+SFX h   īt   ošajos   [^d]zīt
+SFX h   īt   ošam     [^d]zīt
+SFX h   īt   ošām     [^d]zīt
+SFX h   īt   ošas     [^d]zīt
+SFX h   īt   ošās     [^d]zīt
+SFX h   īt   oši      [^d]zīt
+SFX h   īt   ošie     [^d]zīt
+SFX h   īt   ošiem    [^d]zīt
+SFX h   īt   ošo      [^d]zīt
+SFX h   īt   ošos     [^d]zīt
+SFX h   īt   ošs      [^d]zīt
+SFX h   īt   ošu      [^d]zīt
+SFX h   īt   ošus     [^d]zīt
+SFX h   dzīt  goša      [d]zīt
+SFX h   dzīt  gošā      [d]zīt
+SFX h   dzīt  gošai     [d]zīt
+SFX h   dzīt  gošais    [d]zīt
+SFX h   dzīt  gošajā    [d]zīt
+SFX h   dzīt  gošajai   [d]zīt
+SFX h   dzīt  gošajam   [d]zīt
+SFX h   dzīt  gošajām   [d]zīt
+SFX h   dzīt  gošajās   [d]zīt
+SFX h   dzīt  gošajiem  [d]zīt
+SFX h   dzīt  gošajos   [d]zīt
+SFX h   dzīt  gošam     [d]zīt
+SFX h   dzīt  gošām     [d]zīt
+SFX h   dzīt  gošas     [d]zīt
+SFX h   dzīt  gošās     [d]zīt
+SFX h   dzīt  goši      [d]zīt
+SFX h   dzīt  gošie     [d]zīt
+SFX h   dzīt  gošiem    [d]zīt
+SFX h   dzīt  gošo      [d]zīt
+SFX h   dzīt  gošos     [d]zīt
+SFX h   dzīt  gošs      [d]zīt
+SFX h   dzīt  gošu      [d]zīt
+SFX h   dzīt  gošus     [d]zīt
+SFX h   āt   oša      [ā]t
+SFX h   āt   ošā      [ā]t
+SFX h   āt   ošai     [ā]t
+SFX h   āt   ošais    [ā]t
+SFX h   āt   ošajā    [ā]t
+SFX h   āt   ošajai   [ā]t
+SFX h   āt   ošajam   [ā]t
+SFX h   āt   ošajām   [ā]t
+SFX h   āt   ošajās   [ā]t
+SFX h   āt   ošajiem  [ā]t
+SFX h   āt   ošajos   [ā]t
+SFX h   āt   ošam     [ā]t
+SFX h   āt   ošām     [ā]t
+SFX h   āt   ošas     [ā]t
+SFX h   āt   ošās     [ā]t
+SFX h   āt   oši      [ā]t
+SFX h   āt   ošie     [ā]t
+SFX h   āt   ošiem    [ā]t
+SFX h   āt   ošo      [ā]t
+SFX h   āt   ošos     [ā]t
+SFX h   āt   ošs      [ā]t
+SFX h   āt   ošu      [ā]t
+SFX h   āt   ošus     [ā]t
+
+
+#shitas neder 4 grupai
+# - āē-ae
+SFX % Y 276
+SFX %   0   oša      [^gkr]t
+SFX %   0   ošā      [^gkr]t
+SFX %   0   ošai     [^gkr]t
+SFX %   0   ošais    [^gkr]t
+SFX %   0   ošajā    [^gkr]t
+SFX %   0   ošajai   [^gkr]t
+SFX %   0   ošajam   [^gkr]t
+SFX %   0   ošajām   [^gkr]t
+SFX %   0   ošajās   [^gkr]t
+SFX %   0   ošajiem  [^gkr]t
+SFX %   0   ošajos   [^gkr]t
+SFX %   0   ošam     [^gkr]t
+SFX %   0   ošām     [^gkr]t
+SFX %   0   ošas     [^gkr]t
+SFX %   0   ošās     [^gkr]t
+SFX %   0   oši      [^gkr]t
+SFX %   0   ošie     [^gkr]t
+SFX %   0   ošiem    [^gkr]t
+SFX %   0   ošo      [^gkr]t
+SFX %   0   ošos     [^gkr]t
+SFX %   0   ošs      [^gkr]t
+SFX %   0   ošu      [^gkr]t
+SFX %   0   ošus     [^gkr]t
+SFX %   0   ams      [^gkr]t
+SFX %   0   ama      [^gkr]t
+SFX %   0   amā      [^gkr]t
+SFX %   0   amai     [^gkr]t
+SFX %   0   amais    [^gkr]t
+SFX %   0   amajā    [^gkr]t
+SFX %   0   amajai   [^gkr]t
+SFX %   0   amajam   [^gkr]t
+SFX %   0   amajām   [^gkr]t
+SFX %   0   amajās   [^gkr]t
+SFX %   0   amajiem  [^gkr]t
+SFX %   0   amajos   [^gkr]t
+SFX %   0   amam     [^gkr]t
+SFX %   0   amām     [^gkr]t
+SFX %   0   amas     [^gkr]t
+SFX %   0   amās     [^gkr]t
+SFX %   0   ami      [^gkr]t
+SFX %   0   amie     [^gkr]t
+SFX %   0   amiem    [^gkr]t
+SFX %   0   amo      [^gkr]t
+SFX %   0   amos     [^gkr]t
+SFX %   0   amu      [^gkr]t
+SFX %   0   amus     [^gkr]t
+SFX %   0   oša      [^āē][r]t
+SFX %   0   ošā      [^āē][r]t
+SFX %   0   ošai     [^āē][r]t
+SFX %   0   ošais    [^āē][r]t
+SFX %   0   ošajā    [^āē][r]t
+SFX %   0   ošajai   [^āē][r]t
+SFX %   0   ošajam   [^āē][r]t
+SFX %   0   ošajām   [^āē][r]t
+SFX %   0   ošajās   [^āē][r]t
+SFX %   0   ošajiem  [^āē][r]t
+SFX %   0   ošajos   [^āē][r]t
+SFX %   0   ošam     [^āē][r]t
+SFX %   0   ošām     [^āē][r]t
+SFX %   0   ošas     [^āē][r]t
+SFX %   0   ošās     [^āē][r]t
+SFX %   0   oši      [^āē][r]t
+SFX %   0   ošie     [^āē][r]t
+SFX %   0   ošiem    [^āē][r]t
+SFX %   0   ošo      [^āē][r]t
+SFX %   0   ošos     [^āē][r]t
+SFX %   0   ošs      [^āē][r]t
+SFX %   0   ošu      [^āē][r]t
+SFX %   0   ošus     [^āē][r]t
+SFX %   0   ams      [^āē][r]t
+SFX %   0   ama      [^āē][r]t
+SFX %   0   amā      [^āē][r]t
+SFX %   0   amai     [^āē][r]t
+SFX %   0   amais    [^āē][r]t
+SFX %   0   amajā    [^āē][r]t
+SFX %   0   amajai   [^āē][r]t
+SFX %   0   amajam   [^āē][r]t
+SFX %   0   amajām   [^āē][r]t
+SFX %   0   amajās   [^āē][r]t
+SFX %   0   amajiem  [^āē][r]t
+SFX %   0   amajos   [^āē][r]t
+SFX %   0   amam     [^āē][r]t
+SFX %   0   amām     [^āē][r]t
+SFX %   0   amas     [^āē][r]t
+SFX %   0   amās     [^āē][r]t
+SFX %   0   ami      [^āē][r]t
+SFX %   0   amie     [^āē][r]t
+SFX %   0   amiem    [^āē][r]t
+SFX %   0   amo      [^āē][r]t
+SFX %   0   amos     [^āē][r]t
+SFX %   0   amu      [^āē][r]t
+SFX %   0   amus     [^āē][r]t
+SFX %   gt   dzoša      [g]t
+SFX %   gt   dzošā      [g]t
+SFX %   gt   dzošai     [g]t
+SFX %   gt   dzošais    [g]t
+SFX %   gt   dzošajā    [g]t
+SFX %   gt   dzošajai   [g]t
+SFX %   gt   dzošajam   [g]t
+SFX %   gt   dzošajām   [g]t
+SFX %   gt   dzošajās   [g]t
+SFX %   gt   dzošajiem  [g]t
+SFX %   gt   dzošajos   [g]t
+SFX %   gt   dzošam     [g]t
+SFX %   gt   dzošām     [g]t
+SFX %   gt   dzošas     [g]t
+SFX %   gt   dzošās     [g]t
+SFX %   gt   dzoši      [g]t
+SFX %   gt   dzošie     [g]t
+SFX %   gt   dzošiem    [g]t
+SFX %   gt   dzošo      [g]t
+SFX %   gt   dzošos     [g]t
+SFX %   gt   dzošs      [g]t
+SFX %   gt   dzošu      [g]t
+SFX %   gt   dzošus     [g]t
+SFX %   gt   dzams      [g]t
+SFX %   gt   dzama      [g]t
+SFX %   gt   dzamā      [g]t
+SFX %   gt   dzamai     [g]t
+SFX %   gt   dzamais    [g]t
+SFX %   gt   dzamajā    [g]t
+SFX %   gt   dzamajai   [g]t
+SFX %   gt   dzamajam   [g]t
+SFX %   gt   dzamajām   [g]t
+SFX %   gt   dzamajās   [g]t
+SFX %   gt   dzamajiem  [g]t
+SFX %   gt   dzamajos   [g]t
+SFX %   gt   dzamam     [g]t
+SFX %   gt   dzamām     [g]t
+SFX %   gt   dzamas     [g]t
+SFX %   gt   dzamās     [g]t
+SFX %   gt   dzami      [g]t
+SFX %   gt   dzamie     [g]t
+SFX %   gt   dzamiem    [g]t
+SFX %   gt   dzamo      [g]t
+SFX %   gt   dzamos     [g]t
+SFX %   gt   dzamu      [g]t
+SFX %   gt   dzamus     [g]t
+SFX %   kt   coša      [k]t
+SFX %   kt   cošā      [k]t
+SFX %   kt   cošai     [k]t
+SFX %   kt   cošais    [k]t
+SFX %   kt   cošajā    [k]t
+SFX %   kt   cošajai   [k]t
+SFX %   kt   cošajam   [k]t
+SFX %   kt   cošajām   [k]t
+SFX %   kt   cošajās   [k]t
+SFX %   kt   cošajiem  [k]t
+SFX %   kt   cošajos   [k]t
+SFX %   kt   cošam     [k]t
+SFX %   kt   cošām     [k]t
+SFX %   kt   cošas     [k]t
+SFX %   kt   cošās     [k]t
+SFX %   kt   coši      [k]t
+SFX %   kt   cošie     [k]t
+SFX %   kt   cošiem    [k]t
+SFX %   kt   cošo      [k]t
+SFX %   kt   cošos     [k]t
+SFX %   kt   cošs      [k]t
+SFX %   kt   cošu      [k]t
+SFX %   kt   cošus     [k]t
+SFX %   kt   cams      [k]t
+SFX %   kt   cama      [k]t
+SFX %   kt   camā      [k]t
+SFX %   kt   camai     [k]t
+SFX %   kt   camais    [k]t
+SFX %   kt   camajā    [k]t
+SFX %   kt   camajai   [k]t
+SFX %   kt   camajam   [k]t
+SFX %   kt   camajām   [k]t
+SFX %   kt   camajās   [k]t
+SFX %   kt   camajiem  [k]t
+SFX %   kt   camajos   [k]t
+SFX %   kt   camam     [k]t
+SFX %   kt   camām     [k]t
+SFX %   kt   camas     [k]t
+SFX %   kt   camās     [k]t
+SFX %   kt   cami      [k]t
+SFX %   kt   camie     [k]t
+SFX %   kt   camiem    [k]t
+SFX %   kt   camo      [k]t
+SFX %   kt   camos     [k]t
+SFX %   kt   camu      [k]t
+SFX %   kt   camus     [k]t
+SFX %   ārt   aroša      [ā]rt
+SFX %   ārt   arošā      [ā]rt
+SFX %   ārt   arošai     [ā]rt
+SFX %   ārt   arošais    [ā]rt
+SFX %   ārt   arošajā    [ā]rt
+SFX %   ārt   arošajai   [ā]rt
+SFX %   ārt   arošajam   [ā]rt
+SFX %   ārt   arošajām   [ā]rt
+SFX %   ārt   arošajās   [ā]rt
+SFX %   ārt   arošajiem  [ā]rt
+SFX %   ārt   arošajos   [ā]rt
+SFX %   ārt   arošam     [ā]rt
+SFX %   ārt   arošām     [ā]rt
+SFX %   ārt   arošas     [ā]rt
+SFX %   ārt   arošās     [ā]rt
+SFX %   ārt   aroši      [ā]rt
+SFX %   ārt   arošie     [ā]rt
+SFX %   ārt   arošiem    [ā]rt
+SFX %   ārt   arošo      [ā]rt
+SFX %   ārt   arošos     [ā]rt
+SFX %   ārt   arošs      [ā]rt
+SFX %   ārt   arošu      [ā]rt
+SFX %   ārt   arošus     [ā]rt
+SFX %   ārt   arams      [ā]rt
+SFX %   ārt   arama      [ā]rt
+SFX %   ārt   aramā      [ā]rt
+SFX %   ārt   aramai     [ā]rt
+SFX %   ārt   aramais    [ā]rt
+SFX %   ārt   aramajā    [ā]rt
+SFX %   ārt   aramajai   [ā]rt
+SFX %   ārt   aramajam   [ā]rt
+SFX %   ārt   aramajām   [ā]rt
+SFX %   ārt   aramajās   [ā]rt
+SFX %   ārt   aramajiem  [ā]rt
+SFX %   ārt   aramajos   [ā]rt
+SFX %   ārt   aramam     [ā]rt
+SFX %   ārt   aramām     [ā]rt
+SFX %   ārt   aramas     [ā]rt
+SFX %   ārt   aramās     [ā]rt
+SFX %   ārt   arami      [ā]rt
+SFX %   ārt   aramie     [ā]rt
+SFX %   ārt   aramiem    [ā]rt
+SFX %   ārt   aramo      [ā]rt
+SFX %   ārt   aramos     [ā]rt
+SFX %   ārt   aramu      [ā]rt
+SFX %   ārt   aramus     [ā]rt
+SFX %   ērt   eroša      [ē]rt
+SFX %   ērt   erošā      [ē]rt
+SFX %   ērt   erošai     [ē]rt
+SFX %   ērt   erošais    [ē]rt
+SFX %   ērt   erošajā    [ē]rt
+SFX %   ērt   erošajai   [ē]rt
+SFX %   ērt   erošajam   [ē]rt
+SFX %   ērt   erošajām   [ē]rt
+SFX %   ērt   erošajās   [ē]rt
+SFX %   ērt   erošajiem  [ē]rt
+SFX %   ērt   erošajos   [ē]rt
+SFX %   ērt   erošam     [ē]rt
+SFX %   ērt   erošām     [ē]rt
+SFX %   ērt   erošas     [ē]rt
+SFX %   ērt   erošās     [ē]rt
+SFX %   ērt   eroši      [ē]rt
+SFX %   ērt   erošie     [ē]rt
+SFX %   ērt   erošiem    [ē]rt
+SFX %   ērt   erošo      [ē]rt
+SFX %   ērt   erošos     [ē]rt
+SFX %   ērt   erošs      [ē]rt
+SFX %   ērt   erošu      [ē]rt
+SFX %   ērt   erošus     [ē]rt
+SFX %   ērt   erams      [ē]rt
+SFX %   ērt   erama      [ē]rt
+SFX %   ērt   eramā      [ē]rt
+SFX %   ērt   eramai     [ē]rt
+SFX %   ērt   eramais    [ē]rt
+SFX %   ērt   eramajā    [ē]rt
+SFX %   ērt   eramajai   [ē]rt
+SFX %   ērt   eramajam   [ē]rt
+SFX %   ērt   eramajām   [ē]rt
+SFX %   ērt   eramajās   [ē]rt
+SFX %   ērt   eramajiem  [ē]rt
+SFX %   ērt   eramajos   [ē]rt
+SFX %   ērt   eramam     [ē]rt
+SFX %   ērt   eramām     [ē]rt
+SFX %   ērt   eramas     [ē]rt
+SFX %   ērt   eramās     [ē]rt
+SFX %   ērt   erami      [ē]rt
+SFX %   ērt   eramie     [ē]rt
+SFX %   ērt   eramiem    [ē]rt
+SFX %   ērt   eramo      [ē]rt
+SFX %   ērt   eramos     [ē]rt
+SFX %   ērt   eramu      [ē]rt
+SFX %   ērt   eramus     [ē]rt
+
+#
+#Divdabji is/usi // ušais/usī
+#
+SFX e Y 25
+SFX e   t   is      t
+SFX e   t   uša     t
+SFX e   t   ušam    t
+SFX e   t   ušu     t
+SFX e   t   ušā     t
+SFX e   t   usi     t
+SFX e   t   ušas    t
+SFX e   t   ušai    t
+SFX e   t   uši     t
+SFX e   t   ušiem   t
+SFX e   t   ušus    t
+SFX e   t   ušos    t
+SFX e   t   ušām    t
+SFX e   t   ušās    t
+SFX e   t   ušais   t
+SFX e   t   ušajam  t
+SFX e   t   ušo     t
+SFX e   t   ušajā   t
+SFX e   t   usī     t
+SFX e   t   ušajai  t
+SFX e   t   ušie    t
+SFX e   t   ušajiem t
+SFX e   t   ušajos  t
+SFX e   t   ušajām  t
+SFX e   t   ušajās  t
+
+
+#arī īt - no V grupas
+SFX a Y 177
+SFX a   t   is      [^gīklū]t
+SFX a   t   uša     [^lūī]t
+SFX a   t   ušam    [^lūī]t
+SFX a   t   ušu     [^lūī]t
+SFX a   t   ušā     [^lūī]t
+SFX a   t   usi     [^lūī]t
+SFX a   t   ušas    [^lūī]t
+SFX a   t   ušai    [^lūī]t
+SFX a   t   uši     [^lūī]t
+SFX a   t   ušiem   [^lūī]t
+SFX a   t   ušus    [^lūī]t
+SFX a   t   ušos    [^lūī]t
+SFX a   t   ušām    [^lūī]t
+SFX a   t   ušās    [^lūī]t
+SFX a   t   ušais   [^lūī]t
+SFX a   t   ušajam  [^lūī]t
+SFX a   t   ušo     [^lūī]t
+SFX a   t   ušajā   [^lūī]t
+SFX a   t   usī     [^lūī]t
+SFX a   t   ušajai  [^lūī]t
+SFX a   t   ušie    [^lūī]t
+SFX a   t   ušajiem [^lūī]t
+SFX a   t   ušajos  [^lūī]t
+SFX a   t   ušajām  [^lūī]t
+SFX a   t   ušajās  [^lūī]t
+SFX a   kt  cis     [k]t
+SFX a   gt  dzis    [g]t
+SFX a   ūt   uvis      [ū]t
+SFX a   ūt   uvuša     [ū]t
+SFX a   ūt   uvušam    [ū]t
+SFX a   ūt   uvušu     [ū]t
+SFX a   ūt   uvušā     [ū]t
+SFX a   ūt   uvusi     [ū]t
+SFX a   ūt   uvušas    [ū]t
+SFX a   ūt   uvušai    [ū]t
+SFX a   ūt   uvuši     [ū]t
+SFX a   ūt   uvušiem   [ū]t
+SFX a   ūt   uvušus    [ū]t
+SFX a   ūt   uvušos    [ū]t
+SFX a   ūt   uvušām    [ū]t
+SFX a   ūt   uvušās    [ū]t
+SFX a   ūt   uvušais   [ū]t
+SFX a   ūt   uvušajam  [ū]t
+SFX a   ūt   uvušo     [ū]t
+SFX a   ūt   uvušajā   [ū]t
+SFX a   ūt   uvusī     [ū]t
+SFX a   ūt   uvušajai  [ū]t
+SFX a   ūt   uvušie    [ū]t
+SFX a   ūt   uvušajiem [ū]t
+SFX a   ūt   uvušajos  [ū]t
+SFX a   ūt   uvušajām  [ū]t
+SFX a   ūt   uvušajās  [ū]t
+SFX a   īt   inis      [ī]t
+SFX a   īt   inuša     [ī]t
+SFX a   īt   inušam    [ī]t
+SFX a   īt   inušu     [ī]t
+SFX a   īt   inušā     [ī]t
+SFX a   īt   inusi     [ī]t
+SFX a   īt   inušas    [ī]t
+SFX a   īt   inušai    [ī]t
+SFX a   īt   inuši     [ī]t
+SFX a   īt   inušiem   [ī]t
+SFX a   īt   inušus    [ī]t
+SFX a   īt   inušos    [ī]t
+SFX a   īt   inušām    [ī]t
+SFX a   īt   inušās    [ī]t
+SFX a   īt   inušais   [ī]t
+SFX a   īt   inušajam  [ī]t
+SFX a   īt   inušo     [ī]t
+SFX a   īt   inušajā   [ī]t
+SFX a   īt   inusī     [ī]t
+SFX a   īt   inušajai  [ī]t
+SFX a   īt   inušie    [ī]t
+SFX a   īt   inušajiem [ī]t
+SFX a   īt   inušajos  [ī]t
+SFX a   īt   inušajām  [ī]t
+SFX a   īt   inušajās  [ī]t
+SFX a   t   is      [^eiu]lt
+SFX a   t   uša     [^eiu]lt
+SFX a   t   ušam    [^eiu]lt
+SFX a   t   ušu     [^eiu]lt
+SFX a   t   ušā     [^eiu]lt
+SFX a   t   usi     [^eiu]lt
+SFX a   t   ušas    [^eiu]lt
+SFX a   t   ušai    [^eiu]lt
+SFX a   t   uši     [^eiu]lt
+SFX a   t   ušiem   [^eiu]lt
+SFX a   t   ušus    [^eiu]lt
+SFX a   t   ušos    [^eiu]lt
+SFX a   t   ušām    [^eiu]lt
+SFX a   t   ušās    [^eiu]lt
+SFX a   t   ušais   [^eiu]lt
+SFX a   t   ušajam  [^eiu]lt
+SFX a   t   ušo     [^eiu]lt
+SFX a   t   ušajā   [^eiu]lt
+SFX a   t   usī     [^eiu]lt
+SFX a   t   ušajai  [^eiu]lt
+SFX a   t   ušie    [^eiu]lt
+SFX a   t   ušajiem [^eiu]lt
+SFX a   t   ušajos  [^eiu]lt
+SFX a   t   ušajām  [^eiu]lt
+SFX a   t   ušajās  [^eiu]lt
+SFX a   elt   ēlis      [e]lt
+SFX a   elt   ēluša     [e]lt
+SFX a   elt   ēlušam    [e]lt
+SFX a   elt   ēlušu     [e]lt
+SFX a   elt   ēlušā     [e]lt
+SFX a   elt   ēlusi     [e]lt
+SFX a   elt   ēlušas    [e]lt
+SFX a   elt   ēlušai    [e]lt
+SFX a   elt   ēluši     [e]lt
+SFX a   elt   ēlušiem   [e]lt
+SFX a   elt   ēlušus    [e]lt
+SFX a   elt   ēlušos    [e]lt
+SFX a   elt   ēlušām    [e]lt
+SFX a   elt   ēlušās    [e]lt
+SFX a   elt   ēlušais   [e]lt
+SFX a   elt   ēlušajam  [e]lt
+SFX a   elt   ēlušo     [e]lt
+SFX a   elt   ēlušajā   [e]lt
+SFX a   elt   ēlusī     [e]lt
+SFX a   elt   ēlušajai  [e]lt
+SFX a   elt   ēlušie    [e]lt
+SFX a   elt   ēlušajiem [e]lt
+SFX a   elt   ēlušajos  [e]lt
+SFX a   elt   ēlušajām  [e]lt
+SFX a   elt   ēlušajās  [e]lt
+SFX a   ilt   īlis      [i]lt
+SFX a   ilt   īluša     [i]lt
+SFX a   ilt   īlušam    [i]lt
+SFX a   ilt   īlušu     [i]lt
+SFX a   ilt   īlušā     [i]lt
+SFX a   ilt   īlusi     [i]lt
+SFX a   ilt   īlušas    [i]lt
+SFX a   ilt   īlušai    [i]lt
+SFX a   ilt   īluši     [i]lt
+SFX a   ilt   īlušiem   [i]lt
+SFX a   ilt   īlušus    [i]lt
+SFX a   ilt   īlušos    [i]lt
+SFX a   ilt   īlušām    [i]lt
+SFX a   ilt   īlušās    [i]lt
+SFX a   ilt   īlušais   [i]lt
+SFX a   ilt   īlušajam  [i]lt
+SFX a   ilt   īlušo     [i]lt
+SFX a   ilt   īlušajā   [i]lt
+SFX a   ilt   īlusī     [i]lt
+SFX a   ilt   īlušajai  [i]lt
+SFX a   ilt   īlušie    [i]lt
+SFX a   ilt   īlušajiem [i]lt
+SFX a   ilt   īlušajos  [i]lt
+SFX a   ilt   īlušajām  [i]lt
+SFX a   ilt   īlušajās  [i]lt
+SFX a   ult   ūlis      [u]lt
+SFX a   ult   ūluša     [u]lt
+SFX a   ult   ūlušam    [u]lt
+SFX a   ult   ūlušu     [u]lt
+SFX a   ult   ūlušā     [u]lt
+SFX a   ult   ūlusi     [u]lt
+SFX a   ult   ūlušas    [u]lt
+SFX a   ult   ūlušai    [u]lt
+SFX a   ult   ūluši     [u]lt
+SFX a   ult   ūlušiem   [u]lt
+SFX a   ult   ūlušus    [u]lt
+SFX a   ult   ūlušos    [u]lt
+SFX a   ult   ūlušām    [u]lt
+SFX a   ult   ūlušās    [u]lt
+SFX a   ult   ūlušais   [u]lt
+SFX a   ult   ūlušajam  [u]lt
+SFX a   ult   ūlušo     [u]lt
+SFX a   ult   ūlušajā   [u]lt
+SFX a   ult   ūlusī     [u]lt
+SFX a   ult   ūlušajai  [u]lt
+SFX a   ult   ūlušie    [u]lt
+SFX a   ult   ūlušajiem [u]lt
+SFX a   ult   ūlušajos  [u]lt
+SFX a   ult   ūlušajām  [u]lt
+SFX a   ult   ūlušajās  [u]lt
+
+SFX b  Y 25
+SFX b   t   jis      t
+SFX b   t   juša     t
+SFX b   t   jušam    t
+SFX b   t   jušu     t
+SFX b   t   jušā     t
+SFX b   t   jusi     t
+SFX b   t   jušas    t
+SFX b   t   jušai    t
+SFX b   t   juši     t
+SFX b   t   jušiem   t
+SFX b   t   jušus    t
+SFX b   t   jušos    t
+SFX b   t   jušām    t
+SFX b   t   jušās    t
+SFX b   t   jušais   t
+SFX b   t   jušajam  t
+SFX b   t   jušo     t
+SFX b   t   jušajā   t
+SFX b   t   jusī     t
+SFX b   t   jušajai  t
+SFX b   t   jušie    t
+SFX b   t   jušajiem t
+SFX b   t   jušajos  t
+SFX b   t   jušajām  t
+SFX b   t   jušajās  t
+
+SFX I Y 23
+SFX I  t    ts      t
+SFX I  t    ta      t
+SFX I  t    tai     t
+SFX I  t    tais    t
+SFX I  t    tajai   t
+SFX I  t    tajam   t
+SFX I  t    tajiem  t
+SFX I  t    tajos   t
+SFX I  t    tajā    t
+SFX I  t    tajām   t
+SFX I  t    tajās   t
+SFX I  t    tam     t
+SFX I  t    tas     t
+SFX I  t    ti      t
+SFX I  t    tie     t
+SFX I  t    tiem    t
+SFX I  t    to      t
+SFX I  t    tos     t
+SFX I  t    tus     t
+SFX I  t    tā      t
+SFX I  t    tām     t
+SFX I  t    tās     t
+SFX I  t    tu      t
+
+SFX 0 Y 1
+SFX 0   0     u     t
+
+SFX J Y 21
+SFX J  t   šana   [^sz]t
+SFX J  t   šanas  [^sz]t
+SFX J  t   šanai  [^sz]t
+SFX J  t   šanu   [^sz]t
+SFX J  t   šanā   [^sz]t
+SFX J  t   šanās  [^sz]t
+SFX J  t   šanām  [^sz]t
+SFX J  st  šana   [s]t
+SFX J  st  šanas  [s]t
+SFX J  st  šanai  [s]t
+SFX J  st  šanu   [s]t
+SFX J  st  šanā   [s]t
+SFX J  st  šanās  [s]t
+SFX J  st  šanām  [s]t
+SFX J  zt  šana   [z]t
+SFX J  zt  šanas  [z]t
+SFX J  zt  šanai  [z]t
+SFX J  zt  šanu   [z]t
+SFX J  zt  šanā   [z]t
+SFX J  zt  šanās  [z]t
+SFX J  zt  šanām  [z]t
+
+
+SFX d Y 16
+SFX d   0   ies      t   # IIk refl
+SFX d   t   šos      [^sz]t     #Nākotne refleksīvajiem
+SFX d   t   sies     [^sz]t     #2, 3 p.
+SFX d   t   simies   [^sz]t
+SFX d   t   sieties  [^sz]t
+SFX d   t   sities   [^sz]t
+SFX d   t   īšos     [z]t
+SFX d   t   īsies    [z]t
+SFX d   t   īsimies  [z]t
+SFX d   t   īsieties [z]t
+SFX d   t   īsities  [z]t
+SFX d   st  tīšos     [s]t     #domājams, ka atbilst Ik st 
+SFX d   st  tīsies    [s]t     #galotņu īpašnieku vēlmēm
+SFX d   st  tīsimies  [s]t
+SFX d   st  tīsieties [s]t
+SFX d   st  tīsities  [s]t     # --- beigas nākotnei
+
+SFX g Y 7
+SFX g   t   jos     [āēīoū]t    #--- pagātne -----
+SFX g   t   jies    [āēīoū]t
+SFX g   t   jās     [āēīoū]t
+SFX g   t   jāmies  [āēīoū]t
+SFX g   t   jāties  [āēīoū]t    #--- beigas pagātnei
+SFX g   0   os      [āēīoū]t    #ciešamā kārta
+SFX g   t   šoties  [āēīoū]t    #atst.izt.v.nak.
+
+# I konj. I grupas tagadne
+SFX 8 Y 11
+SFX 8   t   u       t           # I vsk
+SFX 8   t   i       [^gk]t      # II vsk
+SFX 8   gt  dz      [g]t        # II vsk
+SFX 8   kt  c       [k]t        # II vsk
+SFX 8   t   0       t           # III vsk
+SFX 8   t   am      t           # I dsk
+SFX 8   t   at      t           # II dsk
+SFX 8   t   iet     [^gk]t      # pav.dsk
+SFX 8   gt  dziet   [g]t        # pav. dsk
+SFX 8   kt  ciet    [k]t        # pav.dsk
+SFX 8   t   ot      t           # II dsk
+
+SFX O Y 9
+SFX O   s     a     [s]    #ģenitivs vsk
+SFX O   s     am    [s]    #datīvs vsk
+SFX O   s     u     [s]    #akuzatīvs un instrum.
+SFX O   s     ā     [s]    #lokatīvs vsk
+SFX O   s     0     [s]    #vokatīvs vsk
+SFX O   š     a     [š]    #ģenitivs vsk
+SFX O   š     am    [š]    #dativs vsk
+SFX O   š     u     [š]    #akuzativs un instrum.
+SFX O   š     ā     [š]    #lokativs vsk
+
+#lietvārdi I.deklinācija - galds, vējš, dsk.
+SFX i Y 8
+SFX i   s     i     [s]    #nominatĪvs
+SFX i   s     iem   [s]    #datĪvs
+SFX i   s     us    [s]    #akuzatĪvs
+SFX i   s     os    [s]    #lokatĪvs
+SFX i   š     i     [š]    #nominativs
+SFX i   š     iem   [š]    #datĪvs
+SFX i   š     us    [š]    #akuzativs
+SFX i   š     os    [š]    #lokatĪvs
+
+SFX t Y 24
+SFX t   s     iņ    [^gk]s    #vokatīvs
+SFX t   gs    dziņ  [g]s      #vokatīvs
+SFX t   ks    ciņ   [k]s      #vokatīvs
+SFX t   s     iņš   [^gk]s    #viensk. nom.
+SFX t   s     iņa   [^gk]s    #ģenitīvs, d. nom.
+SFX t   s     iņam  [^gk]s    #dativs
+SFX t   s     iņu   [^gk]s    #akuzativs, instr, d.ģen.,
+SFX t   s     iņā   [^gk]s    #lokativs
+SFX t   gs    dziņš   [g]s    #viensk. nom. - zirgs-zirdziņš
+SFX t   gs    dziņa   [g]s    #ģenitīvs, d. nom.
+SFX t   gs    dziņam  [g]s    #dativs
+SFX t   gs    dziņu   [g]s    #akuzativs, instr, d.ģen.,
+SFX t   gs    dziņā   [g]s    #lokativs
+SFX t   ks    ciņš    [k]s    #viensk. nom. spoks-spociņš
+SFX t   ks    ciņa    [k]s    #ģenitīvs, d. nom.
+SFX t   ks    ciņam   [k]s    #dativs
+SFX t   ks    ciņu    [k]s    #akuzativs, instr, d.ģen.,
+SFX t   ks    ciņā    [k]s    #lokativs
+SFX t   š     iņš     [š]     #viensk. nom.
+SFX t   š     iņa     [š]     #ģenitīvs, d. nom.
+SFX t   š     iņam    [š]     #dativs
+SFX t   š     iņu     [š]     #akuzativs, instr, d.ģen.,
+SFX t   š     iņā     [š]     #lokativs
+SFX t   š     iņ      [š]     #vokatīvs
+
+#lietvārdi I.deklinācija - galds, vējš, pamaz. dsk.
+SFX v Y 16
+SFX v   s     iņi   [^gk]s    #dsk. nom.
+SFX v   s     iņus  [^gk]s    #dsk. akuzativs,.
+SFX v   s     iņiem [^gk]s    #dativs, instr
+SFX v   s     iņos  [^gk]s    #lokativs
+SFX v   gs    dziņi   [g]s    #dsk. nom.
+SFX v   gs    dziņus  [g]s    #dsk. akuzativs,.
+SFX v   gs    dziņiem [g]s    #dativs, instr
+SFX v   gs    dziņos  [g]s    #lokativs
+SFX v   ks    ciņi    [k]s    #dsk. nom.
+SFX v   ks    ciņus   [k]s    #dsk. akuzativs,.
+SFX v   ks    ciņiem  [k]s    #dativs, instr
+SFX v   ks    ciņos   [k]s    #lokativs
+SFX v   š     iņi     [š]     #dsk. nom.
+SFX v   š     iņus    [š]     #dsk. akuzativs
+SFX v   š     iņiem   [š]     #dativs, instr
+SFX v   š     iņos    [š]     #lokativs
+
+SFX P Y 22
+SFX P   is    a      [^bcdlmnpvtsz]is  #ģenitīvs
+SFX P   is    ja     [bpmv]is
+SFX P   cis   ča     [c]is
+SFX P   dis   ža     [d]is
+SFX P   sis   ša     [s]is
+SFX P   tis   ša     [^a][t]is
+SFX P   is    a      [a][t]is      #ģen. tālskatis piem.
+SFX P   zis   ža     [z]is
+SFX P   nis   ņa     [^lsz][n]is
+SFX P   lis   ļa     [^lsz][l]is
+SFX P   lnis  ļņa    [l]nis
+SFX P   snis  šņa    [s]nis
+SFX P   znis  žņa    [z]nis
+SFX P   llis  ļļa    [l]lis
+SFX P   slis  šļa    [s]lis
+SFX P   zlis  žļa    [z]lis
+SFX P   s     m      [i]s        #datīvs
+SFX P   s     0      [i]s        #akuzatīvs, instrumentālis
+SFX P   is    ī      [i]s        #lokatīvs
+SFX P   s     im     [lns]s      #dat suns, mēness
+SFX P   s     i      [lns]s      #akk, instr vsk suns
+SFX P   s     ī      [lns]s      #lok
+
+#lietvārdi II.deklinācija dsk.
+SFX j Y 85
+SFX j   is    ji     [bpmv]is   #dsk nominatīvs
+SFX j   is    i      [ģrķ]is
+SFX j   tis   ši     [^a][t]is
+SFX j   is    i      [a][t]is     #tālskatis
+SFX j   cis   či     [c]is
+SFX j   dis   ži     [d]is
+SFX j   zis   ži     [z]is
+SFX j   sis   ši     [s]is
+SFX j   nis   ņi     [^lsz][n]is
+SFX j   lis   ļi     [^lsz][l]is
+SFX j   lnis  ļņi    [l]nis
+SFX j   snis  šņi    [s]nis
+SFX j   znis  žņi    [z]nis
+SFX j   llis  ļļi    [l]lis
+SFX j   slis  šļi    [s]lis
+SFX j   zlis  žļi    [z]lis
+SFX j   ns    ņi     [n]s         #suņi
+SFX j   is    ju     [bpmv]is   #dsk ģenitīvs
+SFX j   is    u      [ģrķ]is
+SFX j   tis   šu     [^a][t]is
+SFX j   is    u      [a][t]is     #tālskatis
+SFX j   cis   ču     [c]is
+SFX j   dis   žu     [d]is
+SFX j   zis   žu     [z]is
+SFX j   sis   šu     [s]is
+SFX j   nis   ņu     [^lsz][n]is
+SFX j   lis   ļu     [^lsz][l]is
+SFX j   lnis  ļņu    [l]nis
+SFX j   snis  šņu    [s]nis
+SFX j   znis  žņu    [z]nis
+SFX j   llis  ļļu    [l]lis
+SFX j   slis  šļu    [s]lis
+SFX j   zlis  žļu    [z]lis
+SFX j   ns    ņu     [n]s          #suņu
+SFX j   is    jiem   [bpmv]is   #dsk datīvs, instrumentālis
+SFX j   s     em     [ģrķ]is
+SFX j   tis   šiem   [^a][t]is
+SFX j   is    iem    [a][t]is      #tālskatis
+SFX j   cis   čiem   [c]is
+SFX j   dis   žiem   [d]is
+SFX j   zis   žiem   [z]is
+SFX j   sis   šiem   [s]is
+SFX j   nis   ņiem   [^lsz][n]is
+SFX j   lis   ļiem   [^lsz][l]is
+SFX j   lnis  ļņiem  [l]nis
+SFX j   snis  šņiem  [s]nis
+SFX j   znis  žņiem  [z]nis
+SFX j   llis  ļļiem  [l]lis
+SFX j   slis  šļiem  [s]lis
+SFX j   zlis  žļiem  [z]lis
+SFX j   ns    ņiem   [n]s         #suņiem
+SFX j   is    jus    [bpmv]is   #dsk akuzatīvs
+SFX j   is    us     [ģrķ]is
+SFX j   tis   šus    [^a][t]is
+SFX j   is    us     [a][t]is     #tālskatis
+SFX j   cis   čus    [c]is
+SFX j   dis   žus    [d]is
+SFX j   zis   žus    [z]is
+SFX j   sis   šus    [s]is
+SFX j   nis   ņus    [^lsz][n]is
+SFX j   lis   ļus    [^lsz][l]is
+SFX j   lnis  ļņus   [l]nis
+SFX j   snis  šņus   [s]nis
+SFX j   znis  žņus   [z]nis
+SFX j   llis  ļļus   [l]lis
+SFX j   slis  šļus   [s]lis
+SFX j   zlis  žļus   [z]lis
+SFX j   ns    ņus    [n]s        #suņus
+SFX j   is    jos    [bpmv]is  #dsk lokatīvs
+SFX j   is    os     [ģrķ]is
+SFX j   tis   šos    [^a][t]is
+SFX j   is    os     [a][t]is    #tālskatis
+SFX j   cis   čos    [c]is
+SFX j   dis   žos    [d]is
+SFX j   zis   žos    [z]is
+SFX j   sis   šos    [s]is
+SFX j   nis   ņos    [^lsz][n]is
+SFX j   lis   ļos    [^lsz][l]is
+SFX j   lnis  ļņos   [l]nis
+SFX j   snis  šņos   [s]nis
+SFX j   znis  žņos   [z]nis
+SFX j   llis  ļļos   [l]lis
+SFX j   slis  šļos   [s]lis
+SFX j   zlis  žļos   [z]lis
+SFX j   ns    ņos    [n]s       #suņos
+
+SFX u Y 6
+SFX u   is     ītis  [i]s      #viensk. nom.
+SFX u   is     īša   [i]s      #v. ģenitīvs, d. nom.
+SFX u   is     ītim  [i]s      #v. dativs
+SFX u   is     īti   [i]s      #v. akuzativs, instr,
+SFX u   is     ītī   [i]s      #v. lokativs
+SFX u   is     īt    [i]s      #v. vokativs
+
+SFX w Y 5
+SFX w   is     īši   [i]s      #viensk. nom.
+SFX w   is     īšu   [i]s      #d. ģenitīvs,
+SFX w   is     īšiem [i]s      #d. dativs, d. instr.
+SFX w   is     īšus  [i]s      #d. akuzativs
+SFX w   is     īšos  [i]s      #d. lokatīvs
+
+SFX Q Y 3
+SFX Q   s     m     [u]s
+SFX Q   s     0     [u]s
+SFX Q   us    ū     [s]
+
+#lietvārdi III deklinācija dsk.
+SFX k Y 3
+SFX k   us    i     [s]
+SFX k   us    iem   [s]
+SFX k   us    os    [s]
+
+#lietvārdi IV.deklinācija - sala
+#nouns, 4th declination, fem.
+SFX R Y 4
+SFX R   0     s     a
+SFX R   0     i     a
+SFX R   a     u     a
+SFX R   a     ā     a
+
+#lietvārdi IV.deklinācija dsk.
+SFX l Y 2
+SFX l   a     ām    a
+SFX l   a     ās    a
+
+SFX r Y 20
+SFX r   a     iņa   [^gk]a
+SFX r   a     iņas  [^gk]a
+SFX r   a     iņai  [^gk]a
+SFX r   a     iņu   [^gk]a
+SFX r   a     iņā   [^gk]a
+SFX r   ga    dziņa   [g]a
+SFX r   ga    dziņas  [g]a
+SFX r   ga    dziņai  [g]a
+SFX r   ga    dziņu   [g]a
+SFX r   ga    dziņā   [g]a
+SFX r   ka    ciņa   [^s]ka
+SFX r   ka    ciņas  [^s]ka
+SFX r   ka    ciņai  [^s]ka
+SFX r   ka    ciņu   [^s]ka
+SFX r   ka    ciņā   [^s]ka
+SFX r   a     iņa     [s]ka
+SFX r   a     iņas    [s]ka
+SFX r   a     iņai    [s]ka
+SFX r   a     iņu     [s]ka
+SFX r   a     iņā     [s]ka
+
+
+#lietvārdi IV.deklinācija dsk.
+SFX x Y 8
+SFX x   a     iņām   [^gk]a
+SFX x   a     iņās   [^gk]a
+SFX x   ga    dziņām   [g]a
+SFX x   ga    dziņās   [g]a
+SFX x   ka    ciņām   [^s]ka
+SFX x   ka    ciņās   [^s]ka
+SFX x   a     iņām    [s]ka
+SFX x   a     iņās    [s]ka
+
+SFX S Y 4
+SFX S   0     s    e
+SFX S   0     i    [e]
+SFX S   e     i    [e]
+SFX S   e     ē    [e]
+
+#Vd dsk.
+SFX m Y 16
+SFX m   e     u    [^bcdlmnpstvz]e
+SFX m   e     ju   [bmpv]e
+SFX m   ce    ču   [c]e
+SFX m   de    žu   [d]e
+SFX m   le    ļu   [^l]le
+SFX m   lle   ļļu  [l]le
+SFX m   ne    ņu   [^sz][n]e
+SFX m   sne   šņu  [s]ne
+SFX m   zne   žņu  [z]ne
+SFX m   se    šu   [s]e
+SFX m   te    šu   [^s]te
+SFX m   te    tu   [^k]ste
+SFX m   ste   šu   [k]ste
+SFX m   ze    žu   [z]e
+SFX m   e     ēm   [e]
+SFX m   e     ēs   [e]
+
+#Vd-pamaz. vsk.
+SFX s Y 5
+SFX s   e     īte   [e]
+SFX s   e     ītes  [e]
+SFX s   e     ītei  [e]
+SFX s   e     īti   [e]
+SFX s   e     ītē   [e]
+
+#Vd pamaz. dsk.
+SFX f Y 3
+SFX f   e     īšu   [e]
+SFX f   e     ītēm  [e]
+SFX f   e     ītēs  [e]
+
+#lietvārdi VI.deklinācija - sirds
+SFX T Y 3
+SFX T   s     ij   [s]
+SFX T   s     i    [s]
+SFX T   s     ī    [s]
+
+#lietvārdi VI.deklinācija dsk.
+SFX n Y 13
+SFX n   s     is   [s]
+SFX n   s     u    [^dlntsvz]s
+SFX n   ds    žu   [d]s
+SFX n   ls    ļu   [l]s
+SFX n   ns    ņu   [^s]ns
+SFX n   sns   šņu  [s]ns
+SFX n   s     ju   [v]s
+SFX n   zs    žu   [z]s
+SFX n   s     īm   [s]
+SFX n   s     īs   [s]
+SFX n   s     u    [s]s
+SFX n   ts    šu   [^āuūrs]ts
+SFX n   ts    tu   [āuūrs]ts
+
+
+SFX o Y 38
+SFX o  s     a       [s] #
+SFX o  s     ā       [s] #  IVd vsk
+SFX o  s     i       [s] #   Id dsk
+SFX o  s     u       [s] #  IVd vsk
+SFX o  s     am      [s] #
+SFX o  s     iem     [s] # Id dsk
+SFX o  s     os      [s] # Id dsk
+SFX o  s     us      [s] # Id dsk
+SFX o  s     o       [s]
+SFX o  s     ai      [s] # IVd vsk
+SFX o  s     as      [s] # IVd vsk
+SFX o  s     ās      [s] # IVd dsk
+SFX o  s     ām      [s] # IVd dsk
+SFX o  s     ie      [s]
+SFX o  s     ais     [s]      #not.
+SFX o  s     ajam    [s]
+SFX o  s     ajā     [s]
+SFX o  s     ajai    [s]
+SFX o  s     ajiem   [s]
+SFX o  s     ajos    [s]
+SFX o  s     ajām    [s]
+SFX o  s     ajās    [s]
+SFX o  š     ā       [š] #   Id dsk IVd vsk
+SFX o  š     u       [š] #   Id dsk IVd vsk
+SFX o  š     o       [š]
+SFX o  š     ai      [š] # IVd dsk
+SFX o  š     as      [š] # IVd dsk
+SFX o  š     ās      [š] # IVd dsk
+SFX o  š     ām      [š] # IVd dsk
+SFX o  š     ie      [š]
+SFX o  š     ais     [š]      #not.
+SFX o  š     ajam    [š]
+SFX o  š     ajā     [š]
+SFX o  š     ajai    [š]
+SFX o  š     ajiem   [š]
+SFX o  š     ajos    [š]
+SFX o  š     ajām    [š]
+SFX o  š     ajās    [š]
+
+SFX Y Y 28
+SFX Y  s     āk      [s]
+SFX Y  s     āks     [s]
+SFX Y  s     āka     [s]
+SFX Y  s     ākas    [s]
+SFX Y  s     ākam    [s]
+SFX Y  s     ākai    [s]
+SFX Y  s     āku     [s]
+SFX Y  s     ākā     [s]
+SFX Y  s     āki     [s]
+SFX Y  s     ākiem   [s]
+SFX Y  s     ākām    [s]
+SFX Y  s     ākus    [s]
+SFX Y  s     ākos    [s]
+SFX Y  s     ākās    [s]
+SFX Y  š     āk      [š]
+SFX Y  š     āks     [š]
+SFX Y  š     āka     [š]
+SFX Y  š     ākas    [š]
+SFX Y  š     ākam    [š]
+SFX Y  š     ākai    [š]
+SFX Y  š     āku     [š]
+SFX Y  š     ākā     [š]
+SFX Y  š     āki     [š]
+SFX Y  š     ākiem   [š]
+SFX Y  š     ākām    [š]
+SFX Y  š     ākus    [š]
+SFX Y  š     ākos    [š]
+SFX Y  š     ākās    [š]
+
+SFX a Y 20
+SFX a  s     ākais   [s]
+SFX a  s     ākajam  [s]
+SFX a  s     ākajai  [s]
+SFX a  s     āko     [s]
+SFX a  s     ākajā   [s]
+SFX a  s     ākie    [s]
+SFX a  s     ākajiem [s]
+SFX a  s     ākajām  [s]
+SFX a  s     ākajos  [s]
+SFX a  s     ākajās  [s]
+SFX a  š     ākais   [š]
+SFX a  š     ākajam  [š]
+SFX a  š     ākajai  [š]
+SFX a  š     āko     [š]
+SFX a  š     ākajā   [š]
+SFX a  š     ākie    [š]
+SFX a  š     ākajiem [š]
+SFX a  š     ākajām  [š]
+SFX a  š     ākajos  [š]
+SFX a  š     ākajās  [š]
+
+SFX y Y 12
+SFX y  ais   ā       [a]is
+SFX y  ais   ās      [a]is
+SFX y  is    jam     [a]is
+SFX y  is    jai     [a]is
+SFX y  ais   o       [a]is
+SFX y  is    jā      [a]is
+SFX y  ais   ie      [a]is
+SFX y  is    jiem    [a]is
+SFX y  is    jām     [a]is
+SFX y  ais   os      [a]is
+SFX y  is    jos     [a]is
+SFX y  is    jās     [a]is
+
+SFX q Y 45
+SFX q   i       u     [i]        #skaitļa vardi, kas beidzas ar i
+SFX q   i       as    [i]
+SFX q   i       iem   [i]
+SFX q   i       ām    [i]
+SFX q   i       ās    [i]
+SFX q   i       os    [i]
+SFX q   i       us    [i]
+SFX q   ais     ā     [a]is     #šī daļa apraksta pirmo 10 kārtas sk. vārdu
+SFX q   ais     o     [a]is     #izdarības
+SFX q   ais     ās    [a]is
+SFX q   ais     os    [a]is
+SFX q   ais     ie    [a]is
+SFX q   is      jam   [a]is
+SFX q   is      jā    [a]is
+SFX q   is      jai   [a]is
+SFX q   is      jiem  [a]is
+SFX q   is      jos   [a]is
+SFX q   is      jām   [a]is
+SFX q   is      jās   [a]is
+SFX q   0       ais   [t]        #te sākas vienpadsmit un citi, kas beidzas ar t
+SFX q   0       ā     [t]        
+SFX q   0       o     [t]
+SFX q   0       ās    [t]
+SFX q   0       os    [t]
+SFX q   0       ie    [t]
+SFX q   0       ajam  [t]
+SFX q   0       ajā   [t]
+SFX q   0       ajai  [t]
+SFX q   0       ajiem [t]
+SFX q   0       ajos  [t]
+SFX q   0       ajām  [t]
+SFX q   0       ajās  [t]
+SFX q   š       šais  [š]        #te sākas tie, kas beidzas ar š
+SFX q   0       ā     [š]        
+SFX q   0       o     [š]
+SFX q   0       ās    [š]
+SFX q   0       os    [š]
+SFX q   0       ie    [š]
+SFX q   0       ajam  [š]
+SFX q   0       ajā   [š]
+SFX q   0       ajai  [š]
+SFX q   0       ajiem [š]
+SFX q   0       ajos  [š]
+SFX q   0       ajām  [š]
+SFX q   0       ajās  [š]
+
