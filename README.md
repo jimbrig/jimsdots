@@ -1,1 +1,22 @@
-.dotfiles
+# Jim’s `.dotfiles`
+
+- Powershell
+- Azure
+- AWS
+- Docker
+- Github
+  - Github CLI
+- Edge, Chrome, Firefox
+- Git
+  - Posh-Git
+  - Gitkraken
+  - Git-Extras
+  - Git-Secret
+  - etc.
+- Windows Terminal
+- Winget
+- Chocolatey
+- Scoop
+- WSL2
+  - TBD
+- etc.
