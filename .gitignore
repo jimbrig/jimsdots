@@ -1,2 +1,14 @@
 
 aws/aws-credentials.csv
+
+azure/accessTokens.json
+
+azure/azureProfile.json
+
+azure/commands/
+
+azure/logs/
+
+azure/telemetry.txt
+
+azure/telemetry/Cache
