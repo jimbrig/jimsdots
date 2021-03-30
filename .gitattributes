@@ -18,4 +18,5 @@ gdrive/* filter=git-crypt diff=git-crypt
 vault/.vault-token filter=git-crypt diff=git-crypt
 obsidian/todoist-token filter=git-crypt diff=git-crypt
 gnupg/** filter=git-crypt diff=git-crypt
+keep/.credentials filter=git-crypt diff=git-crypt
 
