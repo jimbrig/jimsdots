@@ -1,0 +1,67 @@
+{
+ "repos": {
+  "604c0646b939414adc5c4758": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/powwater/landing_page",
+    "c:/Users/Jimmy Briggs/Dev/powwater/powwater/apps/landing_page"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/powwater/powwater/apps/landing_page"
+  },
+  "6050c2ccc77ab122fe9fd765": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/powwater/powwater"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/powwater/powwater"
+  },
+  "6050c2ccc77ab122fe9fd766": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/powwater/powwater/api/dashboard.powwater.org"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/powwater/powwater/api/dashboard.powwater.org"
+  },
+  "6050c2ccc77ab122fe9fd764": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/powwater/powwater/api/powpolished"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/powwater/powwater/api/powpolished"
+  },
+  "6050c2ccc77ab122fe9fd767": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/powwater/powwater/apps/adminportal"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/powwater/powwater/apps/adminportal"
+  },
+  "604ab9e23294d3281dbcfb78": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/powwater/powwater/apps/customerMobile"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/powwater/powwater/apps/customerMobile"
+  },
+  "6050c2ccc77ab122fe9fd768": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/powwater/powwater/apps/vendor_dashboard",
+    "c:/Users/Jimmy Briggs/Dev/powwater/vendor_dashboard"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/powwater/vendor_dashboard"
+  },
+  "60539afeb8e75c152d03729a": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/powwater/powdocs"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/powwater/powdocs"
+  },
+  "605fb36372619d4fca2091d4": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/jimbrig/github-readme-streak-stats"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/jimbrig/github-readme-streak-stats"
+  },
+  "6063792bae7a1f7c7cf8f4d5": {
+   "paths": [
+    "c:/Users/Jimmy Briggs/Dev/docs/radiant-lite.wiki"
+   ],
+   "defaultPath": "c:/Users/Jimmy Briggs/Dev/docs/radiant-lite.wiki"
+  }
+ },
+ "version": "1.0.0"
+}
