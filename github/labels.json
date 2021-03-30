@@ -1,0 +1,70 @@
+[
+  {
+    "name": "andy_review",
+    "color": "#000000"
+  },
+  {
+    "name": "bug",
+    "color": "#d73a4a"
+  },
+  {
+    "name": "documentation",
+    "color": "#0075ca"
+  },
+  {
+    "name": "duplicate",
+    "color": "#cfd3d7"
+  },
+  {
+    "name": "enhancement",
+    "color": "#a2eeef"
+  },
+  {
+    "name": "good first issue",
+    "color": "#7057ff"
+  },
+  {
+    "name": "help wanted",
+    "color": "#008672"
+  },
+  {
+    "name": "invalid",
+    "color": "#e4e669"
+  },
+  {
+    "name": "jimbrig",
+    "color": "#b60205"
+  },
+  {
+    "name": "onhold",
+    "color": "#ffff00"
+  },
+  {
+    "name": "p1",
+    "color": "#0000ff"
+  },
+  {
+    "name": "p2",
+    "color": "#0000ff"
+  },
+  {
+    "name": "p3",
+    "color": "#0000ff"
+  },
+  {
+    "name": "p4",
+    "color": "#0000ff"
+  },
+  {
+    "name": "phoward38",
+    "color": "#0e8a16"
+  },
+  {
+    "name": "question",
+    "color": "#d876e3"
+  },
+  {
+    "name": "wontfix",
+    "color": "#ffffff"
+  }
+]
