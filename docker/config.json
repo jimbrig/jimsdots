@@ -1,0 +1,16 @@
+{
+  "auths": {
+    "docker.pkg.github.com": {}
+  },
+  "credHelpers": {
+    "asia.gcr.io": "gcloud",
+    "eu.gcr.io": "gcloud",
+    "gcr.io": "gcloud",
+    "marketplace.gcr.io": "gcloud",
+    "staging-k8s.gcr.io": "gcloud",
+    "us.gcr.io": "gcloud"
+  },
+  "credsStore": "desktop",
+  "experimental": "enabled",
+  "stackOrchestrator": "kubernetes"
+}
