@@ -15,4 +15,4 @@ feedly/feedly_api_tokens.yml filter=git-crypt diff=git-crypt
 gcloud/** filter=git-crypt diff=git-crypt
 boto/.boto filter=git-crypt diff=git-crypt
 gdrive/* filter=git-crypt diff=git-crypt
-
+vault/.vault-token filter=git-crypt diff=git-crypt
