@@ -1,0 +1,193 @@
+- Name: Open R Project
+  Description: Open RStudio Project via a nice project launcher.
+  Binding: jimstools::open_project
+  Interactive: true
+  id: 1
+  shortcut: Alt+Shift+P
+
+- Name: Initialize New R project
+  Description: Runs `rstudioapi::initializeProject()`
+  Binding: rstudioapi::initializeProject
+  Interactive: true
+  shortcut: Ctrl+Alt+I
+
+- Name: Prefix Unprefixed Functions
+  Description: Meant for Package dev't where `::` is needed.
+  Binding: prefixer::prefixer
+  Interactive: false
+  id: 2
+  shortcut: Ctrl+Alt+P
+
+- Name: importFrom
+  Description: Adds all necessary `@importFrom`s to roxygen comments for functions.
+  Binding: prefixer:::rImportFrom
+  Interactive: false
+  id: 3
+  shortcut: Ctrl+Shift+Tab
+
+- Name: Send to Terminal
+  Description: Send current selection to the terminal
+  Interactive: false
+  id: 4
+  Binding: |
+    function(command = NULL) {
+      if (is.null(command)) {
+        ctx <- rstudioapi::getSourceEditorContext()
+        sel <- ctx$selection[[1]]$text
+        command <- if (sel != "") sel
+      }
+      if (is.null(command)) stop("Nothing selected", call. = FALSE)
+      term_list <- rstudioapi::terminalList()
+      term_running <- vapply(term_list, rstudioapi::terminalRunning, logical(1))
+      term_busy <- vapply(term_list, rstudioapi::terminalBusy, logical(1))
+      if (length(term_list) == 1L && term_running[[1]]) {
+        term_idx <- 1L
+      } else {
+        term_info <- lapply(term_list, rstudioapi::terminalContext)
+        term_name <- vapply(term_info, `[[`, character(1), "caption")
+        term_shell <- vapply(term_info, `[[`, character(1), "shell")
+        term_busy <- c("", " (busy)")[term_busy + 1]
+        term_order <- order(term_name)
+        term_choices <- paste(
+          sep = "",
+          seq_along(term_list), ". ",
+          term_name[term_order], ", ",
+          term_shell[term_order], term_busy[term_order]
+        )
+        term_choices <- paste(term_choices, collapse = "\n")
+        term_choices <- paste("0. New Terminal", term_choices, sep = "\n")
+        choice <- rstudioapi::showPrompt(
+          title = "Choose a Terminal",
+          message = paste("Which Terminal?", term_choices, sep = "\n\n"),
+          default = 0
+        )
+        if(is.null(choice)) stop("Canceled by user", call. = FALSE)
+        choice <- as.integer(choice)
+        stopifnot(!is.na(choice))
+        idx <- if (choice <= length(term_order) && choice != 0) term_order[choice]
+      }
+      if (!is.null(idx)) {
+        rstudioapi::terminalActivate(term_list[[idx]])
+        rstudioapi::terminalSend(term_list[[idx]], command)
+      } else {
+        rstudioapi::terminalExecute(command, show = TRUE)
+      }
+    }
+
+- Name: New Temporary R Markdown Document
+  Binding: |
+    tmp <- tempfile(fileext = ".Rmd")
+    rmarkdown::draft(
+      tmp,
+      template = "github_document",
+      package = "rmarkdown",
+      edit = FALSE
+    )
+    rstudioapi::navigateToFile(tmp)
+  Interactive: false
+  id: 5
+
+- Name: Preview Markdown Selection
+  Description: Preview the selected markdown
+  id: 6
+  Interactive: false
+  Binding: |-
+    ctx <- rstudioapi::getSourceEditorContext()
+    if (!nzchar(ctx$selection[[1]]$text)) {
+      message("Nothing selected")
+      return(invisible())
+    }
+    text <- vapply(ctx$selection, `[[`, "", "text")
+    tmprmd <- tempfile("md_preview_", fileext = ".Rmd")
+    cat(text, file = tmprmd, sep = "\n\n")
+    out <- rmarkdown::render(
+      tmprmd,
+      quiet = TRUE,
+      output_format = rmarkdown::html_document(
+        pandoc_args = c("--metadata", "pagetitle=preview")
+      )
+    )
+    rstudioapi::viewer(out)
+
+- name: Go to Source File Location
+  Description: Navigate to current source file in Files pane
+  id: 7
+  Interactive: false
+  Binding: |-
+    .browse_source_dir <- function(path = NULL) {
+      if (!rstudioapi::hasFun("executeCommand")) return(invisible())
+      if (is.null(path)) {
+        path <- rstudioapi::getSourceEditorContext()$path
+      }
+      if (path == "") {
+        message("Current source file hasn't been saved yet")
+        return(invisible())
+      }
+      if (fs::is_file(path)) {
+        path <- fs::path_dir(path)
+      }
+      if (!fs::dir_exists(path)) {
+        message("Directory does not exist: ", path)
+        return(invisible())
+      }
+      owd <- setwd(path)
+      later::later(function() {
+        rstudioapi::executeCommand("goToWorkingDir")
+        setwd(owd)
+      })
+    }
+
+- Name: Restart RStudio
+  id: 8
+  Binding: usethis:::restart_rstudio
+  Interactive: true
+  shortcut: Ctrl+Shift+F9
+
+- Name: Preview pkgdown Documentation
+  Description: Builds pkgdown documentation in a session-specific temporary directory
+  Interactive: false
+  id: 9
+  Binding: |
+    tmpdir <- getOption("pkgdown_preview_dir", NULL)
+    if (is.null(tmpdir)) {
+      tmpdir <- tempfile()
+      dir.create(tmpdir)
+      options(pkgdown_preview_dir = tmpdir)
+    }
+    pkgdown::build_site(override = list(destination = tmpdir), devel = TRUE)
+    invisible(file.path(tmpdir, "index.html"))
+
+- Name: Download Latest RStudio Daily
+  id: 10
+  Interactive: true
+  Binding: |
+    ls <- xml2::read_html("https://dailies.rstudio.com/")
+    ls <- rvest::html_nodes(ls, "#dir-rstudio li a")
+    ls <- rvest::html_attr(ls, "href")
+    urls <- paste0("https://dailies.rstudio.com/", ls)
+    ls <- sub("rstudio/oss/", "", ls)
+    ls <- sub("/$", "", ls)
+    version <- rstudioapi::showPrompt(
+      title = "Which version to download?",
+      message = paste0(
+        "Choose your platform (RStudio Desktop)\n\n",
+        paste0(sprintf("%2d. ", seq_along(ls)), ls, collapse = "\n")
+      )
+    )
+    url <- urls[as.integer(version)]
+    x <- xml2::read_html(url)
+    x <- rvest::html_node(x, "tr:nth-child(1) .filename")
+    x <- rvest::html_node(x, "a")
+    x <- rvest::html_attr(x, "href")
+    outpath <- rstudioapi::selectDirectory(path = fs::path_home("Downloads"))
+    if (is.null(outpath)) {
+      message("Cancelled by user")
+      return(invisible())
+    }
+    outpath <- file.path(outpath, basename(x))
+    download.file(x, destfile = outpath)
+    if (tolower(Sys.info()["sysname"]) == "darwin") {
+      system(paste("open", outpath))
+    } else {
+      message("Downloaded to ", outpath)
+    }

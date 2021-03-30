@@ -19,4 +19,7 @@ vault/.vault-token filter=git-crypt diff=git-crypt
 obsidian/todoist-token filter=git-crypt diff=git-crypt
 gnupg/** filter=git-crypt diff=git-crypt
 keep/.credentials filter=git-crypt diff=git-crypt
+R/secrets.Renviron filter=git-crypt diff=git-crypt
+R/cyphr_secret.rds filter=git-crypt diff=git-crypt
+R/.rtweet_token.rds filter=git-crypt diff=git-crypt
 

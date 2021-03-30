@@ -1,0 +1,17 @@
+*.Rproj$
+^README\.Rmd$
+^LICENSE\.md$
+^data-raw$
+^outputs/*$
+^doc$
+^Meta$
+^\.docx$
+^codecov\.yml$
+^test/test-lib$
+^vignettes/articles$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+^.*\.yml$
+pkgdevt.R

@@ -1,0 +1,74 @@
+
+# R Environment Startup Variables:
+R_LIBS="C:/Users/Jimmy Briggs/.R/lib/4.0"
+R_LIBS_USER="C:/Users/Jimmy Briggs/.R/lib/4.0"
+R_HISTFILE="C:/Users/Jimmy Briggs/.R/.Rhistory"
+R_ENVIRON_USER="C:/Users/Jimmy Briggs/.R/.Renviron"
+R_PROFILE_USER="C:/Users/Jimmy Briggs/.R/.Rprofile"
+R_PROJ_DIR="C:/Users/Jimmy Briggs/Dev"
+R_ARCH="x64"
+R_INSTALL_TAR="tar.exe"
+
+DATABASECONNECTOR_JAR_FOLDER="C:/Users/Jimmy Briggs/.R/jdbcDrivers"
+
+# change tmpdir due to issues with %localappdata%'s path size
+TMPDIR="C:/tmp"
+
+# R_UNZIPCMD=
+# RZIPCMD=
+
+# HEADLESS_CHROME="C:\Users\Jimmy Briggs\AppData\Local\Google\Chrome SxS\Application\chrome.exe"
+# HEADLESS_CHROME="C:\Program Files\Google\Chrome\Application\chrome-win32\chrome.exe"
+
+# Default Browser (NOTE: RStudio Overrides to Use Default Browser for *.html files)
+# R_BROWSER="C:/Program Files/Firefox Nightly/firefox.exe"
+
+# User Preferences and Machine Settings/Info:
+FULLNAME="Jimmy Briggs"
+LANGUAGE="en-US"
+ORC_ID="0000-0002-7489-8787"
+GITHUB_USERNAME="jimbrig"
+
+# %PATH%:
+PATH="${RTOOLS40_HOME}\usr\bin;${PATH}"
+
+# QPDF
+R_QPDF="C:/tools/qpdf-10.0.4/bin/qpdf.exe"
+
+# GHOSTSCRIPT
+R_GSMD="C:/Program Files/gs/gs9.53.3/bin/gswin64c.exe"
+
+# JAVA
+JAVA_HOME="C:/java/jdk-11"
+
+# Twitter
+TWITTER_PAT="C:/Users/Jimmy Briggs/.R/.rtweet_token.rds"
+
+# NOT-USED
+# MY_TCLTK="C:/Program Files/Tcl/bin"
+# GH_KEYRING=true
+# GCE_DEFAULT_PROJECT_ID="shiny-cloudrun"
+# CR_REGION="us-east1"
+# GAR_CLIENT_JSON="C:/Users/jimbr/.config/gcloud/client_secret_833216447103-nh9h6iev1jf6qqrjdt5tlcobsss5dgm3.apps.googleusercontent.com.json"
+# GCE_AUTH_FILE="C:/Users/jimbr/.config/gcloud/shiny-cloudrun-f77585f41245.json"
+# Sys.setenv("GITHUB_PAT" = keyring::key_get("GITHUB_PAT"))
+# Sys.setenv("TODOIST_API_TOKEN" = keyring::key_get("TODOIST_API_TOKEN"))
+# Sys.setenv("PASSWD" = keyring::key_get("PASSWD"))
+# Sys.setenv("TMETRIC_API_TOKEN" = keyring::key_get("TMETRIC_API_TOKEN"))
+# PB_USERNAME=jimbrig2011
+# PB_TOKEN=E2A988C562CA9B6315D7
+
+# Secrets from: secrets.Renviron -- https://gist.github.com/jimbrig/23e158d1f60698f700561dfd167bd782
+
+# Environment Variables
+# Note on initial setup of R need to manually set location of .Renviron
+# setx HOME %USERPROFILE%
+# setx R_ENVIRON_USER "~/.R/.Renviron"
+# setx R_PROFILE_USER "~/.R/.Rprofile"
+# setx R_LIBS_USER "~/.R/lib/4.0"
+
+
+
+
+
+
