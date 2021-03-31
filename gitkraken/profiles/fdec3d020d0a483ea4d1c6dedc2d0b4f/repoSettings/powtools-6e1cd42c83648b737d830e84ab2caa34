@@ -1,0 +1,83 @@
+{
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "powtools": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "powtools"
+        }
+      },
+      "Tychobra": {
+        "powwater_adminportal": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "powwater_adminportal"
+        }
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "jimbrig/powtools",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "3c976f3edf1d863c1662e11ed6f849e6456ebfa5",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/main"
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "3c976f3edf1d863c1662e11ed6f849e6456ebfa5",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}

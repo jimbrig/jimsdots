@@ -1,0 +1,40 @@
+{
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "jimstools": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimstools"
+        },
+        "jimstemplates": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimstemplates"
+        },
+        ".dotfiles": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": ".dotfiles"
+        },
+        "codmw": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "codmw"
+        }
+      },
+      "Tychobra": {
+        "cultovo_mvp": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "cultovo_mvp"
+        },
+        "dashboard.polished.tech": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "dashboard.polished.tech"
+        }
+      }
+    }
+  }
+}

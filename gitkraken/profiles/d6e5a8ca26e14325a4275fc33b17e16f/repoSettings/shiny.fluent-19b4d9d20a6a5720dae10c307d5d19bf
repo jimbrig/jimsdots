@@ -1,0 +1,246 @@
+{
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "shiny.fluent": {
+          "hostingServiceType": "github",
+          "owner": "Appsilon",
+          "name": "shiny.fluent"
+        }
+      },
+      "Appsilon": {
+        "shiny.fluent": {
+          "hostingServiceType": "github",
+          "owner": "Appsilon",
+          "name": "shiny.fluent"
+        }
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "appsilon/shiny.fluent",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "1ee00bbbe1512c3f2bebc1ea5ba5761d62d9339a",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/generated": {
+        "name": "refs/heads/generated",
+        "oid": "3f1f43e2442aeed651dc0aef63113939a21a80e3",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/gh-pages": {
+        "name": "refs/heads/gh-pages",
+        "oid": "4c6c59a5798f9a888d6b71343c030e4ce738fcd2",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "1ee00bbbe1512c3f2bebc1ea5ba5761d62d9339a",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "d329ebf94dd0a3193f1baa7d43fa4a8aef567b09",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    },
+    "upstream": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "338f08c35729444a13dc945b426328c94b2231c3",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/generated": {
+        "name": "refs/heads/generated",
+        "oid": "3f1f43e2442aeed651dc0aef63113939a21a80e3",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/gh-pages": {
+        "name": "refs/heads/gh-pages",
+        "oid": "a84d04d1e954ba7129926b96a80924c15d267b39",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "338f08c35729444a13dc945b426328c94b2231c3",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "47bd7c474bb1f7cb0d23622e04a8fd212fa9ede2",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/10/head": {
+        "name": "refs/pull/10/head",
+        "oid": "c2bfb6e6fcbeaf1629b1ce8fa2ce547ab1f92404",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/12/head": {
+        "name": "refs/pull/12/head",
+        "oid": "1feb5e6454fb29c3679300f26ceaf39aae4f1b1d",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/13/head": {
+        "name": "refs/pull/13/head",
+        "oid": "a7a4f35c7cca77b042c649576588d98cc4eaa49a",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/14/head": {
+        "name": "refs/pull/14/head",
+        "oid": "118b1dec7f63740043757295d3bd3d5fbf02a92f",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/15/head": {
+        "name": "refs/pull/15/head",
+        "oid": "bfcd3cc1f2c455b6820415d2495d5047d278fa6c",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/17/head": {
+        "name": "refs/pull/17/head",
+        "oid": "1ee00bbbe1512c3f2bebc1ea5ba5761d62d9339a",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/17/merge": {
+        "name": "refs/pull/17/merge",
+        "oid": "9246a27c52dd936e5622ce9e9835a7e0d305517b",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/2/head": {
+        "name": "refs/pull/2/head",
+        "oid": "3d102dd9581517015c9fb736d00a42b4a7676480",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/3/head": {
+        "name": "refs/pull/3/head",
+        "oid": "b942dcf32d1a0b51db7d37227073b58905611377",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/4/head": {
+        "name": "refs/pull/4/head",
+        "oid": "f3f7c175f200ea8b402310ccf5e866dbdafcab8a",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/5/head": {
+        "name": "refs/pull/5/head",
+        "oid": "30e18a5943db032653c71d4465200150c80cb294",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/6/head": {
+        "name": "refs/pull/6/head",
+        "oid": "65e9e268e418ce723fd82634e3c288afec739035",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/7/head": {
+        "name": "refs/pull/7/head",
+        "oid": "67fa44cdd8e177a1d1aac759a1643409f91e761e",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/8/head": {
+        "name": "refs/pull/8/head",
+        "oid": "60546adb855f5002df761a5aa6b4875678d11ae5",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/9/head": {
+        "name": "refs/pull/9/head",
+        "oid": "2b9a2dd2ebe92c77673d24f1d19657b909e78963",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}

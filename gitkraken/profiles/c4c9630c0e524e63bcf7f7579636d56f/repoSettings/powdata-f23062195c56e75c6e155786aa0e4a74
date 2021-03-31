@@ -1,0 +1,85 @@
+{
+  "remoteParents": {
+    "github": {
+      "powwater": {
+        "powdata": {
+          "hostingServiceType": "github",
+          "owner": "powwater",
+          "name": "powdata"
+        }
+      }
+    }
+  },
+  "upstreamFrecencyMetadata": {
+    "origin": {
+      "id": "remote-origin",
+      "timestamps": [
+        1615563556475
+      ],
+      "total": 1
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "powwater/powdata",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "59f0497ae36469db3770c535865b9393d05544bd",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/main"
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "59f0497ae36469db3770c535865b9393d05544bd",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}

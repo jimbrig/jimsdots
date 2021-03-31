@@ -1,0 +1,132 @@
+{
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "jimstools": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimstools"
+        },
+        "jimstemplates": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimstemplates"
+        },
+        ".dotfiles": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": ".dotfiles"
+        },
+        "codmw": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "codmw"
+        }
+      },
+      "Tychobra": {
+        "cultovo_mvp": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "cultovo_mvp"
+        },
+        "dashboard.polished.tech": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "dashboard.polished.tech"
+        },
+        "polished": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "polished"
+        },
+        "loss_development": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "loss_development"
+        },
+        "factset": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "factset"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "c460da47699e96a05c1ed6a23710699931c2df05",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/main"
+      },
+      "refs/heads/feature/sftp": {
+        "name": "refs/heads/feature/sftp",
+        "oid": "65176722577fc2891e711c84e5ade93fd1455721",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "c460da47699e96a05c1ed6a23710699931c2df05",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/3/head": {
+        "name": "refs/pull/3/head",
+        "oid": "65176722577fc2891e711c84e5ade93fd1455721",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "tychobra/factset",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "breadcrumbs.enabled": true,
+
+  // workbench
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter-notebook",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+
+  //editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "on",
+  "editor.scrollBeyondLastLine": false,
+  "editor.mouseWheelZoom": true,
+  "editor.renderWhitespace": "all",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.maxColumn": 200,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.suggestSelection": "first",
+  "editor.renderIndentGuides": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.accessibilitySupport": "off",
+
+  // window
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+  "window.restoreFullscreen": true,
+
+  // explorer
+  "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  // files
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    "*.rmd": "markdown",
+    "*.html5": "html",
+    "*.icls": "xml",
+    "*.todo": "markdown",
+    ".aliases": "shellscript",
+    ".prettierrc": "yaml"
+  },
+
+  // git
+  "git.allowForcePush": true,
+  "git.allowNoVerifyCommit": true,
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.defaultCloneDirectory": "C:/Users/Jimmy Briggs/Dev/jimbrig",
+  "git.enableCommitSigning": true,
+  "git.enableSmartCommit": true,
+  "git.fetchOnPull": true,
+  "git.followTagsWhenSync": true,
+  "git.showPushSuccessNotification": true,
+  "git.scanRepositories": [
+    "C:/Useres/Jimmy Briggs/Dev/",
+    "C:/Users/Jimmy Briggs/Dev/jimbrig/",
+    "C:/Users/Jimmy Briggs/Dev/tychobra/",
+    "C:/Users/Jimmy Briggs/Dev/sandbox/",
+    "C:/Users/Jimmy Briggs/Dev/docs/"
+  ],
+
+  // search
+  "search.useGlobalIgnoreFiles": true,
+
+  // terminal
+  "terminal.integrated.automationShell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+
+  // python
+  "python.insidersChannel": "weekly",
+  "python.defaultInterpreterPath": "C:\\Users\\Jimmy Briggs\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+
+  // telemetry
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
+  // emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // eslint, prettier, formatter
+
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "yaml"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "yaml"
+  ],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+
+  "prettier.printWidth": 80,
+
+  "javascript.preferences.quoteStyle": "double",
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // projectManager
+  "projectManager.git.baseFolders": [
+    "C:/Users/Jimmy Briggs/Dev",
+    "C:/Users/Jimmy Briggs/Dev/tychobra",
+    "C:/Users/Jimmy Briggs/Dev/jimbrig",
+    "C:/Users/Jimmy Briggs/Dev/code",
+    "C:/Users/Jimmy Briggs/Dev/sandbox"
+  ],
+
+  "projectManager.any.baseFolders": [
+    "C:/Users/Jimmy Briggs/Dev/tychobra",
+    "C:/Users/Jimmy Briggs/Dev/jimbrig",
+    "C:/Users/Jimmy Briggs/sandbox"
+  ],
+
+  "projectManager.groupList": true,
+
+  // swaggerhub
+  "swaggerhub.apiKey": "f2a1c3f1-ffcd-4c63-98c7-2b5c616336e1",
+  "swaggerhub.orgs": ["JimmysOrg"],
+
+  // kubernetes
+  "vs-kubernetes": {
+    "vs-kubernetes.helm-path.windows": "C:\\Users\\Jimmy Briggs\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vs-kubernetes.draft-path.windows": "C:\\Users\\Jimmy Briggs\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe",
+    "vs-kubernetes.minikube-path.windows": "C:\\Users\\Jimmy Briggs\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\Jimmy Briggs\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+  },
+
+  // syncgist
+  "sync.gist": "f334514008f5f014b1fd4746e44d9c50",
+
+  // msSQL
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+
+  // cSpell
+  "cSpell.userWords": [
+    "Renamer",
+    "USERPROFILE",
+    "Yori",
+    "commandline",
+    "description",
+    "dev't",
+    "dotfiles",
+    "for",
+    "imagemagick",
+    "implementability",
+    "jimstools",
+    "libcurl",
+    "libgit",
+    "mingw",
+    "prefixer",
+    "r",
+    "repos",
+    "roxygen",
+    "sync",
+    "unprefixed"
+  ],
+  "cSpell.enableFiletypes": [
+    "bat",
+    "dockerfile",
+    "git-rebase",
+    "gitconfig",
+    "ini",
+    "lua",
+    "makefile",
+    "perl",
+    "powershell",
+    "properties",
+    "r",
+    "rmarkdown",
+    "ruby",
+    "vb",
+    "xml"
+  ],
+  "cSpell.language": "en-US",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "cmake.configureOnOpen": true,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "cloudcode.enableConfigLessExperience": true,
+  "codestream.email": "jimbrig2011@outlook.com",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "editor.formatOnSave": true,
+  "editor.codeLens": false,
+  "r.dependencyChecks": false,
+  "yaml.schemas": {
+    "file:///toc.schema.json": "/toc\\.yml/i"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "json.schemas": [
+    {
+      "name": "vscode-expo-manifest",
+      "url": "file:///c%3A/Users/Jimmy%20Briggs/AppData/Roaming/Code%20-%20Insiders/User/globalStorage/bycedric.vscode-expo/manifest-40.0.0.json",
+      "fileMatch": [
+        "app.json",
+        "app.config.json"
+      ]
+    }
+  ]
+}

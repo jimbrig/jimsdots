@@ -1,0 +1,13 @@
+{
+  "remoteParents": {
+    "github": {
+      "powwater": {
+        "vendor_dashboard": {
+          "hostingServiceType": "github",
+          "owner": "powwater",
+          "name": "vendor_dashboard"
+        }
+      }
+    }
+  }
+}

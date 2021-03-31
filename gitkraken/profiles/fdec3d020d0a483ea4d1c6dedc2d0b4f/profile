@@ -1,0 +1,300 @@
+{
+  "tabInfo": {
+    "tabs": [
+      {
+        "id": "ea68c184-6b50-4ec7-a515-499de564f0d9",
+        "type": "REPO",
+        "repoName": "jimbrig",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/tychobra/jimbrig/"
+      }
+    ],
+    "selectedTabId": "ea68c184-6b50-4ec7-a515-499de564f0d9"
+  },
+  "profileIcon": "gravatar",
+  "profileName": "tychobra",
+  "userEmail": "jimmy.briggs@tychobra.com",
+  "userName": "Jimmy Briggs",
+  "longpaths": true,
+  "editor": {
+    "fontFamily": "Cascadia Code",
+    "fontSize": "10",
+    "tabSize": "2",
+    "wordWrap": true
+  },
+  "defaultTerminal": "Git Bash",
+  "ssh": {
+    "useLocalAgent": false,
+    "privateKey": "C:\\Users\\Jimmy Briggs\\.dotfiles\\ssh\\gitkraken\\gitkraken_tychobra_github_rsa",
+    "publicKey": "C:\\Users\\Jimmy Briggs\\.dotfiles\\ssh\\gitkraken\\gitkraken_tychobra_github_rsa.pub"
+  },
+  "services": {
+    "github": {
+      "ssh": {
+        "keyState": "external",
+        "publicKeyPath": "C:\\Users\\Jimmy Briggs\\.ssh\\gitkraken\\gitkraken_tychobra_github_rsa.pub",
+        "privateKeyPath": "C:\\Users\\Jimmy Briggs\\.ssh\\gitkraken\\gitkraken_tychobra_github_rsa"
+      }
+    }
+  },
+  "gpg": {
+    "commitGpgSign": true,
+    "tagForceSignAnnotated": true,
+    "userSigningKey": "A3266ECEBA23E1E00652358E0E1DEF812B3C872D",
+    "gpgProgram": "C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe"
+  },
+  "projectGroupNamesByDirectory": {
+    "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig": "jimbrig",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra": "tychobra",
+    "C:\\Users\\Jimmy Briggs\\Dev\\sandbox": "sandbox",
+    "C:\\Users\\Jimmy Briggs\\Dev\\docs": "docs",
+    "C:\\Users\\Jimmy Briggs\\Dev\\.archive": ".archive"
+  },
+  "repoInit": {
+    "lastRepoInitPath": "C:\\Users\\Jimmy Briggs\\Dev"
+  },
+  "projectGroupsFrecencyMetadata": {
+    "C:/Users/Jimmy Briggs/Dev/tychobra": {
+      "id": "project-group-C:\\Users\\Jimmy Briggs\\Dev\\tychobra",
+      "timestamps": [
+        1609194698302,
+        1609194825020,
+        1609194840780,
+        1609194874340,
+        1609194900957,
+        1609263299124,
+        1609263323599
+      ],
+      "total": 7
+    }
+  },
+  "hostingServiceFrecencyMetadata": {
+    "github": {
+      "id": "github",
+      "timestamps": [
+        1609194698318,
+        1609194825025,
+        1609194840785,
+        1609194874347,
+        1609194900972,
+        1609263299134,
+        1609263323605,
+        1610434461056,
+        1612423916639,
+        1612423988475
+      ],
+      "total": 10
+    }
+  },
+  "favoriteRepositories": [
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo"
+  ],
+  "externalEditor": "Visual Studio Code",
+  "layout": {
+    "RefPanel": {
+      "width": 387,
+      "open": true
+    },
+    "CommitMessage": {
+      "rightPanelHeight": 355
+    },
+    "DetailPanel": {
+      "width": 400,
+      "height": 396
+    }
+  },
+  "issues": {
+    "github": {
+      "filtersByRemoteName": {
+        "tychobra/polishedapi": [
+          {
+            "id": "1ce8f918-24d2-4cc8-b87f-9ad1697143d5",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "28fc894e-17af-4e10-b690-5e7fc9a1b6a7",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/polished": [
+          {
+            "id": "5e9c7e46-8f20-4e8d-b6aa-78e37b0a73bf",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          },
+          {
+            "id": "de361452-27fd-4de8-b20b-ae013b4807f2",
+            "text": "state:open",
+            "name": "All Open Issues"
+          }
+        ],
+        "tychobra/cultovo_mvp": [
+          {
+            "id": "fd8c8614-cf74-44c8-a110-8af2389937d1",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "0c920070-2d4f-4bb0-95a7-716f7c79e5ab",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/factset": [
+          {
+            "id": "a8a4b1a0-55ff-47e2-a272-230c3787ca08",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "97feb7ed-bdc0-4cd5-ba6f-af87a1976c85",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/powwater": [
+          {
+            "id": "9e7ea965-6d0b-40b3-b7d6-7544083d5fa9",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "8a2fa568-7611-445e-8402-f0ceebab7a31",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/jimstools": [
+          {
+            "id": "79cb2581-9d03-4abb-85e2-bfca57908cca",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "93c9a623-4a20-4fd0-ab93-85fbda5b766f",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/property_allocation_demo": [
+          {
+            "id": "7b506780-fda6-4a36-a5af-e2c727da0069",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "8cded92c-a725-4740-af33-036da245a533",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/property_allocation_demo": [
+          {
+            "id": "081c50ac-1361-4d13-adef-c2dbf91e1f9a",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "2cb17b6a-c21a-4ddb-9dc0-453356ca12be",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/powwater_adminportal": [
+          {
+            "id": "5e0e4c44-33ed-4c8a-87ed-d342e596df62",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "8a40da7a-99fd-49e9-8a60-6015c4279e6a",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/excel-config": [
+          {
+            "id": "1213b68d-cf81-49bb-8311-9d6855f3308a",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "49cb156c-b3db-44bc-b8cf-210f4ec9b394",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/powtools": [
+          {
+            "id": "af0a1bb5-f714-40e3-9460-3959e25dd11f",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "3db48413-8804-4982-9de7-497025566286",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/jimbrig": [
+          {
+            "id": "120f989f-3926-431b-a894-dafe95f81800",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "f75fcd1a-615e-449d-b9b1-f2425f9dfcdb",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ]
+      }
+    },
+    "glo": {
+      "filtersByBoardId": {
+        "6003fb546f0405001175fa2c": [
+          {
+            "id": "35e67e2b-96df-44a0-8dec-101fe79487d3",
+            "text": "",
+            "name": "All Cards"
+          },
+          {
+            "id": "d4533fcb-0488-4b7c-a4ea-0e7c242e2e6a",
+            "text": "@jimbrig",
+            "name": "My Cards"
+          },
+          {
+            "id": "d22756f7-f2aa-4044-bea4-0bc1d1e4ade5",
+            "text": "-?assignee",
+            "name": "Unassigned Cards"
+          }
+        ]
+      }
+    }
+  },
+  "defaultIssueTrackerType": "github",
+  "gitflow": {
+    "feature": {
+      "rebaseOnFinish": true,
+      "startAt": "develop"
+    }
+  },
+  "init": {
+    "defaultBranch": "main"
+  },
+  "ui": {
+    "graphOptions": {
+      "showCommitAuthorInGraph": true,
+      "showCommitDateTimeInGraph": true
+    },
+    "theme": "dark"
+  },
+  "diffTool": "git-config",
+  "deleteOrigAfterMerge": true
+}

@@ -1,0 +1,117 @@
+{
+  "upstreamFrecencyMetadata": {
+    "origin": {
+      "id": "remote-origin",
+      "timestamps": [
+        1612434234087,
+        1612434319433
+      ],
+      "total": 2
+    }
+  },
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "gitflow": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "gitflow"
+        }
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "jimbrig/gitflow",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "8096eeee4db0f7473112d7d76c761fba6329afb6",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/develop"
+      },
+      "refs/heads/develop": {
+        "name": "refs/heads/develop",
+        "oid": "8096eeee4db0f7473112d7d76c761fba6329afb6",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "ecd87c1111242cd05d9bc3b462fafe91a5b3bd84",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    },
+    "jimsdots": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "8096eeee4db0f7473112d7d76c761fba6329afb6",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/develop"
+      },
+      "refs/heads/develop": {
+        "name": "refs/heads/develop",
+        "oid": "8096eeee4db0f7473112d7d76c761fba6329afb6",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "ecd87c1111242cd05d9bc3b462fafe91a5b3bd84",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "collapsedSections": []
+}

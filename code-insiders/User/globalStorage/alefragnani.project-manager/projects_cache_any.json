@@ -1,0 +1,6110 @@
+[
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra",
+		"name": "tychobra"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig",
+		"name": "jimbrig"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum",
+		"name": "colosseum"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp",
+		"name": "cultovo_mvp"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset",
+		"name": "factset"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig",
+		"name": "jimbrig"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech",
+		"name": "dashboard.polished.tech"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi",
+		"name": "polishedapi"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished",
+		"name": "polished"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development",
+		"name": "loss_development"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools",
+		"name": "powtools"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal",
+		"name": "powwater_adminportal"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo",
+		"name": "property_allocation_demo"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi",
+		"name": "self_insurance_kpi"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker",
+		"name": "shiny_docker"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools",
+		"name": "tychobratools"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobra_config",
+		"name": "tychobra_config"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3",
+		"name": "t3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles",
+		"name": ".dotfiles"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools",
+		"name": "buildtools"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw",
+		"name": "codmw"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table",
+		"name": "github-issue-table"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs",
+		"name": "jimsdocs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions",
+		"name": "jimsghactions"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools",
+		"name": "jimstools"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools.Rcheck",
+		"name": "jimstools.Rcheck"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates",
+		"name": "jimstemplates"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown",
+		"name": "therdispatch-blogdown"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb",
+		"name": "rkb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig",
+		"name": "rsconfig"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup",
+		"name": "winsetup"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\data_prep",
+		"name": "data_prep"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.vscode",
+		"name": ".vscode"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\analysis",
+		"name": "analysis"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\data_prep",
+		"name": "data_prep"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.vscode",
+		"name": ".vscode"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.github",
+		"name": ".github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\assets",
+		"name": "assets"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\code",
+		"name": "code"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates",
+		"name": "templates"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\data_prep",
+		"name": "data_prep"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\notes",
+		"name": "notes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.github",
+		"name": ".github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\man",
+		"name": "man"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\tests",
+		"name": "tests"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.github",
+		"name": ".github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\man",
+		"name": "man"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\srcjs",
+		"name": "srcjs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\tests",
+		"name": "tests"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\vignettes",
+		"name": "vignettes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\data_prep",
+		"name": "data_prep"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\data_prep",
+		"name": "data_prep"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\dev",
+		"name": "dev"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.github",
+		"name": ".github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\data-raw",
+		"name": "data-raw"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\man",
+		"name": "man"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\vignettes",
+		"name": "vignettes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\tests",
+		"name": "tests"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.github",
+		"name": ".github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\data_prep",
+		"name": "data_prep"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\02_shiny_no_server",
+		"name": "02_shiny_no_server"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\01_shiny_run_min",
+		"name": "01_shiny_run_min"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\03_shiny_run_custom",
+		"name": "03_shiny_run_custom"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\04_shiny_azure_ws",
+		"name": "04_shiny_azure_ws"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\05_shiny_run_analytics",
+		"name": "05_shiny_run_analytics"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\06_shiny_anthos_min",
+		"name": "06_shiny_anthos_min"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\data-raw",
+		"name": "data-raw"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\man",
+		"name": "man"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobra_config\\dashboard.polished.tech",
+		"name": "dashboard.polished.tech"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobra_config\\adam_app",
+		"name": "adam_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobra_config\\online_rater",
+		"name": "online_rater"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\data_prep",
+		"name": "data_prep"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobra_config\\self_insurance_kpi",
+		"name": "self_insurance_kpi"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.config",
+		"name": ".config"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.meta",
+		"name": ".meta"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\git",
+		"name": "git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\gh",
+		"name": "gh"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\data-raw",
+		"name": "data-raw"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\man",
+		"name": "man"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\tests",
+		"name": "tests"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\vignettes",
+		"name": "vignettes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\%userprofile%",
+		"name": "%userprofile%"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\aspnetcore",
+		"name": "aspnetcore"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\rsconnect",
+		"name": "rsconnect"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.github",
+		"name": ".github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts",
+		"name": "_posts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.github",
+		"name": ".github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\data-raw",
+		"name": "data-raw"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\man",
+		"name": "man"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\pkgdown",
+		"name": "pkgdown"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\tests",
+		"name": "tests"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\vignettes",
+		"name": "vignettes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools.Rcheck\\00_pkg_src",
+		"name": "00_pkg_src"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\data-raw",
+		"name": "data-raw"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\man",
+		"name": "man"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\tests",
+		"name": "tests"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\vignettes",
+		"name": "vignettes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\content",
+		"name": "content"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes",
+		"name": "themes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static",
+		"name": "static"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs",
+		"name": "site_libs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user",
+		"name": ".Rproj.user"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git",
+		"name": ".git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.history",
+		"name": ".history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\regedit",
+		"name": "regedit"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\winget",
+		"name": "winget"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\shiny_app\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\shiny_app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\data_prep\\cache",
+		"name": "cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\data_prep\\prepped",
+		"name": "prepped"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\data_prep\\provided",
+		"name": "provided"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\shiny_app\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\shiny_app\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\shiny_app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\data\\provided",
+		"name": "provided"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\docs\\Content_user_guides",
+		"name": "Content_user_guides"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.github\\ISSUE_TEMPLATE",
+		"name": "ISSUE_TEMPLATE"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\assets\\css",
+		"name": "css"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\assets\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\assets\\js",
+		"name": "js"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs\\advanced_search_engine_queries_with_r",
+		"name": "advanced_search_engine_queries_with_r"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs\\optimizing_package_installation",
+		"name": "optimizing_package_installation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs\\polished_custom_page_guide",
+		"name": "polished_custom_page_guide"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs\\searching_the_web_from_r",
+		"name": "searching_the_web_from_r"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs\\shiny_modules_with_js",
+		"name": "shiny_modules_with_js"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs\\tychobra_marketing",
+		"name": "tychobra_marketing"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\code\\shiny",
+		"name": "shiny"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\config",
+		"name": "config"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\github",
+		"name": "github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\git",
+		"name": "git"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\r",
+		"name": "r"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\rmarkdown",
+		"name": "rmarkdown"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\rstudio",
+		"name": "rstudio"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\shiny_app_deafult",
+		"name": "shiny_app_deafult"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\shiny_app_package",
+		"name": "shiny_app_package"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\data_prep\\daily_sessions",
+		"name": "daily_sessions"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\data_prep\\db_backups",
+		"name": "db_backups"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\data_prep\\db_tables_sql",
+		"name": "db_tables_sql"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\data_prep\\update_table_scripts",
+		"name": "update_table_scripts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\shiny_app\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\shiny_app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.github\\workflows",
+		"name": "workflows"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\assets",
+		"name": "assets"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\db_backups",
+		"name": "db_backups"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\hosting",
+		"name": "hosting"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\examples",
+		"name": "examples"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\scripts",
+		"name": "scripts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\plumber",
+		"name": "plumber"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\testfiles",
+		"name": "testfiles"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\tests\\testthat",
+		"name": "testthat"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.github\\workflows",
+		"name": "workflows"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\assets",
+		"name": "assets"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\examples",
+		"name": "examples"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\testfiles",
+		"name": "testfiles"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\srcjs\\src",
+		"name": "src"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\tests\\testthat",
+		"name": "testthat"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\data_prep\\cache",
+		"name": "cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\shiny_app\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\shiny_app\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\shiny_app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\data_prep\\cache",
+		"name": "cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\data_prep\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\data_prep\\prepped",
+		"name": "prepped"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\data_prep\\provided",
+		"name": "provided"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\data_prep\\scratch",
+		"name": "scratch"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\data_prep\\sql",
+		"name": "sql"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\docs\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\docs\\meeting_notes",
+		"name": "meeting_notes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\docs\\pdf",
+		"name": "pdf"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\docs\\screenshots",
+		"name": "screenshots"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\docs\\spreadsheets",
+		"name": "spreadsheets"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\shiny_app\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\shiny_app\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\shiny_app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.github\\workflows",
+		"name": "workflows"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\data-raw\\working",
+		"name": "working"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\app",
+		"name": "app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\img",
+		"name": "img"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\reports",
+		"name": "reports"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\scripts",
+		"name": "scripts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\temp",
+		"name": "temp"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\man\\figures",
+		"name": "figures"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\vignettes\\img",
+		"name": "img"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\tests\\testthat",
+		"name": "testthat"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.github\\workflows",
+		"name": "workflows"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\data_prep\\cache",
+		"name": "cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\data_prep\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\data_prep\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\data_prep\\tests",
+		"name": "tests"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\shiny_app\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\shiny_app\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\shiny_app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\inst\\assets",
+		"name": "assets"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\inst\\examples",
+		"name": "examples"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\inst\\hc",
+		"name": "hc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\shiny_app\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\shiny_app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.meta\\icons",
+		"name": "icons"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\gh\\.github",
+		"name": ".github"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\inst\\extdata",
+		"name": "extdata"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\inst\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\inst\\scripts",
+		"name": "scripts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\inst\\templates",
+		"name": "templates"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\man\\figures",
+		"name": "figures"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\tests\\testthat",
+		"name": "testthat"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\%userprofile%\\.R",
+		"name": ".R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\aspnetcore\\.swagger-codegen",
+		"name": ".swagger-codegen"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\aspnetcore\\src",
+		"name": "src"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\rsconnect\\shinyapps.io",
+		"name": "shinyapps.io"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\www\\img",
+		"name": "img"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.github\\workflows",
+		"name": "workflows"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\posts",
+		"name": "posts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs",
+		"name": "site_libs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts\\2020-12-07-searching-from-r",
+		"name": "2020-12-07-searching-from-r"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts\\2021-01-18-r-package-installation-optimization-with-ccache",
+		"name": "2021-01-18-r-package-installation-optimization-with-ccache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts\\welcome",
+		"name": "welcome"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\inst\\scripts",
+		"name": "scripts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.github\\workflows",
+		"name": "workflows"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst\\assets",
+		"name": "assets"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst\\docs",
+		"name": "docs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst\\rmarkdown",
+		"name": "rmarkdown"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst\\rstudio",
+		"name": "rstudio"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst\\scripts",
+		"name": "scripts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\man\\figures",
+		"name": "figures"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\pkgdown\\favicon",
+		"name": "favicon"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\tests\\testthat",
+		"name": "testthat"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools.Rcheck\\00_pkg_src\\jimstools",
+		"name": "jimstools"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\docs\\reference",
+		"name": "reference"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\app",
+		"name": "app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\examples",
+		"name": "examples"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\extdata",
+		"name": "extdata"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\scripts",
+		"name": "scripts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\temp",
+		"name": "temp"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates",
+		"name": "templates"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\tests\\testthat",
+		"name": "testthat"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\content\\about",
+		"name": "about"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\content\\post",
+		"name": "post"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke",
+		"name": "gohugo-theme-ananke"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\css",
+		"name": "css"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\html",
+		"name": "html"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\post",
+		"name": "post"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\rmarkdown-libs",
+		"name": "rmarkdown-libs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\anchor-4.2.2",
+		"name": "anchor-4.2.2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\autocomplete-0.37.1",
+		"name": "autocomplete-0.37.1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\distill-2.2.21",
+		"name": "distill-2.2.21"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\bowser-1.9.3",
+		"name": "bowser-1.9.3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\font-awesome-5.1.0",
+		"name": "font-awesome-5.1.0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\fuse-6.4.1",
+		"name": "fuse-6.4.1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\header-attrs-2.6",
+		"name": "header-attrs-2.6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\headroom-0.9.4",
+		"name": "headroom-0.9.4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\jquery-1.11.3",
+		"name": "jquery-1.11.3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\webcomponents-2.0.0",
+		"name": "webcomponents-2.0.0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1",
+		"name": "E51AC7A1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\shared",
+		"name": "shared"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\hooks",
+		"name": "hooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\logs",
+		"name": "logs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\objects",
+		"name": "objects"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\regedit\\remove-3d-objects-folder",
+		"name": "remove-3d-objects-folder"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\colosseum\\shiny_app\\www\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp\\shiny_app\\www\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs\\advanced_search_engine_queries_with_r\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\docs\\searching_the_web_from_r\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\code\\shiny\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\github\\ISSUE_TEMPLATES",
+		"name": "ISSUE_TEMPLATES"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\github\\workflows",
+		"name": "workflows"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\git\\git-crypt",
+		"name": "git-crypt"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\rmarkdown\\templates",
+		"name": "templates"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\shiny_app_deafult\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\shiny_app_package\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\shiny_app_package\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig\\templates\\shiny_app_package\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\shiny_app\\R\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech\\shiny_app\\www\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\00",
+		"name": "00"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\04",
+		"name": "04"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\07",
+		"name": "07"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\0a",
+		"name": "0a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\0d",
+		"name": "0d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\12",
+		"name": "12"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\13",
+		"name": "13"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\16",
+		"name": "16"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\1c",
+		"name": "1c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\1d",
+		"name": "1d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\27",
+		"name": "27"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\35",
+		"name": "35"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\34",
+		"name": "34"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\38",
+		"name": "38"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\3e",
+		"name": "3e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\3f",
+		"name": "3f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\41",
+		"name": "41"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\42",
+		"name": "42"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\47",
+		"name": "47"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\49",
+		"name": "49"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\4a",
+		"name": "4a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\45",
+		"name": "45"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\4f",
+		"name": "4f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\53",
+		"name": "53"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\56",
+		"name": "56"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\5c",
+		"name": "5c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\5a",
+		"name": "5a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\5d",
+		"name": "5d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\5e",
+		"name": "5e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\5f",
+		"name": "5f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\67",
+		"name": "67"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\6f",
+		"name": "6f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\77",
+		"name": "77"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\7d",
+		"name": "7d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\7e",
+		"name": "7e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\85",
+		"name": "85"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\8b",
+		"name": "8b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\89",
+		"name": "89"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\8e",
+		"name": "8e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\90",
+		"name": "90"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\97",
+		"name": "97"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\95",
+		"name": "95"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\99",
+		"name": "99"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\a0",
+		"name": "a0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\a4",
+		"name": "a4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\a5",
+		"name": "a5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\a6",
+		"name": "a6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\a7",
+		"name": "a7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\ab",
+		"name": "ab"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\ac",
+		"name": "ac"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\ae",
+		"name": "ae"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\b2",
+		"name": "b2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\bb",
+		"name": "bb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\b3",
+		"name": "b3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\cb",
+		"name": "cb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\bc",
+		"name": "bc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\d6",
+		"name": "d6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\df",
+		"name": "df"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\e6",
+		"name": "e6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\ee",
+		"name": "ee"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\f7",
+		"name": "f7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\f6",
+		"name": "f6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\fa",
+		"name": "fa"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\fb",
+		"name": "fb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\assets\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\hosting\\hosting_api",
+		"name": "hosting_api"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\hosting\\old",
+		"name": "old"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\examples\\test_app",
+		"name": "test_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi\\inst\\plumber\\api",
+		"name": "api"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\00",
+		"name": "00"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\01",
+		"name": "01"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\03",
+		"name": "03"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\02",
+		"name": "02"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\05",
+		"name": "05"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\08",
+		"name": "08"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\0d",
+		"name": "0d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\0e",
+		"name": "0e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\10",
+		"name": "10"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\12",
+		"name": "12"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\13",
+		"name": "13"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\19",
+		"name": "19"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\1b",
+		"name": "1b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\1c",
+		"name": "1c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\1e",
+		"name": "1e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\1f",
+		"name": "1f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\20",
+		"name": "20"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\26",
+		"name": "26"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\27",
+		"name": "27"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\2a",
+		"name": "2a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\2d",
+		"name": "2d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\30",
+		"name": "30"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\32",
+		"name": "32"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\34",
+		"name": "34"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\35",
+		"name": "35"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\39",
+		"name": "39"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\3b",
+		"name": "3b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\3c",
+		"name": "3c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\3f",
+		"name": "3f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\3d",
+		"name": "3d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\40",
+		"name": "40"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\41",
+		"name": "41"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\44",
+		"name": "44"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\45",
+		"name": "45"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\47",
+		"name": "47"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\46",
+		"name": "46"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\4e",
+		"name": "4e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\4a",
+		"name": "4a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\4d",
+		"name": "4d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\4f",
+		"name": "4f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\50",
+		"name": "50"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\56",
+		"name": "56"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\57",
+		"name": "57"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\58",
+		"name": "58"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\59",
+		"name": "59"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\5a",
+		"name": "5a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\5f",
+		"name": "5f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\5c",
+		"name": "5c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\5b",
+		"name": "5b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\64",
+		"name": "64"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\62",
+		"name": "62"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\65",
+		"name": "65"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\68",
+		"name": "68"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\69",
+		"name": "69"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\6e",
+		"name": "6e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\6d",
+		"name": "6d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\72",
+		"name": "72"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\6f",
+		"name": "6f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\79",
+		"name": "79"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\77",
+		"name": "77"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\73",
+		"name": "73"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\7b",
+		"name": "7b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\7f",
+		"name": "7f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\80",
+		"name": "80"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\81",
+		"name": "81"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\82",
+		"name": "82"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\86",
+		"name": "86"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\87",
+		"name": "87"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\88",
+		"name": "88"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\8a",
+		"name": "8a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\8c",
+		"name": "8c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\8f",
+		"name": "8f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\93",
+		"name": "93"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\96",
+		"name": "96"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\97",
+		"name": "97"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\9a",
+		"name": "9a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\9e",
+		"name": "9e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\9b",
+		"name": "9b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\a0",
+		"name": "a0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\a1",
+		"name": "a1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\a3",
+		"name": "a3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\a2",
+		"name": "a2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\a4",
+		"name": "a4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\a5",
+		"name": "a5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\a6",
+		"name": "a6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\aa",
+		"name": "aa"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\ad",
+		"name": "ad"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\ae",
+		"name": "ae"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\af",
+		"name": "af"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\b0",
+		"name": "b0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\b3",
+		"name": "b3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\b5",
+		"name": "b5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\b6",
+		"name": "b6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\b7",
+		"name": "b7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\b8",
+		"name": "b8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\b9",
+		"name": "b9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\ba",
+		"name": "ba"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\bb",
+		"name": "bb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\bd",
+		"name": "bd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\be",
+		"name": "be"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\c0",
+		"name": "c0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\c2",
+		"name": "c2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\c3",
+		"name": "c3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\c8",
+		"name": "c8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\c9",
+		"name": "c9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\ca",
+		"name": "ca"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\cc",
+		"name": "cc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\cd",
+		"name": "cd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\cf",
+		"name": "cf"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\d2",
+		"name": "d2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\d0",
+		"name": "d0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\d4",
+		"name": "d4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\d5",
+		"name": "d5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\da",
+		"name": "da"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\db",
+		"name": "db"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\de",
+		"name": "de"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\df",
+		"name": "df"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\e0",
+		"name": "e0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\e1",
+		"name": "e1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\e2",
+		"name": "e2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\e3",
+		"name": "e3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\e4",
+		"name": "e4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\e5",
+		"name": "e5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\e7",
+		"name": "e7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\e8",
+		"name": "e8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\eb",
+		"name": "eb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\ec",
+		"name": "ec"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\ed",
+		"name": "ed"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\f0",
+		"name": "f0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\f1",
+		"name": "f1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\f6",
+		"name": "f6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\f5",
+		"name": "f5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\f4",
+		"name": "f4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\f8",
+		"name": "f8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\f9",
+		"name": "f9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\fa",
+		"name": "fa"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\fb",
+		"name": "fb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\fc",
+		"name": "fc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\fd",
+		"name": "fd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\fe",
+		"name": "fe"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\ff",
+		"name": "ff"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\assets\\css",
+		"name": "css"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\assets\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\assets\\js",
+		"name": "js"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\examples\\polished_example_01",
+		"name": "polished_example_01"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\examples\\polished_example_02",
+		"name": "polished_example_02"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\examples\\polished_example_03",
+		"name": "polished_example_03"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\examples\\polished_example_04",
+		"name": "polished_example_04"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished\\inst\\examples\\test_app",
+		"name": "test_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development\\shiny_app\\www\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\00",
+		"name": "00"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\01",
+		"name": "01"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\02",
+		"name": "02"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\05",
+		"name": "05"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\04",
+		"name": "04"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\06",
+		"name": "06"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\07",
+		"name": "07"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\08",
+		"name": "08"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\09",
+		"name": "09"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\0a",
+		"name": "0a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\0b",
+		"name": "0b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\0c",
+		"name": "0c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\0d",
+		"name": "0d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\0e",
+		"name": "0e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\0f",
+		"name": "0f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\11",
+		"name": "11"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\10",
+		"name": "10"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\12",
+		"name": "12"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\13",
+		"name": "13"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\14",
+		"name": "14"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\15",
+		"name": "15"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\16",
+		"name": "16"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\17",
+		"name": "17"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\18",
+		"name": "18"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\19",
+		"name": "19"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\1a",
+		"name": "1a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\1c",
+		"name": "1c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\1b",
+		"name": "1b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\1d",
+		"name": "1d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\1e",
+		"name": "1e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\1f",
+		"name": "1f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\20",
+		"name": "20"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\21",
+		"name": "21"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\22",
+		"name": "22"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\23",
+		"name": "23"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\25",
+		"name": "25"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\24",
+		"name": "24"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\27",
+		"name": "27"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\26",
+		"name": "26"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\28",
+		"name": "28"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\29",
+		"name": "29"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\2a",
+		"name": "2a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\2b",
+		"name": "2b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\2c",
+		"name": "2c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\2d",
+		"name": "2d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\2e",
+		"name": "2e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\2f",
+		"name": "2f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\30",
+		"name": "30"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\31",
+		"name": "31"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\32",
+		"name": "32"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\33",
+		"name": "33"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\34",
+		"name": "34"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\35",
+		"name": "35"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\36",
+		"name": "36"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\37",
+		"name": "37"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\38",
+		"name": "38"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\3a",
+		"name": "3a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\3b",
+		"name": "3b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\3c",
+		"name": "3c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\3d",
+		"name": "3d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\3e",
+		"name": "3e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\3f",
+		"name": "3f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\40",
+		"name": "40"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\42",
+		"name": "42"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\43",
+		"name": "43"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\44",
+		"name": "44"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\45",
+		"name": "45"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\47",
+		"name": "47"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\46",
+		"name": "46"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\48",
+		"name": "48"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\49",
+		"name": "49"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\4a",
+		"name": "4a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\4b",
+		"name": "4b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\4c",
+		"name": "4c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\4d",
+		"name": "4d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\4e",
+		"name": "4e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\4f",
+		"name": "4f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\51",
+		"name": "51"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\50",
+		"name": "50"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\52",
+		"name": "52"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\53",
+		"name": "53"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\55",
+		"name": "55"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\54",
+		"name": "54"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\57",
+		"name": "57"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\56",
+		"name": "56"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\59",
+		"name": "59"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\58",
+		"name": "58"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\5a",
+		"name": "5a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\5b",
+		"name": "5b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\5c",
+		"name": "5c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\5e",
+		"name": "5e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\5d",
+		"name": "5d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\60",
+		"name": "60"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\5f",
+		"name": "5f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\61",
+		"name": "61"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\62",
+		"name": "62"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\63",
+		"name": "63"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\64",
+		"name": "64"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\67",
+		"name": "67"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\65",
+		"name": "65"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\66",
+		"name": "66"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\69",
+		"name": "69"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\68",
+		"name": "68"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\6b",
+		"name": "6b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\6a",
+		"name": "6a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\6c",
+		"name": "6c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\6d",
+		"name": "6d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\6f",
+		"name": "6f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\71",
+		"name": "71"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\70",
+		"name": "70"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\73",
+		"name": "73"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\72",
+		"name": "72"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\74",
+		"name": "74"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\75",
+		"name": "75"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\76",
+		"name": "76"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\78",
+		"name": "78"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\77",
+		"name": "77"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\79",
+		"name": "79"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\7a",
+		"name": "7a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\7b",
+		"name": "7b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\7c",
+		"name": "7c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\7d",
+		"name": "7d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\7e",
+		"name": "7e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\7f",
+		"name": "7f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\82",
+		"name": "82"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\81",
+		"name": "81"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\83",
+		"name": "83"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\80",
+		"name": "80"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\84",
+		"name": "84"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\85",
+		"name": "85"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\86",
+		"name": "86"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\87",
+		"name": "87"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\88",
+		"name": "88"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\8b",
+		"name": "8b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\89",
+		"name": "89"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\8d",
+		"name": "8d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\8c",
+		"name": "8c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\90",
+		"name": "90"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\8e",
+		"name": "8e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\91",
+		"name": "91"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\93",
+		"name": "93"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\92",
+		"name": "92"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\94",
+		"name": "94"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\95",
+		"name": "95"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\96",
+		"name": "96"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\98",
+		"name": "98"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\99",
+		"name": "99"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\97",
+		"name": "97"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\9b",
+		"name": "9b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\9d",
+		"name": "9d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\9c",
+		"name": "9c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\9e",
+		"name": "9e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\9f",
+		"name": "9f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a0",
+		"name": "a0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a1",
+		"name": "a1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a3",
+		"name": "a3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a4",
+		"name": "a4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a2",
+		"name": "a2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a5",
+		"name": "a5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a6",
+		"name": "a6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a8",
+		"name": "a8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\a9",
+		"name": "a9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\aa",
+		"name": "aa"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ab",
+		"name": "ab"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ac",
+		"name": "ac"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ad",
+		"name": "ad"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ae",
+		"name": "ae"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\af",
+		"name": "af"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b0",
+		"name": "b0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b1",
+		"name": "b1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b2",
+		"name": "b2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b3",
+		"name": "b3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b4",
+		"name": "b4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b5",
+		"name": "b5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b6",
+		"name": "b6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b7",
+		"name": "b7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b8",
+		"name": "b8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\b9",
+		"name": "b9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ba",
+		"name": "ba"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\bb",
+		"name": "bb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\bc",
+		"name": "bc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\bd",
+		"name": "bd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\be",
+		"name": "be"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c1",
+		"name": "c1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c2",
+		"name": "c2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c3",
+		"name": "c3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c4",
+		"name": "c4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c5",
+		"name": "c5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c6",
+		"name": "c6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c7",
+		"name": "c7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c8",
+		"name": "c8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\c9",
+		"name": "c9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ca",
+		"name": "ca"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\cc",
+		"name": "cc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\cb",
+		"name": "cb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\cd",
+		"name": "cd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ce",
+		"name": "ce"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\cf",
+		"name": "cf"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d0",
+		"name": "d0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d1",
+		"name": "d1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d2",
+		"name": "d2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d3",
+		"name": "d3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d4",
+		"name": "d4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d5",
+		"name": "d5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d6",
+		"name": "d6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d7",
+		"name": "d7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\d9",
+		"name": "d9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\da",
+		"name": "da"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\db",
+		"name": "db"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\dc",
+		"name": "dc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\dd",
+		"name": "dd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\de",
+		"name": "de"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\df",
+		"name": "df"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e0",
+		"name": "e0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e1",
+		"name": "e1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e2",
+		"name": "e2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e3",
+		"name": "e3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e4",
+		"name": "e4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e5",
+		"name": "e5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e6",
+		"name": "e6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e7",
+		"name": "e7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e8",
+		"name": "e8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\e9",
+		"name": "e9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ea",
+		"name": "ea"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\eb",
+		"name": "eb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ec",
+		"name": "ec"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ee",
+		"name": "ee"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f0",
+		"name": "f0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f3",
+		"name": "f3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f1",
+		"name": "f1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f2",
+		"name": "f2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f7",
+		"name": "f7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f5",
+		"name": "f5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f6",
+		"name": "f6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f8",
+		"name": "f8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\f9",
+		"name": "f9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\fb",
+		"name": "fb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\fa",
+		"name": "fa"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\fd",
+		"name": "fd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\fc",
+		"name": "fc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\fe",
+		"name": "fe"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\ff",
+		"name": "ff"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\jobs",
+		"name": "jobs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\unsaved-notebooks",
+		"name": "unsaved-notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\data_prep\\cache\\prior",
+		"name": "prior"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\shiny_app\\www\\profiles",
+		"name": "profiles"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal\\shiny_app\\www\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\1e",
+		"name": "1e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\37",
+		"name": "37"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\41",
+		"name": "41"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\50",
+		"name": "50"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\61",
+		"name": "61"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\a6",
+		"name": "a6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\77",
+		"name": "77"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\ab",
+		"name": "ab"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\bc",
+		"name": "bc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\bd",
+		"name": "bd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\d8",
+		"name": "d8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\db",
+		"name": "db"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\df",
+		"name": "df"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\ed",
+		"name": "ed"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\fa",
+		"name": "fa"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\jobs",
+		"name": "jobs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\docs\\articles",
+		"name": "articles"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\docs\\news",
+		"name": "news"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\docs\\reference",
+		"name": "reference"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\images\\favicons",
+		"name": "favicons"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo\\inst\\reports\\bb",
+		"name": "bb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\data_prep\\data\\exposures",
+		"name": "exposures"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\data_prep\\data\\lossruns",
+		"name": "lossruns"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\data_prep\\data\\ow",
+		"name": "ow"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\self_insurance_kpi\\shiny_app\\www\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\shiny_docker\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\tychobratools\\inst\\examples\\shiny_apps",
+		"name": "shiny_apps"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\t3\\shiny_app\\www\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles\\gh\\.github\\workflows",
+		"name": "workflows"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\0c",
+		"name": "0c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\0e",
+		"name": "0e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\16",
+		"name": "16"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\21",
+		"name": "21"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\2b",
+		"name": "2b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\2d",
+		"name": "2d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\3c",
+		"name": "3c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\3f",
+		"name": "3f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\44",
+		"name": "44"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\4d",
+		"name": "4d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\50",
+		"name": "50"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\56",
+		"name": "56"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\53",
+		"name": "53"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\4e",
+		"name": "4e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\62",
+		"name": "62"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\69",
+		"name": "69"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\65",
+		"name": "65"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\66",
+		"name": "66"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\6a",
+		"name": "6a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\8b",
+		"name": "8b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\8c",
+		"name": "8c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\88",
+		"name": "88"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\8a",
+		"name": "8a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\a1",
+		"name": "a1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\a5",
+		"name": "a5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\af",
+		"name": "af"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\b4",
+		"name": "b4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\c1",
+		"name": "c1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\ba",
+		"name": "ba"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\d0",
+		"name": "d0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\cc",
+		"name": "cc"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\d1",
+		"name": "d1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\c2",
+		"name": "c2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\d3",
+		"name": "d3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\d6",
+		"name": "d6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\d4",
+		"name": "d4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\de",
+		"name": "de"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\dd",
+		"name": "dd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\e3",
+		"name": "e3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\e7",
+		"name": "e7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\eb",
+		"name": "eb"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\e6",
+		"name": "e6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\ed",
+		"name": "ed"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\ef",
+		"name": "ef"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\%userprofile%\\.R\\lib",
+		"name": "lib"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\aspnetcore\\src\\IO.Swagger",
+		"name": "IO.Swagger"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\rsconnect\\shinyapps.io\\jimbrig2011",
+		"name": "jimbrig2011"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw\\rsconnect\\shinyapps.io\\jimbrigapps",
+		"name": "jimbrigapps"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\posts\\2020-12-07-searching-from-r",
+		"name": "2020-12-07-searching-from-r"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\posts\\2021-01-18-r-package-installation-optimization-with-ccache",
+		"name": "2021-01-18-r-package-installation-optimization-with-ccache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\posts\\welcome",
+		"name": "welcome"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\anchor-4.2.2",
+		"name": "anchor-4.2.2"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\autocomplete-0.37.1",
+		"name": "autocomplete-0.37.1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\bowser-1.9.3",
+		"name": "bowser-1.9.3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\distill-2.2.21",
+		"name": "distill-2.2.21"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\font-awesome-5.1.0",
+		"name": "font-awesome-5.1.0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\fuse-6.4.1",
+		"name": "fuse-6.4.1"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\header-attrs-2.5",
+		"name": "header-attrs-2.5"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\header-attrs-2.6",
+		"name": "header-attrs-2.6"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\jquery-1.11.3",
+		"name": "jquery-1.11.3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\headroom-0.9.4",
+		"name": "headroom-0.9.4"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\popper-2.6.0",
+		"name": "popper-2.6.0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\webcomponents-2.0.0",
+		"name": "webcomponents-2.0.0"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\docs\\site_libs\\tippy-6.2.7",
+		"name": "tippy-6.2.7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts\\2020-12-07-searching-from-r\\css",
+		"name": "css"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts\\2020-12-07-searching-from-r\\html",
+		"name": "html"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts\\2020-12-07-searching-from-r\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts\\2020-12-07-searching-from-r\\searching-from-r_files",
+		"name": "searching-from-r_files"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs\\_posts\\welcome\\welcome_files",
+		"name": "welcome_files"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsghactions\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\0d",
+		"name": "0d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\12",
+		"name": "12"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\15",
+		"name": "15"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\22",
+		"name": "22"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\17",
+		"name": "17"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\28",
+		"name": "28"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\2f",
+		"name": "2f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\32",
+		"name": "32"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\3a",
+		"name": "3a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\3c",
+		"name": "3c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\3f",
+		"name": "3f"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\4a",
+		"name": "4a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\52",
+		"name": "52"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\55",
+		"name": "55"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\5e",
+		"name": "5e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\65",
+		"name": "65"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\72",
+		"name": "72"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\7a",
+		"name": "7a"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\7e",
+		"name": "7e"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\8b",
+		"name": "8b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\8c",
+		"name": "8c"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\94",
+		"name": "94"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\9b",
+		"name": "9b"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\99",
+		"name": "99"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\9d",
+		"name": "9d"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\a3",
+		"name": "a3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\ae",
+		"name": "ae"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\b3",
+		"name": "b3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\b9",
+		"name": "b9"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\ab",
+		"name": "ab"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\ce",
+		"name": "ce"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\d3",
+		"name": "d3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\d8",
+		"name": "d8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\e3",
+		"name": "e3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\dd",
+		"name": "dd"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\e8",
+		"name": "e8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\ee",
+		"name": "ee"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\ef",
+		"name": "ef"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\f3",
+		"name": "f3"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\f7",
+		"name": "f7"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\ff",
+		"name": "ff"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\f8",
+		"name": "f8"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst\\docs\\reference",
+		"name": "reference"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst\\rmarkdown\\templates",
+		"name": "templates"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools\\inst\\scripts\\temp",
+		"name": "temp"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools.Rcheck\\00_pkg_src\\jimstools\\inst",
+		"name": "inst"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools.Rcheck\\00_pkg_src\\jimstools\\man",
+		"name": "man"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools.Rcheck\\00_pkg_src\\jimstools\\R",
+		"name": "R"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools.Rcheck\\00_pkg_src\\jimstools\\tests",
+		"name": "tests"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools.Rcheck\\00_pkg_src\\jimstools\\vignettes",
+		"name": "vignettes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\docs\\reference\\figures",
+		"name": "figures"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\app\\www",
+		"name": "www"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\examples\\test_app",
+		"name": "test_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\bookdown",
+		"name": "bookdown"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\js",
+		"name": "js"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\revealjs",
+		"name": "revealjs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\rmarkdown",
+		"name": "rmarkdown"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\rstudio",
+		"name": "rstudio"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\shiny_app",
+		"name": "shiny_app"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\shiny-server",
+		"name": "shiny-server"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\tic",
+		"name": "tic"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\tufte",
+		"name": "tufte"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates\\inst\\templates\\xaringan",
+		"name": "xaringan"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\content\\post\\2020-11-16-developing-robust-shiny-modules",
+		"name": "2020-11-16-developing-robust-shiny-modules"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\content\\post\\2020-12-02-searching-from-r",
+		"name": "2020-12-02-searching-from-r"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke\\archetypes",
+		"name": "archetypes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke\\data",
+		"name": "data"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke\\exampleSite",
+		"name": "exampleSite"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke\\i18n",
+		"name": "i18n"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke\\images",
+		"name": "images"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke\\layouts",
+		"name": "layouts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke\\src",
+		"name": "src"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\themes\\gohugo-theme-ananke\\static",
+		"name": "static"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\post\\2020-07-10-setting-up-custom-r-package-libraries.en_files",
+		"name": "2020-07-10-setting-up-custom-r-package-libraries.en_files"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\post\\2020-12-02-searching-from-r",
+		"name": "2020-12-02-searching-from-r"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\post\\index",
+		"name": "index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\post\\_index_files",
+		"name": "_index_files"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\rmarkdown-libs\\anchor-sections",
+		"name": "anchor-sections"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\therdispatch-blogdown\\static\\rmarkdown-libs\\header-attrs",
+		"name": "header-attrs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\pcs",
+		"name": "pcs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\viewer_history",
+		"name": "viewer_history"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\font-awesome-5.1.0\\css",
+		"name": "css"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rkb\\site_libs\\font-awesome-5.1.0\\webfonts",
+		"name": "webfonts"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\refs\\tags",
+		"name": "tags"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1\\bibliography-index",
+		"name": "bibliography-index"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1\\explorer-cache",
+		"name": "explorer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1\\ctx",
+		"name": "ctx"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1\\presentation",
+		"name": "presentation"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1\\profiles-cache",
+		"name": "profiles-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1\\sources",
+		"name": "sources"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1\\tutorial",
+		"name": "tutorial"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\E51AC7A1\\viewer-cache",
+		"name": "viewer-cache"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\rsconfig\\.Rproj.user\\shared\\notebooks",
+		"name": "notebooks"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\logs\\refs",
+		"name": "refs"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\objects\\info",
+		"name": "info"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\objects\\pack",
+		"name": "pack"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\refs\\heads",
+		"name": "heads"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\refs\\remotes",
+		"name": "remotes"
+	},
+	{
+		"fullPath": "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\winsetup\\.git\\refs\\tags",
+		"name": "tags"
+	}
+]

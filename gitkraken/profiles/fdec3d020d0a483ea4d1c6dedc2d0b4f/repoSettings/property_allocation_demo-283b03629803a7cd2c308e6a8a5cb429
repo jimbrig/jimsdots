@@ -1,0 +1,140 @@
+{
+  "remoteParents": {
+    "github": {
+      "Tychobra": {
+        "property_allocation_demo": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "property_allocation_demo"
+        }
+      },
+      "jimbrig": {
+        "property_allocation_demo": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "property_allocation_demo"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "c61d4009b704624388e24d42734a72a34571db78",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/gh-pages": {
+        "name": "refs/heads/gh-pages",
+        "oid": "ecae74bafb82941090ad5dc9c574fde1a6bc289a",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "c61d4009b704624388e24d42734a72a34571db78",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "6195e3df2bf2f0b6c33b0d708740bc9d1e574bbe",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    },
+    "jimbrig": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "0ab5c5718b168debb7ac57f692eea267af0605b6",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/gh-pages": {
+        "name": "refs/heads/gh-pages",
+        "oid": "6fc543669fabf988a13bd6673160cbf8930ef765",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "0ab5c5718b168debb7ac57f692eea267af0605b6",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "jimbrig/property_allocation_demo",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "upstreamFrecencyMetadata": {
+    "jimbrig": {
+      "id": "remote-jimbrig",
+      "timestamps": [
+        1610434309167
+      ],
+      "total": 1
+    },
+    "origin": {
+      "id": "remote-origin",
+      "timestamps": [
+        1610435538274
+      ],
+      "total": 1
+    }
+  },
+  "collapsedSections": [],
+  "collapsedRemotes": [
+    "origin"
+  ]
+}

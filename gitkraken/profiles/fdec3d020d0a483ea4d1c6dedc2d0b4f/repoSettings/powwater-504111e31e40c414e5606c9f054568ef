@@ -1,0 +1,107 @@
+{
+  "remoteParents": {
+    "github": {
+      "Tychobra": {
+        "powwater": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "powwater"
+        },
+        "property_allocation_demo": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "property_allocation_demo"
+        },
+        "powwater_adminportal": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "powwater_adminportal"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "a084e16bb61245e2911f6ac0188a88e9d5bcc8be",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/main"
+      },
+      "refs/heads/develop": {
+        "name": "refs/heads/develop",
+        "oid": "5de69a43c5557847d555cb14f6263b7f2ace908c",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "a084e16bb61245e2911f6ac0188a88e9d5bcc8be",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/3/head": {
+        "name": "refs/pull/3/head",
+        "oid": "5de69a43c5557847d555cb14f6263b7f2ace908c",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/5/head": {
+        "name": "refs/pull/5/head",
+        "oid": "8de2d731b2e9d9dd54179ef0dd88487739b96300",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "tychobra/powwater",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  }
+}

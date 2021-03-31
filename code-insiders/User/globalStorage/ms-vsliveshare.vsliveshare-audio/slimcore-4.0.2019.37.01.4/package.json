@@ -1,0 +1,17 @@
+{
+  "name": "slimcore",
+  "version": "2019.37.4",
+  "cobrand": "01",
+  "apiVersion": 7,
+  "main": "lib/slimcore.js",
+  "typings": "lib/slimcore.d.ts",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "author": "Microsoft",
+  "license": "Commercial Confidential",
+  "private": true
+}

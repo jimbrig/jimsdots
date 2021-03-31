@@ -1,0 +1,121 @@
+{
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "jimstools": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimstools"
+        },
+        "jimstemplates": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimstemplates"
+        }
+      },
+      "Tychobra": {
+        "polishedapi": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "polishedapi"
+        },
+        "property_allocation_demo": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "property_allocation_demo"
+        }
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "jimbrig/jimstemplates",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "1a46750fa497043b5e2ef0798be3b4979007c633",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/develop": {
+        "name": "refs/heads/develop",
+        "oid": "23243de9b2d5d3d4ae50e4dee1702c21985ecaf2",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "1a46750fa497043b5e2ef0798be3b4979007c633",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "4d3b7d901cb864579cc691fc862fe1ebee7474d1",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/2/head": {
+        "name": "refs/pull/2/head",
+        "oid": "23243de9b2d5d3d4ae50e4dee1702c21985ecaf2",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/2/merge": {
+        "name": "refs/pull/2/merge",
+        "oid": "4745db1db51b4e11060061d4b8ef69d237ffa1f3",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}

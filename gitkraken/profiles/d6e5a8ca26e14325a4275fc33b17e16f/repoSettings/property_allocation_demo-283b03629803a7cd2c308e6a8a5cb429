@@ -1,0 +1,99 @@
+{
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "3e68c760fd45bda5ef2fab5a2ce3b640a8f29f5c",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "3e68c760fd45bda5ef2fab5a2ce3b640a8f29f5c",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "remoteParents": {
+    "github": {
+      "Tychobra": {
+        "property_allocation_demo": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "property_allocation_demo"
+        }
+      },
+      "jimbrig": {
+        "property_allocation_demo": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "property_allocation_demo"
+        }
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "jimbrig/property_allocation_demo",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "upstreamFrecencyMetadata": {
+    "origin": {
+      "id": "remote-origin",
+      "timestamps": [
+        1610438122543
+      ],
+      "total": 1
+    }
+  },
+  "layout": {
+    "GraphPanel": {
+      "CommitAuthorZone": {
+        "width": 175
+      }
+    }
+  }
+}

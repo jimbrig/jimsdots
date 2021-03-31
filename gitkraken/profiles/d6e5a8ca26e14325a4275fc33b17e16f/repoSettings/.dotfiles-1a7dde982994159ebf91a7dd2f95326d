@@ -1,0 +1,107 @@
+{
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "jimstools": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimstools"
+        },
+        "jimstemplates": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimstemplates"
+        },
+        ".dotfiles": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": ".dotfiles"
+        }
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "jimbrig/.dotfiles",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "cf662fc7710b9fae1ed91a54c8201b790b345a63",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "cf662fc7710b9fae1ed91a54c8201b790b345a63",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/rstudio-prefs": {
+        "name": "refs/heads/rstudio-prefs",
+        "oid": "c4e75cfb4fbc3bcc815d9c7dcb2176ad01180c1c",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "c4e75cfb4fbc3bcc815d9c7dcb2176ad01180c1c",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/merge": {
+        "name": "refs/pull/1/merge",
+        "oid": "ef7ff7c664e79a8cd92c32c09a513fbda9534b28",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}

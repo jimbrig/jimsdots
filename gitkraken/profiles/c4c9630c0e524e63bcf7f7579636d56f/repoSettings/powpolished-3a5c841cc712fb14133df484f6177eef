@@ -1,0 +1,409 @@
+{
+  "remoteParents": {
+    "github": {
+      "powwater": {
+        "powpolished": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "polished"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "faa4f0d8ea4c92d8d16c73f95b17db09f6ebc963",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/bug/router_js_has": {
+        "name": "refs/heads/bug/router_js_has",
+        "oid": "a225365660e03e53bd9b5dcba082abaf5ede06b9",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/deploy_app": {
+        "name": "refs/heads/deploy_app",
+        "oid": "f2ff34e86cdb7fe46056781865c8dd9615c836ea",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/develop": {
+        "name": "refs/heads/develop",
+        "oid": "d185350d10f9d1950738ca2b08e9ab69802239c7",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/feature/signin": {
+        "name": "refs/heads/feature/signin",
+        "oid": "a5099ae47d9f6369294129e148352e2b67a6c69b",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/iframe_cookie": {
+        "name": "refs/heads/iframe_cookie",
+        "oid": "dfeeb6ce9c7c76c49688c25019b07fc346f61cdd",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "faa4f0d8ea4c92d8d16c73f95b17db09f6ebc963",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/post_CRAN/0.1": {
+        "name": "refs/heads/post_CRAN/0.1",
+        "oid": "43ad9c155eff4b2961ec73e7da5e99ebd5d8a3cb",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/sentry": {
+        "name": "refs/heads/sentry",
+        "oid": "901bc29f3cb12ea5a57174e6010cf727d215621c",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/cookies": {
+        "name": "refs/heads/update/cookies",
+        "oid": "46daa27319c5e3100347c5f0e64dae9365f43964",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/docs": {
+        "name": "refs/heads/update/docs",
+        "oid": "53bcfe7230b0796804f72d6fd16a2bc727962b42",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "d185350d10f9d1950738ca2b08e9ab69802239c7",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/merge": {
+        "name": "refs/pull/1/merge",
+        "oid": "07540a93a433bf24296b3fd724575208ad7edaeb",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.1.0": {
+        "name": "refs/tags/v0.1.0",
+        "oid": "1993f0cf09b37e33f6da0b29e9f4fba5e18e3734",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.2.0": {
+        "name": "refs/tags/v0.2.0",
+        "oid": "dcb17ea9086791822f1b52ab57d850b61562acaf",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.2.1": {
+        "name": "refs/tags/v0.2.1",
+        "oid": "284342b936eca592a30d3e5e73743b73eec7aa37",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    },
+    "upstream": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "eed5084a797e3c6744bb0346fff88a79aa06acab",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/bug/router_js_has": {
+        "name": "refs/heads/bug/router_js_has",
+        "oid": "a225365660e03e53bd9b5dcba082abaf5ede06b9",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/deploy_app": {
+        "name": "refs/heads/deploy_app",
+        "oid": "f2ff34e86cdb7fe46056781865c8dd9615c836ea",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/develop": {
+        "name": "refs/heads/develop",
+        "oid": "0416c3589e8b2443eaeb6eab33029b8a0c1d67b4",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/iframe_cookie": {
+        "name": "refs/heads/iframe_cookie",
+        "oid": "dfeeb6ce9c7c76c49688c25019b07fc346f61cdd",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "eed5084a797e3c6744bb0346fff88a79aa06acab",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/post_CRAN/0.1": {
+        "name": "refs/heads/post_CRAN/0.1",
+        "oid": "43ad9c155eff4b2961ec73e7da5e99ebd5d8a3cb",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/sentry": {
+        "name": "refs/heads/sentry",
+        "oid": "901bc29f3cb12ea5a57174e6010cf727d215621c",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/cookies": {
+        "name": "refs/heads/update/cookies",
+        "oid": "46daa27319c5e3100347c5f0e64dae9365f43964",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/docs": {
+        "name": "refs/heads/update/docs",
+        "oid": "53bcfe7230b0796804f72d6fd16a2bc727962b42",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "0416c3589e8b2443eaeb6eab33029b8a0c1d67b4",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/merge": {
+        "name": "refs/pull/1/merge",
+        "oid": "4cb1b9b718cebcb2e4e8b990ed887f585cf9c3df",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.1.0": {
+        "name": "refs/tags/v0.1.0",
+        "oid": "1993f0cf09b37e33f6da0b29e9f4fba5e18e3734",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.2.0": {
+        "name": "refs/tags/v0.2.0",
+        "oid": "dcb17ea9086791822f1b52ab57d850b61562acaf",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.2.1": {
+        "name": "refs/tags/v0.2.1",
+        "oid": "284342b936eca592a30d3e5e73743b73eec7aa37",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    },
+    "powpolished": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "eed5084a797e3c6744bb0346fff88a79aa06acab",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/bug/router_js_has": {
+        "name": "refs/heads/bug/router_js_has",
+        "oid": "a225365660e03e53bd9b5dcba082abaf5ede06b9",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/deploy_app": {
+        "name": "refs/heads/deploy_app",
+        "oid": "f2ff34e86cdb7fe46056781865c8dd9615c836ea",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/develop": {
+        "name": "refs/heads/develop",
+        "oid": "0416c3589e8b2443eaeb6eab33029b8a0c1d67b4",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/iframe_cookie": {
+        "name": "refs/heads/iframe_cookie",
+        "oid": "dfeeb6ce9c7c76c49688c25019b07fc346f61cdd",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "eed5084a797e3c6744bb0346fff88a79aa06acab",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/post_CRAN/0.1": {
+        "name": "refs/heads/post_CRAN/0.1",
+        "oid": "43ad9c155eff4b2961ec73e7da5e99ebd5d8a3cb",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/sentry": {
+        "name": "refs/heads/sentry",
+        "oid": "901bc29f3cb12ea5a57174e6010cf727d215621c",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/cookies": {
+        "name": "refs/heads/update/cookies",
+        "oid": "46daa27319c5e3100347c5f0e64dae9365f43964",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/docs": {
+        "name": "refs/heads/update/docs",
+        "oid": "53bcfe7230b0796804f72d6fd16a2bc727962b42",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "0416c3589e8b2443eaeb6eab33029b8a0c1d67b4",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/merge": {
+        "name": "refs/pull/1/merge",
+        "oid": "4cb1b9b718cebcb2e4e8b990ed887f585cf9c3df",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.1.0": {
+        "name": "refs/tags/v0.1.0",
+        "oid": "1993f0cf09b37e33f6da0b29e9f4fba5e18e3734",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.2.0": {
+        "name": "refs/tags/v0.2.0",
+        "oid": "dcb17ea9086791822f1b52ab57d850b61562acaf",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.2.1": {
+        "name": "refs/tags/v0.2.1",
+        "oid": "284342b936eca592a30d3e5e73743b73eec7aa37",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "powwater/powpolished",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "upstreamFrecencyMetadata": {
+    "origin": {
+      "id": "remote-origin",
+      "timestamps": [
+        1615849716705,
+        1615853618688,
+        1616427367645
+      ],
+      "total": 3
+    },
+    "powpolished": {
+      "id": "remote-powpolished",
+      "timestamps": [
+        1615850389353
+      ],
+      "total": 1
+    }
+  },
+  "collapsedRemotes": [
+    "upstream"
+  ]
+}
