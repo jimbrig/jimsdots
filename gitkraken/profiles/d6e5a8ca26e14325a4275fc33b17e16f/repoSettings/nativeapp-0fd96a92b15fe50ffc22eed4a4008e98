@@ -1,0 +1,107 @@
+{
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "reactnative_learning": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "reactnative_learning"
+        },
+        "nativeapp": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "nativeapp"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "github": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "5a9438bd290bdf02a95e403f5f8028d191ce7d51",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/main"
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "5a9438bd290bdf02a95e403f5f8028d191ce7d51",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    },
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "cfa88809b97e59208ded378e4c901a2483609b30",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/main"
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "cfa88809b97e59208ded378e4c901a2483609b30",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "jimbrig/nativeapp",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "hideAddUserForkAsRemoteSuggestion": true,
+  "upstreamFrecencyMetadata": {
+    "origin": {
+      "id": "remote-origin",
+      "timestamps": [
+        1611951352820
+      ],
+      "total": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "github-issue-table": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "github-issue-table"
+        }
+      }
+    }
+  }
+}

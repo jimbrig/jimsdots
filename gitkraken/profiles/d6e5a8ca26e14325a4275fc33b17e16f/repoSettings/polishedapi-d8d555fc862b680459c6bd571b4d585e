@@ -1,0 +1,597 @@
+{
+  "remoteParents": {
+    "github": {
+      "Tychobra": {
+        "polishedapi": {
+          "hostingServiceType": "github",
+          "owner": "Tychobra",
+          "name": "polishedapi"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "3d6b0f2ad9f42314f4ecbea6e3ef39ead03058c6",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/api_only": {
+        "name": "refs/heads/api_only",
+        "oid": "ac50205dad900b976df0b339c22c01c778387931",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/axion": {
+        "name": "refs/heads/axion",
+        "oid": "d4b5e2d6f1f34935a0ae6752d579aa7ef479b607",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/bug/router_js_has": {
+        "name": "refs/heads/bug/router_js_has",
+        "oid": "a225365660e03e53bd9b5dcba082abaf5ede06b9",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/custom_sign_in": {
+        "name": "refs/heads/custom_sign_in",
+        "oid": "579c0b4f36385e0671892cee8abc4a383f515c3d",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/custom_sign_in_id_names": {
+        "name": "refs/heads/custom_sign_in_id_names",
+        "oid": "77cb83e777f0bd577bc87f6724f0c2fd8c393a57",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/db_conn": {
+        "name": "refs/heads/db_conn",
+        "oid": "c62b829f321694b357ac0345446c20e00292304d",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/deploy_app": {
+        "name": "refs/heads/deploy_app",
+        "oid": "f2ff34e86cdb7fe46056781865c8dd9615c836ea",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/feature/2_factor_auth": {
+        "name": "refs/heads/feature/2_factor_auth",
+        "oid": "e1b448dbce64ce7d3dc1f61e1235f95ade261fa1",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/feature/rpkgdeps": {
+        "name": "refs/heads/feature/rpkgdeps",
+        "oid": "d2e8ec27fe2d3fe8437a2f99f519816de71dd2a5",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/flex_sign_out": {
+        "name": "refs/heads/flex_sign_out",
+        "oid": "efed121797e2825e47f936250422dcfd44d7115b",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/iframe_cookie": {
+        "name": "refs/heads/iframe_cookie",
+        "oid": "dfeeb6ce9c7c76c49688c25019b07fc346f61cdd",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/is_auth_required": {
+        "name": "refs/heads/is_auth_required",
+        "oid": "a731bb5a63e20999359b6574e4cf1a49aaa00110",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "3d6b0f2ad9f42314f4ecbea6e3ef39ead03058c6",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/payments": {
+        "name": "refs/heads/payments",
+        "oid": "dd9f2f07aabfe4d5eb47474ab2b1d33e5b425313",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/post_CRAN/0.1": {
+        "name": "refs/heads/post_CRAN/0.1",
+        "oid": "43ad9c155eff4b2961ec73e7da5e99ebd5d8a3cb",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/remove_dashboard": {
+        "name": "refs/heads/remove_dashboard",
+        "oid": "6a5f120132336b9af9bf8c516206a569a20d24e9",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/sentry": {
+        "name": "refs/heads/sentry",
+        "oid": "901bc29f3cb12ea5a57174e6010cf727d215621c",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/sign_in_2": {
+        "name": "refs/heads/sign_in_2",
+        "oid": "be6bb4b319624815151ba4c626551ba075d28f02",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/splash": {
+        "name": "refs/heads/splash",
+        "oid": "cb08a36dbe1bd5debd9b032a582d4e4658520114",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/test/social_login": {
+        "name": "refs/heads/test/social_login",
+        "oid": "1993f0cf09b37e33f6da0b29e9f4fba5e18e3734",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/cookies": {
+        "name": "refs/heads/update/cookies",
+        "oid": "46daa27319c5e3100347c5f0e64dae9365f43964",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/default_toast_options": {
+        "name": "refs/heads/update/default_toast_options",
+        "oid": "df3468099c5f9ac57a846b1dc23f9d31dcc9afaf",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/docs": {
+        "name": "refs/heads/update/docs",
+        "oid": "53bcfe7230b0796804f72d6fd16a2bc727962b42",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/sentry_CDN": {
+        "name": "refs/heads/update/sentry_CDN",
+        "oid": "d5bc7d2019be60e38266ceb76e0074b12e554082",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/update/sign_in_no_invite": {
+        "name": "refs/heads/update/sign_in_no_invite",
+        "oid": "ba82d4d14978d5530edf8a77fe0d9ed569d2a497",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/url_path": {
+        "name": "refs/heads/url_path",
+        "oid": "e0172a5a1fc74827f1f29d627b941da67a454b99",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/users_tbl_proxy": {
+        "name": "refs/heads/users_tbl_proxy",
+        "oid": "94a6f99e1b366cb5addcf9b24e6e02c8cc4d3710",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/verify_email_code": {
+        "name": "refs/heads/verify_email_code",
+        "oid": "87b1c80961cd36b7db40561e066468f5178c981f",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/100/head": {
+        "name": "refs/pull/100/head",
+        "oid": "0180e02eb47e93de45b168d15ee8ef6e1afc86d0",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/101/head": {
+        "name": "refs/pull/101/head",
+        "oid": "87b1c80961cd36b7db40561e066468f5178c981f",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/102/head": {
+        "name": "refs/pull/102/head",
+        "oid": "6a5f120132336b9af9bf8c516206a569a20d24e9",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/104/head": {
+        "name": "refs/pull/104/head",
+        "oid": "dd9f2f07aabfe4d5eb47474ab2b1d33e5b425313",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/105/head": {
+        "name": "refs/pull/105/head",
+        "oid": "6afc7a230e4e7c48e9a0c1f8dfeec95ddbe66c30",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/106/head": {
+        "name": "refs/pull/106/head",
+        "oid": "cb08a36dbe1bd5debd9b032a582d4e4658520114",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/107/head": {
+        "name": "refs/pull/107/head",
+        "oid": "df3468099c5f9ac57a846b1dc23f9d31dcc9afaf",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/109/head": {
+        "name": "refs/pull/109/head",
+        "oid": "a731bb5a63e20999359b6574e4cf1a49aaa00110",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/111/head": {
+        "name": "refs/pull/111/head",
+        "oid": "a225365660e03e53bd9b5dcba082abaf5ede06b9",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/112/head": {
+        "name": "refs/pull/112/head",
+        "oid": "09bc3b65086572058564411f4ac03b0155f4e3ea",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/114/head": {
+        "name": "refs/pull/114/head",
+        "oid": "71ea9b02da9846b10c038cb4221cf3150f567cdc",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/116/head": {
+        "name": "refs/pull/116/head",
+        "oid": "53bcfe7230b0796804f72d6fd16a2bc727962b42",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/119/head": {
+        "name": "refs/pull/119/head",
+        "oid": "901bc29f3cb12ea5a57174e6010cf727d215621c",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/120/head": {
+        "name": "refs/pull/120/head",
+        "oid": "f2ff34e86cdb7fe46056781865c8dd9615c836ea",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/121/head": {
+        "name": "refs/pull/121/head",
+        "oid": "dfeeb6ce9c7c76c49688c25019b07fc346f61cdd",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/126/head": {
+        "name": "refs/pull/126/head",
+        "oid": "d5bc7d2019be60e38266ceb76e0074b12e554082",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/130/head": {
+        "name": "refs/pull/130/head",
+        "oid": "d2e8ec27fe2d3fe8437a2f99f519816de71dd2a5",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/15/head": {
+        "name": "refs/pull/15/head",
+        "oid": "add7ccd5eaf79333abbb92a809b0f9968328dc80",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/16/head": {
+        "name": "refs/pull/16/head",
+        "oid": "999e09cb6ea73ae2e99a4b5171a7d4d36f9debd2",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/40/head": {
+        "name": "refs/pull/40/head",
+        "oid": "5eb7047543bb82fba0e57173832a34ff6d95be9e",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/41/head": {
+        "name": "refs/pull/41/head",
+        "oid": "0a767417ca4601a7934d71e00a6a20988d013cfb",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/42/head": {
+        "name": "refs/pull/42/head",
+        "oid": "6be8c305965ce3ae1300b005b2d3dc5a3f021b70",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/44/head": {
+        "name": "refs/pull/44/head",
+        "oid": "a932ec6e12e3fcbcdd2269ccf4b4f41cc9d4f462",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/45/head": {
+        "name": "refs/pull/45/head",
+        "oid": "cf3064afe8ef2b08190dc37f892e25a76ab86cce",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/5/head": {
+        "name": "refs/pull/5/head",
+        "oid": "9aec3de1f007b7dfeb5f251b34dec17952f07239",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/56/head": {
+        "name": "refs/pull/56/head",
+        "oid": "24bf14086af99917245648b85a0688e2691ad25d",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/58/head": {
+        "name": "refs/pull/58/head",
+        "oid": "1d02903a517d5f5a3d2af0997c33c64ccfc7f036",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/59/head": {
+        "name": "refs/pull/59/head",
+        "oid": "84eba2642723e3bdc2c165ad554eef9569ed5a9c",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/61/head": {
+        "name": "refs/pull/61/head",
+        "oid": "53a981185f0c40bf0d88df460c041baa6e53bcfd",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/63/head": {
+        "name": "refs/pull/63/head",
+        "oid": "e27db65219a6e2b962759ec73ac31cd233aa5bff",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/68/head": {
+        "name": "refs/pull/68/head",
+        "oid": "19fdf016990ff0ced0193e36d63e3091418a1cb2",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/69/head": {
+        "name": "refs/pull/69/head",
+        "oid": "6d2a6963bedb92619bd60176501164c184207a06",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/7/head": {
+        "name": "refs/pull/7/head",
+        "oid": "dfefe43fc2bb5ca38836dc17035413c8de6d74fe",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/70/head": {
+        "name": "refs/pull/70/head",
+        "oid": "7a77aae30c1abf23e7b44fb3f8ed091609c91d9e",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/72/head": {
+        "name": "refs/pull/72/head",
+        "oid": "42b6dee9961edf3b9dcc8ded1f48d571abbbaa44",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/76/head": {
+        "name": "refs/pull/76/head",
+        "oid": "8eb8516ac35a1f05d128d87ad50e7024cc38ad9d",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/85/head": {
+        "name": "refs/pull/85/head",
+        "oid": "99874b1aeac8f4e85b75a75c9e8854519433fff7",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/86/head": {
+        "name": "refs/pull/86/head",
+        "oid": "ac50205dad900b976df0b339c22c01c778387931",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/91/head": {
+        "name": "refs/pull/91/head",
+        "oid": "ba82d4d14978d5530edf8a77fe0d9ed569d2a497",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/92/head": {
+        "name": "refs/pull/92/head",
+        "oid": "579c0b4f36385e0671892cee8abc4a383f515c3d",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/93/head": {
+        "name": "refs/pull/93/head",
+        "oid": "efed121797e2825e47f936250422dcfd44d7115b",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/94/head": {
+        "name": "refs/pull/94/head",
+        "oid": "94a6f99e1b366cb5addcf9b24e6e02c8cc4d3710",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/96/head": {
+        "name": "refs/pull/96/head",
+        "oid": "be6bb4b319624815151ba4c626551ba075d28f02",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/98/head": {
+        "name": "refs/pull/98/head",
+        "oid": "77cb83e777f0bd577bc87f6724f0c2fd8c393a57",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/99/head": {
+        "name": "refs/pull/99/head",
+        "oid": "425da4b2c7a0b0a3f9ee8d806020e4810b9145c4",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.1.0": {
+        "name": "refs/tags/v0.1.0",
+        "oid": "1993f0cf09b37e33f6da0b29e9f4fba5e18e3734",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/v0.2.0": {
+        "name": "refs/tags/v0.2.0",
+        "oid": "dcb17ea9086791822f1b52ab57d850b61562acaf",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "issues": {
+    "github": {
+      "type": "github",
+      "currentRemote": "tychobra/polishedapi",
+      "collapsedFilters": []
+    },
+    "githubEnterprise": {
+      "type": "githubEnterprise",
+      "currentRemote": null,
+      "collapsedFilters": []
+    },
+    "gitlabSelfHosted": {
+      "type": "gitlabSelfHosted",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "gitlab": {
+      "type": "gitlab",
+      "collapsedFilters": [],
+      "currentProjectId": null
+    },
+    "glo": {
+      "type": "glo",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "jiraCloud": {
+      "type": "jiraCloud",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "jiraServer": {
+      "type": "jiraServer",
+      "currentProject": null,
+      "collapsedFilters": [],
+      "collapsedIssues": []
+    },
+    "trello": {
+      "type": "trello",
+      "collapsedFilters": [],
+      "currentBoardId": null
+    },
+    "activeIssueTrackerType": "github"
+  },
+  "templates": {
+    "useCommitTemplate": false
+  }
+}

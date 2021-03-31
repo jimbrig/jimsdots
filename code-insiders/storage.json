@@ -1,0 +1,477 @@
+{
+    "telemetry.machineId": "a5e2bb98d4a98b1ad73512cc293bf6a5831826204d566ac5fbd93db608588e1c",
+    "openedPathsList": {
+        "entries": [
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/docs/radiant-lite.wiki"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/PowerShell"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/github-readme-streak-stats"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/powdocs"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/landing_page/docs"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/powwater"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell%20%281%29"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/landing_page"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/docs/EOD_Summaries"
+            },
+            {
+                "folderUri": "file:///c%3A/tools/DevDocs"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/data_prep/sql"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/sandbox/shiny_gcr_tf"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/sandbox/staries-master"
+            },
+            {
+                "workspace": {
+                    "id": "30398ef77f99ab7a133d1f87e0d218f3",
+                    "configPath": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/landing_page/powwater_lp.code-workspace"
+                }
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/sandbox/demo-landing-site"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/powtools/data-raw/sql"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/pow_temp/powwaterr"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater_adminportal/data_prep/sql"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/powwater_adminportal/data_prep/archive/data_prep/sql"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/powwater_adminportal/data_prep/archive/data_prep"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/pow"
+            },
+            {
+                "folderUri": "vscode-remote://wsl%2Bubuntu/home/jimbr/LearnWSL",
+                "label": "/home/jimbr/LearnWSL [WSL: Ubuntu]"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/.dotfiles"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/POW"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/powwater_adminportal"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/powwater_adminportal/data_prep/sql"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/powwater_adminportal/data_prep"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/docs/gitflow-wiki"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/docs/psae-process.wiki"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/code/gitflow-wiki"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/sandbox/reactnative_learning/nativeapp"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/jimsdocs"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/property_allocation_demo"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/winsetup"
+            },
+            {
+                "folderUri": "file:///c%3A/Setup"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/powwater"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/jimstools"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/.dotfiles"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/factset"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/polished"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/loss_development"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/jimstemplates"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/dashboard.polished.tech"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/tychobra/cultovo_mvp"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/codmw"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/.ssh"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/Jimmy%20Briggs/.vscode-insiders/extensions/ms-vscode.powershell-2020.6.0/examples"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.dotfiles/gcloud/credentials.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/AppData/Local/RStudio/QtWebEngine/Default/devtoolsprefs.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/AppData/Local/RStudio/monitored/connection_history/connection-history-database.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.mume/config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.codestream/mappings.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.cloudinary-cli/config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/docs/Obsidian/obsidian-config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.config/configstore/reactNativeToolsConfig.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.dotfiles/scoop/config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/jimsdots/youtube-dl/youtube-dl.conf"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.docker/contexts/Meta/6f3095ea2b3eeae3895d2f0bedabc7b8928f5317e4e9ec611e4214e0090d773c/META.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.docker/daemon.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.docker/config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.bridge/config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.azure/dockerAccessToken.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.azure/clouds.config"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.azure/AzureRmContextSettings.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.azure/AzureRmContext.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.azure/AzurePSDataCollectionProfile.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.azure/azureProfile.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimsdots/boto/.boto"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimsdots/gdrive/jimbrig2011-credentials.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/jimsdots/gdrive/jimbrig2011-credentials.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/jimsdots/powershell/Microsoft.PowerShell_profile.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/jimsdots/config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/docker/config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/jimbrig/jimsdots/powershell/winget_autocompletion.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell/powershell.config.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell/functions.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell/deps.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell/aliases.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell/Settings/PSDotFiles.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell/_profile.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/PowerShell/winget_autocompletion.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/PowerShell/ghcli_autocompletion.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/PowerShell/profile.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/PowerShell/functions.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/PowerShell/aliases.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/powdocs/mkdocs.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Program%20Files/PostgreSQL/13/share/pg_hba.conf.sample"
+            },
+            {
+                "fileUri": "file:///c%3A/Program%20Files/PostgreSQL/13/share/pg_ident.conf.sample"
+            },
+            {
+                "fileUri": "file:///c%3A/Program%20Files/PostgreSQL/13/share/pg_service.conf.sample"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Downloads/config.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.npmrc"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/~/.config/autocompletion.txt"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/.dotfiles/gh/config.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/vv.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/v.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/shiny_app/config/vendor_info.yml"
+            },
+            {
+                "fileUri": "file:///g%3A/My%20Drive/3-Resources/Tychobra%20Configs/config.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Downloads/config%20%281%29.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/AppData/Local/Packages/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/LocalState/settings.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/shiny_app/www/html/ratings_card.html"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/data_prep/sql/dbml/vendors.dbml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/data_prep/sql/dbml/powwater.dbml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/shiny_app/config/choices.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/dev/gcloud_secret.sh"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/dev/gcloud_secret.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/.gitignore"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/cloudbuild.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/cloud-build.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/vendor_dashboard/shiny_app/config.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/dev/gcloud_secret.sh"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/dev/config.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/dev/gcloud_secret.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/shiny_app/config.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/adminportal/config.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/powpolished/.github/workflows/sync-labels.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/ProgramData/nvm/v15.11.0/node_modules/git-labels-cli/index.js"
+            },
+            {
+                "fileUri": "file:///c%3A/.npmrc"
+            },
+            {
+                "fileUri": "file:///c%3A/tools/Windows-10-Sophia-Script/Sophia/Sophia.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/env/bat/backupqat.bat"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/OneDrive/Documents/WindowsPowerShell%20%281%29/Microsoft.PowerShell_profile.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/powtools/inst/config/assets/branding.yml"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/powwater/powwater/data/.gitignore"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/propath"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/sandbox/profile_table_app/www/profile_form.html"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/sandbox/profile_table_app/www/entry_form.html"
+            },
+            {
+                "fileUri": "file:///c%3A/ProgramData/chocolatey/config/chocolatey.config"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/setup/installs/chocolatey/chococonfig.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/install-vscode.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/Install-Scoop.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/opensshutils.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/uninstall-bloatware.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/installs.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/install-chocolatey.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/install-azurecli.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/choco-installs.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/Scripts/configs.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/powershell/setup-powershell.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/setup/installs/chocolatey/chocoinstalls.ps1"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/setup/installs/installchoco.bat"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/Dev/setup/installs/installations.bat"
+            },
+            {
+                "fileUri": "file:///c%3A/Setup/.vscode/settings.json"
+            },
+            {
+                "fileUri": "file:///c%3A/Users/Jimmy%20Briggs/cod.json"
+            },
+            {
+                "fileUri": "file:///c%3A/env/cmd/update-npm.cmd"
+            },
+            {
+                "fileUri": "file:///c%3A/env/cmd/resetwu.cmd"
+            }
+        ]
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#272822",
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "C:\\Users\\Jimmy Briggs\\AppData\\Roaming\\Code - Insiders\\Backups\\1617144913422",
+            "uiState": {
+                "mode": 1,
+                "x": 960,
+                "y": 0,
+                "width": 960,
+                "height": 1050
+            }
+        },
+        "openedWindows": []
+    },
+    "pickerWorkingDir": "C:\\Users\\Jimmy Briggs\\.docker"
+}

@@ -1,0 +1,546 @@
+{
+  "lastUpgradeScriptRun": "v7.5.0",
+  "lastVersion": "7.5.3",
+  "lastReleaseNotesDisplayed": "7.5.3",
+  "windowSettings": {
+    "x": 692,
+    "y": 105,
+    "width": 1024,
+    "height": 1057,
+    "fullScreen": false,
+    "maximized": true
+  },
+  "appId": "b0725f44b44120f5336bc29ebb69cbcd046d8b72",
+  "registration": {
+    "email": "jimbrig2011@outlook.com",
+    "name": "Jimmy Briggs",
+    "status": "activated",
+    "loginType": "username_and_password",
+    "date": "2020-12-28T21:36:02.000Z",
+    "EULA": {
+      "version": "7.5.0",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "9afc21ba-c459-4a08-b24c-d92c1c94a3f7",
+  "licensedFeatures": [
+    "pro",
+    "timelines:pro",
+    "suite:pro",
+    "boards:pro"
+  ],
+  "userFeatures": [
+    {
+      "betaFeaturesEnabled": false,
+      "name": "gitkraken"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "glo"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "timelines"
+    }
+  ],
+  "hasSeenNewUserOnboarding": true,
+  "commits": {
+    "maxCommitsInGraph": 2000
+  },
+  "profileGuid": "d6e5a8ca26e14325a4275fc33b17e16f",
+  "system": {
+    "shPath": "C:\\Program Files\\Git\\bin\\sh.exe"
+  },
+  "activityLogLevel": 2,
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools",
+          "timestamps": [
+            1609194466042,
+            1609827711964,
+            1609827942762,
+            1609828262848,
+            1609977090012,
+            1615784177790
+          ],
+          "total": 6
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates",
+          "timestamps": [
+            1609194593650
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\.dotfiles",
+          "timestamps": [
+            1609194636410
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\codmw",
+          "timestamps": [
+            1609194665362
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\cultovo_mvp",
+          "timestamps": [
+            1609194815314
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech",
+          "timestamps": [
+            1609194828274
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished",
+          "timestamps": [
+            1609194856025,
+            1609977105378,
+            1610434418328
+          ],
+          "total": 3
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development",
+          "timestamps": [
+            1609194883035
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset",
+          "timestamps": [
+            1609194947777
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi",
+          "timestamps": [
+            1609263327468,
+            1609962973786,
+            1612207033045,
+            1612211950578
+          ],
+          "total": 4
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\.dotfiles": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\.dotfiles",
+          "timestamps": [
+            1609699112814,
+            1611071475407
+          ],
+          "total": 2
+        },
+        "openRepo-C:/Users/Jimmy Briggs/.dotfiles/": {
+          "id": "openRepo-C:/Users/Jimmy Briggs/.dotfiles/",
+          "timestamps": [
+            1609699124164
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs",
+          "timestamps": [
+            1609828256601,
+            1615908223992,
+            1616965971367
+          ],
+          "total": 3
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater",
+          "timestamps": [
+            1609867960432,
+            1610054217172,
+            1610604153669,
+            1610614178570,
+            1613503301211
+          ],
+          "total": 5
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\.R\\R_dotfiles_sync": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\.R\\R_dotfiles_sync",
+          "timestamps": [
+            1609876650551
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo",
+          "timestamps": [
+            1610434278361,
+            1610434377948,
+            1610434430591,
+            1610438081020
+          ],
+          "total": 4
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater_adminportal": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater_adminportal",
+          "timestamps": [
+            1611355128564,
+            1611856617364,
+            1612423994183,
+            1613503057536
+          ],
+          "total": 4
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\buildtools",
+          "timestamps": [
+            1611450164904
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\sandbox\\reactnative_learning\\nativeapp": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\sandbox\\reactnative_learning\\nativeapp",
+          "timestamps": [
+            1611951016675
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\jimbrig",
+          "timestamps": [
+            1612133256132,
+            1616111468596
+          ],
+          "total": 2
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimbrig": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimbrig",
+          "timestamps": [
+            1612133284076
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\.temp\\awesome-obsidian": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\.temp\\awesome-obsidian",
+          "timestamps": [
+            1612201324837
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\polishedapi": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\polishedapi",
+          "timestamps": [
+            1612207386927
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\.temp\\powwater_adminportal": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\.temp\\powwater_adminportal",
+          "timestamps": [
+            1612274986959
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal (latest)": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal (latest)",
+          "timestamps": [
+            1612276117075
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\gitflow-wiki": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\gitflow-wiki",
+          "timestamps": [
+            1612434136767
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\gitflow": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\gitflow",
+          "timestamps": [
+            1612434238508
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\gitflow.wiki": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\gitflow.wiki",
+          "timestamps": [
+            1612434509560
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powwater_adminportal",
+          "timestamps": [
+            1612472274984,
+            1612833852892,
+            1612833932373
+          ],
+          "total": 3
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\OneDrive\\Desktop\\excel-config": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\OneDrive\\Desktop\\excel-config",
+          "timestamps": [
+            1612477396393
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table",
+          "timestamps": [
+            1612818501274
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\pow": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\pow",
+          "timestamps": [
+            1613503288972
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\POW": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\POW",
+          "timestamps": [
+            1613503345096
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\powtools",
+          "timestamps": [
+            1613503365748
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\sandbox\\powwater_adminportal": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\sandbox\\powwater_adminportal",
+          "timestamps": [
+            1613593966764
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powwater\\powwater": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powwater\\powwater",
+          "timestamps": [
+            1613596472834
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powwater": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powwater",
+          "timestamps": [
+            1613596653018,
+            1615821292907
+          ],
+          "total": 2
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\landing_page": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\landing_page",
+          "timestamps": [
+            1614123778668,
+            1615398283907,
+            1615400387228
+          ],
+          "total": 3
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\R-task-views": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\R-task-views",
+          "timestamps": [
+            1614125693055
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\task-views": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\task-views",
+          "timestamps": [
+            1614125754978
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\task-views": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\task-views",
+          "timestamps": [
+            1614128659569
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\adminportal": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\adminportal",
+          "timestamps": [
+            1614703257131,
+            1614963071685
+          ],
+          "total": 2
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powpolished": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powpolished",
+          "timestamps": [
+            1614905951254
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\adminportal": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\adminportal",
+          "timestamps": [
+            1614981172595
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\vendor_dashboard": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\vendor_dashboard",
+          "timestamps": [
+            1615321640492
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powtools": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powtools",
+          "timestamps": [
+            1615398295925,
+            1615398490698,
+            1615400519818
+          ],
+          "total": 3
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powtools": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powtools",
+          "timestamps": [
+            1615398580510
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\dashboard.powwater.org": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\dashboard.powwater.org",
+          "timestamps": [
+            1615400562415
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\adminportal": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\adminportal",
+          "timestamps": [
+            1615407782315
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\customerMobile": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\customerMobile",
+          "timestamps": [
+            1615513044979
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powdata": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powdata",
+          "timestamps": [
+            1615563561610
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\vendordashboardtemp": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\vendordashboardtemp",
+          "timestamps": [
+            1616012859427
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\OneDrive\\Desktop\\vendor_dashboard": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\OneDrive\\Desktop\\vendor_dashboard",
+          "timestamps": [
+            1616016691543
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powdocs": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powdocs",
+          "timestamps": [
+            1616091485496
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\vendor_dashboard": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\vendor_dashboard",
+          "timestamps": [
+            1616600446916
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powpolishedapi": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powpolishedapi",
+          "timestamps": [
+            1616689219340
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\Notes": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\docs\\Notes",
+          "timestamps": [
+            1616821171088
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\sandbox\\shiny.fluent": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\sandbox\\shiny.fluent",
+          "timestamps": [
+            1616878851518
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\shiny.fluent": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\shiny.fluent",
+          "timestamps": [
+            1616879215318
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\shiny.fluent": {
+          "id": "openRepo-C:\\shiny.fluent",
+          "timestamps": [
+            1616880784808
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-readme-streak-stats": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-readme-streak-stats",
+          "timestamps": [
+            1616885767539
+          ],
+          "total": 1
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdots": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdots",
+          "timestamps": [
+            1616965980561,
+            1617075382883
+          ],
+          "total": 2
+        },
+        "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\dots": {
+          "id": "openRepo-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\dots",
+          "timestamps": [
+            1616967251161
+          ],
+          "total": 1
+        }
+      }
+    }
+  },
+  "keepGitConfigInSyncWithProfile": true,
+  "ui": {
+    "wideLayout": true
+  },
+  "notification": {
+    "settings": {
+      "local": {
+        "showDesktopNotifications": true
+      }
+    }
+  }
+}

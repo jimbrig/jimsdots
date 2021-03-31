@@ -1,0 +1,507 @@
+{
+  "tabInfo": {
+    "tabs": [
+      {
+        "id": "07bca9b7-1f55-4701-b937-c7cb15ad8566",
+        "type": "PLUGIN",
+        "pluginId": "glo",
+        "mountKey": "GloAppFullView"
+      },
+      {
+        "id": "b74ecb8f-698b-48a1-9147-7e812d809c3d",
+        "type": "REPO",
+        "repoName": "jimstools",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/jimbrig/jimstools/"
+      },
+      {
+        "id": "05819810-fb70-46fd-9c26-c9c5f3b187f2",
+        "type": "REPO",
+        "repoName": "jimstemplates",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/jimbrig/jimstemplates/"
+      },
+      {
+        "id": "abde8700-77d4-403b-a020-f8a47d0b6231",
+        "type": "REPO",
+        "repoName": "jimsdocs",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/jimbrig/jimsdocs/"
+      },
+      {
+        "id": "8bbf8135-062c-4fc4-929f-471f57a58c76",
+        "type": "REPO",
+        "repoName": "Notes",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/docs/Notes/"
+      },
+      {
+        "id": "38270022-0a89-4911-84ee-dc7187b22d5d",
+        "type": "REPO",
+        "repoName": "shiny.fluent",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/jimbrig/shiny.fluent/"
+      },
+      {
+        "id": "269004aa-d798-4532-a595-7fb03bd2e311",
+        "type": "REPO",
+        "repoName": "shiny.fluent",
+        "repoPath": "C:/shiny.fluent/"
+      },
+      {
+        "id": "e1bae028-1b0f-4f85-a912-a0b5fa581be2",
+        "type": "REPO",
+        "repoName": "github-readme-streak-stats",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/jimbrig/github-readme-streak-stats/"
+      },
+      {
+        "id": "f5ea46d8-7a32-433c-84eb-210ffa85fa0e",
+        "type": "REPO",
+        "repoName": "jimsdots",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/jimbrig/jimsdots/"
+      },
+      {
+        "id": "64f49d55-1893-44bd-a1ed-49a681602a3f",
+        "type": "RELEASE_NOTES"
+      }
+    ],
+    "selectedTabId": "f5ea46d8-7a32-433c-84eb-210ffa85fa0e"
+  },
+  "profileIcon": "Keif.png",
+  "profileName": "jimbrig",
+  "userEmail": "jimbrig2011@outlook.com",
+  "userName": "Jimmy Briggs",
+  "longpaths": true,
+  "editor": {
+    "fontFamily": "Cascadia Code"
+  },
+  "defaultTerminal": "Git Bash",
+  "ssh": {
+    "useLocalAgent": false,
+    "privateKey": "C:\\Users\\Jimmy Briggs\\.dotfiles\\ssh\\gitkraken\\gitkraken_jimbrig_rsa",
+    "publicKey": "C:\\Users\\Jimmy Briggs\\.dotfiles\\ssh\\gitkraken\\gitkraken_jimbrig_rsa.pub"
+  },
+  "services": {
+    "github": {
+      "ssh": {
+        "keyState": "external",
+        "publicKeyPath": "C:\\Users\\Jimmy Briggs\\.dotfiles\\ssh\\gitkraken\\gitkraken_jimbrig_rsa.pub",
+        "privateKeyPath": "C:\\Users\\Jimmy Briggs\\.dotfiles\\ssh\\gitkraken\\gitkraken_jimbrig_rsa"
+      }
+    }
+  },
+  "gpg": {
+    "commitGpgSign": true,
+    "tagForceSignAnnotated": true,
+    "userSigningKey": "FDD5BF10F7064377BB4B3E9B92296EB466E68B3A",
+    "gpgProgram": "C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe"
+  },
+  "repoInit": {
+    "lastRepoInitPath": "C:\\Users\\Jimmy Briggs\\Dev\\docs"
+  },
+  "hostingServiceFrecencyMetadata": {
+    "github": {
+      "id": "github",
+      "timestamps": [
+        1611071601011,
+        1611951071637,
+        1611951079542,
+        1612133282504,
+        1612201323249,
+        1612434229594,
+        1612434507713,
+        1614125746514,
+        1614128708865,
+        1616821274057
+      ],
+      "total": 16
+    }
+  },
+  "issues": {
+    "github": {
+      "filtersByRemoteName": {
+        "jimbrig/jimstools": [
+          {
+            "id": "469c1b98-ae85-484d-8b0d-b11642e105de",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "b1de0a84-6b19-483d-94e3-b8c5f79eebf3",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/jimstemplates": [
+          {
+            "id": "1ef26526-769b-482d-80f1-9bcdbf0136ce",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "0e9df144-3b79-474c-a570-aee7564bc89e",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/.dotfiles": [
+          {
+            "id": "7612b2a6-04f7-4441-b6a9-88432093d3b4",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "1b9e5ba3-fd6e-4442-9e42-0814b92d5682",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/codmw": [
+          {
+            "id": "57e03ff8-c810-4585-85b2-ef101ea1b27c",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "ea25f87c-d037-4e96-98da-813bbb8b25a9",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/jimsdocs": [
+          {
+            "id": "1c6a0ab9-f5fe-4835-bf69-a4ffc3ef4cd5",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "1dac8281-fccb-4e87-ac17-395e873b716a",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/powwater": [
+          {
+            "id": "04bb7652-9b7e-457a-b1a8-2e852c60d866",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "2b7bf55e-28d0-4eb7-9732-576061e6ca11",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/r_dotfiles_sync": [
+          {
+            "id": "bbbb3254-acad-4e55-8555-aaef16518d37",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "94311ba4-c9c9-4068-9818-43411d075437",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/polishedapi": [
+          {
+            "id": "b47941ab-4166-4876-b407-0ed4b05af864",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "518a5435-294a-46ba-88f2-b37c42659b57",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/property_allocation_demo": [
+          {
+            "id": "f11521b4-029d-4da8-b651-2cf4db3414e2",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "0c6275f4-a79d-4a40-9d80-cbb19588e004",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/jimsdots": [
+          {
+            "id": "bfbb529d-4329-4e94-97a2-b45836797598",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "11c6f75e-3fef-442e-b2a2-44694977d051",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/buildtools": [
+          {
+            "id": "d0e8d881-b035-4db8-bb33-09f92e5cdce4",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "787daed0-ab71-4dcd-a273-e9bb79d97021",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/reactnative_learning": [
+          {
+            "id": "e707afe8-a887-43c9-b305-a54ee4938f5e",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "9e95addc-d459-4b82-abd1-335a0bd602dd",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/nativeapp": [
+          {
+            "id": "3b85f2e8-5b03-45c1-841b-5d9723f694e8",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "08e48f29-0846-49b6-aaa1-0fec3c9e1cfd",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/jimbrig": [
+          {
+            "id": "6ba6df48-49c4-4c0c-bbff-04d2dd375b4b",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "ec5a006f-90a7-4ed9-906b-10d56223841e",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/jimbrig": [
+          {
+            "id": "bad2f911-9782-489b-bae7-4a28371899e8",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "f0c182f3-12af-4509-bdb0-5166d53f920d",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "kmaasrud/awesome-obsidian": [
+          {
+            "id": "648d682b-5c96-4716-82f2-fe065a2c5eca",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "6afd72da-0069-41b8-b0f8-8b0acde2b47b",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/gitflow": [
+          {
+            "id": "35d73b16-b60d-48ed-b059-2f221da86701",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "75dba259-2114-405f-9d4b-2a6eb2db7dc6",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/excel-config": [
+          {
+            "id": "ae6bf4f7-ffd7-40df-b4bb-1d484c52f228",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "96f012c9-a810-4ad8-97ec-ca12263f3cc4",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/profile_app": [
+          {
+            "id": "bee2877b-a83f-4ded-b872-3ba95e2181a8",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "dccbc3a5-8dc7-45f9-8d52-885a795d961f",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/github-issue-table": [
+          {
+            "id": "1d1c6fb7-b7c0-4177-8a5a-72e7001ade84",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "a1b21a5f-26ec-44aa-a2b5-1c864584c44d",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/landing_page": [
+          {
+            "id": "bad60905-e3ec-4b6e-8dde-edadd1d58e83",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "1a65d674-1964-4e6a-972c-dbc41492babc",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/task-views": [
+          {
+            "id": "41b41a35-1fe2-485b-844a-b227cc2b01ca",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "e5c45068-9197-4986-ab5d-0c2c218f23e3",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/cran-task-views": [
+          {
+            "id": "2fdf8226-1ea3-4a96-a093-b67c06aaabc5",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "3348c442-920d-42a2-8315-da39eb00da1d",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/jimsnotes": [
+          {
+            "id": "4cda3c9f-776f-4d0f-8252-50b82c123e77",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "f897557e-9a16-41b1-8408-7e86da9ab8ce",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "appsilon/shiny.fluent": [
+          {
+            "id": "7b29e95b-58ae-4dd2-b9d4-670cf71df968",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "74fb319f-32f2-4435-9b55-8a71c8ac72e5",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/gh-readme-streak-stats": [
+          {
+            "id": "291efabf-6fc4-46ea-bfb3-a6fcfc319454",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "b42a7545-724a-4e8a-aee0-3496d29c9792",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "denvercoder1/github-readme-streak-stats": [
+          {
+            "id": "171defac-f959-418d-b235-cfff9e6f7ffb",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "be05cd52-ed06-4335-b45f-8c614db6d7c1",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ]
+      }
+    }
+  },
+  "defaultIssueTrackerType": "github",
+  "projectGroupNamesByDirectory": {
+    "C:\\Users\\Jimmy Briggs\\Dev\\.archive": ".archive",
+    "C:\\Users\\Jimmy Briggs\\Dev\\.temp": ".temp",
+    "C:\\Users\\Jimmy Briggs\\Dev\\docs": "docs",
+    "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig": "jimbrig",
+    "C:\\Users\\Jimmy Briggs\\Dev\\sandbox": "sandbox",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra": "tychobra"
+  },
+  "favoriteRepositories": [
+    "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstools",
+    "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimstemplates",
+    "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\github-issue-table",
+    "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdocs",
+    "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig\\jimsdots"
+  ],
+  "projectGroupsFrecencyMetadata": {
+    "C:/Users/Jimmy Briggs/Dev/jimbrig": {
+      "id": "project-group-C:\\Users\\Jimmy Briggs\\Dev\\jimbrig",
+      "timestamps": [
+        1609194590222,
+        1609194633565,
+        1609194661556,
+        1609828242658,
+        1612133280669
+      ],
+      "total": 5
+    },
+    "C:/Users/Jimmy Briggs/Dev/.temp": {
+      "id": "project-group-C:\\Users\\Jimmy Briggs\\Dev\\.temp",
+      "timestamps": [
+        1612201318584
+      ],
+      "total": 1
+    },
+    "C:/Users/Jimmy Briggs/Dev/docs": {
+      "id": "project-group-C:\\Users\\Jimmy Briggs\\Dev\\docs",
+      "timestamps": [
+        1612434507009
+      ],
+      "total": 1
+    }
+  },
+  "externalEditor": "Visual Studio Code",
+  "ui": {
+    "graphOptions": {
+      "showCommitAuthorInGraph": true,
+      "showCommitDateTimeInGraph": true,
+      "showCommitShaInGraph": true
+    },
+    "useAuthorInitialsForAvatars": true
+  },
+  "init": {
+    "defaultBranch": "main"
+  },
+  "useCustomTerminalCmd": false,
+  "customTerminalCmd": "\"wt.exe\" -p \"Git Bash\" -d %d",
+  "layout": {
+    "DetailPanel": {
+      "width": 600
+    }
+  }
+}

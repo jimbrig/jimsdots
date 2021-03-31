@@ -1,0 +1,524 @@
+{
+  "tabInfo": {
+    "tabs": [
+      {
+        "id": "37feef82-d542-4e93-9ed1-0aab28d62a0c",
+        "type": "REPO",
+        "repoName": "powpolished",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/powpolished/"
+      },
+      {
+        "id": "922a8163-849c-4ff7-a711-f34fe8711593",
+        "type": "REPO",
+        "repoName": "adminportal",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/adminportal/"
+      },
+      {
+        "id": "8f0e3293-e813-4a77-8842-8a8e92e1b0fa",
+        "type": "REPO",
+        "repoName": "vendor_dashboard",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/vendor_dashboard/"
+      },
+      {
+        "id": "997f7214-a47b-4624-b9b0-e1d994411c86",
+        "type": "REPO",
+        "repoName": "landing_page",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/landing_page/"
+      },
+      {
+        "id": "976a4dc9-882b-4a1a-bd05-bc7c3e8dd13a",
+        "type": "REPO",
+        "repoName": "powtools",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/powtools/"
+      },
+      {
+        "id": "981f8061-db0a-40f6-a1f7-92364cd87468",
+        "type": "REPO",
+        "repoName": "dashboard.powwater.org",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/dashboard.powwater.org/"
+      },
+      {
+        "id": "d52e0632-0c85-457b-a0c3-3e9ed2a7989f",
+        "type": "REPO",
+        "repoName": "customerMobile",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/customerMobile/"
+      },
+      {
+        "id": "dae37049-6efb-45ac-ade9-d86afa73fd80",
+        "type": "REPO",
+        "repoName": "powdata",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/powdata/"
+      },
+      {
+        "id": "8d3b739b-a0d4-4b9d-9a5d-a50f5d326fbd",
+        "type": "REPO",
+        "repoName": "powwater",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/powwater/"
+      },
+      {
+        "id": "7a0b2a65-0220-43a4-8029-c78845aad9ad",
+        "type": "REPO",
+        "repoName": "powdocs",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/powdocs/"
+      },
+      {
+        "id": "ed6d087d-dd14-4e94-a9fa-6c17b3c46af6",
+        "type": "REPO",
+        "repoName": "vendor_dashboard",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/vendor_dashboard/"
+      },
+      {
+        "id": "27cda2a1-24c3-4791-a8cd-d5f2fd1b18d1",
+        "type": "REPO",
+        "repoName": "powpolishedapi",
+        "repoPath": "C:/Users/Jimmy Briggs/Dev/powwater/powpolishedapi/"
+      }
+    ],
+    "selectedTabId": "7a0b2a65-0220-43a4-8029-c78845aad9ad"
+  },
+  "profileIcon": "The-Bride-Keif.png",
+  "profileName": "powwater",
+  "userEmail": "jimmy.briggs@tychobra.com",
+  "userName": "Jimmy Briggs",
+  "longpaths": true,
+  "editor": {
+    "fontFamily": "Cascadia Code",
+    "fontSize": "10",
+    "tabSize": "2",
+    "wordWrap": true
+  },
+  "defaultTerminal": "Git Bash",
+  "ssh": {
+    "useLocalAgent": false,
+    "privateKey": "C:\\Users\\Jimmy Briggs\\.dotfiles\\ssh\\gitkraken\\gitkraken_tychobra_github_rsa",
+    "publicKey": "C:\\Users\\Jimmy Briggs\\.dotfiles\\ssh\\gitkraken\\gitkraken_tychobra_github_rsa.pub"
+  },
+  "services": {
+    "github": {
+      "ssh": {}
+    }
+  },
+  "gpg": {
+    "commitGpgSign": true,
+    "tagForceSignAnnotated": true,
+    "userSigningKey": "A3266ECEBA23E1E00652358E0E1DEF812B3C872D",
+    "gpgProgram": "C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe"
+  },
+  "projectGroupNamesByDirectory": {
+    "C:\\Users\\Jimmy Briggs\\Dev\\jimbrig": "jimbrig",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra": "tychobra",
+    "C:\\Users\\Jimmy Briggs\\Dev\\sandbox": "sandbox",
+    "C:\\Users\\Jimmy Briggs\\Dev\\docs": "docs",
+    "C:\\Users\\Jimmy Briggs\\Dev\\.archive": ".archive",
+    "C:\\Users\\Jimmy Briggs\\Dev\\powwater": "powwater"
+  },
+  "repoInit": {
+    "lastRepoInitPath": "C:\\Users\\Jimmy Briggs\\Dev\\powwater"
+  },
+  "projectGroupsFrecencyMetadata": {
+    "C:/Users/Jimmy Briggs/Dev/tychobra": {
+      "id": "project-group-C:\\Users\\Jimmy Briggs\\Dev\\tychobra",
+      "timestamps": [
+        1609194698302,
+        1609194825020,
+        1609194840780,
+        1609194874340,
+        1609194900957,
+        1609263299124,
+        1609263323599
+      ],
+      "total": 7
+    },
+    "C:/Users/Jimmy Briggs/Dev/powwater": {
+      "id": "project-group-C:\\Users\\Jimmy Briggs\\Dev\\powwater",
+      "timestamps": [
+        1615321631775,
+        1615400558997,
+        1615513039841,
+        1616689216107
+      ],
+      "total": 4
+    }
+  },
+  "hostingServiceFrecencyMetadata": {
+    "github": {
+      "id": "github",
+      "timestamps": [
+        1615563552179,
+        1615563552370,
+        1615563552707,
+        1615563553020,
+        1615563553221,
+        1615563553910,
+        1615563554177,
+        1615563561752,
+        1616600445529,
+        1616689217506
+      ],
+      "total": 31
+    }
+  },
+  "favoriteRepositories": [
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\dashboard.polished.tech",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polished",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\polishedapi",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\factset",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\loss_development",
+    "C:\\Users\\Jimmy Briggs\\Dev\\tychobra\\property_allocation_demo",
+    "C:\\Users\\Jimmy Briggs\\Dev\\powwater\\adminportal",
+    "C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powpolished",
+    "C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powtools",
+    "C:\\Users\\Jimmy Briggs\\Dev\\powwater\\landing_page",
+    "C:\\Users\\Jimmy Briggs\\Dev\\powwater\\vendor_dashboard",
+    "C:\\Users\\Jimmy Briggs\\Dev\\powwater\\dashboard.powwater.org",
+    "C:\\Users\\Jimmy Briggs\\Dev\\powwater\\powwater"
+  ],
+  "externalEditor": "Visual Studio Code",
+  "layout": {
+    "RefPanel": {
+      "width": 387,
+      "open": true
+    },
+    "CommitMessage": {
+      "rightPanelHeight": 355
+    },
+    "DetailPanel": {
+      "width": 400,
+      "height": 396
+    }
+  },
+  "issues": {
+    "github": {
+      "filtersByRemoteName": {
+        "tychobra/polishedapi": [
+          {
+            "id": "1ce8f918-24d2-4cc8-b87f-9ad1697143d5",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "28fc894e-17af-4e10-b690-5e7fc9a1b6a7",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/polished": [
+          {
+            "id": "5e9c7e46-8f20-4e8d-b6aa-78e37b0a73bf",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          },
+          {
+            "id": "de361452-27fd-4de8-b20b-ae013b4807f2",
+            "text": "state:open",
+            "name": "All Open Issues"
+          }
+        ],
+        "tychobra/cultovo_mvp": [
+          {
+            "id": "fd8c8614-cf74-44c8-a110-8af2389937d1",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "0c920070-2d4f-4bb0-95a7-716f7c79e5ab",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/factset": [
+          {
+            "id": "a8a4b1a0-55ff-47e2-a272-230c3787ca08",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "97feb7ed-bdc0-4cd5-ba6f-af87a1976c85",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/powwater": [
+          {
+            "id": "9e7ea965-6d0b-40b3-b7d6-7544083d5fa9",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "8a2fa568-7611-445e-8402-f0ceebab7a31",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/jimstools": [
+          {
+            "id": "79cb2581-9d03-4abb-85e2-bfca57908cca",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "93c9a623-4a20-4fd0-ab93-85fbda5b766f",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/property_allocation_demo": [
+          {
+            "id": "7b506780-fda6-4a36-a5af-e2c727da0069",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "8cded92c-a725-4740-af33-036da245a533",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/property_allocation_demo": [
+          {
+            "id": "081c50ac-1361-4d13-adef-c2dbf91e1f9a",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "2cb17b6a-c21a-4ddb-9dc0-453356ca12be",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "tychobra/powwater_adminportal": [
+          {
+            "id": "5e0e4c44-33ed-4c8a-87ed-d342e596df62",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "8a40da7a-99fd-49e9-8a60-6015c4279e6a",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/excel-config": [
+          {
+            "id": "1213b68d-cf81-49bb-8311-9d6855f3308a",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "49cb156c-b3db-44bc-b8cf-210f4ec9b394",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/powtools": [
+          {
+            "id": "af0a1bb5-f714-40e3-9460-3959e25dd11f",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "3db48413-8804-4982-9de7-497025566286",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/powwater": [
+          {
+            "id": "94c0b833-47f7-495f-912b-52e9eaab0213",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "3574c040-bb79-407b-b6e3-7478e5ffc4f5",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/powpolished": [
+          {
+            "id": "513c1235-d7c4-4ffb-a2fc-cc7158c59073",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "2a790c96-e911-4c43-a821-6f44537b2c9e",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/adminportal": [
+          {
+            "id": "8cf799fb-2012-42bf-b7ec-3da9cb6aef81",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "b8223406-7c89-49d2-9ac9-d0926c5afbdf",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/vendor_dashboard": [
+          {
+            "id": "b776170e-ca1a-4ab0-a74c-9554f8a086b1",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "3a12544d-6598-4544-96ea-3e75da77b6f6",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/landing_page": [
+          {
+            "id": "0ad4deb5-14b9-4cd8-8bff-a9dfcbe00962",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "eafcb929-9fd3-4d32-803e-1b4d439ff641",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/powtools": [
+          {
+            "id": "b16bba99-73aa-4af8-9f4e-9affb77d6879",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "e8f038ec-a4fa-4786-8622-3dd17796340a",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/landing_page": [
+          {
+            "id": "12a44609-6ce1-4068-925b-171d0aa53707",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "30d16501-3da9-4685-8df0-287ff7cf16e6",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/dashboard.powwater.org": [
+          {
+            "id": "94d99f1f-1b28-4ac9-bc74-85a73402053a",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "cb761252-f1b9-41b0-9031-b86fd8aca15a",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/customermobile": [
+          {
+            "id": "16f122ee-35c9-40b3-8352-3771908fce8c",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "81cb148e-2302-4466-acf0-7f3f5bbc7d58",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/powdata": [
+          {
+            "id": "18efcd8c-8f19-4c0c-bfbb-6760ffb5a0b5",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "2e858623-8f41-4769-a5e0-776020fef77f",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/powdocs": [
+          {
+            "id": "6514de75-707f-427c-8908-6f0637ff795d",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "dbc135ff-2d18-43b2-ad55-db2cefcddb6a",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "phoward38/powpolishedapi": [
+          {
+            "id": "89f80813-5d15-47d7-bd55-07a09c2dc777",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "8dae8d29-fc4a-4126-91d5-523574b01d67",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "powwater/powpolishedapi": [
+          {
+            "id": "baa0cee1-21d7-4929-b87b-1c80526e7597",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "ab5cfb80-a38c-439a-8689-7081f45f43f2",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ]
+      }
+    },
+    "glo": {
+      "filtersByBoardId": {
+        "6003fb546f0405001175fa2c": [
+          {
+            "id": "35e67e2b-96df-44a0-8dec-101fe79487d3",
+            "text": "",
+            "name": "All Cards"
+          },
+          {
+            "id": "d4533fcb-0488-4b7c-a4ea-0e7c242e2e6a",
+            "text": "@jimbrig",
+            "name": "My Cards"
+          },
+          {
+            "id": "d22756f7-f2aa-4044-bea4-0bc1d1e4ade5",
+            "text": "-?assignee",
+            "name": "Unassigned Cards"
+          }
+        ]
+      }
+    }
+  },
+  "defaultIssueTrackerType": "github",
+  "gitflow": {
+    "feature": {
+      "rebaseOnFinish": true,
+      "startAt": "develop"
+    }
+  },
+  "init": {
+    "defaultBranch": "main"
+  },
+  "ui": {
+    "graphOptions": {
+      "showCommitAuthorInGraph": true,
+      "showCommitDateTimeInGraph": true
+    },
+    "theme": "dark"
+  },
+  "diffTool": "git-config",
+  "deleteOrigAfterMerge": true
+}
