@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+;-----------------------------------
+; REMOVE DEFAULT NEW CONTEXT MENU ITEMS
+;-----------------------------------
+
+[-HKEY_CLASSES_ROOT\.accdb\Access.Application.16\ShellNew]
+[-HKEY_CLASSES_ROOT\.mdb\ShellNew]
+[-HKEY_CLASSES_ROOT\.bmp\ShellNew]
+[-HKEY_CLASSES_ROOT\.rtf\ShellNew]
+[-HKEY_CLASSES_ROOT\.zip\CompressedFolder\ShellNew]
+[-HKEY_CLASSES_ROOT\.pub\Publisher.Document.16\ShellNew]
+[-HKEY_CLASSES_ROOT\.rtf\ShellNew]

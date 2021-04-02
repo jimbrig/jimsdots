@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.rproj]
+@="rproj"
+
+[HKEY_CLASSES_ROOT\.rproj\ShellNew]
+"FileName"="ProjectName.Rproj"
+
+[HKEY_CLASSES_ROOT\rproj]
+@="R Project File"

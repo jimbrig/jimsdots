@@ -1,0 +1,118 @@
+Windows Registry Editor Version 5.00
+
+; https://superuser.com/a/1284919/402626
+
+; USER-TEMPLATE-PATH: %appdata%\Microsoft\Windows\Templates
+; SYSTEM-TEMPLATE-PATH: %programdata%\Microsoft\Windows\Templates
+
+;-----------------------------------
+; REMOVE DEFAULT NEW CONTEXT MENU ITEMS
+;-----------------------------------
+
+[-HKEY_CLASSES_ROOT\.accdb\Access.Application.16\ShellNew]
+[-HKEY_CLASSES_ROOT\.mdb\ShellNew]
+[-HKEY_CLASSES_ROOT\.bmp\ShellNew]
+[-HKEY_CLASSES_ROOT\.rtf\ShellNew]
+[-HKEY_CLASSES_ROOT\.zip\CompressedFolder\ShellNew]
+[-HKEY_CLASSES_ROOT\.pub\Publisher.Document.16\ShellNew]
+[-HKEY_CLASSES_ROOT\.rtf\ShellNew]
+
+
+;-----------------------------------
+; ADD CUSTOM NEW CONTEXT MENU ITEMS
+;-----------------------------------
+
+; R Script
+
+[HKEY_CLASSES_ROOT\.r]
+@="r"
+
+[HKEY_CLASSES_ROOT\.r\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\r]
+@="R Script"
+
+;-----------------------------------
+
+; Markdown Document
+
+[HKEY_CLASSES_ROOT\.md]
+@="markdown"
+
+[HKEY_CLASSES_ROOT\.md\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\markdown]
+@="Markdown Document"
+
+;-----------------------------------
+; Already Exists (Commented Out)
+;-----------------------------------
+
+;[HKEY_CLASSES_ROOT\.css]
+;@="css"
+
+;[HKEY_CLASSES_ROOT\.css\ShellNew]
+;"FileName"="Template.css"
+
+;[HKEY_CLASSES_ROOT\css]
+;@="Cascading Style Sheet"
+
+;-----------------------------------
+
+;[HKEY_CLASSES_ROOT\.html]
+;@="html"
+
+;[HKEY_CLASSES_ROOT\.html\ShellNew]
+;"FileName"="Template.html"
+
+;[HKEY_CLASSES_ROOT\html]
+;@="HTML file"
+
+;-----------------------------------
+
+;[HKEY_CLASSES_ROOT\.ps1]
+;@="ps1"
+
+;[HKEY_CLASSES_ROOT\.ps1\ShellNew]
+;"FileName"="Template.ps1"
+
+;[HKEY_CLASSES_ROOT\ps1]
+;@="PowerShell script"
+
+;-----------------------------------
+
+;[HKEY_CLASSES_ROOT\.reg]
+;@="reg"
+
+;[HKEY_CLASSES_ROOT\.reg\ShellNew]
+;"FileName"="Template.reg"
+
+;[HKEY_CLASSES_ROOT\reg]
+;@="Registry file"
+
+;-----------------------------------
+
+;[HKEY_CLASSES_ROOT\.txt]
+;@="txt"
+
+;[HKEY_CLASSES_ROOT\.txt\ShellNew]
+;"FileName"="Template.txt"
+
+;[HKEY_CLASSES_ROOT\txt]
+;@="Text Document"
+
+;-----------------------------------
+
+; Batch file already exists at: HKEY_CLASSES_ROOT\.bat\ShellNew
+; CMD file already exists at: 
+
+;[HKEY_CLASSES_ROOT\.bat]
+;@="bat"
+
+;[HKEY_CLASSES_ROOT\.bat\ShellNew]
+;"FileName"="Template.bat"
+
+;[HKEY_CLASSES_ROOT\bat]
+;@="Windows batch file"
