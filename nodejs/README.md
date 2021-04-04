@@ -176,6 +176,15 @@ Stored under `%AppData%/npm`:
 
 - [static-marks](https://darekkay.com/static-marks/) - Convert your plain bookmark files into a static web app.
 
+- [nativefier]()
+
+- [eslint]()
+
+- [github-gists](), [github-gists-cli](), and [gist-backup]()
+
+- [git-labels]() and [github-labels-cli]()
+
+
 ```powershell
 npm install -g dbdocs @dbml/cli expo-cli googlemaps devspace jshint webpack-cli yarn create-react-app envinfo gulp cleave.js prettier release-it @release-it/keep-a-changelog fixpack npm-check-updates static-marks
 
