@@ -1,38 +1,39 @@
-# GPG Keys
+# SSH Setup and Key Generation
 
-I use three GPG keys, one for each email address:
+- Install the `OpenSSHUtils` module to the server. 
+  - This will be valuable when deploying user keys.
+- By default the `ssh-agent service` is disabled. Allow it to be manually started for the next step to work.
+- Start the `ssh-agent service` to preserve the server keys
+- Generate SSH Keys:
+  - Navigate to ``~/.ssh`
+  - Run `ssh-keygen`
+- Setup keys for Github: see [This post on how to setup ssh keys for github](https://devconnected.com/how-to-setup-ssh-keys-on-github/#:~:text=Add%20SSH%20key%20to%20your%20GitHub%20Account%20In,to%20create%20a%20new%20SSH%20key%20for%20Github)
+- Enable OpenSSH Client
+- Create `~/.ssh` directory
+- Generate keys for various email addresses and accounts:
+  - jimbrig2011@outlook.com
+  - jimmy.briggs@tychobra.com
+  - jimbrig2011@gmail.com
+- Write the main ssh `config` file
+- Copy public key to clipboard
+- Add public key to Github
 
-1. jimbrig2011@outlook.com
-2. jimbrig2011@gmail.com
-3. jimmy.briggs@tychobra.com
-
-***
-
-All three public keys have been copied into my [Github GPG Key Settings](https://github.com/settings/keys).
-
-## Generating the Keys
-
-1. Install Gpg4win via `winget install gpg4win`
-2. Next, I use GitKraken and my associated Git Profiles to generate the keys, but to generate them using gpg directly run:
-
-```powerhsell
-gpg --full-generate-key
-# or
-gpg --default-new-key-algo rsa4096 --gen-key
 ```
+Add-WindowsCapability -Online -Name OpenSSH.Client*
 
- which will prompt you for further details, select the following:
+mkdir "~/.ssh"
+cd "~/.ssh/" 
 
-- select `RSA` as type of key
-- use 4096 bits for key size
-- use 2 years for expiration time
-- lastly, enter User ID information
+ssh-keygen -t rsa -b 4096 -C "jimbrig2011@outlook.com"
 
-> **Note:** When asked to enter your email address, ensure that you enter the verified email address for your GitHub account. To keep your email address private, use your GitHub-provided `no-reply` email address. For more information, see "[Verifying your email address](https://docs.github.com/en/free-pro-team@latest/articles/verifying-your-email-address)" and "[Setting your commit email address](https://docs.github.com/en/free-pro-team@latest/articles/setting-your-commit-email-address)."
+New-Item -Path '~/.ssh/config' -ItemType File
+$lb = "`r`n"
+$txt =  "Host *" + $lb + "    Hostname github.com" + $lb + "    User git" + $lb + "    IdentityFile ~/.ssh/id_rsa" + $lb
+$txt >> ~/.ssh/config
 
-Next, list the keys via: `gpg --list-secret-keys --keyid-format LONG` and copy the ID of the key you want to use. the run `gpg --armor --export <keyid> | Write-Output | clip` to output the key's text to your clipboard. Navigate to <https://github.com/settings/keys> and add the key to your GitHub account.
+notepad "~/.ssh/config"
 
+cat ~/.ssh/id_rsa.pub | Write-Output | clip
 
-
-## Encrypt the Keys for Storage in Git
-
+start "https://github.com/settings/ssh/new"
+```
