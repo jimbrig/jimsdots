@@ -8,7 +8,6 @@
 # if in tychobra directory use tychobra user config from "~/.gitconfig_tychobra"
 # [includeIf "gitdir:~/Dev/tychobra"]
 # 	path = ~/.gitconfig_tychobra
-
 # # ensure switch back to jimbrig profile is in other project directories
 # [includeIf "gitdir:~/Dev/jimbrig"]
 # 	path = ~/.gitconfig_jimbrig
