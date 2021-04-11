@@ -1,16 +1,14 @@
 # Jim’s `.dotfiles`
 
-## [Index](./index.md):
+## Setup Guides:
 
-- [code-insiders](./code-insiders/)
-- [excel](./excel/)
-- [gcloud](./gcloud/)
-- [git](./git/)
-- [github](./github/)
-- [gpg](./gpg/)
 - [nodejs](./nodejs/)
-- [python](./python/)
+- [gcloud](./gcloud/)
+- [gpg](./gpg/)
 - [ssh](./ssh/)
+- [excel](./excel/)
+- [git](./git/)
+- [python](./python/)
 - [typora](./typora/)
 
 ## All Directories
