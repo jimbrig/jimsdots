@@ -20,7 +20,7 @@ docker/github_PAT.txt filter=git-crypt diff=git-crypt
 
 feedly/feedly_api_tokens.yml filter=git-crypt diff=git-crypt
 
-gcloud/** filter=git-crypt diff=git-crypt
+gcloud/** !README.md filter=git-crypt diff=git-crypt
 
 boto/.boto filter=git-crypt diff=git-crypt
 
