@@ -2,16 +2,16 @@
 
 ## [Index](./index.md):
 
-- [code-insiders](./code-insiders/index.md)
-- [excel](./excel/index.md)
-- [gcloud](./gcloud/index.md)
-- [git](./git/index.md)
-- [github](./github/index.md)
-- [gpg](./gpg/index.md)
-- [nodejs](./nodejs/index.md)
-- [python](./python/index.md)
-- [ssh](./ssh/index.md)
-- [typora](./typora/index.md)
+- [code-insiders](./code-insiders/)
+- [excel](./excel/)
+- [gcloud](./gcloud/)
+- [git](./git/)
+- [github](./github/)
+- [gpg](./gpg/)
+- [nodejs](./nodejs/)
+- [python](./python/)
+- [ssh](./ssh/)
+- [typora](./typora/)
 
 ## All Directories
 
