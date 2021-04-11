@@ -31,15 +31,15 @@
   ],
   "userFeatures": [
     {
-      "betaFeaturesEnabled": false,
+      "betaFeaturesEnabled": true,
       "name": "gitkraken"
     },
     {
-      "betaFeaturesEnabled": false,
+      "betaFeaturesEnabled": true,
       "name": "glo"
     },
     {
-      "betaFeaturesEnabled": false,
+      "betaFeaturesEnabled": true,
       "name": "timelines"
     }
   ],
