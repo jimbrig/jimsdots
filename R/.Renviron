@@ -1,15 +1,15 @@
 
 # R Environment Startup Variables:
-R_LIBS="C:/Users/Jimmy Briggs/.R/lib/4.0"
-R_LIBS_USER="C:/Users/Jimmy Briggs/.R/lib/4.0"
-R_HISTFILE="C:/Users/Jimmy Briggs/.R/.Rhistory"
-R_ENVIRON_USER="C:/Users/Jimmy Briggs/.R/.Renviron"
-R_PROFILE_USER="C:/Users/Jimmy Briggs/.R/.Rprofile"
-R_PROJ_DIR="C:/Users/Jimmy Briggs/Dev"
+R_LIBS="~/.R/lib/4.0"
+R_LIBS_USER="~/.R/lib/4.0"
+R_HISTFILE="~/.R/.Rhistory"
+R_ENVIRON_USER="~/.R/.Renviron"
+R_PROFILE_USER="~/.R/.Rprofile"
+R_PROJ_DIR="~/Dev"
 R_ARCH="x64"
 R_INSTALL_TAR="tar.exe"
 
-DATABASECONNECTOR_JAR_FOLDER="C:/Users/Jimmy Briggs/.R/jdbcDrivers"
+DATABASECONNECTOR_JAR_FOLDER="~/.R/jdbcDrivers"
 
 # change tmpdir due to issues with %localappdata%'s path size
 TMPDIR="C:/tmp"
@@ -42,7 +42,7 @@ R_GSMD="C:/Program Files/gs/gs9.53.3/bin/gswin64c.exe"
 JAVA_HOME="C:/java/jdk-11"
 
 # Twitter
-TWITTER_PAT="C:/Users/Jimmy Briggs/.R/.rtweet_token.rds"
+TWITTER_PAT="~/.R/.rtweet_token.rds"
 
 # NOT-USED
 # MY_TCLTK="C:/Program Files/Tcl/bin"

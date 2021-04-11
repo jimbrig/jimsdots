@@ -22,7 +22,7 @@ options(
 options("tychobra_dir" = fs::path("~/Dev/tychobra"))
 
 # shortcuts
-options(shrtcts.path = "C:/Users/Jimmy Briggs/.R/.shrtcts.yml")
+options(shrtcts.path = "~/.R/.shrtcts.yml")
 
 if (interactive() && requireNamespace("shrtcts", quietly = TRUE)) {
   shrtcts::add_rstudio_shortcuts(
