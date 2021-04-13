@@ -1,50 +1,30 @@
 
-# R Environment Startup Variables:
 R_LIBS="~/.R/lib/4.0"
 R_LIBS_USER="~/.R/lib/4.0"
-R_HISTFILE="~/.R/.Rhistory"
 R_ENVIRON_USER="~/.R/.Renviron"
 R_PROFILE_USER="~/.R/.Rprofile"
 R_PROJ_DIR="~/Dev"
 R_ARCH="x64"
 R_INSTALL_TAR="tar.exe"
-
 DATABASECONNECTOR_JAR_FOLDER="~/.R/jdbcDrivers"
-
-# change tmpdir due to issues with %localappdata%'s path size
-TMPDIR="C:/tmp"
-
-# R_UNZIPCMD=
-# RZIPCMD=
-
-# HEADLESS_CHROME="C:\Users\Jimmy Briggs\AppData\Local\Google\Chrome SxS\Application\chrome.exe"
-# HEADLESS_CHROME="C:\Program Files\Google\Chrome\Application\chrome-win32\chrome.exe"
-
-# Default Browser (NOTE: RStudio Overrides to Use Default Browser for *.html files)
-# R_BROWSER="C:/Program Files/Firefox Nightly/firefox.exe"
-
-# User Preferences and Machine Settings/Info:
+TMPDIR="C:/tmp" # change tmpdir due to issues with %localappdata%'s path size
 FULLNAME="Jimmy Briggs"
 LANGUAGE="en-US"
 ORC_ID="0000-0002-7489-8787"
 GITHUB_USERNAME="jimbrig"
-
-# %PATH%:
 PATH="${RTOOLS40_HOME}\usr\bin;${PATH}"
-
-# QPDF
 R_QPDF="C:/tools/qpdf-10.0.4/bin/qpdf.exe"
-
-# GHOSTSCRIPT
 R_GSMD="C:/Program Files/gs/gs9.53.3/bin/gswin64c.exe"
-
-# JAVA
 JAVA_HOME="C:/java/jdk-11"
-
-# Twitter
 TWITTER_PAT="~/.R/.rtweet_token.rds"
 
 # NOT-USED
+# R_UNZIPCMD=
+# RZIPCMD=
+# HEADLESS_CHROME="C:\Users\Jimmy Briggs\AppData\Local\Google\Chrome SxS\Application\chrome.exe"
+# HEADLESS_CHROME="C:\Program Files\Google\Chrome\Application\chrome-win32\chrome.exe"
+# Default Browser (NOTE: RStudio Overrides to Use Default Browser for *.html files)
+# R_BROWSER="C:/Program Files/Firefox Nightly/firefox.exe"
 # MY_TCLTK="C:/Program Files/Tcl/bin"
 # GH_KEYRING=true
 # GCE_DEFAULT_PROJECT_ID="shiny-cloudrun"
