@@ -1,5 +1,7 @@
 # Jim’s `.dotfiles`
 
+![](./windows-terminal/screenshot.png)
+
 ## Setup Guides:
 
 - [nodejs](./nodejs/)

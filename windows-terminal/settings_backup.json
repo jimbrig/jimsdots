@@ -1,12 +1,13 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  // Add custom actions and keybindings to this array.
-  // To unbind a key combination from your defaults.json, set the command to "unbound".
-  // To learn more about actions and keybindings, visit https://aka.ms/terminal-keybindings
   "actions": [
-    // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
-    // These two lines additionally bind them to Ctrl+C and Ctrl+V.
-    // To learn more about selection, visit https://aka.ms/terminal-selection
+    {
+      "command": {
+        "action": "openSettings",
+        "target": "settingsUI"
+      },
+      "keys": "ctrl+shift+,"
+    },
     {
       "command": {
         "action": "copy",
@@ -34,19 +35,35 @@
         "splitMode": "duplicate"
       },
       "keys": "alt+shift+d"
+    },
+    {
+      "command": "commandPalette",
+      "keys": "ctrl+shift+p"
+    },
+    {
+      "command": "commandPalette",
+      "keys": "f1"
     }
   ],
+  "confirmCloseAllTabs": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "experimental.rendering.forceFullRepaint": false,
+  "experimental.rendering.software": false,
+  "focusFollowMouse": true,
   "keybindings": null,
   "profiles": {
     "defaults": {
-      "acrylicOpacity": 0.0,
-      "backgroundImage": "desktopWallpaper",
-      "backgroundImageOpacity": 0.39000000000000001,
+      "backgroundImage": "C:\\Users\\jimbrig\\Pictures\\Wallpapers\\Terminal\\terminal.gif",
+      "backgroundImageStretchMode": "uniformToFill",
       "closeOnExit": "always",
       "colorScheme": "Dracula",
+      "experimental.retroTerminalEffect": false,
+      "historySize": 9001,
+      "icon": null,
+      "padding": "10",
+      "startingDirectory": "~",
       "suppressApplicationTitle": true,
       "useAcrylic": true
     },
@@ -54,30 +71,61 @@
       {
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
+        "icon": "C:\\Users\\jimbrig\\Pictures\\Icons\\Terminal Icons\\powershell7.png",
         "name": "PowerShell",
         "source": "Windows.Terminal.PowershellCore",
+        "startingDirectory": null,
+        "suppressApplicationTitle": true,
         "tabTitle": "PowerShell"
       },
       {
-        "backgroundImage": "desktopWallpaper",
+        "backgroundImage": "C:\\Users\\jimbrig\\Pictures\\Wallpapers\\Terminal\\linux.jpg",
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "hidden": false,
+        "icon": "C:\\Users\\jimbrig\\Pictures\\Icons\\linux.ico",
         "name": "Ubuntu",
-        "source": "Windows.Terminal.Wsl",
-        "startingDirectory": "~",
-        "tabTitle": "Ubuntu"
+        "source": "Windows.Terminal.Wsl"
       },
       {
         "commandline": "cmd.exe",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "hidden": false,
-        "name": "Command Prompt"
+        "icon": "C:\\Users\\jimbrig\\Pictures\\Icons\\Terminal Icons\\console.png",
+        "name": "Command Prompt",
+        "startingDirectory": null,
+        "tabTitle": "Command Prompt"
+      },
+      {
+        "commandline": "powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "icon": "C:\\Users\\jimbrig\\Pictures\\Icons\\Terminal Icons\\windowspowershell.png",
+        "name": "Windows PowerShell",
+        "tabTitle": "WindowsPowerShell"
       },
       {
         "commandline": "C:\\Python39\\Scripts\\radian.exe",
         "icon": "C:\\Users\\jimbrig\\Pictures\\Icons\\Programs\\r_black.png",
         "name": "Radian",
+        "startingDirectory": null,
         "tabTitle": "Radian"
+      },
+      {
+        "backgroundImage": "C:\\Users\\jimbrig\\Pictures\\Wallpapers\\Terminal\\linux.jpg",
+        "guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}",
+        "hidden": false,
+        "icon": "C:\\Users\\jimbrig\\Pictures\\Icons\\ubuntu.ico",
+        "name": "Ubuntu Preview",
+        "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc",
+        "tabTitle": "Ubuntu Preview"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "icon": "C:\\Users\\jimbrig\\Pictures\\Icons\\Terminal Icons\\azurecloud.png",
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure",
+        "tabTitle": "AzureCLI"
       },
       {
         "backgroundImage": "%USERPROFILE%/Pictures/Terminal/R.jpg",
@@ -90,7 +138,7 @@
         "tabTitle": "R Terminal"
       },
       {
-        "backgroundImage": "desktopWallpaper",
+        "backgroundImage": "%USERPROFILE%/Pictures/Terminal/git.jpg",
         "commandline": "C:/Program Files/Git/bin/bash.exe",
         "guid": "{a95f8da2-960a-48cf-9d1a-7e5e586df567}",
         "hidden": false,
@@ -115,18 +163,6 @@
         "icon": "C:\\Users\\jimbrig\\Pictures\\Icons\\icons8_nodejs.ico",
         "name": "NodeJS",
         "tabTitle": "NodeJS"
-      },
-      {
-        "commandline": "powershell.exe",
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "hidden": false,
-        "name": "Windows PowerShell"
-      },
-      {
-        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        "hidden": true,
-        "name": "Azure Cloud Shell",
-        "source": "Windows.Terminal.Azure"
       }
     ]
   },
@@ -408,5 +444,11 @@
       "yellow": "#808000"
     }
   ],
-  "startOnUserLogin": true
+  "showTabsInTitlebar": true,
+  "showTerminalTitleInTitlebar": false,
+  "startOnUserLogin": true,
+  "tabSwitcherMode": "mru",
+  "tabWidthMode": "equal",
+  "theme": "dark",
+  "windowingBehavior": "useExisting"
 }
