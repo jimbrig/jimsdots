@@ -1,0 +1,32 @@
+choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'"
+choco install -y R.Project R.Studio rtools pandoc hugo hugo-extended tinytex python gitkraken vscode-insiders.install gcloudsdk uninstalltool lepton LinkShellExtension 7zip.install QTTabBar sumatrapdf.install winaero-tweaker.install typora autohotkey.install nvm
+
+scoop bucket add scoop-completion https://github.com/Moeologist/scoop-completion
+scoop install git-crypt
+scoop install sudo
+scoop install curl
+scoop install grep
+scoop install less
+scoop install runat
+scoop install touch
+
+winget install Microsoft.dotnetRuntime
+winget install Microsoft.PowerToys
+winget install GitHub.CLI
+winget install AdrianAllard.FileConverter
+winget install gpg4win
+winget install Docker.DockerDesktopEdge
+
+
+# Install-Module
+
+
+nvm install latest
+nvm on
+npm install -g npm yarn webpack expo-cli 
+
+pip install -U keep
+pip install -U mkdocs
+pip install -U radian
+
+

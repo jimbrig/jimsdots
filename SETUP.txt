@@ -1,0 +1,50 @@
+# execution policy
+Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy Unrestricted -scope CurrentUser
+
+# install new powerhshell core v7
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+
+# install chocolatey
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+# install scoop
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+
+# gcloud
+(New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
+& $env:Temp\GoogleCloudSDKInstaller.exe      
+
+# refresh
+refreshenv
+
+# configure chocolatey
+choco upgrade chocolatey choco-cleaner choco-package-list-backup -y
+choco feature enable -n allowGlobalConfirmation
+choco config set cacheLocation $env:TEMP
+choco feature enable -n logEnvironmentValues
+choco feature enable -n virusCheck
+choco feature enable -n useRememberedArgumentsForUpgrades
+choco feature enable -n removePackageInformationOnUninstall
+
+# disabled:
+# choco feature enable -n skipPackageUpgradesWhenNotInstalled
+
+# install git, gh-cli, gcloud, R, RStudio, VSCode, Typora, postgresql, pgAdmin4, pgcli, python, nvm
+
+# configure winget
+
+
+
+# configure scoop
+
+# nvm, node, npm, global packages
+nvm install 15.14.0
+nvm use 15.14.0
+
+npm install -g npm@7.9.0
+refreshenv
+
+npm install -g dbdocs @dbml/cli expo-cli googlemaps devspace jshint webpack-cli yarn create-react-app envinfo gulp cleave.js prettier release-it @release-it/keep-a-changelog fixpack npm-check-updates static-marks
+refreshenv
+ 
