@@ -44,7 +44,8 @@ R/gargle/gargle-oauth/** filter=git-crypt diff=git-crypt
 RStudio/localappdata/ctx/ctx-40565/environment_vars filter=git-crypt diff=git-crypt
 RStudio/localappdata/monitored/connection_history.json filter=git-crypt diff=git-crypt
 
-gpg/keys/* filter=git-crypt diff=git-crypt
+gpg/public_keys/* filter=git-crypt diff=git-crypt
+gpg/private_keys/* filter=git-crypt diff=git-crypt
 
 ssh/gitkraken/* filter=git-crypt diff=git-crypt
 ssh/keys/* filter=git-crypt diff=git-crypt
