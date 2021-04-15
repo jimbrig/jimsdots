@@ -1,0 +1,1 @@
+obsidian-html "C:/Users/Desktop/Notebook" -o "C:/Users/Desktop/Notebook/_site"
