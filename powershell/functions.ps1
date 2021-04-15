@@ -64,10 +64,10 @@ ${function:speedtest} = { & speed-test } # NOTE: must have speedtest installed
 
 # store and appx packages
 ${function:saveappxpkgs} = { & powerhshell Get-AppXPackage | Out-File -FilePath appx-package-list.txt }
-$function:resetstore} = { & wsreset.exe }
+${function:resetstore} = { & wsreset.exe }
 ${function:resetstorepkgs} = {
-  & powershell Get-AppXPackage | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"
-  }
+  & powershell Get-AppXPackage | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+}
 
 # Cleanup System
 ${function:cleanup} = {
@@ -93,6 +93,7 @@ ${function:chocosearch} = { & choco search $args }
 # Git and Github
 ${function:gitstatus} = { & git status $args }
 ${function:ghclone} = { & gh repo clone $args }
+${function:ghcloneandopenr} = { & gh repo clone $args }
 ${function:ghissues} = { & gh issue list -R $PWD }
 
 # Python and PIP
