@@ -1,0 +1,1 @@
+get-service |? status -eq “stopped”

@@ -1,0 +1,1 @@
+Get-Childitem env:

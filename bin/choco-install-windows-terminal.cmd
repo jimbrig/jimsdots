@@ -1,0 +1,1 @@
+choco upgrade microsoft-windows-terminal -y

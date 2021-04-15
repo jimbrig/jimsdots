@@ -1,0 +1,1 @@
+npm install ghost-cli@latest -g

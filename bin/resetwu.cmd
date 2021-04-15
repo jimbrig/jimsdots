@@ -1,0 +1,1 @@
+sudo "C:/tools/WindowsUpdateTools/ResetWUEng.cmd"

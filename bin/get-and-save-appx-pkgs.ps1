@@ -1,0 +1,1 @@
+Get-AppXPackage | Out-File -FilePath OneDrive\Documents\appx-package-list.txt
