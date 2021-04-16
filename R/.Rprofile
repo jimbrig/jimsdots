@@ -104,9 +104,9 @@ local({
 readRenviron(path.expand("~/.R/secrets.Renviron"))
 
 # attach extra helper functions
-.env <- new.env()
-sys.source(path.expand("~/.R/rprofile_extras.R"), .env)
-attach(.env)
+.rprofile <- new.env()
+sys.source(path.expand("~/.R/rprofile_extras.R"), .rprofile)
+attach(.rprofile)
 
 # detach
 detach_all_attached()
