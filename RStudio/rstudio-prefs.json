@@ -52,5 +52,5 @@
     "tab_completion": false,
     "code_completion_other": "manual",
     "show_focus_rectangles": false,
-    "custom_shell_command": "C:/Program Files/WindowsApps/Microsoft.PowerShellPreview_7.2.4.0_x64__8wekyb3d8bbwe/pwsh.exe"
+    "custom_shell_command": "C:/Program Files/PowerShell/7/pwsh.exe"
 }
