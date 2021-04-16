@@ -53,6 +53,9 @@ options(
   gargle_oauth_cache = path.expand("~/.R/gargle/gargle-oauth")
 )
 
+# addinit options
+source(path.expand("~/.R/addinit_options.R"))
+
 # history
 histpath <- path.expand("~/.R/.Rhistory")
 Sys.setenv("R_HISTFILE" = histpath)
@@ -126,35 +129,6 @@ autoload("%>%", "magrittr")
 # } else {
 #   message("Install Jetpack to use a virtual environment for this project")
 # }
-
-# # addinit
-# addinit = list(
-#   author = "Jimmy Briggs",
-#   project = list(
-#     folders = list(
-#       default = c("R", "inst", "man", "data-raw", "data", "tests", "vignettes", "cache", "admin", "config", "docs", "src", "inst/app", "inst/docs", "inst/scripts"),
-#       selected = c("R", "inst", "man", "data-raw", "data", "tests", "vignettes")
-#     ),
-#     packages = list(
-#       default = rownames(utils::installed.packages()),
-#       selected = c( "devtools", "usethis", "knitr", "roxygen2", "testthat", "dplyr", "magrittr", "tidyr", "purrr", "lubridate", "shiny", "shinydashboard")
-#     ),
-#     config = TRUE,
-#     source_funs = FALSE
-#   ),
-#   shiny_app = list(
-#     folders = list(
-#       default = c("R", "man", "data-raw", "data", "inst/app/www", "tests", "vignettes", "cache", "admin", "config", "docs", "src", "inst/docs", "inst/scripts"),
-#       selected = c("R", "inst/app/www", "man", "data-raw", "data", "tests", "vignettes")
-#     ),
-#     packages = list(
-#       default = rownames(utils::installed.packages()),
-#       selected = c( "devtools", "usethis", "knitr", "roxygen2", "testthat", "dplyr", "magrittr", "tidyr", "purrr", "lubridate", "shiny", "shinydashboard")
-#     ),
-#     config = TRUE,
-#     source_funs = TRUE
-#   )
-# )
 
 # Set GH PAT
 # local({
