@@ -57,9 +57,8 @@ options(
 source(path.expand("~/.R/addinit_options.R"))
 
 # history
-histpath <- path.expand("~/.R/.Rhistory")
-Sys.setenv("R_HISTFILE" = histpath)
-.Last <- function() if (interactive()) try(savehistory(histpath))
+Sys.setenv("R_HISTFILE" = path.expand("~/.R/.Rhistory"))
+.Last <- function() if (interactive()) try(savehistory(path.expand("~/.R/.Rhistory")))
 
 # error tracing
 if ('rlang' %in% loadedNamespaces()) options(error = rlang::entrace)
@@ -94,7 +93,7 @@ if (interactive() && requireNamespace("shrtcts", quietly = TRUE)) {
 
 # load secret environment variables/tokens
 local({
-  if (!file.exists(path.expand("~/.R/secrets.Renviron"))) {
+  if (!file.exists(fs::path_home(".R/secrets.Renviron"))) {
     secrets <- yaml::read_yaml(path.expand("~/.R/config.yml"))
     if (!require(gistr)) {
       suppressMessages(
