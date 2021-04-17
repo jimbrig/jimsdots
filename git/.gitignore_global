@@ -332,6 +332,8 @@ ENV/
 env.bak/
 venv.bak/
 pythonenv*
+config.yml
+config.yaml
 
 # Spyder project settings
 .spyderproject

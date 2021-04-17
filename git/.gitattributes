@@ -1,8 +1,11 @@
 # git-crypt
 * !filter !diff
 *.gpg binary
-secretfile filter=git-crypt diff=git-crypt
+git-crypt-secret filter=git-crypt diff=git-crypt
+*secret* filter=git-crypt diff=git-crypt
 *.key filter=git-crypt diff=git-crypt
+
+# blackbox
 **/blackbox-admins.txt text eol=lf
 **/blackbox-files.txt text eol=lf
 
