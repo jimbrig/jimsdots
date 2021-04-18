@@ -56,8 +56,40 @@ gpg --list-secret-keys --keyid-format LONG
 gpg --armor --export <copied ID> | Write-Output | clip
 # add 2 GH
 
-start <https://github.com/settings/keys>
+start https://github.com/settings/keys
+```
+
+## Add GPG Configuration to global `.gitignore`
+
+```bash
+# for separate windows installation:
+$ git config --global gpg.program "/c/Program Files (x86)/GnuPG/bin/gpg.exe
+
+# for git's included gpg executable:
+$ git config --global gpg.program "/c/Program Files/Git/usr/bin/gpg.exe"
+```
+
+*Note that git now also comes with [gpg2.exe]() which can make things easier - see [this stackoverflow post](https://stackoverflow.com/a/46884134/4126843) for details.*
+
+In `.~/.gitconfig`:
+
+```bash
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[gpg]
+	program = gpg
 ```
 
 ## Encrypt the Keys for Storage in Git
 
+
+
+
+
+### Reference
+
+- [Configure GPG to sign Git commits (in Windows) (neurotechnics.com)](https://neurotechnics.com/blog/configure-gpg-to-sign-git-commits-in-windows/)
+- [[WINDOWS\] How to enable auto-signing Git commits with GnuPG for programs that don't support it natively (github.com)](https://gist.github.com/BoGnY/f9b1be6393234537c3e247f33e74094a#:~:text=Add public GPG key to GitHub%3A open https%3A%2F%2Fgithub.com%2Fsettings%2Fkeys,on a single repository%2C remove --global from command)
+- 
