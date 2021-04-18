@@ -1,0 +1,3 @@
+[submodule "dependencies/windows10-debloater"]
+	path = dependencies/windows10-debloater
+	url = git@github.com:Sycnex/Windows10Debloater.git
