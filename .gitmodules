@@ -1,3 +1,6 @@
 [submodule "dependencies/windows10-debloater"]
 	path = dependencies/windows10-debloater
 	url = git@github.com:Sycnex/Windows10Debloater.git
+[submodule "dependencies/git-crypt"]
+	path = dependencies/git-crypt
+	url = git@github.com:AGWA/git-crypt.git
