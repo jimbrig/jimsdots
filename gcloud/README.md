@@ -18,7 +18,7 @@
 - Untar and run install shell script
 - Run `gcloud init`
 
-```powershell
+```bash
 curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-336.0.0-linux-x86_64.tar.gz
 
 tar -xvzf google-cloud-sdk-332.0.0-linux-x86_64.tar.gz
@@ -32,23 +32,23 @@ tar -xvzf google-cloud-sdk-332.0.0-linux-x86_64.tar.gz
 
 First, make sure your system repository is updated. Then run the following command to add the CA and GNU Privacy Guard to your system. The command requires root privileges; make sure you’re the root user.
 
-```powershell
+```
 sudo apt update
 sudo apt install apt-transport-https ca-certificates gnupg
 ```
 After adding the CA-certificate to your Ubuntu system, you can now run the curl command given below to add the GPG key from the system’s Google Cloud repository.
 
-```powershell
+```
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 ```
 Now, add a personal package repository inside the system. You may run the following echo command on your terminal shell to add the repository.
 
-```powershell
+```
 echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
 ```
 Finally, you can now run the following aptitude command given below to install the SDK on your Ubuntu Linux system. The command will install a few PHP modules, MySQL library, java, and google cloud SDK files on your filesystem.
 
-```powershell
+```
 sudo apt update
 sudo apt install google-cloud-sdk
 ```
@@ -301,9 +301,7 @@ For a full list of accepted values, see the Cloud SDK properties page: https://c
 
 To display the path of the active configuration, run:
 
-```powershell
-    $ gcloud info --format="get(config.paths.active_config_path)"
-```
+        $ gcloud info --format="get(config.paths.active_config_path)"
 
 ***
 
