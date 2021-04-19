@@ -1,6 +1,6 @@
 # Google Cloud SDK: `gcloud`
 
-## Installation
+## Installation - Windows
 
 - Download from executable using the [Cloud SDK installer (google.com)](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe).
 - Download via `powershell` with the following:
@@ -9,6 +9,48 @@
 (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
 
 & $env:Temp\GoogleCloudSDKInstaller.exe      
+```
+
+## Installation Linux
+
+- Ensure have a recent version of Python installed
+- Download `tar.gz` directly or using `curl`: [link](https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-336.0.0-linux-x86_64.tar.gz)
+- Untar and run install shell script
+- Run `gcloud init`
+
+```bash
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-336.0.0-linux-x86_64.tar.gz
+
+tar -xvzf google-cloud-sdk-332.0.0-linux-x86_64.tar.gz
+
+./google-cloud-sdk/install.sh
+
+./google-cloud-sdk/bin/gcloud init
+```
+
+## Installation Linux - Alternative Method
+
+First, make sure your system repository is updated. Then run the following command to add the CA and GNU Privacy Guard to your system. The command requires root privileges; make sure you’re the root user.
+
+```
+sudo apt update
+sudo apt install apt-transport-https ca-certificates gnupg
+```
+After adding the CA-certificate to your Ubuntu system, you can now run the curl command given below to add the GPG key from the system’s Google Cloud repository.
+
+```
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+```
+Now, add a personal package repository inside the system. You may run the following echo command on your terminal shell to add the repository.
+
+```
+echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+```
+Finally, you can now run the following aptitude command given below to install the SDK on your Ubuntu Linux system. The command will install a few PHP modules, MySQL library, java, and google cloud SDK files on your filesystem.
+
+```
+sudo apt update
+sudo apt install google-cloud-sdk
 ```
 
 ### Requirements
@@ -260,3 +302,11 @@ For a full list of accepted values, see the Cloud SDK properties page: https://c
 To display the path of the active configuration, run:
 
         $ gcloud info --format="get(config.paths.active_config_path)"
+
+***
+
+Reference:
+
+- [Installing Google Cloud SDK  | Cloud SDK Documentation](https://cloud.google.com/sdk/docs/install)
+- [How To Install and Configure Google Cloud SDK on Linux Desktop (ubuntupit.com)](https://www.ubuntupit.com/how-to-install-and-configure-google-cloud-sdk-on-linux-desktop/)
+
