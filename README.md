@@ -75,6 +75,7 @@
 - wsl
 - yarn
 - youtube-dl
+- zapier
 - z-location
 
 ## Encrypted Secrets
@@ -162,6 +163,7 @@ C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
     encrypted: ssh/keys/id_rsa
     encrypted: ssh/keys/id_rsa.pub
     encrypted: vault/.vault-token
+    encrypted: zapier/.zapierrc
 ```
 
 ### Git-Attributes
@@ -208,5 +210,6 @@ gpg/public_keys/** filter=git-crypt diff=git-crypt
 ssh/gitkraken/* filter=git-crypt diff=git-crypt
 ssh/keys/* filter=git-crypt diff=git-crypt
 license-keys/** filter=git-crypt diff=git-crypt
+zapier/.zapierrc filter=git-crypt diff=git-crypt
 ```
 
