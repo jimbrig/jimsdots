@@ -4,7 +4,7 @@
 
 ## Setup Guides:
 
-- [nodejs](./nodejs/)
+- [nodejs, yarn, NPM](./nodejs/)
 - [gcloud](./gcloud/)
 - [gpg](./gpg/)
 - [ssh](./ssh/)
@@ -12,18 +12,28 @@
 - [git](./git/)
 - [python](./python/)
 - [typora](./typora/)
+- [chocolatey](chocolatey)
+- [scoop]()
+- [powershell](powershell/)
+- [WSL]()
+- [winget]()
+- [R, RStudio, RTools](r/)
+- [python and PIP](python/)
 
 ## All Directories
 
-- android
 - aws
 - azure
 - bash
+- batch_files
+- bin
 - boto
+- chocolatey
 - cloudinary-cli
 - code-insiders
 - codestream
 - configstore
+- dependencies
 - devdocs
 - devspace
 - docker
@@ -42,20 +52,25 @@
 - gpg
 - keep
 - kube
+- lepton
 - nodejs
 - obsidian
+- PATH
 - powershell
 - python
 - R
 - registry
 - RStudio
 - scoop
+- scripts
 - ssh
 - typora
+- valentina
 - vault
 - vim
 - wifi
 - windows-terminal
+- winget
 - wsl
 - yarn
 - youtube-dl
@@ -68,8 +83,11 @@ Encrypted via `git-crypt`.
 List of all encrypted files via `git-crypt status -e`:
 
 ```powershell
-PS C:\Users\jimbrig\Dev\jimsdots> git-crypt status -e
+C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
+    encrypted: docker/github_cr_pat
+    encrypted: docker/github_pat
     encrypted: R/.rtweet_token.rds
+    encrypted: R/config.yml
     encrypted: R/cyphr_secret.rds
     encrypted: R/gargle/gargle-oauth/14813ec27d5310adfa87a7ac40ac7e92_jimmy.briggs@tychobra.com
     encrypted: R/gargle/gargle-oauth/36576a5a5040ff9dc18b72735339a5c7_jimmy.briggs@tychobra.com
@@ -78,6 +96,7 @@ PS C:\Users\jimbrig\Dev\jimsdots> git-crypt status -e
     encrypted: R/gargle/gargle-oauth/eb5399b0b6106093ae22004c83fe46ad_jimbrig2011@gmail.com
     encrypted: R/gargle/gargle-oauth/eb5399b0b6106093ae22004c83fe46ad_jimmy.briggs@tychobra.com
     encrypted: R/gargle/gargle-oauth/powwater-3bdc20a4ac11.json
+    encrypted: R/jimbrig2011_shiny_client_secret.json
     encrypted: R/secrets.Renviron
     encrypted: RStudio/localappdata/ctx/ctx-40565/environment_vars
     encrypted: android/adbkey
@@ -89,11 +108,10 @@ PS C:\Users\jimbrig\Dev\jimsdots> git-crypt status -e
     encrypted: azure/clouds.config
     encrypted: azure/dockerAccessToken.json
     encrypted: boto/.boto
-    encrypted: docker/github_PAT.txt
     encrypted: feedly/feedly_api_tokens.yml
     encrypted: gcloud/credentials/access_tokens.db
     encrypted: gcloud/credentials/application_default_credentials.json
-    encrypted: gcloud/credentials/client_secret_833216447103-nh9h6iev1jf6qqrjdt5tlcobsss5dgm3.apps.googleusercontent.com.json
+    encrypted: gcloud/credentials/client_secret.apps.googleusercontent.com.json
     encrypted: gcloud/credentials/client_secret_shiny-cloudrun.json
     encrypted: gcloud/credentials/credentials.db
     encrypted: gcloud/credentials/credentials.json
@@ -116,9 +134,16 @@ PS C:\Users\jimbrig\Dev\jimsdots> git-crypt status -e
     encrypted: gnupg/pubring.kbx
     encrypted: gnupg/trustdb.gpg
     encrypted: gnupg/tychobra-public-gpg.txt
-    encrypted: gpg/keys/jimbrig2011@gmail.txt
-    encrypted: gpg/keys/jimbrig2011@outlook.txt
-    encrypted: gpg/keys/jimmy.briggs@tychobra.txt
+    encrypted: gpg/private_keys/027FA410529E1975D4767600FA571E65ECCC2156.key
+    encrypted: gpg/private_keys/5E3252078834F5F53BFFB09125FC6EEA1400B98E.key
+    encrypted: gpg/private_keys/730A8DC9EF21651B74372D914AD5370882FDC672.key
+    encrypted: gpg/private_keys/87791A2D82D7CB6593137F25599290E4A9F89A7E.key
+    encrypted: gpg/private_keys/A2AACD2D52FC00B8C9ECD222113CC56413DDE1D0.key
+    encrypted: gpg/private_keys/BC8E2D904A655E5F97ABF5A2E75BA9C267556893.key
+    encrypted: gpg/public_keys/jimbrig_jimbrig2011@gmail.txt
+    encrypted: gpg/public_keys/jimbrig_jimbrig2011@outlook.txt
+    encrypted: gpg/public_keys/powwater_jimmy.briggs@tychobra.txt
+    encrypted: gpg/public_keys/tychobra_jimmy.briggs@tychobra.txt
     encrypted: keep/.credentials
     encrypted: kube/config
     encrypted: obsidian/todoist-token
@@ -136,7 +161,6 @@ PS C:\Users\jimbrig\Dev\jimsdots> git-crypt status -e
     encrypted: ssh/keys/id_rsa
     encrypted: ssh/keys/id_rsa.pub
     encrypted: vault/.vault-token
-    
 ```
 
 ### Git-Attributes
@@ -156,7 +180,8 @@ github-cli/config.yml filter=git-crypt diff=git-crypt
 github-cli/hosts.yml filter=git-crypt diff=git-crypt
 github/recovery-codes.txt filter=git-crypt diff=git-crypt
 kube/config filter=git-crypt diff=git-crypt
-docker/github_PAT.txt filter=git-crypt diff=git-crypt
+docker/github_pat filter=git-crypt diff=git-crypt
+docker/github_cr_pat filter=git-crypt diff=git-crypt
 feedly/feedly_api_tokens.yml filter=git-crypt diff=git-crypt
 gcloud/credentials/** filter=git-crypt diff=git-crypt
 gcloud/legacy_credentials/** filter=git-crypt diff=git-crypt
@@ -171,11 +196,16 @@ R/secrets.Renviron filter=git-crypt diff=git-crypt
 R/cyphr_secret.rds filter=git-crypt diff=git-crypt
 R/.rtweet_token.rds filter=git-crypt diff=git-crypt
 R/gargle/gargle-oauth/** filter=git-crypt diff=git-crypt
+R/jimbrig2011_shiny_client_secret.json filter=git-crypt diff=git-crypt
+R/config.yml filter=git-crypt diff=git-crypt
 RStudio/localappdata/ctx/ctx-40565/environment_vars filter=git-crypt diff=git-crypt
 RStudio/localappdata/monitored/connection_history.json filter=git-crypt diff=git-crypt
-gpg/keys/* filter=git-crypt diff=git-crypt
+gpg/public_keys/* filter=git-crypt diff=git-crypt
+gpg/private_keys/* filter=git-crypt diff=git-crypt
+gpg/private_keys/** filter=git-crypt diff=git-crypt
+gpg/public_keys/** filter=git-crypt diff=git-crypt
 ssh/gitkraken/* filter=git-crypt diff=git-crypt
 ssh/keys/* filter=git-crypt diff=git-crypt
-
+license-keys/** filter=git-crypt diff=git-crypt
 ```
 
