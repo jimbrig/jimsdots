@@ -4,7 +4,7 @@
 
 ## Setup Guides:
 
-- [nodejs, yarn, NPM](./nodejs/)
+- [nodejs/npm](./nodejs/), [yarn](yarn/)
 - [gcloud](./gcloud/)
 - [gpg](./gpg/)
 - [ssh](./ssh/)
@@ -12,13 +12,14 @@
 - [git](./git/)
 - [python](./python/)
 - [typora](./typora/)
-- [chocolatey](chocolatey)
-- [scoop]()
-- [powershell](powershell/)
-- [WSL]()
-- [winget]()
-- [R, RStudio, RTools](r/)
-- [python and PIP](python/)
+- [chocolatey](./chocolatey)
+- [scoop](./scoop/)
+- [powershell](./powershell/)
+- [WSL](./wsl/)
+- [winget](./winget/)
+- [R](./R/)
+- [RStudio](./rstudio/)
+- [python](./python/)
 
 ## All Directories
 
