@@ -97,6 +97,7 @@ get_packages <- function(path = .libPaths()[1],
     cli::cli_alert_info(text = paste0(paste0("Installing ", y, "...")))
     eval(parse(text = x))
   })
+}
 
 # specify libdirs ---------------------------------------------------------
 libs <- .libPaths()

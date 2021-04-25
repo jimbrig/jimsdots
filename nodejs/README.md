@@ -12,6 +12,67 @@
 * [n - npm](https://www.npmjs.com/package/n)
 * [Installing Node.js via package manager | Node.js](https://nodejs.org/en/download/package-manager/)
 
+# Starred Packages
+
+```powershell
+playball
+bower
+@google-cloud/secret-manager
+googlemaps
+@google/markerwithlabel
+@googlemaps/markermanager
+@googlemaps/markerclustererplus
+@googlemaps/js-api-loader
+@googlemaps/js-samples
+gitmoji-cli
+save-local
+git-copy-repos-labels-cli
+copy-github-labels-cli
+firebase-tools
+cross-env
+pm2
+git-labels-cli
+git-labels
+gist-backup
+github-gists-cli
+github-gists
+nativefier
+npm-check-updates
+envinfo
+fixpack
+yarn
+webpack
+expo-cli
+static-marks
+@release-it/keep-a-changelog
+gulp
+release-it
+eslint
+prettier
+jshint
+create-react-app
+devspace
+dbdocs
+@dbml/cli
+```
+
+## `.npmrc`
+
+```shell
+//registry.npmjs.org/:_authToken=<REDEACTED>
+bin-links = true
+color = "always"
+editor = code-insiders
+browser = "start"
+git = "C:\Program Files\Git\bin\git.exe"
+init-author-email = "jimmy.briggs@tychobra.com"
+init-author-name = "Jimmy Briggs"
+init-author-url = "https://github.com/jimbrig"
+init-license = MIT
+sign-git-commit = true
+sign-git-tag = true
+```
+
 ## Installation
 
 - Install directly via [Chocolatey](https://chocolatey.org/), [Scoop](https://scoop.sh/), or [winget](https://github.com/microsoft/winget-cli):
