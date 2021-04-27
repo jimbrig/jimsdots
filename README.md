@@ -1,8 +1,8 @@
 # Jim’s `.dotfiles`
 
-![](./windows-terminal/screenshot.png)
+![terminal-screenshot](./windows-terminal/screenshot.png)
 
-## Setup Guides:
+## Setup Guides
 
 - [nodejs/npm](./nodejs/), [yarn](yarn/)
 - [gcloud](./gcloud/)
@@ -20,63 +20,70 @@
 - [R](./R/)
 - [RStudio](./rstudio/)
 - [python](./python/)
+- [topgrade](.topgrade)
 
 ## All Directories
 
-- aws
-- azure
-- bash
-- batch_files
-- bin
-- boto
-- chocolatey
-- cloudinary-cli
-- code-insiders
-- codestream
-- configstore
-- dependencies
-- devdocs
-- devspace
-- docker
-- docs
-- edge
-- excel
-- expo
-- feedly
-- gcloud
-- gdrive
-- git
-- github
-- github-cli
-- gitkraken
-- gnupg
-- gpg
-- keep
-- kube
-- lepton
-- nodejs
-- obsidian
-- PATH
-- powershell
-- python
-- R
-- registry
-- RStudio
-- scoop
-- scripts
-- ssh
-- typora
-- valentina
-- vault
-- vim
-- wifi
-- windows-terminal
-- winget
-- wsl
-- yarn
-- youtube-dl
-- zapier
-- z-location
+```R
+R> fs::dir_tree(recurse = 0)
++-- android
++-- aws
++-- azure
++-- bash
++-- batch_files
++-- bin
++-- boto
++-- chocolatey
++-- cloudinary-cli
++-- code-insiders
++-- codestream
++-- configstore
++-- dependencies
++-- devdocs
++-- devspace
++-- docker
++-- docs
++-- edge
++-- excel
++-- expo
++-- feedly
++-- gcloud
++-- gdrive
++-- git
++-- github
++-- github-cli
++-- gitkraken
++-- gnupg
++-- gpg
++-- keep
++-- kube
++-- lepton
++-- nodejs
++-- obsidian
++-- PATH
++-- powershell
++-- python
++-- R
++-- README.md
++-- registry
++-- RStudio
++-- scoop
++-- scripts
++-- ssh
++-- topgrade
++-- typora
++-- valentina
++-- vault
++-- vim
++-- wifi
++-- windows-terminal
++-- winget
++-- wsl
++-- yarn
++-- youtube-dl
++-- z-location
+\-- zapier
+```
 
 ## Encrypted Secrets
 
