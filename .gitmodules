@@ -4,3 +4,6 @@
 [submodule "dependencies/git-crypt"]
 	path = dependencies/git-crypt
 	url = git@github.com:AGWA/git-crypt.git
+[submodule "dependencies/get-pip.py"]
+	path = dependencies/get-pip.py
+	url = git@gist.github.com:d08ae448f5ee914fb608bd796f8ccc40.git
