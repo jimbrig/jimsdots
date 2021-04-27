@@ -122,7 +122,7 @@ keep list
 
 ### Keep Commands - `~/.keep/commands.json`:
 
-These are synced to my [github gist: Backup for keep](https://gist.github.com/jimbrig/da88cb0d6ad1ff9037ce4e209728adfa):
+These are synced to my [github gist: Backup for keep](https://gist.githubusercontent.com/jimbrig/da88cb0d6ad1ff9037ce4e209728adfa/raw/0ba450e6b4baf9be77bf81faf02131ff8d8f098b/commands.json):
 
 ```json
 {
@@ -233,6 +233,74 @@ These are synced to my [github gist: Backup for keep](https://gist.github.com/ji
   "github-gists jimbrig -t e1ecc70eb6ce625a2ca4c3ddaa05e62bef394e9e >> \"2020-02-23-GH-Gists.md\"": {
     "desc": "Download github gists to markdown",
     "alias": "getgists"
+  },
+  "winSAT formal -restart": {
+    "desc": "Run 'winSAT' diagnostics",
+    "alias": "winsat"
+  },
+  "wmic useraccount get domain,name,sid": {
+    "desc": "List User Account Profiles, Domains, and SIDs",
+    "alias": "lsusers"
+  },
+  "\"%ProgramFiles%\\Windows Defender\\MpCmdRun.exe\" -Scan -ScanType 1": {
+    "desc": "virusscan",
+    "alias": "scan"
+  },
+  "cmd.exe \"%ProgramFiles%\\Windows Defender\\MpCmdRun.exe\" -Scan -ScanType 1": {
+    "desc": "virusscan",
+    "alias": "scan"
+  },
+  "winupdatereset": {
+    "desc": "Reset Windows Update Components",
+    "alias": "resetwinup"
+  },
+  "net stop bits": {
+    "desc": "Stop BITS",
+    "alias": "stopbits"
+  },
+  "net stop wuauserv": {
+    "desc": "Stop windows update server",
+    "alias": "stop wserv"
+  },
+  "net stop appidsvc": {
+    "desc": "Stop the appidsvc service",
+    "alias": "stop appid"
+  },
+  "net stop cryptsvc": {
+    "desc": "Stop cryptographic service",
+    "alias": "stopcrypto"
+  },
+  "Ipconfig /flushdns": {
+    "desc": "Flush DNS with ipconfig",
+    "alias": "flushdns"
+  },
+  "del /s /q /f \"%ALLUSERSPROFILE%\\Application Data\\Microsoft\\Network\\Downloader\\qmgr*.dat\" ": {
+    "desc": "Delete network data",
+    "alias": "delnetqm"
+  },
+  "del /s /q /f \"%SYSTEMROOT%\\Logs\\WindowsUpdate\\*\"": {
+    "desc": "Delete windows update files",
+    "alias": "delwinup"
+  },
+  "Repair-WindowsImage -Online -ScanHealth": {
+    "desc": "Scan Windows Image with Powershell cmdlet",
+    "alias": "scanwinimg"
+  },
+  "Dism /Online /Cleanup-Image /ScanHealth": {
+    "desc": "Scan Windows Image with CMD DISM",
+    "alias": "dismscan"
+  },
+  "Repair-WindowsImage -Online -RestoreHealth": {
+    "desc": "Repair Windows Image with Powershell cmdlet",
+    "alias": "repairwinimg"
+  },
+  "Dism /Online /Cleanup-Image /RestoreHealth": {
+    "desc": "DISM online repair image",
+    "alias": "dismrepair"
+  },
+  "Dism.exe /online /Cleanup-Image /StartComponentCleanup": {
+    "desc": "DISM component cleanup",
+    "alias": "dismcleanup"
   }
 }
 ```
