@@ -23,7 +23,7 @@ Just run `topgrade`. See [the wiki](https://github.com/r-darwish/topgrade/wiki/S
 
 ## Customization
 
-- See my configuration file [topgrade.toml](/topgrade.toml)
+- See my configuration file [topgrade.toml](./topgrade.toml)
 
 or
 
