@@ -20,7 +20,7 @@
 - [R](./R/)
 - [RStudio](./rstudio/)
 - [python](./python/)
-- [topgrade](.topgrade)
+- [topgrade](./topgrade/)
 
 ## All Directories
 
