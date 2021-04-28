@@ -113,6 +113,7 @@ uninstall      Uninstall an app
 update         Update apps, or Scoop itself
 virustotal     Look for app's hash on virustotal.com
 which          Locate a shim/executable (similar to 'which' on Linux)
+
 ```
 
 ## Example Setup Scripts
@@ -216,7 +217,6 @@ I primarily use [Chocolatey](../chocolatey/) and [winget](.../winget/) as my pac
 My Buckets:
 
 - main
-
 - extras
 - scoop-completion
 - nonportable
@@ -276,6 +276,7 @@ Here's what I use scoop to install:
 - [ssh-agent-wsl](https://github.com/rupor-github/ssh-agent-wsl")
 - [PostInstall](https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/PostInstall.Win10InitialSetup.ps1)
 - [winget-cli](https://github.com/microsoft/winget-cli)
+- [git-filter-repo](https://github.com/newren/git-filter-repo)
 
 As well as,
 
