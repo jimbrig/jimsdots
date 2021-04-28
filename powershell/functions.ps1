@@ -33,6 +33,13 @@ ${function:appdata} = { Set-Location ~\AppData }
 ${function:localappdata} = { Set-Location ~\Appdata\Local }
 ${function:appdata} = { Set-Location ~\AppData\Roaming }
 
+# Start Docker:
+${function:startdocker} = { start "C:\Program Files\Docker\Docker\Docker Desktop.exe" }
+
+# R
+${function:search_gh} = { Rscript -e "search_gh('$args')" }
+${function:search_ghr} = { Rscript -e "search_ghr('$args')" }
+
 # Dev Directory
 ${function:dev} = { Set-Location ~\Dev }
 ${function:jimbrig} = { Set-Location ~\Dev\jimbrig }
@@ -82,6 +89,10 @@ ${function:psversion} = { $PSVersionTable }
 ${function:propath} = { Get-Variable $PROFILE }
 ${function:prodir} = { Split-Path -Path $PROFILE -Parent }
 ${function:listaliases} = { Get-Alias }
+${function:getpublicip} = {
+  $ip = Invoke-RestMethod -Uri 'https://api.ipify.org?format=json'
+  "My public IP address is: $($ip.ip)"
+} #getpublicip
 
 # Chocolatey
 ${function:chocopkgs} = { & choco list --local-only }
@@ -103,7 +114,7 @@ ${function:upgradepip3} = { & pip3 install --upgrade pip3 }
 
 # R Utilities
 ${function:rvanilla} = { R.exe --vanilla }
-${function:openradian} = { & "C:\Users\Jimmy Briggs\AppData\Local\Programs\Python\Python39\Scripts\radian.exe" }
+${function:openradian} = { & "C:\Users\Admin\AppData\Local\Programs\Python\Python39\Scripts\radian.exe" }
 ${function:openrproj} = { & C:\env\bat\openrproject.bat }
 ${function:launchrstudio} = { & "C:\Program Files\RStudio\bin\Rstudio.exe" }
 
