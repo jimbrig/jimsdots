@@ -23,7 +23,18 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 iwr -useb get.scoop.sh | iex
 ```
 
-Once installed, run `scoop help` for instructions.
+Once installed, run `scoop help` for instructions. Also run `scoop checkup` to see if any issues are affecting scoop's status. Some useful commands to run are:
+
+```powershell
+# disable scoop from windows defender realtime scanning 
+sudo Add-MpPreference -ExclusionPath 'C:\ProgramData\scoop'
+sudo Add-MpPreference -ExclusionPath 'C:\Users\Admin\scoop'
+
+# enable long path support in registry
+Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+```
+
+![image-20210428220135576](.\img\image-20210428220135576.png)
 
 The default setup is configured so all user installed programs and Scoop itself live in `C:\Users\<user>\scoop`. Globally installed programs (`--global`) live in `C:\ProgramData\scoop`. These settings can be changed through environment variables.
 
