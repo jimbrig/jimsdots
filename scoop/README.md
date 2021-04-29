@@ -38,6 +38,12 @@ Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'Long
 
 The default setup is configured so all user installed programs and Scoop itself live in `C:\Users\<user>\scoop`. Globally installed programs (`--global`) live in `C:\ProgramData\scoop`. These settings can be changed through environment variables.
 
+Setup virustotal scanning with your accounts API key:
+
+```powershell
+scoop config virustotal_api_key <api_key>
+```
+
 ## Buckets
 
 The following buckets are known to scoop:
