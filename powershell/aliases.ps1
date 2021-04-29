@@ -34,6 +34,7 @@ Set-Alias -Name update -Value System-Update
 Set-Alias -Name o -Value open
 Set-Alias -Name rad -Value Open-Radian
 Set-Alias -Name codee -Value code-insiders
+Set-Alias -Name rsp -Value openrsproj
 
 if (Get-Command R.exe -ErrorAction SilentlyContinue | Test-Path) {
   Remove-Item Alias:r -ErrorAction SilentlyContinue

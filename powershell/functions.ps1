@@ -117,6 +117,7 @@ ${function:rvanilla} = { R.exe --vanilla }
 ${function:openradian} = { & "C:\Users\Admin\AppData\Local\Programs\Python\Python39\Scripts\radian.exe" }
 ${function:openrproj} = { & C:\env\bat\openrproject.bat }
 ${function:launchrstudio} = { & "C:\Program Files\RStudio\bin\Rstudio.exe" }
+${function:openrsproj} = { .\*.Rproj }
 
 # Open GitKraken in Current Repo
 ${function:krak} = {
