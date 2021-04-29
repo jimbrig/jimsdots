@@ -34,7 +34,11 @@ sudo Add-MpPreference -ExclusionPath 'C:\Users\Admin\scoop'
 Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
 ```
 
+<<<<<<< HEAD
 ![image-20210428220135576](.\img\image-20210428220135576.png)
+=======
+![image-20210428220135576](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210428220135576.png)
+>>>>>>> main
 
 The default setup is configured so all user installed programs and Scoop itself live in `C:\Users\<user>\scoop`. Globally installed programs (`--global`) live in `C:\ProgramData\scoop`. These settings can be changed through environment variables.
 
