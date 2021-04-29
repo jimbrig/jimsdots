@@ -2,7 +2,7 @@
 
 - [Link to Github Repo](https://github.com/r-darwish/topgrade)
 
-![](./img/Screenshot 2021-04-28 224602.png)
+![image](https://user-images.githubusercontent.com/32652297/116499420-1cf18980-a87a-11eb-818c-97676e745e41.png)
 
 Keeping your system up to date mostly involves invoking more than a single package manager. This
 usually results in big shell one-liners saved in your shell history. Topgrade tries to solve this
