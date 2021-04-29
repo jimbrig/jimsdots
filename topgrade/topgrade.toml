@@ -13,6 +13,12 @@ disable = ["microsoft_store"]
 # Ignore failures for these steps
 ignore_failures = ["gcloud"]
 
+# Custom commands
+[commands]
+"Update Powershell Help" = "pwsh.exe -Command Update-Help"
+"Cleanup Chocolatey Packages" = "choco-cleaner.ps1"
+"Backup Chocolatey Packages" = "choco-package-list-backup.ps1"
+
 # Manually select Windows updates
 [windows]
 accept_all_updates = true
