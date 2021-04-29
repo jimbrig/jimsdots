@@ -3,13 +3,15 @@
 ## Installation - Windows
 
 - Download from executable using the [Cloud SDK installer (google.com)](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe).
-- Download via `powershell` with the following:
+- Download via `powershell` with the following (run commands separately):
 
 ```powershell
 (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
 
 & $env:Temp\GoogleCloudSDKInstaller.exe      
 ```
+
+*Note: if you already have Python installed on your system do not select to use the pre-bundled version of Python with gcloud during installation*
 
 ## Installation Linux
 
