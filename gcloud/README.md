@@ -13,6 +13,21 @@
 
 *Note: if you already have Python installed on your system do not select to use the pre-bundled version of Python with gcloud during installation*
 
+### Setting up Environment Variables
+
+`gcloud` relies on `python` in order to function properly, and therefore if you are not using the default built in version of Python that optionally comes bundled with `gcloud` you must setup some additional environment variables on Windows so `gcloud` knows where to look:
+
+- `CLOUDSDK_PYTHON` - `<path\to\python.exe>`
+
+*Note: this is added as a USER envvar*
+
+![image-20210428204429248](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210428204429248.png)
+
+You should also double check that the `gcloud` SDK's `bin` folder is in your *system's* `PATH` environment variable:
+
+![image-20210428204511192](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210428204511192.png)
+
+
 ## Installation Linux
 
 - Ensure have a recent version of Python installed
