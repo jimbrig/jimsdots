@@ -423,7 +423,8 @@ Write-Host -Foreground Green "`n[ZLocation] knows about $((Get-ZLocation).Keys.C
 
 ## Modules
 
-![image-20210429130236848](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210429130236848.png)
+![image](https://user-images.githubusercontent.com/32652297/116592619-33d1c380-a8ee-11eb-8fd3-7b20a6366c62.png)
+
 
 #### Paths
 
