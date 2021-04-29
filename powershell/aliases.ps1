@@ -34,7 +34,7 @@ Set-Alias -Name update -Value System-Update
 Set-Alias -Name o -Value open
 Set-Alias -Name rad -Value Open-Radian
 Set-Alias -Name codee -Value code-insiders
-Set-Alias -Name rsp -Value openrsproj
+Set-Alias -Name rundocker -Value startdocker
 
 if (Get-Command R.exe -ErrorAction SilentlyContinue | Test-Path) {
   Remove-Item Alias:r -ErrorAction SilentlyContinue
