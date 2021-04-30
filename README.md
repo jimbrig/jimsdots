@@ -38,6 +38,7 @@ R> fs::dir_tree(recurse = 0)
 +-- code-insiders
 +-- codestream
 +-- configstore
++-- dbdocs
 +-- dependencies
 +-- devdocs
 +-- devspace
@@ -171,6 +172,7 @@ C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
     encrypted: ssh/keys/id_rsa.pub
     encrypted: vault/.vault-token
     encrypted: zapier/.zapierrc
+    encrypted: dbdocs/dbdocstoken
 ```
 
 ### Git-Attributes
@@ -218,5 +220,6 @@ ssh/gitkraken/* filter=git-crypt diff=git-crypt
 ssh/keys/* filter=git-crypt diff=git-crypt
 license-keys/** filter=git-crypt diff=git-crypt
 zapier/.zapierrc filter=git-crypt diff=git-crypt
+dbdocs/dbdocstoken filter=git-crypt diff=git-crypt
 ```
 
