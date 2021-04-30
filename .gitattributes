@@ -39,3 +39,4 @@ ssh/keys/* filter=git-crypt diff=git-crypt
 zapier/.zapierrc filter=git-crypt diff=git-crypt
 keys/test.txt filter=git-crypt diff=git-crypt
 scoop/virustotalapikey filter=git-crypt diff=git-crypt
+dbdocs/dbdocstoken filter=git-crypt diff=git-crypt
