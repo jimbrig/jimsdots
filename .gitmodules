@@ -10,3 +10,6 @@
 [submodule "dependencies/topgrade"]
 	path = dependencies/topgrade
 	url = git@github.com:r-darwish/topgrade.git
+[submodule "dependencies/git-toolbelt"]
+	path = dependencies/git-toolbelt
+	url = git@github.com:nvie/git-toolbelt.git
