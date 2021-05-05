@@ -1,0 +1,53 @@
+#!/bin/sh
+set -eu
+
+usage () {
+    echo "usage: git fixup-with [-r] [<base>]" >&2
+    echo >&2
+    echo "Options:" >&2
+    echo "-r    When done, trigger an interactive rebase right after." >&2
+    echo >&2
+    echo "Interactively lets you pick a commit from a list to fixup." >&2
+    echo "" >&2
+    echo "The list of commits shown display commits between <base> to HEAD)." >&2
+    echo "<base> defaults to main branch if you're on a different branch, and" >&2
+    echo "defaults to \"origin/main\" when you're on main branch currently." >&2
+    echo "" >&2
+}
+
+rebase=0
+while getopts rh flag; do
+    case "$flag" in
+        r) rebase=1;;
+        h) usage; exit 2;;
+    esac
+done
+shift $(($OPTIND - 1))
+
+# Make sure the index is dirty, otherwise there isn\'t anything to fixup
+git is-dirty -i
+
+if [ $# -eq 1 ]; then
+    base="$1"
+elif [ $# -eq 0 ]; then
+    main="$(git main-branch)"
+    if [ "$(git current-branch)" = "$main" ]; then
+        base="origin/$main"
+    else
+        base="$main"
+    fi
+else
+    usage
+    exit 2
+fi
+
+sha="$(git log "${base}.." --pretty='%h %s' | fzf | cut -d' ' -f1)"
+if [ -z "$sha" ]; then
+    echo 'No commit picked' >&2
+    exit 3
+fi
+
+git commit --fixup "$sha" --no-verify --allow-empty
+if [ $rebase -eq 1 ]; then
+    git rebase --interactive --autosquash --autostash --keep-empty "$sha"~
+fi

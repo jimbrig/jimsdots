@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if ! main=$(git main-branch 2>/dev/null); then
+    echo "No commits yet" >&2
+    exit 2
+fi
+
+git rev-list --max-parents=0 --first-parent "$main"

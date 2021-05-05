@@ -1,0 +1,52 @@
+#!/bin/sh
+set -e
+
+usage () {
+    echo "usage: git update-all [-h] [remote]" >&2
+    echo >&2
+    echo "Updates (pulls) upstream changes on all local branches." >&2
+    echo "remote defaults to origin." >&2
+    echo >&2
+    echo "Options:" >&2
+    echo "-h    Show this help" >&2
+}
+
+while getopts h flag; do
+    case "$flag" in
+        h) usage; exit 2;;
+    esac
+done
+shift $(($OPTIND - 1))
+
+if git is-dirty; then
+    echo "Cannot do this while your working copy has local changes.  Stash or commit them first." >&2
+    exit 2
+fi
+
+remote=${1:-origin}
+
+curr=$(git current-branch)
+git fetch --quiet
+
+for branch in $(git local-branches); do
+    if git remote-branch-exists "$remote" "$branch"; then
+        if [ "$branch" != "$(git current-branch)" ]; then
+            git checkout --quiet "$branch" >/dev/null 2>/dev/null
+        fi
+
+        orig_sha=$(git sha -s "$branch")
+        new_sha=$(git sha -s "$remote"/"$branch")
+        if [ "$orig_sha" != "$new_sha" ] && git contains "$remote"/"$branch" "$branch"; then
+            if git merge --quiet --ff-only "$remote/$branch"; then
+                echo "updated '$branch' to latest '$remote/$branch' ($orig_sha...$new_sha)"
+            else
+                echo "warning: could not fast-forward '$branch' to '$remote/$branch': branches have diverged." >&2
+            fi
+        else
+            echo "skipping: branch '$branch' is already up-to-date or newer than '$remote/$branch'" >&2
+        fi
+    else
+        echo "skipping: branch '$branch' is not on '$remote'" >&2
+    fi
+done
+git checkout --quiet "$curr"
