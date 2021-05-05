@@ -10,12 +10,15 @@
     {
       "command": {
         "action": "copy",
-        "singleLine": false
+        "singleLine": true
       },
       "keys": "ctrl+c"
     },
     {
-      "command": "paste",
+      "command": {
+        "action": "paste",
+        "singleLine": true
+      },
       "keys": "ctrl+v"
     },
     // Press Ctrl+Shift+F to open the search box
@@ -33,7 +36,30 @@
         "split": "auto",
         "splitMode": "duplicate"
       },
-      "keys": "alt+shift+d"
+      "keys": "ctrl+alt+a"
+    },
+    {
+      "command": "duplicateTab",
+      "keys": "ctrl+shift+d"
+    },
+    {
+      "command": {
+        "action": "adjustFontSize",
+        "delta": 1
+      },
+      "keys": "ctrl+-"
+    },
+    {
+      "command": "resetFontSize",
+      "keys": "ctrl+0"
+    },
+    {
+      "command": "nextTab",
+      "keys": "ctrl+pagedown"
+    },
+    {
+      "command": "prevTab",
+      "keys": "ctrl+pageup"
     }
   ],
   "copyFormatting": "none",
@@ -52,14 +78,23 @@
     },
     "list": [
       {
+        "backgroundImageOpacity": 0.23000000000000001,
+        "backgroundImageStretchMode": "uniformToFill",
+        "colorScheme": "Campbell Powershell",
+        "experimental.retroTerminalEffect": false,
+        "fontFace": "CaskaydiaCove Nerd Font",
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
         "name": "PowerShell",
+        "padding": "4",
         "source": "Windows.Terminal.PowershellCore",
         "tabTitle": "PowerShell"
       },
       {
         "backgroundImage": "desktopWallpaper",
+        "backgroundImageOpacity": 0.13,
+        "colorScheme": "Campbell",
+        "fontFace": "Cascadia Code",
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "hidden": false,
         "name": "Ubuntu",
@@ -127,6 +162,34 @@
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
+      },
+      {
+        "colorScheme": "Custom",
+        "fontFace": "CaskaydiaCove Nerd Font Mono"
+      },
+      {
+        "commandline": "wttop.exe",
+        "icon": "C:\\Users\\Admin\\Pictures\\Icons\\icons8_dna_helix.ico",
+        "name": "Wttop",
+        "tabTitle": "System Monitor"
+      },
+      {
+        "commandline": "\"C:\\Program Files\\WindowsApps\\CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_2104.2021.319.0_x64__79rhkp1fndgsc\\ubuntupreview.exe\"",
+        "icon": "C:\\Users\\Admin\\Pictures\\Icons\\ubuntu.ico",
+        "name": "Ubuntu Community Preview",
+        "tabTitle": "Ubuntu Preview"
+      },
+      {
+        "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
+        "hidden": false,
+        "name": "Ubuntu-CommPrev",
+        "source": "Windows.Terminal.Wsl"
+      },
+      {
+        "guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}",
+        "hidden": false,
+        "name": "Ubuntu on Windows Community Preview",
+        "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc"
       }
     ]
   },
@@ -171,6 +234,29 @@
       "foreground": "#CCCCCC",
       "green": "#13A10E",
       "name": "Campbell Powershell",
+      "purple": "#881798",
+      "red": "#C50F1F",
+      "selectionBackground": "#FFFFFF",
+      "white": "#CCCCCC",
+      "yellow": "#C19C00"
+    },
+    {
+      "background": "#000000",
+      "black": "#0C0C0C",
+      "blue": "#0037DA",
+      "brightBlack": "#767676",
+      "brightBlue": "#3B78FF",
+      "brightCyan": "#61D6D6",
+      "brightGreen": "#16C60C",
+      "brightPurple": "#B4009E",
+      "brightRed": "#E74856",
+      "brightWhite": "#F2F2F2",
+      "brightYellow": "#F9F1A5",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#3A96DD",
+      "foreground": "#FFFFFF",
+      "green": "#13A10E",
+      "name": "Color Scheme 13",
       "purple": "#881798",
       "red": "#C50F1F",
       "selectionBackground": "#FFFFFF",
@@ -270,7 +356,7 @@
       "yellow": "#C18301"
     },
     {
-      "background": "#002B36",
+      "background": "#000000",
       "black": "#002B36",
       "blue": "#268BD2",
       "brightBlack": "#073642",
