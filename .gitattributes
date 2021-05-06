@@ -41,3 +41,4 @@ keys/test.txt filter=git-crypt diff=git-crypt
 scoop/virustotalapikey filter=git-crypt diff=git-crypt
 dbdocs/dbdocstoken filter=git-crypt diff=git-crypt
 secrets/** filter=git-crypt diff=git-crypt
+code-insiders/dev.to_api_token filter=git-crypt diff=git-crypt
