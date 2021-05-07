@@ -13,3 +13,6 @@
 [submodule "dependencies/git-toolbelt"]
 	path = dependencies/git-toolbelt
 	url = git@github.com:nvie/git-toolbelt.git
+[submodule "dependencies/todoist-global-hotkey"]
+	path = dependencies/todoist-global-hotkey
+	url = git@github.com:mgroat/Todoist-Global-Hotkey.git
