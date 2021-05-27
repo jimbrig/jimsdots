@@ -8,16 +8,18 @@ no_retry = true
 cleanup = true
 
 # Disable specific steps - same options as the command line flag
-disable = ["microsoft_store"]
+# disable = ["microsoft_store"]
 
 # Ignore failures for these steps
-ignore_failures = ["gcloud"]
+# ignore_failures = ["gcloud", "custom_commands"]
 
 # Custom commands
 [commands]
-"Update Powershell Help" = "pwsh.exe -Command Update-Help"
-"Cleanup Chocolatey Packages" = "choco-cleaner.ps1"
-"Backup Chocolatey Packages" = "choco-package-list-backup.ps1"
+# "Update Powershell Help" = "pwsh.exe -Command Update-Help"
+"Cleanup Chocolatey Packages" = "powershell.exe -Command choco-cleaner.ps1"
+"Backup Chocolatey Packages" = "powershell.exe -Command choco-package-list-backup.ps1"
+"Update R Packages" = "Rscript.exe 'C:/env/R/update_packages.R'"
+"Upgrade WinGet Packages" = "winget upgrade --all"
 
 # Manually select Windows updates
 [windows]
