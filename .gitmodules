@@ -16,3 +16,6 @@
 [submodule "dependencies/todoist-global-hotkey"]
 	path = dependencies/todoist-global-hotkey
 	url = git@github.com:mgroat/Todoist-Global-Hotkey.git
+[submodule "dependencies/powershell-config"]
+	path = dependencies/powershell-config
+	url = git@github.com:r-darwish/powershell-config.git
