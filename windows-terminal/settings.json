@@ -167,9 +167,10 @@
                 "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc"
             },
             {
-                "commandline": "wttop.exe",
+                "commandline": "C:\\Users\\Admin\\scoop\\shims\\wttop.exe",
                 "icon": "C:\\Users\\Admin\\Pictures\\Icons\\icons8_dna_helix.ico",
-                "name": "Wttop",
+                "name": "System Monitor",
+                "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "System Monitor"
             }
         ]
