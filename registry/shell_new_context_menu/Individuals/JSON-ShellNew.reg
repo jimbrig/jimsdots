@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.json]
+@="json"
+
+[HKEY_CLASSES_ROOT\.json\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\json]
+@="JSON File"

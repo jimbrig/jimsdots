@@ -24,13 +24,13 @@ Windows Registry Editor Version 5.00
 
 ; R Script
 
-[HKEY_CLASSES_ROOT\.r]
-@="r"
+[HKEY_CLASSES_ROOT\.R]
+@="R"
 
-[HKEY_CLASSES_ROOT\.r\ShellNew]
+[HKEY_CLASSES_ROOT\.R\ShellNew]
 "NullFile"=""
 
-[HKEY_CLASSES_ROOT\r]
+[HKEY_CLASSES_ROOT\R]
 @="R Script"
 
 ;-----------------------------------
@@ -45,6 +45,85 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\markdown]
 @="Markdown Document"
+
+;-----------------------------------
+
+; Cascading Style Sheet (CSS)
+
+[HKEY_CLASSES_ROOT\.css]
+@="css"
+
+[HKEY_CLASSES_ROOT\.css\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\css]
+@="CSS Stylesheet"
+
+;-----------------------------------
+
+; HTML
+
+[HKEY_CLASSES_ROOT\.html]
+@="html"
+
+[HKEY_CLASSES_ROOT\.html\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\html]
+@="HTML File"
+
+;-----------------------------------
+
+; BAT (Batch File)
+
+[HKEY_CLASSES_ROOT\.bat]
+@="bat"
+
+[HKEY_CLASSES_ROOT\.bat\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\bat]
+@="Batch Script"
+
+;-----------------------------------
+
+; Command Line Command (CMD)
+
+[HKEY_CLASSES_ROOT\.cmd]
+@="cmd"
+
+[HKEY_CLASSES_ROOT\.cmd\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\cmd]
+@="Command Line Command"
+
+;-----------------------------------
+
+; CSV
+
+[HKEY_CLASSES_ROOT\.csv]
+@="css"
+
+[HKEY_CLASSES_ROOT\.csv\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\csv]
+@="CSV Comma-Separated Spreadsheet"
+
+;-----------------------------------
+
+; JSON
+
+[HKEY_CLASSES_ROOT\.json]
+@="json"
+
+[HKEY_CLASSES_ROOT\.json\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\json]
+@="JSON File"
+
 
 ;-----------------------------------
 ; Already Exists (Commented Out)

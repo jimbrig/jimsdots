@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.csv]
+@="csv"
+
+[HKEY_CLASSES_ROOT\.csv\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\csv]
+@="Comma Separated CSV File"
