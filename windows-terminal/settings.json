@@ -56,6 +56,17 @@
                 "action": "prevTab"
             },
             "keys": "ctrl+pgup"
+        },
+        {
+            "command": 
+            {
+                "action": "commandPalette"
+            },
+            "keys": "ctrl+p"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+p"
         }
     ],
     "copyFormatting": "none",
@@ -85,23 +96,6 @@
                 "tabTitle": "PowerShell"
             },
             {
-                "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
-                "hidden": false,
-                "icon": "C:\\Users\\Admin\\Pictures\\Icons\\ubuntu.ico",
-                "name": "Ubuntu Community Preview",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "//wsl$/Ubuntu-CommPrev/home/jimbrig",
-                "tabTitle": "Ubuntu Preview"
-            },
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "//wsl$/Ubuntu/home/jimbrig",
-                "tabTitle": "Ubuntu"
-            },
-            {
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
@@ -113,6 +107,18 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
+                "hidden": false,
+                "name": "PowerShell Preview (msix)",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
             },
             {
                 "commandline": "C:\\Python39\\Scripts\\radian.exe",
@@ -155,14 +161,8 @@
                 "tabTitle": "NodeJS"
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
                 "guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}",
-                "hidden": true,
+                "hidden": false,
                 "name": "Ubuntu on Windows Community Preview",
                 "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc"
             },
@@ -172,6 +172,18 @@
                 "name": "System Monitor",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "System Monitor"
+            },
+            {
+                "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
+                "hidden": false,
+                "name": "Ubuntu-CommPrev",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
