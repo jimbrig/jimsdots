@@ -18,8 +18,8 @@ cleanup = true
 # "Update Powershell Help" = "pwsh.exe -Command Update-Help"
 "Cleanup Chocolatey Packages" = "powershell.exe -Command choco-cleaner.ps1"
 "Backup Chocolatey Packages" = "powershell.exe -Command choco-package-list-backup.ps1"
-"Update R Packages" = "Rscript.exe 'C:/env/R/update_packages.R'"
-"Upgrade WinGet Packages" = "winget upgrade --all"
+# "Update R Packages" = "Rscript.exe 'C:/env/R/update_packages.R'"
+# "Upgrade WinGet Packages" = "winget upgrade --all"
 
 # Manually select Windows updates
 [windows]
