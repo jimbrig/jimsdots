@@ -12,6 +12,7 @@ azure-cli/AzureRmContext.json filter=git-crypt diff=git-crypt
 azure-cli/clouds.config filter=git-crypt diff=git-crypt
 azure-cli/dockerAccessToken.json filter=git-crypt diff=git-crypt
 azure-cli/AzureRmContext.json filter=git-crypt diff=git-crypt
+azure-cli/acr_pat filter=git-crypt diff=git-crypt
 github-cli/config.yml filter=git-crypt diff=git-crypt
 github-cli/hosts.yml filter=git-crypt diff=git-crypt
 github/recovery-codes.txt filter=git-crypt diff=git-crypt
