@@ -23,9 +23,10 @@ if ($isadmin) {
     Write-Host "Chocolatey missing, preparing for install" -ForegroundColor Magenta
 
     # This line is from: https://chocolatey.org/install
-    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-  } else {
+  }
+  else {
     Write-Host "Chocolatey already installed." -ForegroundColor Green
   }
 
@@ -44,21 +45,21 @@ if ($isadmin) {
 
   # Check if git is already installed
   if (-not (Test-Path "C:\Program Files\Git\cmd\git.exe")) {
-      Write-Host "Git missing, preparing for install using Chocolatey."
-      Invoke-Expression "&C:\ProgramData\Chocolatey\bin\choco.exe install -y -r git --params `"/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration`""
+    Write-Host "Git missing, preparing for install using Chocolatey."
+    Invoke-Expression "&C:\ProgramData\Chocolatey\bin\choco.exe install -y -r git --params `"/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration`""
 
-      $sshPath = "C:\Program Files\Git\usr\bin\ssh.exe"
-      if ((Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH.Client*').State -eq "Installed") {
-          $sshPath = "C:\Windows\System32\OpenSSH\ssh.exe"
-      }
+    $sshPath = "C:\Program Files\Git\usr\bin\ssh.exe"
+    if ((Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH.Client*').State -eq "Installed") {
+      $sshPath = "C:\Windows\System32\OpenSSH\ssh.exe"
+    }
 
-      [environment]::SetEnvironmentVariable('GIT_SSH', $sshPath, 'USER')
-      $env:GIT_SSH = $sshPath
+    [environment]::SetEnvironmentVariable('GIT_SSH', $sshPath, 'USER')
+    $env:GIT_SSH = $sshPath
 
-      Write-Host "Git installed." -ForegroundColor "Green"
+    Write-Host "Git installed." -ForegroundColor "Green"
   }
   else {
-      Write-Host "Git already installed." -ForegroundColor "Green"
+    Write-Host "Git already installed." -ForegroundColor "Green"
   }
 
   # pull jimsdots repo
@@ -72,10 +73,10 @@ if ($isadmin) {
     Write-Host "Unlocking dotfiles via git-crypt"
 
 
-}
-else {
+  }
+  else {
     Write-Host "~\.dotfiles already set up." -ForegroundColor "Green"
-}
+  }
 
 
 
@@ -90,7 +91,7 @@ else {
 
   # install boxstarter
   Write-Host "Installing boxstarter" -ForegroundColor Magenta
-  { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; Get-Boxstarter -Force
+  { Invoke-WebRequest -useb https://boxstarter.org/bootstrapper.ps1 } | Invoke-Expression; Get-Boxstarter -Force
 
   Write-Host "Installing git and adding to path" -ForegroundColor Magenta
   choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'"
@@ -134,7 +135,8 @@ else {
     # add to powershell profile:
     Import-Module "$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\modules\scoop-completion"
 
-  } else {
+  }
+  else {
     Write-Host "Scoop already installed." -ForegroundColor Green
   }
 
@@ -170,6 +172,7 @@ else {
   Write-Host "Enabling Windows Subsytem for Linux" -ForegroundColor Magenta
   Enable-WindowsOptionalFeature -Online -FeatureName $("VirtualMachinePlatform", "Microsoft-Windows-Subsystem-Linux")
 
-} else {
+}
+else {
   Write-Host "Please run this script as an administrator" -ForegroundColor Red
 }
