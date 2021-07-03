@@ -26,9 +26,9 @@ iwr -useb get.scoop.sh | iex
 Once installed, run `scoop help` for instructions. Also run `scoop checkup` to see if any issues are affecting scoop's status. Some useful commands to run are:
 
 ```powershell
-# disable scoop from windows defender realtime scanning 
+# disable scoop from windows defender realtime scanning
 sudo Add-MpPreference -ExclusionPath 'C:\ProgramData\scoop'
-sudo Add-MpPreference -ExclusionPath 'C:\Users\Admin\scoop'
+sudo Add-MpPreference -ExclusionPath 'C:\Users\jimbr\scoop'
 
 # enable long path support in registry
 Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
@@ -183,7 +183,7 @@ scoop install sudo 7zip
 sudo scoop install git ruby postgres --global
 
 # just for me
-scoop install grep coreutils 
+scoop install grep coreutils
 ```
 
 
@@ -229,7 +229,7 @@ scoop install python ruby go perl
 
 ## My Installed Packages
 
-I primarily use [Chocolatey](../chocolatey/) and [winget](.../winget/) as my package managers on windows, however, scoop has some amazing benefits and also includes some packages that the aforementioned managers do not. 
+I primarily use [Chocolatey](../chocolatey/) and [winget](.../winget/) as my package managers on windows, however, scoop has some amazing benefits and also includes some packages that the aforementioned managers do not.
 
 My Buckets:
 
