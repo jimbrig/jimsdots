@@ -1,0 +1,7 @@
+Intel.IntelDriverAndSupportAssistant
+Nvidia.GeoForceExperience
+Microsoft.WindowsTerminalPreview
+Microsoft.VisualStudioCode.Insiders
+Microsoft.PowerToys
+Axosoft.Gitkraken
+Python.Python
