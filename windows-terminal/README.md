@@ -1,10 +1,47 @@
+# Microsoft Windows Terminal 💻
+
+![](screenshot.png)
+
+
+
+## Shells (Profiles)
+
+- PowerShell 7: `pwsh`
+- PowerShell Preview: `pwsh-preview`
+- Windows PowerShell: `powershell`
+- Command Prompt: `cmd`
+- WSL - Ubuntu: `wsl -d Ubuntu`
+- WSL - Ubuntu Community Preview: `wsl -d Ubuntu-CommPrev` or `ubuntupreview.exe`
+- Git Bash: `git`
+- R Terminal: `R`
+- Radian: `radian.exe`
+
+Possible Other Shells (Disabled/Hidden):
+
+- Google Cloud SDK: `gcloud`
+- PostgreSQL: `psql`
+- Node.js: `node`
+- Azure Cloud Shell: `Azure`
+- mingw: `mingw64.exe`
+- msys2: `msys2.exe`
+- cygwin, etc.
+
+
+
+## Settings
+
+Location: `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json`
+
+*Note path above is for Preview Version of Terminal*
+
+Current `settings.json`:
+
+```json
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": true
             },
@@ -23,8 +60,7 @@
             "keys": "ctrl+shift+d"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -32,16 +68,14 @@
             "keys": "ctrl+alt+z"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "adjustFontSize",
                 "delta": 1
             },
             "keys": "ctrl+-"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "nextTab"
             },
             "keys": "ctrl+pgdn"
@@ -51,15 +85,13 @@
             "keys": "ctrl+0"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "prevTab"
             },
             "keys": "ctrl+pgup"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "commandPalette"
             },
             "keys": "ctrl+p"
@@ -72,10 +104,8 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "acrylicOpacity": 0.0,
             "backgroundImage": "desktopWallpaper",
             "backgroundImageOpacity": 0.20000000000000001,
@@ -86,20 +116,19 @@
             "suppressApplicationTitle": true,
             "useAcrylic": true
         },
-        "list": 
-        [
-            {
-                "guid": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
-                "hidden": false,
-                "name": "PowerShell Preview",
-                "source": "Windows.Terminal.PowershellCore"
-            },
+        "list": [
             {
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
                 "tabTitle": "PowerShell"
+            },
+            {
+                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+                "hidden": false,
+                "name": "PowerShell Preview",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "commandline": "powershell.exe",
@@ -114,14 +143,6 @@
                 "name": "Command Prompt"
             },
             {
-                "commandline": "C:/Program Files/Git/bin/bash.exe",
-                "guid": "{a95f8da2-960a-48cf-9d1a-7e5e586df567}",
-                "hidden": false,
-                "icon": "C:\\Users\\Admin\\Pictures\\Icons\\git.ico",
-                "name": "Git Bash",
-                "tabTitle": "Git Bash"
-            },
-            {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
@@ -131,9 +152,32 @@
             {
                 "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
                 "hidden": false,
+                "icon": "%USERPROFILE%\\OneDrive\\Pictures\\Terminal\\Terminal-Icons\\ubuntu.ico",
                 "name": "Ubuntu-CommPrev",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl.localhost\\Ubuntu-CommPrev\\home\\jimbrig"
+            },
+            {
+                "commandline": "C:/Program Files/Git/bin/bash.exe",
+                "guid": "{a95f8da2-960a-48cf-9d1a-7e5e586df567}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\OneDrive\\Pictures\\Terminal\\Terminal-Icons\\git.ico",
+                "name": "Git Bash",
+                "tabTitle": "Git Bash"
+            },
+            {
+                "commandline": "C:/Program Files/R/4.1.0/bin/R.exe",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\OneDrive\\Pictures\\Terminal\\Terminal-Icons\\R.ico",
+                "name": "R Terminal",
+                "tabTitle": "R Terminal"
+            },
+            {
+                "commandline": "C:\\Python39\\Scripts\\radian.exe",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\OneDrive\\Pictures\\Terminal\\Terminal-Icons\\R.ico",
+                "name": "Radian",
+                "tabTitle": "Radian"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -149,8 +193,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -455,3 +498,5 @@
     "theme": "dark",
     "trimBlockSelection": true
 }
+```
+
