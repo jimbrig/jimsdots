@@ -12,14 +12,20 @@
 
   "installBehavior": {
     "preferences": {
-      "scope": "machine"
+      "scope": "machine",
+      "locale": [ "en-US" ]
     }
+  },
+
+  "telemetry": {
+      "disable": true
   },
 
   "experimentalFeatures": {
     "experimentalCmd": true,
     "experimentalArg": true,
     "experimentalMSStore": true,
+    "packagedAPI": true,
     "list": true,
     "upgrade": true,
     "uninstall": true
