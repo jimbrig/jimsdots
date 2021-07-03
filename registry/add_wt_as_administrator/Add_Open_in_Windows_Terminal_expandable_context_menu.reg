@@ -1,0 +1,68 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: May 18, 2021
+; Updated on: May 25, 2021
+; Tutorial: https://www.tenforums.com/tutorials/179549-add-open-windows-terminal-expandable-context-menu-windows-10-a.html
+
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWTHere]
+"MUIVerb"="Open in Windows Terminal"
+"Extended"=-
+"SubCommands"=""
+"Icon"="%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWTHere\shell\001flyout]
+"MUIVerb"="Default Profile"
+"Icon"="%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWTHere\shell\001flyout\command]
+@="cmd.exe /c start wt.exe -d \"%1\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWTHere\shell\002flyout]
+"MUIVerb"="Command Prompt"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWTHere\shell\002flyout\command]
+@="cmd.exe /c start wt.exe -p \"Command Prompt\" -d \"%1\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWTHere\shell\003flyout]
+"MUIVerb"="PowerShell"
+"Icon"="pwsh.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWTHere\shell\003flyout\command]
+@="cmd.exe /c start wt.exe -p \"PowerShell\" -d \"%1\""
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWTHere]
+"MUIVerb"="Open in Windows Terminal"
+"Extended"=-
+"SubCommands"=""
+"Icon"="%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWTHere\shell\001flyout]
+"MUIVerb"="Default Profile"
+"Icon"="%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWTHere\shell\001flyout\command]
+@="cmd.exe /c start wt.exe -d \"%V\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWTHere\shell\002flyout]
+"MUIVerb"="Command Prompt"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWTHere\shell\002flyout\command]
+@="cmd.exe /c start wt.exe -p \"Command Prompt\" -d \"%V\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWTHere\shell\003flyout]
+"MUIVerb"="PowerShell"
+"Icon"="pwsh.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWTHere\shell\003flyout\command]
+@="cmd.exe /c start wt.exe -p \"PowerShell\" -d \"%V\""

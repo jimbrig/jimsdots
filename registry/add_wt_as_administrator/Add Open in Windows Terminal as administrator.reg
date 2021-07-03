@@ -1,0 +1,63 @@
+Windows Registry Editor Version 5.00
+
+; Directory
+
+[HKEY_CLASSES_ROOT\Directory\shell\WindowsTerminalAsAdmin]
+"HasLUAShield"=""
+"MUIVerb"="Open in Windows Terminal as Administrator"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\WindowsTerminalAsAdmin\shell\01defaultProfile]
+"MUIVerb"="Open in Windows Terminal as Administrator - Default Profile"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\WindowsTerminalAsAdmin\shell\01defaultProfile\command]
+@="powershell.exe -WindowStyle Hidden \"Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-d','.')\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\WindowsTerminalAsAdmin\shell\02Cmd]
+"MUIVerb"="Open in Windows Terminal as Administrator - Command Prompt"
+"Icon"="imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\WindowsTerminalAsAdmin\shell\02Cmd\command]
+@="powershell.exe -WindowStyle Hidden \"Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','\"\"\"Command Prompt\"\"\"','-d','.')\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\WindowsTerminalAsAdmin\shell\03PS]
+"MUIVerb"="Open in Windows Terminal as Administrator - PowerShell"
+"HasLUAShield"=""
+"Icon"="pwsh.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\WindowsTerminalAsAdmin\shell\03PS\command]
+@="powershell.exe -WindowStyle Hidden \"Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','\"\"\"PowerShell\"\"\"','-d','.')\""
+
+; Directory\Background
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\WindowsTerminalAsAdmin]
+"HasLUAShield"=""
+"MUIVerb"="Open in Windows Terminal as Administrator"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\WindowsTerminalAsAdmin\shell\01defaultProfile]
+"MUIVerb"="Open in Windows Terminal as Administrator - Default Profile"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\WindowsTerminalAsAdmin\shell\01defaultProfile\command]
+@="powershell.exe -WindowStyle Hidden \"Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-d','.')\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\WindowsTerminalAsAdmin\shell\02Cmd]
+"MUIVerb"="Open in Windows Terminal as Administrator - Command Prompt"
+"Icon"="imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\WindowsTerminalAsAdmin\shell\02Cmd\command]
+@="powershell.exe -WindowStyle Hidden \"Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','\"\"\"Command Prompt\"\"\"','-d','.')\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\WindowsTerminalAsAdmin\shell\03PS]
+"MUIVerb"="Open in Windows Terminal as Administrator - PowerShell"
+"HasLUAShield"=""
+"Icon"="pwsh.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\WindowsTerminalAsAdmin\shell\03PS\command]
+@="powershell.exe -WindowStyle Hidden \"Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','\"\"\"PowerShell\"\"\"','-d','.')\""
