@@ -1,0 +1,9 @@
+software:
+  winget:
+    - "Intel CPU Driver Support Assistant": Intel.IntelDriverAndSupportAssistant
+    - "NVIDIA Geoforce Experience GPU Driver Assistant": "Nvidia.GeoForceExperience"
+    - "Windows Terminal Preview": "Microsoft.WindowsTerminalPreview"
+    - "Microsoft Visual Studio Code Insiders": "Microsoft.VisualStudioCode.Insiders"
+    - "Microsoft PowerToys": "Microsoft.PowerToys"
+    - "Axosoft GitKraken Git GUI Client": "Axosoft.Gitkraken"
+    - "Python": "Python.Python"
