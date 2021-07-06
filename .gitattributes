@@ -42,6 +42,7 @@ gpg/public_keys/* filter=git-crypt diff=git-crypt
 gpg/private_keys/* filter=git-crypt diff=git-crypt
 gpg/private_keys/** filter=git-crypt diff=git-crypt
 gpg/public_keys/** filter=git-crypt diff=git-crypt
+gpg/backup/** filter=git-crypt diff=git-crypt
 ssh/gitkraken/* filter=git-crypt diff=git-crypt
 ssh/keys/** filter=git-crypt diff=git-crypt
 zapier/.zapierrc filter=git-crypt diff=git-crypt
