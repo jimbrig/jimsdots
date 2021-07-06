@@ -1,5 +1,9 @@
 # GPG Keys
 
+[How to Backup and Restore Your GPG Key | Risan Bagja Pradana](https://risanb.com/code/backup-restore-gpg-key/)
+
+
+
 I use three GPG keys, one for each email address:
 
 1. jimbrig2011@outlook.com
