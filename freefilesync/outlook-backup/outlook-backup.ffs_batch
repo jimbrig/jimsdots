@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="BATCH" XmlFormat="17">
+    <Compare>
+        <Variant>TimeAndSize</Variant>
+        <Symlinks>Exclude</Symlinks>
+        <IgnoreTimeShift/>
+    </Compare>
+    <Synchronize>
+        <Variant>Mirror</Variant>
+        <DetectMovedFiles>false</DetectMovedFiles>
+        <DeletionPolicy>RecycleBin</DeletionPolicy>
+        <VersioningFolder Style="Replace"/>
+    </Synchronize>
+    <Filter>
+        <Include>
+            <Item>*</Item>
+        </Include>
+        <Exclude>
+            <Item>\System Volume Information\</Item>
+            <Item>\$Recycle.Bin\</Item>
+            <Item>\RECYCLE?\</Item>
+            <Item>*\thumbs.db</Item>
+        </Exclude>
+        <TimeSpan Type="None">0</TimeSpan>
+        <SizeMin Unit="None">0</SizeMin>
+        <SizeMax Unit="None">0</SizeMax>
+    </Filter>
+    <FolderPairs>
+        <Pair>
+            <Left>C:\Users\jimbr\AppData\Roaming\Microsoft\Signatures</Left>
+            <Right>C:\Users\jimbr\Dev\Github\jimsdots\office\outlook\signatures</Right>
+        </Pair>
+        <Pair>
+            <Left>C:\Users\jimbr\OneDrive\Documents\Outlook Files</Left>
+            <Right>C:\Users\jimbr\Dev\Github\jimsdots\office\outlook\outlook-data</Right>
+        </Pair>
+        <Pair>
+            <Left>C:\Users\jimbr\AppData\Roaming\Microsoft\Outlook</Left>
+            <Right>C:\Users\jimbr\Dev\Github\jimsdots\office\outlook\appdata</Right>
+        </Pair>
+    </FolderPairs>
+    <Errors Ignore="false" Retry="0" Delay="5"/>
+    <PostSyncCommand Condition="Completion"/>
+    <LogFolder/>
+    <EmailNotification Condition="Always"/>
+    <Batch>
+        <ProgressDialog Minimized="false" AutoClose="false"/>
+        <ErrorDialog>Show</ErrorDialog>
+        <PostSyncAction>None</PostSyncAction>
+    </Batch>
+</FreeFileSync>

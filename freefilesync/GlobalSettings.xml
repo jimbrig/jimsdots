@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="GLOBAL" XmlFormat="21">
+    <Language Name="English (U.S.)"/>
+    <FailSafeFileCopy Enabled="true"/>
+    <CopyLockedFiles Enabled="false"/>
+    <CopyFilePermissions Enabled="false"/>
+    <FileTimeTolerance Seconds="2"/>
+    <RunWithBackgroundPriority Enabled="false"/>
+    <LockDirectoriesDuringSync Enabled="true"/>
+    <VerifyCopiedFiles Enabled="false"/>
+    <LogFiles MaxAge="30" Format="HTML"/>
+    <NotificationSound CompareFinished="" SyncFinished="%ffs_resource%\bell.wav"/>
+    <ProgressDialog AutoClose="false"/>
+    <OptionalDialogs>
+        <ConfirmStartSync Show="true"/>
+        <ConfirmSaveConfig Show="true"/>
+        <ConfirmCommandMassInvoke Show="true"/>
+        <ConfirmSwapSides Show="true"/>
+        <WarnFolderNotExisting Show="true"/>
+        <WarnFoldersDifferInCase Show="true"/>
+        <WarnUnresolvedConflicts Show="true"/>
+        <WarnNotEnoughDiskSpace Show="true"/>
+        <WarnSignificantDifference Show="true"/>
+        <WarnRecycleBinNotAvailable Show="true"/>
+        <WarnInputFieldEmpty Show="true"/>
+        <WarnModificationTimeError Show="true"/>
+        <WarnDependentFolderPair Show="true"/>
+        <WarnDependentBaseFolders Show="true"/>
+        <WarnDirectoryLockFailed Show="true"/>
+        <WarnVersioningFolderPartOfSync Show="true"/>
+    </OptionalDialogs>
+    <MainDialog>
+        <SearchPanel CaseSensitive="false"/>
+        <ConfigPanel ScrollPos="0" SyncOverdue="7" SortByColumn="Name" SortAscending="true">
+            <Configurations MaxSize="100" LastSelected="C:\Users\jimbr\Dev\Github\jimsdots\freefilesync\powershell-backup\PowerShell-backup.ffs_batch">
+                <Item Result="Stopped" Config="FFS:\Users\jimbr\AppData\Roaming\FreeFileSync\LastRun.ffs_gui" LastSync="0" Log="" Color="DDDDDD"/>
+                <Item Result="Stopped" Config="FFS:\Users\jimbr\Dev\Github\jimsdots\freefilesync\powershell-backup\PowerShell-backup.ffs_batch" LastSync="0" Log=""/>
+                <Item Result="Stopped" Config="FFS:\Users\jimbr\Dev\Github\jimsdots\freefilesync\powershell-backup\PowerShell-backup.ffs_gui" LastSync="0" Log=""/>
+                <Item Result="Stopped" Config="FFS:\Users\jimbr\Dev\Github\jimsdots\freefilesync\powershell-backup\localappdata-powershell-SyncSettings.ffs_gui" LastSync="0" Log=""/>
+                <Item Result="Success" Config="FFS:\Users\jimbr\Dev\Github\jimsdots\freefilesync\powershell-backup\localappdata-powershell-backup.ffs_batch" LastSync="1626450149" Log="FFS:\Users\jimbr\AppData\Roaming\FreeFileSync\Logs\localappdata-powershell-backup 2021-07-16 114229.429.html"/>
+            </Configurations>
+            <LastUsed>
+                <Item>FFS:\Users\jimbr\Dev\Github\jimsdots\freefilesync\powershell-backup\PowerShell-backup.ffs_batch</Item>
+            </LastUsed>
+        </ConfigPanel>
+        <OverviewPanel ShowPercentage="true" SortByColumn="Bytes" SortAscending="false"/>
+        <FilePanel ShowIcons="true" IconSize="Small" SashOffset="0" FolderPairsMax="6" PathFormatLeft="Relative" PathFormatRight="Relative">
+            <FolderHistoryLeft LastSelected="C:\Users\jimbr\OneDrive\Documents\PowerShell">
+                <Item>C:\Users\jimbr\AppData\Local\Microsoft\Windows\PowerShell\PowerShellGet</Item>
+                <Item>C:\Users\jimbr\OneDrive\Documents\WindowsPowerShell</Item>
+                <Item>C:\Users\jimbr\OneDrive\Documents\PowerShell</Item>
+                <Item>C:\Users\jimbr\AppData\Local\Microsoft\PowerToys</Item>
+            </FolderHistoryLeft>
+            <FolderHistoryRight LastSelected="C:\Users\jimbr\Dev\Github\jimsdots\powershell\PowerShell">
+                <Item>C:\Users\jimbr\Dev\Github\jimsdots\powershell\PowerShellGet</Item>
+                <Item>C:\Users\jimbr\Dev\Github\jimsdots\powershell\WindowsPowerShell</Item>
+                <Item>C:\Users\jimbr\Dev\Github\jimsdots\powershell\PowerShell</Item>
+                <Item>C:\Users\jimbr\Dev\Github\jimsdots\powershell\localappdata\Microsoft\Windows\PowerShell</Item>
+                <Item>C:\Users\jimbr\Dev\Github\jimsdots\powertoys</Item>
+                <Item>C:\Users\jimbr\Dev\Github\jimsdots\powertoys\</Item>
+                <Item>C:\Users\jimbr\Dev\Github\jimsdots\powertoys\new</Item>
+            </FolderHistoryRight>
+        </FilePanel>
+        <ManualCopyTo KeepRelativePaths="false" OverwriteIfExists="false">
+            <FolderHistory TargetFolder="" LastSelected=""/>
+        </ManualCopyTo>
+        <DefaultViewFilter Equal="false" Conflict="true" Excluded="false">
+            <Difference LeftOnly="true" RightOnly="true" LeftNewer="true" RightNewer="true" Different="true"/>
+            <Action CreateLeft="true" CreateRight="true" UpdateLeft="true" UpdateRight="true" DeleteLeft="true" DeleteRight="true" DoNothing="true"/>
+        </DefaultViewFilter>
+    </MainDialog>
+    <FolderHistory MaxSize="20"/>
+    <SftpKeyFile LastSelected=""/>
+    <DefaultExclusionFilter>
+        <Item>\System Volume Information\</Item>
+        <Item>\$Recycle.Bin\</Item>
+        <Item>\RECYCLE?\</Item>
+        <Item>*\thumbs.db</Item>
+    </DefaultExclusionFilter>
+    <VersioningFolderHistory LastSelected="C:\Users\jimbr\Dev\Github\jimsdots\powershell\Backups">
+        <Item>C:\Users\jimbr\Dev\Github\jimsdots\powershell\Backups</Item>
+    </VersioningFolderHistory>
+    <LogFolderHistory LastSelected=""/>
+    <EmailHistory MaxSize="10"/>
+    <CommandHistory MaxSize="10"/>
+    <ExternalApps>
+        <Item Label="Show in Explorer">explorer.exe /select, "%local_path%" &amp; exit 0</Item>
+        <Item Label="Open with default application">explorer.exe "%local_path%" &amp; exit 0</Item>
+    </ExternalApps>
+    <LastOnlineCheck>1626448668</LastOnlineCheck>
+    <LastOnlineVersion>11.12</LastOnlineVersion>
+    <DpiLayouts>
+        <Layout Scale="100%">
+            <MainDialog Width="900" Height="600" PosX="2256" PosY="266" Maximized="true">
+                <PanelLayout>layout2|name=CenterPanel;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=504;besth=45;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=TopPanel;caption=Main Bar;state=2099708;dir=1;layer=2;row=1;pos=0;prop=100000;bestw=588;besth=52;minw=170;minh=52;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProgressPanel;caption=;state=2097662;dir=1;layer=2;row=2;pos=0;prop=100000;bestw=624;besth=97;minw=-1;minh=97;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=FoldersPanel;caption=Folder Pairs;state=2099708;dir=1;layer=2;row=3;pos=0;prop=100000;bestw=-1;besth=112;minw=-1;minh=98;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SearchPanel;caption=Find;state=2099710;dir=3;layer=2;row=3;pos=0;prop=100000;bestw=243;besth=25;minw=100;minh=25;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LogPanel;caption=Log;state=6293502;dir=3;layer=2;row=2;pos=0;prop=100000;bestw=600;besth=300;minw=100;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ViewFilterPanel;caption=View Settings;state=2099708;dir=3;layer=2;row=1;pos=0;prop=100000;bestw=503;besth=47;minw=100;minh=47;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ConfigPanel;caption=Configuration;state=2099196;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=209;besth=55;minw=190;minh=55;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OverviewPanel;caption=Overview;state=2099196;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=20;minw=100;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=504|dock_size(1,2,1)=52|dock_size(1,2,3)=112|dock_size(3,2,1)=47|dock_size(4,3,0)=302|</PanelLayout>
+                <ConfigPanel>
+                    <Item Type="Name" Visible="true" Width="-107" Stretch="1"/>
+                    <Item Type="Last" Visible="true" Width="65" Stretch="0"/>
+                    <Item Type="Log" Visible="true" Width="42" Stretch="0"/>
+                </ConfigPanel>
+                <OverviewPanel>
+                    <Item Type="Tree" Visible="true" Width="-120" Stretch="1"/>
+                    <Item Type="Count" Visible="true" Width="60" Stretch="0"/>
+                    <Item Type="Bytes" Visible="true" Width="60" Stretch="0"/>
+                </OverviewPanel>
+                <FilePanelLeft>
+                    <Item Type="Path" Visible="true" Width="-75" Stretch="1"/>
+                    <Item Type="Ext" Visible="false" Width="60" Stretch="0"/>
+                    <Item Type="Date" Visible="false" Width="110" Stretch="0"/>
+                    <Item Type="Size" Visible="true" Width="75" Stretch="0"/>
+                </FilePanelLeft>
+                <FilePanelRight>
+                    <Item Type="Path" Visible="true" Width="-75" Stretch="1"/>
+                    <Item Type="Ext" Visible="false" Width="60" Stretch="0"/>
+                    <Item Type="Date" Visible="false" Width="110" Stretch="0"/>
+                    <Item Type="Size" Visible="true" Width="75" Stretch="0"/>
+                </FilePanelRight>
+            </MainDialog>
+            <ProgressDialog Width="566" Height="503" Maximized="false"/>
+        </Layout>
+    </DpiLayouts>
+</FreeFileSync>
