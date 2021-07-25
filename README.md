@@ -26,9 +26,11 @@
 
 ```R
 R> fs::dir_tree(recurse = 0)
+> fs::dir_tree(recurse = 0)
 +-- android
 +-- aws
 +-- azure
++-- azure-cli
 +-- bash
 +-- batch_files
 +-- bin
@@ -46,8 +48,10 @@ R> fs::dir_tree(recurse = 0)
 +-- docs
 +-- edge
 +-- excel
++-- executables
 +-- expo
 +-- feedly
++-- freefilesync
 +-- gcloud
 +-- gdrive
 +-- git
@@ -61,15 +65,19 @@ R> fs::dir_tree(recurse = 0)
 +-- lepton
 +-- nodejs
 +-- obsidian
++-- office
 +-- PATH
 +-- powershell
++-- powertoys
 +-- python
++-- qttabbar
 +-- R
 +-- README.md
 +-- registry
 +-- RStudio
 +-- scoop
-+-- scripts
++-- secrets
++-- setup
 +-- ssh
 +-- topgrade
 +-- typora
@@ -77,25 +85,25 @@ R> fs::dir_tree(recurse = 0)
 +-- vault
 +-- vim
 +-- wifi
++-- winaero-tweaker
 +-- windows-terminal
 +-- winget
 +-- wsl
 +-- yarn
 +-- youtube-dl
 +-- z-location
-\-- zapier
++-- zapier
 ```
 
 ## Encrypted Secrets
 
-Encrypted via `git-crypt`.
+Encrypted via [Git-Crypt](https://github.com/AGWA/git-crypt).
 
-List of all encrypted files via `git-crypt status -e`:
+List of all encrypted files via `git-crypt status -e`.
 
-```powershell
-C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
-    encrypted: docker/github_cr_pat
-    encrypted: docker/github_pat
+```bash
+jimbr@JimmysMSI MINGW64 ~/Dev/jimbrig/jimsdots (main)
+$ git-crypt status -e
     encrypted: R/.rtweet_token.rds
     encrypted: R/config.yml
     encrypted: R/cyphr_secret.rds
@@ -112,18 +120,22 @@ C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
     encrypted: android/adbkey
     encrypted: android/adbkey.pub
     encrypted: aws/credentials
+    encrypted: azure-cli/acr_pat
     encrypted: azure/AzureRmContext.json
     encrypted: azure/accessTokens.json
     encrypted: azure/azureProfile.json
     encrypted: azure/clouds.config
     encrypted: azure/dockerAccessToken.json
     encrypted: boto/.boto
+    encrypted: code-insiders/dev.to_api_token
+    encrypted: dbdocs/dbdocstoken
+    encrypted: docker/acr_pat
+    encrypted: docker/github_cr_pat
+    encrypted: docker/github_pat
     encrypted: feedly/feedly_api_tokens.yml
-    encrypted: gcloud/credentials/access_tokens.db
     encrypted: gcloud/credentials/application_default_credentials.json
-    encrypted: gcloud/credentials/client_secret.apps.googleusercontent.com.json
+    encrypted: gcloud/credentials/client_secret_833216447103-nh9h6iev1jf6qqrjdt5tlcobsss5dgm3.apps.googleusercontent.com.json
     encrypted: gcloud/credentials/client_secret_shiny-cloudrun.json
-    encrypted: gcloud/credentials/credentials.db
     encrypted: gcloud/credentials/credentials.json
     encrypted: gcloud/credentials/docker_credentials.json
     encrypted: gcloud/credentials/shiny-cloudrun-f77585f41245.json
@@ -132,10 +144,6 @@ C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
     encrypted: gcloud/legacy_credentials/jimbrig2011@gmail.com/adc.json
     encrypted: gcloud/legacy_credentials/jimmy.briggs@tychobra.com/.boto
     encrypted: gcloud/legacy_credentials/jimmy.briggs@tychobra.com/adc.json
-    encrypted: gcloud/miscellaneous/.last_opt_in_prompt.yaml
-    encrypted: gcloud/miscellaneous/.last_survey_prompt.yaml
-    encrypted: gcloud/miscellaneous/.last_update_check.json
-    encrypted: gcloud/miscellaneous/.metricsUUID
     encrypted: gdrive/jimbrig2011-credentials.json
     encrypted: gdrive/tychobra-credentials.json
     encrypted: github-cli/config.yml
@@ -144,6 +152,8 @@ C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
     encrypted: gnupg/pubring.kbx
     encrypted: gnupg/trustdb.gpg
     encrypted: gnupg/tychobra-public-gpg.txt
+    encrypted: gpg/backup/gpg-secret-key-backup.asc
+    encrypted: gpg/backup/trustdb-backup.txt
     encrypted: gpg/private_keys/027FA410529E1975D4767600FA571E65ECCC2156.key
     encrypted: gpg/private_keys/5E3252078834F5F53BFFB09125FC6EEA1400B98E.key
     encrypted: gpg/private_keys/730A8DC9EF21651B74372D914AD5370882FDC672.key
@@ -157,6 +167,46 @@ C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
     encrypted: keep/.credentials
     encrypted: kube/config
     encrypted: obsidian/todoist-token
+    encrypted: scoop/virustotalapikey
+    encrypted: secrets/Auslogics-BitReplica-License-Key.txt
+    encrypted: secrets/Auslogics-BoostSpeed-License-Key.txt
+    encrypted: secrets/Auslogics-Driver-Updater-License-Key.txt
+    encrypted: secrets/EASEUS-KEYS.txt
+    encrypted: secrets/EaseUS-Cleverbridge-License-Keys.txt
+    encrypted: secrets/Restoro-license-key.txt
+    encrypted: secrets/Restoro.txt
+    encrypted: secrets/Stardock-License-Key-Email.msg
+    encrypted: secrets/Stardock-License-Key.txt
+    encrypted: secrets/Windows10.txt
+    encrypted: secrets/WiseCare365-License-Key.txt
+    encrypted: secrets/acr_pat
+    encrypted: secrets/alt_tab_terminator
+    encrypted: secrets/alttabterminator_license_key
+    encrypted: secrets/avg_license_keys
+    encrypted: secrets/avgs
+    encrypted: secrets/b2-app-key-4-cyberduck-credentials
+    encrypted: secrets/dbdocs_token
+    encrypted: secrets/driver_tool_kit
+    encrypted: secrets/easeus
+    encrypted: secrets/easeus_license_keys
+    encrypted: secrets/gSyncIt-License-Key.txt
+    encrypted: secrets/ghcr_pat
+    encrypted: secrets/github-recovery-codes.txt
+    encrypted: secrets/github_cr_pat
+    encrypted: secrets/github_pat
+    encrypted: secrets/iobit-license-keys.txt
+    encrypted: secrets/mailbird
+    encrypted: secrets/mailbird_license_key
+    encrypted: secrets/pastebin-api-key.txt
+    encrypted: secrets/raindrop_api_key
+    encrypted: secrets/readwise_api_token
+    encrypted: secrets/shinyappsio_secret
+    encrypted: secrets/systweak-license-keys.txt
+    encrypted: secrets/todoist_api_key
+    encrypted: secrets/uninstall_tool_license_key
+    encrypted: secrets/uninstalltool
+    encrypted: secrets/win10
+    encrypted: secrets/windows_10_activation_key
     encrypted: ssh/gitkraken/gitkraken_jimbrig_rsa
     encrypted: ssh/gitkraken/gitkraken_jimbrig_rsa.pub
     encrypted: ssh/gitkraken/gitkraken_outlook_github_rsa
@@ -165,21 +215,28 @@ C:\Users\Admin\Dev\jimbrig\jimsdots [main ≡ +3 ~1 -1 !]> git-crypt status -e
     encrypted: ssh/gitkraken/gitkraken_powwater_github_rsa.pub
     encrypted: ssh/gitkraken/gitkraken_tychobra_github_rsa
     encrypted: ssh/gitkraken/gitkraken_tychobra_github_rsa.pub
-    encrypted: ssh/keys/config
-    encrypted: ssh/keys/id_ed25519
-    encrypted: ssh/keys/id_ed25519.pub
+    encrypted: ssh/keys/gitkraken_rsa
+    encrypted: ssh/keys/gitkraken_rsa.pub
     encrypted: ssh/keys/id_rsa
     encrypted: ssh/keys/id_rsa.pub
+    encrypted: ssh/keys/known_hosts
     encrypted: vault/.vault-token
     encrypted: zapier/.zapierrc
-    encrypted: dbdocs/dbdocstoken
 ```
 
 ### Git-Attributes
 
-Specification is configured in `.gitattributes`:
+[Git-Crypt](https://github.com/AGWA/git-crypt) encrypted file declarations as well as [Git-LFS](https://git-lfs.github.com/) specifications are declared in the [.gitattributes](./.gitattributes) file:
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./.gitattributes)> -->
+<!-- The below code snippet is automatically added from ./.gitattributes -->
 
 ```shell
+# Git--LFS
+*.pst filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+
+# Git-Crypt
 android/* filter=git-crypt diff=git-crypt
 aws/credentials filter=git-crypt diff=git-crypt
 azure/accessTokens.json filter=git-crypt diff=git-crypt
@@ -188,12 +245,20 @@ azure/AzureRmContext.json filter=git-crypt diff=git-crypt
 azure/clouds.config filter=git-crypt diff=git-crypt
 azure/dockerAccessToken.json filter=git-crypt diff=git-crypt
 azure/AzureRmContext.json filter=git-crypt diff=git-crypt
+azure-cli/accessTokens.json filter=git-crypt diff=git-crypt
+azure-cli/azureProfile.json filter=git-crypt diff=git-crypt
+azure-cli/AzureRmContext.json filter=git-crypt diff=git-crypt
+azure-cli/clouds.config filter=git-crypt diff=git-crypt
+azure-cli/dockerAccessToken.json filter=git-crypt diff=git-crypt
+azure-cli/AzureRmContext.json filter=git-crypt diff=git-crypt
+azure-cli/acr_pat filter=git-crypt diff=git-crypt
 github-cli/config.yml filter=git-crypt diff=git-crypt
 github-cli/hosts.yml filter=git-crypt diff=git-crypt
 github/recovery-codes.txt filter=git-crypt diff=git-crypt
 kube/config filter=git-crypt diff=git-crypt
 docker/github_pat filter=git-crypt diff=git-crypt
 docker/github_cr_pat filter=git-crypt diff=git-crypt
+docker/acr_pat filter=git-crypt diff=git-crypt
 feedly/feedly_api_tokens.yml filter=git-crypt diff=git-crypt
 gcloud/credentials/** filter=git-crypt diff=git-crypt
 gcloud/legacy_credentials/** filter=git-crypt diff=git-crypt
@@ -216,10 +281,15 @@ gpg/public_keys/* filter=git-crypt diff=git-crypt
 gpg/private_keys/* filter=git-crypt diff=git-crypt
 gpg/private_keys/** filter=git-crypt diff=git-crypt
 gpg/public_keys/** filter=git-crypt diff=git-crypt
+gpg/backup/** filter=git-crypt diff=git-crypt
 ssh/gitkraken/* filter=git-crypt diff=git-crypt
-ssh/keys/* filter=git-crypt diff=git-crypt
-license-keys/** filter=git-crypt diff=git-crypt
+ssh/keys/** filter=git-crypt diff=git-crypt
 zapier/.zapierrc filter=git-crypt diff=git-crypt
+scoop/virustotalapikey filter=git-crypt diff=git-crypt
 dbdocs/dbdocstoken filter=git-crypt diff=git-crypt
+secrets/** filter=git-crypt diff=git-crypt
+code-insiders/dev.to_api_token filter=git-crypt diff=git-crypt
+powershell/psgallery-api-key
 ```
+<!-- MARKDOWN-AUTO-DOCS:END -->
 
