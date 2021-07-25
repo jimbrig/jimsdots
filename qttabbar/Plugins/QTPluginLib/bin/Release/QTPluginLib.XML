@@ -1,0 +1,1347 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QTPluginLib</name>
+    </assembly>
+    <members>
+        <member name="T:QTPlugin.PluginAttribute">
+            <summary>
+            Specifies the informations about plugin.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginAttribute.Author">
+            <summary>
+            Can be a nickname.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginAttribute.Name">
+            <summary>
+            Name of the plugin. 
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginAttribute.Version">
+            <summary>
+            Version string like "1.0.0.0". 
+            Asssembly version is used instead if unspecified.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginAttribute.Description">
+            <summary>
+            Description of the plugin. shown in Option -> Plugin
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginAttribute.PluginType">
+            <summary>
+            Interactive, Background, etc.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginAttribute.SupportURL">
+            <summary>
+            Author's web page, etc.
+            New in 1.0.1.3
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginAttribute.LastUpdate">
+            <summary>
+            The last update date in UTC.
+            New in 1.0.1.3
+            
+            Assembly file time stamp is used instead if empty.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.PluginAttribute.#ctor(QTPlugin.PluginType)">
+            <summary>
+            </summary>
+            <param name="pluginType">Plugin type. Interactive or Background.</param>
+        </member>
+        <member name="M:QTPlugin.PluginAttribute.#ctor(QTPlugin.PluginType,System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pluginType"></param>
+            <param name="name"></param>
+            <param name="author"></param>
+            <param name="version"></param>
+            <param name="description"></param>
+        </member>
+        <member name="M:QTPlugin.PluginAttribute.#ctor(QTPlugin.PluginType,System.String,System.String,System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            New in 1.0.1.3
+            </summary>
+            <param name="pluginType"></param>
+            <param name="name"></param>
+            <param name="author"></param>
+            <param name="version"></param>
+            <param name="description"></param>
+            <param name="supportURL"></param>
+            <param name="lastUpdate"></param>
+        </member>
+        <member name="M:QTPlugin.PluginAttribute.#ctor(QTPlugin.PluginType,System.Type,System.Int32)">
+            <summary>
+            New in 1.0.1.0
+            Create strings on execution time.
+            
+            (recommended)
+            </summary>
+            <param name="pluginType">PluginType enum.</param>
+            <param name="tProvider">Type of the class which implements LocalizedStringProvider.</param>
+            <param name="iKey">
+            Plugin index in the plugin assembly. 
+            This is passed to LocalizedStringProvider.SetKey() method in this constructor.
+            </param>
+        </member>
+        <member name="M:QTPlugin.PluginAttribute.#ctor(QTPlugin.PluginType,System.Type)">
+            <summary>
+            New in 1.0.1.0
+            Create strings on execution time.
+            </summary>
+            <param name="pluginType"></param>
+            <param name="tProvider"></param>
+        </member>
+        <member name="P:QTPlugin.PluginAttribute.Options">
+            <summary>
+            Options applied to the plugin.
+            This is not currently used.
+            If you specify this, your plugin will work only on version 512 and later.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.ITab">
+            <summary>
+            Gives an access to Tab of QTTabBar
+            </summary>
+        </member>
+        <member name="M:QTPlugin.ITab.Browse(System.Boolean)">
+            <summary>
+            Browses back/forward if can.
+            If this tab is locked, navigation will be occur in cloned tab.
+            </summary>
+            <param name="fBack"></param>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.ITab.Browse(QTPlugin.Address)">
+            <summary>
+            Browses to specified address.
+            If this tab is locked, navigation will be occur in cloned tab.
+            </summary>
+            <param name="address"></param>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.ITab.Insert(System.Int32)">
+            <summary>
+            Inserts this tab to new position.
+            </summary>
+            <param name="index"></param>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.ITab.Close">
+            <summary>
+            Tries to close this tab.
+            If this method returns true, any action to this tab will be discarded.
+            
+            This closes even if locked.
+            This fails in case the tab is the last one.
+            </summary>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.ITab.Clone(System.Int32,System.Boolean)">
+            <summary>
+            Creates a cloned tab at specified postion.
+            </summary>
+            <param name="index">
+            zero based index of insertion position.
+            if this parameter is -1, new tab will be inserted at user setting position.
+            </param>
+            <param name="fSelect">if set this true, cloned tab will be activated.</param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.ITab.GetHistory(System.Boolean)">
+            <summary>
+            Gets tab history.
+            </summary>
+            <param name="fBack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.ITab.GetBraches">
+            <summary>
+            Gets tab history branches.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:QTPlugin.ITab.Address">
+            <summary>
+            Gets a Address structure that indicates location of this tab.
+            
+            Address.Path can be an invalid as a file system path in case the tab location is 
+            one of some kind of special folders or in an archive file, especially on XP.
+            
+            Those path can not be used for navigation, so use Address.ITEMIDLIST instead.
+            
+            Deprecated.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.Path">
+            <summary>
+            Gets a path string that indicates location of this tab.(1.3.0.0)
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.IDL">
+            <summary>
+            Gets a ITEMIDLIST structure data that indicates location of this tab.(1.3.0.0)
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.Text">
+            <summary>
+            Gets or sets tab display text.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.SubText">
+            <summary>
+            Gets or sets tab display sub text.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.Index">
+            <summary>
+            Gets an index of tab.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.Selected">
+            <summary>
+            Gets or sets a value indicating whether this tab is activated.
+            Setting false does nothing.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.Locked">
+            <summary>
+            Gets or sets a value indicating whether this tab is locked.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.ID">
+            <summary>
+            Retrieve an integer value that uniquely identifies the tab object.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.SelectedPaths">
+            <summary>
+            Gets or sets selection in the current view.
+            Fullpath strings can be set but only file name part is used and rest of the passed string is ignored.
+            
+            return empty if failed.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.SelectedIDLs">
+            <summary>
+            Gets or sets selection in the current view.
+            IDLs are relative to its parent.
+            
+            return empty if failed.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.ItemCount">
+            <summary>
+            Number of items in the folder.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.ItemPaths">
+            <summary>
+            Enumerates item paths in the folder. This property is implemented by using deferred execution.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.ItemIDLs">
+            <summary>
+            Enumerates ITEMIDLISTs of items in the folder. This property is implemented by using deferred execution.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.ITab.View">
+            <summary>
+            Gets the view where this tab resides.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.Address">
+            <summary>
+            Address of tab.
+            At least either of the fields must be specified.
+            
+            QTTabBar give priority to ITEMIDLIST rather than Path if both are not null.
+            Use GetIDListData/CreatePIDL to convert between pidl and bytes array. 
+            ITEMIDLIST is always relative to the root of the namespace (the desktop).
+            
+            1.0.1.3		fixed to create path and ITEMIDLIST
+            </summary>
+        </member>
+        <member name="T:QTPlugin.PluginType">
+            <summary>
+            Plugin type.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginType.Interactive">
+            <summary>
+            Indicates that the plugin has a toolbar item and instantialized only when the toolbar item is enabled.
+            needs to implement IBarButton or IBarCustomItem.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginType.Background">
+            <summary>
+            Indicates that the plugin is instantialized even if toolbar item is not enabled.
+            This type of plugin does not need to have toolbar item.
+            If implements IBarButton or IBarCustomItem, the plugin can have toolbar item.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginType.BackgroundMultiple">
+            <summary>
+            Indicates that the plugin can have multiple toolbar items in CommandBar.
+            This type of plugin will be instantialized even if toolbar item is not enabled.
+            
+            You can apply to IBarMultipleCustomItems.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginType.Static">
+            <summary>
+            Indicates that one Explorer process can have one instance of the plugin.
+            This type of plugin cannot have interactive buttons.
+            
+            Interfaces methods need to be thread-safe!
+            
+            IPluginClient.Open method will be called but arguments are both null.
+            IPluginClient.Close method will not be called unless user remove the plugin.
+            IPluginClient.QueryShortcutKeys, OnMenuItemClick, OnShortcutKeyPressed will not be called.
+            
+            You can apply to plugins that implement IEncodingDetector.
+            You can apply to plugins that implement IFilter and IFilterCore. (1030)
+            </summary>
+        </member>
+        <member name="T:QTPlugin.EndCode">
+            <summary>
+            Code given when a plugin is about to be closed.
+            Used in IPluginClient.Close()
+            </summary>
+        </member>
+        <member name="F:QTPlugin.EndCode.WindowClosed">
+            <summary>
+            Explorer window is closing.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.EndCode.Unloaded">
+            <summary>
+            User disabled the plugin in Option window.<para/>
+            User removed the button from toolbar and the plugin type is PluginType.Interactive.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.EndCode.Removed">
+            <summary>
+            User uninstalled the plugin in Option window of QTTabBar while plugins are instantialized.
+            </summary>
+        </member>
+        <member name="F:QTPlugin.EndCode.Hidden">
+            <summary>
+            User removed a button from toolbar and the plugin type is PluginType.Background and implements IBarButton or IBarCustomItem. <para/>
+            User removed all the buttons from toolbar and the plugin type is PluginType.BackgroundMultiple.	<para/>
+            Note that the plugin instance is still alive after 'Close' method called if the code is 'Hidden'.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.MenuType">
+            <summary>
+            The type of menu to insert.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.Commands">
+            <summary>
+            Deprecated. Use QCommands and IPluginServer.InvokeCommand().<para/><para/>
+            
+            Commands to QTTabBar.<para/>
+            Used in IPluginServer.ExecuteCommand()
+            </summary>
+        </member>
+        <member name="T:QTPlugin.DisplayStyle">
+            <summary>
+            Toolbar item display style.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.ExplorerWindowActions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:QTPlugin.Toolbar">
+            <summary>
+            Specifies toolbar 
+            </summary>
+        </member>
+        <member name="F:QTPlugin.PluginOptions.NoDuplication">
+            <summary>
+            Forbid user to duplicate plugin button.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.LocalizedStringProvider">
+            <summary>
+            New in 1.0.1.0
+            Implement this abstract class and give the Type object of it to constructor of PluginAttribute.
+            
+            You can provide localized strings on execution time using CultureInfo.CurrentCulture.
+            Implementing class needs to have default constructor (a constructor without arguments).
+            </summary>
+        </member>
+        <member name="M:QTPlugin.LocalizedStringProvider.SetKey(System.Int32)">
+            <summary>
+            Use this method to know which plugin type is being instancialized in Assembly that contains multiple plugin classes.
+            If your assembly has just one plugin class, ignore this.
+            
+            It's guaranteed that this call precedes getting Name, Author and Description.
+            See PluginAttribute..ctor( PluginType, Type, int ).
+            </summary>
+            <param name="iKey"></param>
+        </member>
+        <member name="P:QTPlugin.LocalizedStringProvider.Name">
+            <summary>
+            Return display name.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.LocalizedStringProvider.Author">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:QTPlugin.LocalizedStringProvider.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:QTPlugin.LocalizedStringProvider2">
+            <summary>
+            New in 1.0.1.3
+            Implement this abstract class and give the Type object of it to constructor of PluginAttribute.
+            
+            You can provide localized strings on execution time using CultureInfo.CurrentCulture.
+            Implementing class needs to have default constructor (a constructor without arguments).
+            </summary>
+        </member>
+        <member name="P:QTPlugin.LocalizedStringProvider2.SupportURL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:QTPlugin.LocalizedStringProvider2.LastUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:QTPlugin.IPluginItemWithImage">
+            <summary>
+            Implement this interface when your plugin client wants to support flexible image sizes, which is introduced in QTTabBar ver 512.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IPluginItemWithImage.GetItemImage(System.Int32,System.Int32)">
+            <summary>
+            Gets an item image of specified size.
+            
+            This call follows typically IBarButton.GetImage method. 
+            QTTabBar creates a copy of the returned image so implementor is responsibile for disposing it.
+            QTTabBar resizes when returned image is not of the specified size.
+            This can be skipped if user has specified an image for the button.
+            
+            If you implement this, your plugin will work only on version 512 and later.
+            </summary>
+            <param name="size">Image size that QTTabBar wants. This can be 16, 24, 32, 48, or 256.</param>
+            <param name="index">Item index of which image is required. If the object is not IBarMultipleCustomItems, this value has no meaning.</param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.Interop.PInvoke.GetIDListData(System.IntPtr)">
+            <summary>
+            Copy binary data of ITEMIDLIST structure from pointer.
+            </summary>
+            <param name="pidl">pointer to ITEMIDLIST</param>
+            <returns>raw binary data of ITEMIDLIST structure</returns>
+        </member>
+        <member name="M:QTPlugin.Interop.PInvoke.GetIDListData(System.String)">
+            <summary>
+            Get binary data of ITEMIDLIST structure from path string.
+            </summary>
+            <param name="path">path string</param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.Interop.PInvoke.CreatePIDL(System.Byte[])">
+            <summary>
+            Creates ITEMIDLIST structure from binary data and returns a pointer to it.
+            Required freeing returned pointer by Marshal.FreeCoTaskMem, CoTaskMemFree.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.Interop.PInvoke.GetPath(System.IntPtr)">
+            <summary>
+            Convert PIDL to string path.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.Interop.PInvoke.GetDisplayName(System.IntPtr,System.Boolean)">
+            <summary>
+            Convert PIDL to path or display name
+            </summary>
+        </member>
+        <member name="T:QTPlugin.IPluginClient">
+            <summary>
+            Base plugin interface.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IPluginClient.Open(QTPlugin.IPluginServer,QTPlugin.Interop.IShellBrowser)">
+            <summary>
+            Called by QTTabBar right after implementing class constructed.
+            Do initialization of plugin here.
+            Note that PluginType.Background type plugin may be instantialized on Option window of QTTabBar.
+            Note that interactive toolbar item is not created yet.
+            </summary>
+            
+            <param name="pluginServer">
+            IPluginServer interface of QTTabBar, or DesktopTool.
+            Hold and use this parameter to command QTTabBar, get information of explorer or tabbar, etc.
+            
+            pluginServer.ExplorerHandle returns IntPtr.Zero if you can assume that the server is dekstop tool (1.0.1.3-).
+            </param>
+            
+            <param name="shellBrowser">
+            IShellBrowser interface of explorer window.
+            Implementer can hold the instance for the lifetime of this plugin,
+            and can use this parameter to get ISellView, IFolderView, etc.
+            There's no need to call Marshal.ReleaseComObject() to this IShellBrowser interface.
+            </param>
+        </member>
+        <member name="M:QTPlugin.IPluginClient.Close(QTPlugin.EndCode)">
+            <summary>
+            QTTabBar notifies closing event.
+            
+            <para>
+            If endCode is NOT EndCode.Hidden, QTTabBar loses the reference to this plugin instance after this call.
+            Clean up managed/unmanaged resources here if any.
+            </para>
+            <para>
+            EndCode.Hidden is passed only when this has PluginType.Background or PluginType.BackgroundMultiple attribute and toolbar item is disabled by user.
+            In this case, the plugin is still alive and can interact with user. 
+            </para>
+            See EndCode enumeration.
+            </summary>
+            <param name="endCode"></param>
+        </member>
+        <member name="M:QTPlugin.IPluginClient.QueryShortcutKeys(System.String[]@)">
+            <summary>
+            To allow users to set shortcut keys, 
+            set action names and return true.
+            members of actions will be shown in the Option -> "Shortcut Keys".
+            
+            Return false if no need of shortcut keys.
+            </summary>
+            <param name="actions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginClient.OnOption">
+            <summary>
+            Called when "Plugin Option" button is pressed.
+            About saving settings, see Instructions.txt.
+            
+            The calling thread is a explorer thread that opened Option dialog.
+            Even if there are multiple instances, One instance is notified to open option.
+            So operation in this method may have to be static.
+            
+            The following is old and not correct.
+            (The calling thread can be different from the thread created this instance. Usually the thread of Option dialog.)
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IPluginClient.OnMenuItemClick(QTPlugin.MenuType,System.String,QTPlugin.ITab)">
+            <summary>
+            Called when user click the registered menu item.
+            To register, use <c>IPluginServer.RegisterMenu()</c>.
+            </summary>
+            <param name="menuType">Type of menu registered. Tab or Bar.</param>
+            <param name="menuText">Identifier text of the clicked menu item.</param>
+            <param name="tab">
+            If <paramref name="menuType"/> is MenuType.Tab, the tab which user open a context menu.
+            If <paramref name="menuType"/> is MenuType.Bar, this parameter is null.
+            </param>
+        </member>
+        <member name="M:QTPlugin.IPluginClient.OnShortcutKeyPressed(System.Int32)">
+            <summary>
+            Called when shortcut keys pressed.
+            </summary>
+            <param name="index">
+            Index of shortcut key registered.
+            This is an index in the parameter "actions" passed to QueryShortcutKeys().
+            
+            If you want more detail information about the event, such as key repeat and key value, use IPluginServer.ShortcutKeyPressed event instead of this. (1.0.1.3)
+            Use either of this method or ShortcutKeyPressed event.
+            </param>
+        </member>
+        <member name="P:QTPlugin.IPluginClient.HasOption">
+            <summary>
+            Gets whether the plugin has options that can be set in the qtabbar option -> Plugins tab.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.IBarButton">
+            <summary>
+            Implement this interface to add a simple button item to Button Bar.
+            QTTabBar notifies when clicked.
+            
+            PluginType: Interactive or Background
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IBarButton.InitializeItem">
+            <summary>
+            Called every time the button item of this plugin is about to be added to the explorer toolbar.
+            Note that ButtonBar Option window recreates all items when its options changed.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IBarButton.GetImage(System.Boolean)">
+            <summary>
+            Return button image.
+            if fLarge is true, return 24x24 image.
+            if fLarge is false, return 16x16 image.
+            
+            The call usually follows IBarButton.InitializeItem().
+            Also called when plugin calls IPluginServer.UpdateItem() with parameter fRefreshImage true.
+            
+            512: QTTabBar creates a copy of the returned image so implementor is responsibile for disposing it on Close() method call.
+            In earlier version than 512, it was uncertain which takes responsibility to release images.
+            
+            If you want to support larger image sizes, implement IPluginItemWithImage instead.
+            Then this call will be replaced by IPluginItemWithImage.GetItemImage.
+            
+            This can be skipped if user has specified an image for the button.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IBarButton.OnButtonClick">
+            <summary>
+            Called by QTTabBar when the button clicked.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IBarButton.Text">
+            <summary>
+            Gets display text.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IBarButton.ShowTextLabel">
+            <summary>
+            Deprecated. This value is not used.
+            Now users can choice whether to show or not text label of each buttons.
+            
+            Gets text lable mode.
+            Return true if want to show text label when user set "Selective text" of ButtonBar.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.IBarDropButton">
+            <summary>
+            This interface offers ToolStripDropDownButton and ToolStripSplitButton.
+            
+            PluginType: Interactive or Background
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IBarDropButton.OnDropDownOpening(System.Windows.Forms.ToolStripDropDownMenu)">
+            <summary>
+            Called by QTTabBar, every time the dropdown menu is opening.
+            
+            If you want to make DropDownMenu by yourself, use IBarCustomItem.
+            </summary>
+            <param name="menu">ToolStripDropDownMenu instance. Add items to <c>menu.Items</c>. </param>
+        </member>
+        <member name="M:QTPlugin.IBarDropButton.OnDropDownItemClick(System.Windows.Forms.ToolStripItem,System.Windows.Forms.MouseButtons)">
+            <summary>
+            Called by QTTabBar, when dropdown menu item clicked.
+            </summary>
+            <param name="item">The item clicked.</param>
+            <param name="mouseButton">Mouse button pressed. Left or Right.</param>
+        </member>
+        <member name="P:QTPlugin.IBarDropButton.IsSplitButton">
+            <summary>
+            Gets whether the plugin button is a splitbutton.
+            Called when QTButtonBar creating DropButton item.
+            If returns false, IBarButton.OnButtonClick method will not be called.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.IBarCustomItem">
+            <summary>
+            Implement this interface to make a custom toolbar item.
+            
+            PluginType: Interactive or Background
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IBarCustomItem.CreateItem(System.Boolean,QTPlugin.DisplayStyle)">
+            <summary>
+            Return an item that inherits ToolStripItem class.
+            
+            Note that ToolStripItem.Tag property is used for inner management so it will be overwritten even if set.
+            Note that Button Bar Option window recreates all items when its options changed.
+            
+            ToolStripItem.Image property might be overwritten if user specifies an image for the button.
+            
+            512: If you want to support larger image sizes, implement IPluginItemWithImage additionally.
+            
+            Only one instance can be instanctialized in a thread.
+            </summary>
+            <param name="fLarge">true if current toolbar button icon is large.</param>
+            <param name="displayStyle">ShowTextLabel if user checked this button, otherwise NoLabel.</param>
+            <returns>ToolStripItem instance.</returns>
+        </member>
+        <member name="T:QTPlugin.IBarMultipleCustomItems">
+            <summary>
+            Implement this interface to make custom toolbar items.
+            The plugin that implements this interface can have multiple buttons.
+            
+            Close method will be called when all items are removed from ButtonBar by user.
+            
+            PluginType: BackgroundMultiple
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IBarMultipleCustomItems.Initialize(System.Int32[])">
+            <summary>
+            Called every time the first ToolStripItem is about to be created in the session.
+            
+            All ToolStripItems will have been cleared before this call and CreateItem() follows.
+            Implementor can release or free any resources which was used by ToolStripItems.
+            </summary>
+            <param name="order">
+            New order of items if user reordered in ButtonBar Option.
+            This is usually null.
+            
+            example:	after user reordered like ABC  ->  BCA
+            			'order' will be { 1, 2, 0 }
+            
+            </param>
+        </member>
+        <member name="M:QTPlugin.IBarMultipleCustomItems.CreateItem(System.Boolean,QTPlugin.DisplayStyle,System.Int32)">
+            <summary>
+            Return an item that inherits ToolStripItem class.
+            
+            The plugin is responsible for disposing the ToolStripItem.
+            </summary>
+            <param name="fLarge">ToolBar current icon size.</param>
+            <param name="displayStyle">ToolBar current display style.</param>
+            <param name="index">0 based index of item to create.</param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IBarMultipleCustomItems.GetImage(System.Boolean,System.Int32)">
+            <summary>
+            Return button image which is used in QTTabBar Option dialog for user to choose active buttons.
+            
+            512: QTTabBar creates a copy of the returned image so implementor is responsibile for disposing it.
+            	 If you want to support larger image sizes, implement IPluginItemWithImage additionally.
+            </summary>
+            <param name="fLarge">Return 24x24 image if fLarge is true. 16x16 image if not.</param>
+            <param name="index">index of item of which image is required.</param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IBarMultipleCustomItems.GetName(System.Int32)">
+            <summary>
+            Return button name specified by index.
+            </summary>
+            <param name="index">index of button.</param>
+            <returns></returns>
+        </member>
+        <member name="P:QTPlugin.IBarMultipleCustomItems.Count">
+            <summary>
+            Gets max number of items.
+            
+            Returning -1 means that user can add items to ButtonBar without limit, like separator.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.IEncodingDetector">
+            <summary>
+            This interface detects which encoding is used in a text file and give proper Encoding object to decode it for preview.
+            QTTabBar 16 uses IMultiLanguage2 interface to detect encodings by default.
+            
+            One instance can be activated in system. QTTabBar uses first valid instance found and ignores the rest.
+            
+            PluginType: Static
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IEncodingDetector.GetEncoding(System.Byte[]@)">
+            <summary>
+            Called every time Thumbnail (preview) tip is about to load text file preview.
+            </summary>
+            <param name="data">
+            Binary data of text file. If the file is larger than 1KB, first 1024bytes are passed. This limit may change in future.
+            
+            (qttabbar 2.0.0.1 )
+            If the file is larger than 4KB, first 4KB are passed.
+            </param>
+            <returns>Encoding object to decode text file. If null, QTTabBar uses default decoder.</returns>
+        </member>
+        <member name="T:QTPlugin.IFilter">
+            <summary>
+            REVIVED from qttabbar 16.
+            
+            Implement this interface if want to create a custom search-box filter engine.
+            This interface is to convert a string user typed in search-box to Regular Expression for filtering file itmes.
+            
+            One instance can be activated in system. QTTabBar uses first valid instance found and ignores the rest.
+            ( This engine might be used for incremental search in Folder View of explorer in the future. )
+            
+            PluginType: Static	(from qttabbar 1030, this can be Static. It was Background before.) 
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IFilter.QueryRegex(System.String,System.Text.RegularExpressions.Regex@)">
+            <summary>
+            Retrieves a Regular Expression object.
+            
+            </summary>
+            <param name="strQuery">In. string that user typed in Search-Box of QTButtonBar.</param>
+            <param name="re">Out. regular expression object.</param>
+            <returns>if returns false, QTTabBar uses its default filtering function.</returns>
+        </member>
+        <member name="T:QTPlugin.IFilterCore">
+            <summary>
+            REVIVED from qttabbar 16.
+            
+            Implement this interface if want to create a custom search-box filter engine.
+            
+            This interface makes a decision on whether a file item is filtered or not, passed Regular Expression object
+            that is created by QTTabBar(default) or IFilter instance. 
+            Implementor can use IShellFolder interface to get informations of file passed as pIDLChild.
+            
+            One instance can be activated in system. QTTabBar uses first valid instance found and ignores the rest.
+            
+            PluginType: Static	(from qttabbar 1030, this can be Static. It was Background before.) 
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IFilterCore.IsMatch(QTPlugin.Interop.IShellFolder,System.IntPtr,System.Text.RegularExpressions.Regex)">
+            <summary>
+            Return true if reQuery matches the item identified by pIDLChild.
+            </summary>
+            
+            <param name="shellFolder">
+            IShellFolder interface that specifies the folder where the search is performed.
+            You can cast this to IShellFolder2 if the folder implements it.
+            
+            There's no need to call Marshal.ReleaseComObject() to this interface.
+            Do not hold this beyond method scope.
+            </param>
+            
+            <param name="pIDLChild">
+            Pointer to an item's ITEMIDLIST structure, relative to parent folder.
+            </param>
+            
+            <param name="reQuery">
+            Regular Expression object that is created by QTTabBar(default) or IFilter instance.
+            </param>
+            
+            <returns></returns>
+        </member>
+        <member name="T:QTPlugin.IEventSource">
+            <summary>
+            Event source.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.TabChanged">
+            <summary>
+            Occurs when current active tab has changed.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.TabAdded">
+            <summary>
+            Occurs when a new tab added to tabbar.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.TabRemoved">
+            <summary>
+            Occurs when a tab removed from tabbar.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.MouseEnter">
+            <summary>
+            Occurs when the mouse pointer enters the tabBar. 
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.PointedTabChanged">
+            <summary>
+            Occurs when the mouse pointer moves and points a tab.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.MouseLeave">
+            <summary>
+            Occurs when the mouse pointer leaves the TabBar.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.NavigationComplete">
+            <summary>
+            Occurs when explorer navigation is completed.
+            
+            TabBar 3.0- : passes PluginEventArgs without informations about currently active tab.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.SelectionChanged">
+            <summary>
+            Occurs when the selection state of any item or items in the folder view has changed.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IEventSource.ActiveViewChanged">
+            <summary>
+            Occurs when active view changed.  
+            </summary>
+        </member>
+        <member name="T:QTPlugin.IPluginServer">
+            <summary>
+            QTTabBar implements this interface.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.RegisterMenu(QTPlugin.IPluginClient,QTPlugin.MenuType,System.String,System.Boolean)">
+            <summary>
+            Registers or unregisters a menu item to QTTabBar menu.
+            The menus registered are automatically removed on unloading.
+            </summary>
+            <param name="pluginClient">Plugin to register/unregister.</param>
+            <param name="menuType">Tab, Bar, or Both</param>
+            <param name="menuText">Menu item text</param>
+            <param name="fRegister"></param>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.UpdateItem(QTPlugin.IBarButton,System.Boolean,System.Boolean)">
+            <summary>
+            Updates ToolStripItem state.
+            This reads IBarButton.Text.
+            
+            be careful not to make an infinite loop by calling this method in IBarButton.Text or IBarButton.GetImage().
+            </summary>
+            <param name="barItem">Plugin to update.</param>
+            <param name="fEnabled">ToolStripItem.Enabled value.</param>
+            <param name="fRefreshImage">if true IPluginServer calls IBarButton.GetImage() and refresh image.</param>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.InvokeCommand(QTPlugin.QCommand,System.Object[])">
+            <summary>
+            Invoke QCommand.
+            </summary>
+            <param name="command">
+            This can be used as the equivalent of ScriptingCommands
+            http://qttabbar.wikidot.com/scriptingcommands
+            </param>
+            <param name="args">
+            Prameters and return values are translated from/to Scripting objects to/from plugin and generic objects.<para/>
+            Scripting.Tab		-> QTPlugin.ITab
+            Scripting.Tab.ID	-> QTPlugin.ITab.ID
+            Scripting.Window	-> IntPtr (window handle, use IPluginServer.ExplorerHandle)
+            QCollection(string) -> IEnumerable&lt;string&gt;
+            </param>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetPath(QTPlugin.View)">
+            <summary>
+            Retrieves current path string of the view.
+            </summary>
+            <param name="view"></param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetIDL(QTPlugin.View)">
+            <summary>
+            Retrieves itemidlist data of the view.
+            Retrieves current idl data of the view.
+            </summary>
+            <param name="view"></param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetTabs">
+            <summary>
+            Retrieves the current tabs.
+            Note that returned array members may be disposed unexpectedly by user,
+            so do not hold returned ITab inteterfaces but use this property as needed.
+            </summary>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetTabs(QTPlugin.View)">
+            <summary>
+            Retrieves tabs in the specified view. (1.3.0.0-)
+            </summary>
+            <param name="view"></param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetSelectedTab(QTPlugin.View)">
+            <summary>
+            Gets active tab in the view.
+            (1.3.0.0-)
+            </summary>
+            <remarks>to set active tab, set ITab.Selected prorperty to true.</remarks>
+            <param name="view"></param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.HitTest(System.Drawing.Point)">
+            <summary>
+            Retrieves a tab at the specified point in screen coordinates.
+            </summary>
+            <param name="pnt">point in screen corrdinates.</param>
+            <returns>ITab interface if tab exists at pnt, or null otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.CreateWindow(QTPlugin.Address)">
+            <summary>
+            Open a new window of the specified address.
+            </summary>
+            <param name="address">Address to open.</param>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.OpenGroup(System.String[])">
+            <summary>
+            Create and add tabs contained in groups.
+            </summary>
+            <param name="groupNames"></param>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetGroupPaths(System.String)">
+            <summary>
+            Gets group member paths.
+            </summary>
+            <param name="groupName"></param>
+            <returns>null if groupName is invalid.</returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.AddGroup(System.String,System.String[])">
+            <summary>
+            Adds paths to the specified group.
+            if group specified by groupName exists, adds paths to the group.
+            if not, creates a new group with paths.
+            </summary>
+            <param name="groupName"></param>
+            <param name="paths"></param>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.RemoveGroup(System.String)">
+            <summary>
+            Deletes a group.
+            </summary>
+            <param name="groupName"></param>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.AddApplication(System.String,System.Diagnostics.ProcessStartInfo)">
+            <summary>
+            Add a new application launcher item.
+            </summary>
+            <param name="name">
+            Display name of application.
+            
+            name can be a tree-path separated by "\".
+               ex: "folder1\folder2\SomeApplication"
+            
+            if upper fragments of path do not exist, those will be created.
+            
+            renamed if already exists item specified by name.
+            </param>
+            <param name="startInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.RemoveApplication(System.String)">
+            <summary>
+            Remove an application launcher item.
+            </summary>
+            <param name="name">
+            Display name of application.
+            
+            name can be a tree-path separated by "\".
+               ex: "folder1\folder2\SomeApplication"
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetMenuRenderer">
+            <summary>
+            Gets the current menu renderer.
+            Use this method to render your menus with the same appearance as other menus.
+            
+            New in 1.0.1.0
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetViewBounds(QTPlugin.View)">
+            <summary>
+            Gets location and size of view specified. Use this to show view-specific dialog, etc.
+            </summary>
+            <param name="view"></param>
+            <returns>Bounding rectangle of the view, in screen coordinates. If view is not visible, this returns Rectangle.Empty.</returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.ExecuteCommand(QTPlugin.Commands,System.Object)">
+            <summary>
+            Deprecated. Use InvokeCommand instead.
+            
+            Executes a command on QTTabBar.
+            </summary>
+            <param name="command"></param>
+            <param name="arg">
+            set this parameter if the command requires arguments, or set null otherwise.
+            see Commands enumeration.
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.GetApplications(System.String)">
+            <summary>
+            NOT IMPLEMENTED. RETURNS NULL.
+            </summary>
+            <param name="name">
+            name can be a path.
+            if name is null or empty, all top-level items will be enumerated.
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.TryGetSelection(QTPlugin.Address[]@)">
+            <summary>
+            Tries to get selected file/folder items in the current folder view. 
+            </summary>
+            <param name="selectedItems"></param>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.TrySetSelection(QTPlugin.Address[],System.Boolean)">
+            <summary>
+            Tries to set selection in the current folder view.
+            </summary>
+            <param name="itemsToSelect">
+            Addresses to select.
+            The first one in the array will get focus.
+            </param>
+            <param name="fDeselectOthers">
+            If this parameter is true, items which are not included in itemsToSelect will be deselected.
+            If false, selections will be preserved.
+            </param>
+            <returns>Returns true if at least one item selected successfully, or false otherwise. </returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.CreateTab(QTPlugin.Address,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Create a new tab.
+            </summary>
+            <param name="address">address of new tab.</param>
+            <param name="index">
+            zero based index of insertion position.
+            if this parameter is -1, new tab will be inserted at user setting position.
+            </param>
+            <param name="fLocked">if new tab is locked.</param>
+            <param name="fSelect">if activate new tab.</param>
+            <returns>Returns true if successful, or false otherwise.</returns>
+        </member>
+        <member name="M:QTPlugin.IPluginServer.TryGetLocalizedStrings(QTPlugin.IPluginClient,System.Int32,System.String[]@)">
+            <summary>
+            Obsolete. Returns false and arrStrings will be null.
+            </summary>
+            <param name="pluginClient"></param>
+            <param name="count"></param>
+            <param name="arrStrings"></param>
+            <returns></returns>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.TabChanged">
+            <summary>
+            Occurs when current active tab has changed.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.TabAdded">
+            <summary>
+            Occurs when a new tab added to tabbar.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.TabRemoved">
+            <summary>
+            Occurs when a tab removed from tabbar.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.MouseEnter">
+            <summary>
+            Occurs when the mouse pointer enters the tabBar. 
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.PointedTabChanged">
+            <summary>
+            Occurs when the mouse pointer moves and points a tab.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.MouseLeave">
+            <summary>
+            Occurs when the mouse pointer leaves the TabBar.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.NavigationComplete">
+            <summary>
+            Occurs when explorer navigation is completed.
+            
+            TabBar 3.0- : passes PluginEventArgs without informations about currently active tab.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.SelectionChanged">
+            <summary>
+            Occurs when the selection state of any item or items in the folder view has changed.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.SettingsChanged">
+            <summary>
+            Occurs when settings of QTTabBar have changed.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.ExplorerStateChanged">
+            <summary>
+            Occurs when Explorer window maximized/minimized.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.MenuRendererChanged">
+            <summary>
+            Occurs when menu renderer option is changed.
+            New in 1.0.1.0.
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.ShortcutKeyPressed">
+            <summary>
+            Occurs when the keyboard shortcut assigned by plugin is pressed.
+            1.0.1.3
+            </summary>
+        </member>
+        <member name="E:QTPlugin.IPluginServer.ButtonItemAddedToBar">
+            <summary>
+            Fired when plugin button is dropped to a Command Bar and a new button item is created.
+            New in 1.2.0.0
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.Handle">
+            <summary>
+            Gets the window handle of QTTabBar.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.ExplorerHandle">
+            <summary>
+            Gets the window handle of Explorer.
+            
+            if this value is IntPtr.Zero, the plugin server can be desktop tool. (1.0.1.3-)
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.Groups">
+            <summary>
+            Gets group names that user registered.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.OwnerIsDesktopTool">
+            <summary>
+            When this returned true, this server is hosted by Desktop tool not by TabBar so some methods, properties and events are not supported.
+             - TabChanged, TabAdded, TabRemoved, NavigationComplete, ExplorerStateChanged, PointedTabChanged, RegisterMenu(), UpdateItem(), GetTabs(), SelectedTab, HitTest(), ExplorerHandle.
+             - ExecuteCommand for tab operations.
+            This is true only for Background and BackgroundMultiple plugins and they are instatialized witout Toolbar buttons even if they are IBarButton.
+            Those plugins can handle selection change and keyboard shortcuts performed while desktop has keyboard focus.
+            
+            New in 1.0.1.3
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.Path">
+            <summary>
+            Retrieves current path string of the default view.
+            
+            new in 1.1.0.0, but not implemented till 1024
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.IDL">
+            <summary>
+            Retrieves itemidlist data of the default view.
+            PIDL can be created by copying this data to unmanaged memory block allocated by Marshal.AllocCoTaskMem().
+            
+            new in 1.1.0.0, but not implemented till 1024!
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.SelectedTab">
+            <summary>
+            Gets or sets current active tab.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.SelectedTabInFocusedView">
+            <summary>
+            Gets active tab in active view. This returns null when no tab in focused view or no view is focused.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.FocusedView">
+            <summary>
+            Gets or sets a value indicating which view has focus. (1.3.0.0)
+            Returns None if no view has focus.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.ViewEventSource">
+            <summary>
+            Use this object to register events that occurs in views.
+            
+             ex) pluginServer.ViewEventSource.ActiveViewChanged += ...
+            
+            Events that provided by this object are fired also by the default view, so no need to use other events provided by IPluginServer with the same names.
+            To know by which view an event is triggered, use PluginEventHandler.View property value.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.LibraryVersion">
+            <summary>
+            Returns file version of QTPluginLib.dll
+            </summary>
+        </member>
+        <member name="P:QTPlugin.IPluginServer.TabBarOption">
+            <summary>
+            NOT IMPLEMENTED. RETURNS NULL.
+            Gets or sets TabBar settings.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.Interop.STRRET">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:QTPlugin.PluginEventHandler">
+            <summary>
+            Represents the method that will handle an event for IPluginServer.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:QTPlugin.PluginKeyEventHandler">
+            <summary>
+            Represents the method that will handle a key event for IPluginServer.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:QTPlugin.PluginEventArgs">
+            <summary>
+            Provides data for IPluginServer events. 
+            </summary>
+        </member>
+        <member name="M:QTPlugin.PluginEventArgs.#ctor(System.Int32,QTPlugin.Address)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <param name="address"></param>
+        </member>
+        <member name="M:QTPlugin.PluginEventArgs.#ctor(QTPlugin.ExplorerWindowActions)">
+            <summary>
+            
+            </summary>
+            <param name="windowAction"></param>
+        </member>
+        <member name="P:QTPlugin.PluginEventArgs.Index">
+            <summary>
+            Tab index.
+            
+            On SettingsChanged, 0 is passed when global option changed and 1 when ButtonBar option changed.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.PluginEventArgs.Address">
+            <summary>
+            Tab address.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.PluginEventArgs.WindowAction">
+            <summary>
+            Explorer window actions. only used by ExplorerStateChanged event.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.PluginEventArgs.View">
+            <summary>
+            View that the event is associated to.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.PluginKeyEventArgs">
+            <summary>
+            Provides data for IPluginServer key events. (1.0.1.3)
+            </summary>
+        </member>
+        <member name="M:QTPlugin.PluginKeyEventArgs.#ctor(System.Windows.Forms.Keys,System.Int32,System.Boolean)">
+            <summary>
+            Instantialize PluginKeyEventArgs
+            </summary>
+            <param name="keyData"></param>
+            <param name="index"></param>
+            <param name="fRepeat"></param>
+        </member>
+        <member name="P:QTPlugin.PluginKeyEventArgs.Repeat">
+            <summary>
+            Indicates whether the key is pressed before this event.
+            </summary>
+        </member>
+        <member name="P:QTPlugin.PluginKeyEventArgs.Index">
+            <summary>
+            Retrieves the index number of the performed keyboard shortcut provided by the plugin on QueryShortcutKeys method call.
+            </summary>
+        </member>
+        <member name="T:QTPlugin.QCommand">
+            <summary>
+            This can be used as the equivalent of ScriptingCommands
+            http://qttabbar.wikidot.com/scriptingcommands
+            </summary>
+        </member>
+    </members>
+</doc>

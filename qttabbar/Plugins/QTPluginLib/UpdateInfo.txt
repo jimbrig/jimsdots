@@ -1,0 +1,101 @@
+﻿New in 1.0.1.3
+
+ IPluginServer.ShortcutKeyPressed event
+ IPluginServer.OwnerIsDesktopTool property
+ PluginAttribute.SupportURL
+ PluginAttribute.LastUpdate
+ LocalizedStringProvider2
+ Background and BackgroundMultiple plugins are now instantialized by QTDesktopTool in the desktop thread. ( With qttabbar 2.0.0.1 )
+
+
+QTTabBar 8
+
+ Now PluginServer.ExecuteCommand with Commands.SetModalState is not necessary when ShowDialog method call. still needed when you display something modal from unmanaged.
+ QTPluginLib.dll is not rebuilt.
+
+
+QTTabBar 16
+
+ IFilter and IFilterCore interfaces now revived.
+ QTPluginLib.dll is not rebuilt.
+
+
+QTTabBar 32
+
+ No changes.
+ QTPluginLib.dll is not rebuilt.
+
+
+QTTabBar 64
+
+ No changes.
+ QTPluginLib.dll is not rebuilt.
+
+
+QTTabBar 65
+
+ No changes.
+ QTPluginLib.dll is not rebuilt.
+
+
+QTTabBar 128
+
+ - A change of the implementation of ITab in QTTabBar.dll - Added codes that guarantee equality. If 2 ITab objects point to the same tab, now they are identical.
+ - Implements IPluginServer.HitTest( Point ) method - it always returned a tab over which mouse cursor was located. Now it works.
+ - If no tabbar enabled, threre was no easy way to get current path from IPluginServer. Now IPluginServer.SelectedTab returns an ITab instance that contains information of current path even if TabBar is not enabled, as a temporary repair.
+
+ QTPluginLib.dll is not rebuilt, but upadate is scheduled in the next major release of QTTabBar.
+
+
+
+ QTTabBar 256
+ QTPluginLib 1.1.0.0
+
+ - New IPluginServer.Path, IDL properties.
+ - New ITab.ID, SelectedPaths, SelectedIDLs properties.
+ - IPluginServer.AddApplication and RemoveApplication methods are implemented.
+
+ - TabBarOption class and related enumerations are now deprecated. 
+ - Address structure is becoming obsolete.
+
+ - IPluginServer.InvokeCommand method and some classes as stub.
+ - Toolbar enumeration.
+
+
+
+ QTTabBar 512
+ QTPluginLib 1.2.0.1
+
+  - The ownership of image objects: Implementors are expected to release image resources. ( IBarButton.GetImage, etc. )
+  - QCommand implementation.
+  - New IPluginItemWithImage interface is introduced to support larger icon images. see LargeIconSupport.cs.
+  - PluginOptions enumeration for PluginAttribute.Options property. 
+  - IPluginServer.ButtonItemAddedToBar event. Use when a button item is drag and dropped from option window to CommandBars and if need of initialization of the new button.
+
+
+  QTTabBar 1024
+  QTPluginLib 1.3.0.0
+
+  - Supports extra views.
+	  - View enum.
+	  - ITab.View
+	  - IPluginServer.FocusedView
+	  - IPluginServer.SelectedTabInFocusedView
+	  - IPluginServer.GetTabs( View )
+	  - IPluginServer.GetSelectedTab( View )
+	  - IPluginServer.ViewEventSource to consume events of extra views
+	  - PluginEventArgs.View
+ - Enhancements of ITab
+	  - ITab.IDL
+	  - ITab.Path
+	  - ITab.ItemCount
+	  - ITab.ItemPaths
+	  - ITab.ItemIDLs
+ - misc
+	  - IPluginSever.LibraryVersion
+	  - A breaking change in Toolbar enum, to share the same definition with the scripting.
+
+
+TODO: getting qttabbar and library versions
+TODO: validation of command value whether a command is defined.
+TODO: ??? accessing IShellBrowser of extra views ???

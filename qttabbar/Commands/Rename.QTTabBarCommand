@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandButtonInfo>
+  <MetaData>
+    <DateCreated>2014-11-20T07:48:59.9401741+09:00</DateCreated>
+    <Author>Quizo</Author>
+    <Contact>http://qttabbar.wikidot.com/qttabbar</Contact>
+    <Description>Shows rename dialog targeting focused view. Currently supports file system directories.</Description>
+    <Version></Version>
+  </MetaData>
+  <CommandButton Type="ScriptingCommand" SubType="Normal">
+    <CommandID>121</CommandID>
+    <LabelVisibility>true</LabelVisibility>
+    <DisplayText>Rename...</DisplayText>
+    <IconResource>"%SystemRoot%\system32\SHELL32.dll", 133</IconResource>
+    <Options>01000000000000000000000000</Options>
+  </CommandButton>
+</CommandButtonInfo>

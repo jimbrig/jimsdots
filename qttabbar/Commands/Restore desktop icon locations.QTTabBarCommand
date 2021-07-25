@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandButtonInfo>
+  <MetaData>
+    <DateCreated>2014-11-27T06:03:41.5383611+09:00</DateCreated>
+    <Author>Quizo</Author>
+    <Contact></Contact>
+    <Description></Description>
+    <Version></Version>
+  </MetaData>
+  <CommandButton Type="ScriptingCommand" SubType="Normal" PersistentID="41242122">
+    <CommandID>106</CommandID>
+    <LabelVisibility>true</LabelVisibility>
+    <DisplayText>Restore desktop icon location</DisplayText>
+    <IconResource>"%SystemRoot%\system32\SHELL32.dll", 34</IconResource>
+    <Options>01000000000000000000000100</Options>
+  </CommandButton>
+</CommandButtonInfo>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandButtonInfo>
+  <MetaData>
+    <DateCreated>2014-11-27T06:17:17.2400166+09:00</DateCreated>
+    <Author>Quizo</Author>
+    <Contact>http://qttabbar.wikidot.com/qttabbar</Contact>
+    <Description>Toggles visibility of files of Hidden+System attribute.</Description>
+    <Version></Version>
+  </MetaData>
+  <CommandButton Type="ScriptingCommand" SubType="Normal">
+    <CommandID>100</CommandID>
+    <LabelVisibility>true</LabelVisibility>
+    <DisplayText>Switch super hidden files</DisplayText>
+    <IconResource>"%SystemRoot%\system32\SHELL32.dll", 110</IconResource>
+    <Args>
+      <Item>!%#1%</Item>
+    </Args>
+    <Options>01000000000000000000000100</Options>
+    <SubItems>
+      <CommandButton Type="ScriptingCommand" SubType="Normal">
+        <CommandID>102</CommandID>
+        <DisplayText>IsSuperHiddenFileVisible</DisplayText>
+        <Options>01000000000000000000000100</Options>
+      </CommandButton>
+    </SubItems>
+  </CommandButton>
+</CommandButtonInfo>

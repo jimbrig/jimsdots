@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandButtonInfo>
+  <MetaData>
+    <DateCreated>2014-11-27T06:04:03.6076234+09:00</DateCreated>
+    <Author>Quizo</Author>
+    <Contact></Contact>
+    <Description></Description>
+    <Version></Version>
+  </MetaData>
+  <CommandButton Type="ScriptingCommand" SubType="Normal" PersistentID="41416801">
+    <CommandID>105</CommandID>
+    <LabelVisibility>true</LabelVisibility>
+    <DisplayText>Save desktop icon pos</DisplayText>
+    <IconResource>"%SystemRoot%\system32\SHELL32.dll", 34</IconResource>
+    <Options>01000000000000000000000100</Options>
+  </CommandButton>
+</CommandButtonInfo>

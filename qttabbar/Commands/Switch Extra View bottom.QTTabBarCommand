@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandButtonInfo>
+  <MetaData>
+    <DateCreated>2014-11-19T18:33:49.8981772+09:00</DateCreated>
+    <Author>Quizo</Author>
+    <Contact>http://qttabbar.wikidot.com/qttabbar</Contact>
+    <Description>Toggles visibility of Extra View (bottom). for ver1024.</Description>
+    <Version></Version>
+  </MetaData>
+  <CommandButton Type="ScriptingCommand" SubType="Normal">
+    <CommandID>38</CommandID>
+    <LabelVisibility>true</LabelVisibility>
+    <DisplayText>Switch Extra View bottom</DisplayText>
+    <IconResource>"%SystemRoot%\system32\SHELL32.dll", 256</IconResource>
+    <Args>
+      <Item>ExtraViewBottom</Item>
+      <Item>!%#1%</Item>
+    </Args>
+    <Options>01000000000000000000000000</Options>
+    <SubItems>
+      <CommandButton Type="ScriptingCommand" SubType="Normal">
+        <CommandID>41</CommandID>
+        <LabelVisibility>true</LabelVisibility>
+        <DisplayText>IsToolbarVisible</DisplayText>
+        <Args>
+          <Item>ExtraViewBottom</Item>
+        </Args>
+        <Options>01000000000000000000000000</Options>
+      </CommandButton>
+    </SubItems>
+  </CommandButton>
+</CommandButtonInfo>
