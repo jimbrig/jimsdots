@@ -19,3 +19,9 @@
 [submodule "dependencies/powershell-config"]
 	path = dependencies/powershell-config
 	url = git@github.com:r-darwish/powershell-config.git
+[submodule "powershell/PowerShell"]
+	path = powershell/PowerShell
+	url = git@github.com:jimbrig/PowerShell.git
+[submodule "powershell/WindowsPowerShell"]
+	path = powershell/WindowsPowerShell
+	url = git@github.com:jimbrig/WindowsPowerShell.git
