@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "ActivationShortcut": {
+      "win": true,
+      "ctrl": false,
+      "alt": false,
+      "shift": true,
+      "code": 67,
+      "key": ""
+    },
+    "changecursor": {
+      "value": false
+    },
+    "copiedcolorrepresentation": 0,
+    "activationaction": 1,
+    "colorhistory": [],
+    "colorhistorylimit": 20,
+    "visiblecolorformats": {
+      "HEX": true,
+      "RGB": true,
+      "HSL": true
+    },
+    "showcolorname": {
+      "value": false
+    }
+  },
+  "name": "ColorPicker",
+  "version": "1"
+}

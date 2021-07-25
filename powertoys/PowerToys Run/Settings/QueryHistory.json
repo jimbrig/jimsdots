@@ -1,0 +1,20 @@
+{
+  "Items": [
+    {
+      "Query": "mail",
+      "ExecutedDateTime": "2021-07-16T11:01:06.2851909-04:00"
+    },
+    {
+      "Query": "ease",
+      "ExecutedDateTime": "2021-07-16T11:05:54.8486437-04:00"
+    },
+    {
+      "Query": "uninstalltool",
+      "ExecutedDateTime": "2021-07-16T11:10:39.5373693-04:00"
+    },
+    {
+      "Query": "free",
+      "ExecutedDateTime": "2021-07-16T11:53:09.5199124-04:00"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "properties": {
+    "search_result_preference": "most_recently_used",
+    "search_type_preference": "application_name",
+    "maximum_number_of_results": 4,
+    "open_powerlauncher": {
+      "win": false,
+      "ctrl": false,
+      "alt": true,
+      "shift": false,
+      "code": 32,
+      "key": ""
+    },
+    "open_file_location": {
+      "win": false,
+      "ctrl": false,
+      "alt": false,
+      "shift": false,
+      "code": 0,
+      "key": ""
+    },
+    "copy_path_location": {
+      "win": false,
+      "ctrl": false,
+      "alt": false,
+      "shift": false,
+      "code": 0,
+      "key": ""
+    },
+    "open_console": {
+      "win": false,
+      "ctrl": false,
+      "alt": false,
+      "shift": false,
+      "code": 0,
+      "key": ""
+    },
+    "override_win_r_key": false,
+    "override_win_s_key": false,
+    "ignore_hotkeys_in_fullscreen": false,
+    "clear_input_on_launch": false,
+    "theme": 0,
+    "startupPosition": 0
+  },
+  "plugins": [
+    {
+      "Id": "CEA0FDFC6D3B4085823D60DC76F28855",
+      "Name": "Calculator",
+      "Description": "Does mathematical calculations (e.g. 5*3-2).",
+      "Author": "cxfksword",
+      "Disabled": false,
+      "IsGlobal": true,
+      "ActionKeyword": "=",
+      "IconPathDark": "Calculator\\Images\\calculator.dark.png",
+      "IconPathLight": "Calculator\\Images\\calculator.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "aa0ee9daff654fb7be452c2d77c471b9",
+      "Name": "Unit Converter",
+      "Description": "Provides unit conversion (e.g. 10 ft in m).",
+      "Author": "ThiefZero",
+      "Disabled": false,
+      "IsGlobal": false,
+      "ActionKeyword": "%%",
+      "IconPathDark": "Community.UnitConverter\\Images\\unitconverter.dark.png",
+      "IconPathLight": "Community.UnitConverter\\Images\\unitconverter.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "B4D3B69656E14D44865C8D818EAE47C4",
+      "Name": "Folder",
+      "Description": "Navigates folders starting from a drive letter \u0027C:\\\u0027 or from the user home \u0027~\u0027.",
+      "Author": "qianlifeng",
+      "Disabled": false,
+      "IsGlobal": true,
+      "ActionKeyword": "",
+      "IconPathDark": "Microsoft.Plugin.Folder\\Images\\folder.dark.png",
+      "IconPathLight": "Microsoft.Plugin.Folder\\Images\\folder.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "2140FC9819AD43A3A616E2735815C27C",
+      "Name": "Windows Search",
+      "Description": "Searches files and folders.",
+      "Author": "Microsoft",
+      "Disabled": false,
+      "IsGlobal": true,
+      "ActionKeyword": "?",
+      "IconPathDark": "Microsoft.Plugin.Indexer\\Images\\indexer.dark.png",
+      "IconPathLight": "Microsoft.Plugin.Indexer\\Images\\indexer.light.png",
+      "AdditionalOptions": [
+        {
+          "Key": "DisableDriveDetectionWarning",
+          "DisplayLabel": "Disable drive detection warning",
+          "Value": false
+        }
+      ]
+    },
+    {
+      "Id": "791FC278BA414111B8D1886DFE447410",
+      "Name": "Program",
+      "Description": "Searches programs.",
+      "Author": "qianlifeng",
+      "Disabled": false,
+      "IsGlobal": true,
+      "ActionKeyword": ".",
+      "IconPathDark": "Microsoft.Plugin.Program\\Images\\app.dark.png",
+      "IconPathLight": "Microsoft.Plugin.Program\\Images\\app.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "D409510CD0D2481F853690A07E6DC426",
+      "Name": "Shell",
+      "Description": "Executes commands (e.g \u0027ping\u0027, \u0027cmd\u0027).",
+      "Author": "qianlifeng",
+      "Disabled": false,
+      "IsGlobal": false,
+      "ActionKeyword": "\u003E",
+      "IconPathDark": "Microsoft.Plugin.Shell\\Images\\shell.dark.png",
+      "IconPathLight": "Microsoft.Plugin.Shell\\Images\\shell.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "03276A39D4E9417C8FFD200B0EE5E871",
+      "Name": "URI Handler",
+      "Description": "Opens URLs and UNC network shares.",
+      "Author": "Microsoft",
+      "Disabled": false,
+      "IsGlobal": true,
+      "ActionKeyword": "//",
+      "IconPathDark": "Microsoft.Plugin.Uri\\Images\\uri.dark.png",
+      "IconPathLight": "Microsoft.Plugin.Uri\\Images\\uri.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "F737A9223560B3C6833B5FFB8CDF78E5",
+      "Name": "Window Walker",
+      "Description": "Switches between open windows.",
+      "Author": "betadele",
+      "Disabled": false,
+      "IsGlobal": true,
+      "ActionKeyword": "\u003C",
+      "IconPathDark": "Microsoft.Plugin.WindowWalker\\Images\\windowwalker.dark.png",
+      "IconPathLight": "Microsoft.Plugin.WindowWalker\\Images\\windowwalker.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "303417D927BF4C97BCFFC78A123BE0C8",
+      "Name": "Registry Plugin",
+      "Description": "Navigates inside the Windows Registry.",
+      "Author": "TobiasSekan",
+      "Disabled": false,
+      "IsGlobal": false,
+      "ActionKeyword": ":",
+      "IconPathDark": "Microsoft.PowerToys.Run.Plugin.Registry\\Images\\reg.dark.png",
+      "IconPathLight": "Microsoft.PowerToys.Run.Plugin.Registry\\Images\\reg.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "5043CECEE6A748679CBE02D27D83747A",
+      "Name": "Windows settings",
+      "Description": "Plugin to search for Windows settings",
+      "Author": "TobiasSekan",
+      "Disabled": false,
+      "IsGlobal": false,
+      "ActionKeyword": "$",
+      "IconPathDark": "Microsoft.PowerToys.Run.Plugin.WindowsSettings\\Images\\WindowsSettings.dark.png",
+      "IconPathLight": "Microsoft.PowerToys.Run.Plugin.WindowsSettings\\Images\\WindowsSettings.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "11A6C36E4E91439CA69F702CBD364EF7",
+      "Name": "Service",
+      "Description": "Manages Windows services.",
+      "Author": "davidegiacometti",
+      "Disabled": false,
+      "IsGlobal": false,
+      "ActionKeyword": "!",
+      "IconPathDark": "Service\\Images\\service.dark.png",
+      "IconPathLight": "Service\\Images\\service.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "CEA08895D2544B019B2E9C5009600DF4",
+      "Name": "Windows System Commands",
+      "Description": "Executes system commands (e.g. \u0027shutdown\u0027, \u0027lock\u0027, \u0027sleep\u0027).",
+      "Author": "Wox",
+      "Disabled": false,
+      "IsGlobal": true,
+      "ActionKeyword": "",
+      "IconPathDark": "System\\Images\\lock.dark.png",
+      "IconPathLight": "System\\Images\\lock.light.png",
+      "AdditionalOptions": []
+    },
+    {
+      "Id": "525995402BEF4A8CA860D92F6D108092",
+      "Name": "Visual Studio Code Workspaces",
+      "Description": "Opens workspaces, remote machines (SSH or Codespaces) and containers, previously opened in VS Code.",
+      "Author": "ricardosantos9521",
+      "Disabled": true,
+      "IsGlobal": false,
+      "ActionKeyword": "{",
+      "IconPathDark": "VSCodeWorkspace\\Images\\code-dark.png",
+      "IconPathLight": "VSCodeWorkspace\\Images\\code-light.png",
+      "AdditionalOptions": []
+    }
+  ],
+  "name": "PowerToys Run",
+  "version": "1.0"
+}
