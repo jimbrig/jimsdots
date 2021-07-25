@@ -26,7 +26,6 @@
 
 ```R
 R> fs::dir_tree(recurse = 0)
-> fs::dir_tree(recurse = 0)
 +-- android
 +-- aws
 +-- azure
@@ -99,7 +98,7 @@ R> fs::dir_tree(recurse = 0)
 
 Encrypted via [Git-Crypt](https://github.com/AGWA/git-crypt).
 
-List of all encrypted files via `git-crypt status -e`.
+List of all encrypted files via `git-crypt status -e`:
 
 ```bash
 jimbr@JimmysMSI MINGW64 ~/Dev/jimbrig/jimsdots (main)
