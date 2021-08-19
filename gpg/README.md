@@ -221,9 +221,9 @@ Keep in mind that decryption and signing will likely fail unless the user runnin
 ### Other
 
 - [How to migrate or export all GnuPG (gpg) public and private keys from one user to another - Red Hat Customer Portal](https://access.redhat.com/solutions/2115511)
-- [Migrating GnuPG Keys from One Computer to Another (koozie.org)](http://www.koozie.org/blog/2014/07/migrating-gnupg-keys-from-one-computer-to-another/#:~:text=To export all of your public php keys,on the target computer%2C run the following command.)
+- [Migrating GnuPG Keys from One Computer to Another (koozie.org)](http://www.koozie.org/blog/2014/07/migrating-gnupg-keys-from-one-computer-to-another)
 - [How to Backup and Restore Your GPG Key | Risan Bagja Pradana](https://risanb.com/code/backup-restore-gpg-key/)
 - [key management - How many OpenPGP keys should I make? - Information Security Stack Exchange](https://security.stackexchange.com/questions/29851/how-many-openpgp-keys-should-i-make?newreg=d00e3c42cd16456495e215d56f177da6)
 - [SysAdminDocs/gpg-docs: GPG Documentation (github.com)](https://github.com/SysAdminDocs/gpg-docs)
 - [Configure GPG to sign Git commits (in Windows) (neurotechnics.com)](https://neurotechnics.com/blog/configure-gpg-to-sign-git-commits-in-windows/)
-- [[WINDOWS\] How to enable auto-signing Git commits with GnuPG for programs that don't support it natively (github.com)](https://gist.github.com/BoGnY/f9b1be6393234537c3e247f33e74094a#:~:text=Add public GPG key to GitHub%3A open https%3A%2F%2Fgithub.com%2Fsettings%2Fkeys,on a single repository%2C remove --global from command)
+- [WINDOWS - How to enable auto-signing Git commits with GnuPG for programs that don't support it natively (github.com)](https://gist.github.com/BoGnY/f9b1be6393234537c3e247f33e74094a)
