@@ -1,0 +1,3 @@
+Copy-Item "settings.json" "$env:LOCALAPPDATA\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState"
+Write-Host "✔️ Successfully copied file Windows Terminal (Custom).lnk to local app data folder." -ForegroundColor Green
+# Write-Color -Text "✔️ Successfully copied file ","Windows Terminal (Custom)"," link to ","%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup","." -Color Green,Blue,Green,Blue,Green
