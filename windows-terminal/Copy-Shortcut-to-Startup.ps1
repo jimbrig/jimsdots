@@ -1,0 +1,3 @@
+Copy-Item "Windows Terminal (Custom).lnk" "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+Write-Host "✔️ Successfully copied file Windows Terminal (Custom).lnk to shell:startup (%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup)." -ForegroundColor Green
+# Write-Color -Text "✔️ Successfully copied file ","Windows Terminal (Custom)"," link to ","%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup","." -Color Green,Blue,Green,Blue,Green
