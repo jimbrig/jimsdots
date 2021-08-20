@@ -2,9 +2,10 @@
 *.pst filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 
-# linguist - ignore HTML and JS
+# linguist - ignore HTML, JS, and Rich Text Format
 *.html linguist-vendored
 *.js linguist-vendored
+*.rtf linguist-vendored
 
 # Git-Crypt
 android/* filter=git-crypt diff=git-crypt
