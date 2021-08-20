@@ -1,10 +1,8 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": true
             },
@@ -19,34 +17,45 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
+            "command": "duplicateTab",
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+d"
+            "keys": "ctrl+alt+z"
+        },
+        {
+            "command": {
+                "action": "nextTab"
+            },
+            "keys": "ctrl+pgdn"
+        },
+        {
+            "command": {
+                "action": "prevTab"
+            },
+            "keys": "ctrl+pgup"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "acrylicOpacity": 0.29999999999999999,
             "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\windows.jpg",
             "backgroundImageOpacity": 0.75,
             "colorScheme": "Ubuntu Default",
-            "font": 
-            {
+            "font": {
                 "face": "CaskaydiaCove NF"
             },
             "useAcrylic": true
         },
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "C:\\ProgramData\\scoop\\shims\\wttop.exe",
                 "guid": "{7457a91a-3fab-40fb-b8ee-9484e00a0a43}",
@@ -82,8 +91,8 @@
             {
                 "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\linux.png",
                 "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
-		"icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\icons\\ubuntu.ico",
                 "hidden": false,
+                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\icons\\ubuntu.ico",
                 "name": "Ubuntu-CommPrev",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl.localhost\\Ubuntu-CommPrev\\home\\jimbrig"
@@ -129,8 +138,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#000000",
             "black": "#000000",
