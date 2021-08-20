@@ -114,7 +114,7 @@
                 "tabTitle": "Git Bash"
             },
             {
-                "commandline": "C:\\Python39\\Scripts\\radian.exe",
+                "commandline": "C:\\Users\\jimmy\\AppData\\Roaming\\Python\\Python39\\Scripts\\radian.exe --r-binary=R",
                 "guid": "{fb38fa1a-37bc-46a7-a128-cbfc1795b8fb}",
                 "hidden": false,
                 "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Programs\\R.ico",
