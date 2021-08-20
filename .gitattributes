@@ -2,6 +2,10 @@
 *.pst filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 
+# linguist - ignore HTML and JS
+*.html linguist-vendored
+*.js linguist-vendored
+
 # Git-Crypt
 android/* filter=git-crypt diff=git-crypt
 aws/credentials filter=git-crypt diff=git-crypt
