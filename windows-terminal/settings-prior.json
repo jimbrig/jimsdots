@@ -19,13 +19,54 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "duplicateTab",
+            "keys": "ctrl+shift+d"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+d"
+            "keys": "ctrl+alt+z"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustFontSize",
+                "delta": 1
+            },
+            "keys": "ctrl+-"
+        },
+        {
+            "command": 
+            {
+                "action": "nextTab"
+            },
+            "keys": "ctrl+pgdn"
+        },
+        {
+            "command": "resetFontSize",
+            "keys": "ctrl+0"
+        },
+        {
+            "command": 
+            {
+                "action": "prevTab"
+            },
+            "keys": "ctrl+pgup"
+        },
+        {
+            "command": 
+            {
+                "action": "commandPalette"
+            },
+            "keys": "ctrl+p"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+p"
         }
     ],
     "copyFormatting": "none",
@@ -35,37 +76,30 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.29999999999999999,
-            "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\windows.jpg",
-            "backgroundImageOpacity": 0.75,
-            "colorScheme": "Ubuntu Default",
-            "font": 
-            {
-                "face": "CaskaydiaCove NF"
-            },
+            "acrylicOpacity": 0.0,
+            "backgroundImage": "desktopWallpaper",
+            "backgroundImageOpacity": 0.20000000000000001,
+            "closeOnExit": "always",
+            "colorScheme": "Campbell",
+            "fontFace": "Cascadia Code",
+            "padding": "4",
+            "suppressApplicationTitle": true,
             "useAcrylic": true
         },
         "list": 
         [
             {
-                "commandline": "C:\\ProgramData\\scoop\\shims\\wttop.exe",
-                "guid": "{7457a91a-3fab-40fb-b8ee-9484e00a0a43}",
+                "guid": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
                 "hidden": false,
-                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\icons8\\system-task.ico",
-                "name": "System Monitor",
-                "tabColor": "#009999"
+                "name": "PowerShell Preview",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
-                "hidden": false,
-                "name": "PowerShell 7 Preview",
-                "source": "Windows.Terminal.PowershellCore"
+                "source": "Windows.Terminal.PowershellCore",
+                "tabTitle": "PowerShell"
             },
             {
                 "commandline": "powershell.exe",
@@ -80,15 +114,14 @@
                 "name": "Command Prompt"
             },
             {
-                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\linux.png",
-                "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
+                "commandline": "C:/Program Files/Git/bin/bash.exe",
+                "guid": "{a95f8da2-960a-48cf-9d1a-7e5e586df567}",
                 "hidden": false,
-                "name": "Ubuntu-CommPrev",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "\\\\wsl.localhost\\Ubuntu-CommPrev\\home\\jimbrig"
+                "icon": "C:\\Users\\Admin\\Pictures\\Icons\\git.ico",
+                "name": "Git Bash",
+                "tabTitle": "Git Bash"
             },
             {
-                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\linux.png",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
@@ -96,63 +129,28 @@
                 "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\jimbrig"
             },
             {
-                "commandline": "C:/Program Files/Git/bin/bash.exe",
-                "guid": "{a95f8da2-960a-48cf-9d1a-7e5e586df567}",
+                "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
                 "hidden": false,
-                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Programs\\git.ico",
-                "name": "Git Bash",
-                "tabTitle": "Git Bash"
-            },
-            {
-                "commandline": "C:\\Python39\\Scripts\\radian.exe",
-                "guid": "{fb38fa1a-37bc-46a7-a128-cbfc1795b8fb}",
-                "hidden": false,
-                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Programs\\R.ico",
-                "name": "Radian",
-                "startingDirectory": "C:\\Users\\jimmy\\Dev",
-                "tabTitle": "Radian"
-            },
-            {
-                "commandline": "pwsh.exe -Noprofile",
-                "guid": "{4083e87c-fe5e-4cf8-89fd-7e6f2332800a}",
-                "hidden": false,
-                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Programs\\powershell.ico",
-                "name": "PowerShell (No Profile)",
-                "tabTitle": "PowerShell (No Profile)"
+                "name": "Ubuntu-CommPrev",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl.localhost\\Ubuntu-CommPrev\\home\\jimbrig"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}",
+                "hidden": true,
+                "name": "Ubuntu on Windows Community Preview",
+                "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc"
             }
         ]
     },
     "schemes": 
     [
-        {
-            "background": "#000000",
-            "black": "#000000",
-            "blue": "#0000BB",
-            "brightBlack": "#555555",
-            "brightBlue": "#5555FF",
-            "brightCyan": "#55FFFF",
-            "brightGreen": "#55FF55",
-            "brightPurple": "#FF55FF",
-            "brightRed": "#FF5555",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFF55",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#00BBBB",
-            "foreground": "#BBBBBB",
-            "green": "#00BB00",
-            "name": "Builtin Dark",
-            "purple": "#BB00BB",
-            "red": "#BB0000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#BBBBBB",
-            "yellow": "#BBBB00"
-        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -198,6 +196,75 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#13A10E",
+            "name": "Color Scheme 13",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#13A10E",
+            "name": "Custom",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#1E1F29",
+            "black": "#000000",
+            "blue": "#BD93F9",
+            "brightBlack": "#555555",
+            "brightBlue": "#BD93F9",
+            "brightCyan": "#8BE9FD",
+            "brightGreen": "#50FA7B",
+            "brightPurple": "#FF79C6",
+            "brightRed": "#FF5555",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F1FA8C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#FFFFFF",
+            "white": "#BBBBBB",
+            "yellow": "#F1FA8C"
         },
         {
             "background": "#282C34",
@@ -246,7 +313,7 @@
             "yellow": "#C18301"
         },
         {
-            "background": "#002B36",
+            "background": "#000000",
             "black": "#002B36",
             "blue": "#268BD2",
             "brightBlack": "#073642",
@@ -374,7 +441,7 @@
             "brightYellow": "#FFFF00",
             "cursorColor": "#FFFFFF",
             "cyan": "#008080",
-            "foreground": "#C0C0C0",
+            "foreground": "#CFCFCF",
             "green": "#008000",
             "name": "Vintage",
             "purple": "#800080",
@@ -383,5 +450,8 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "startOnUserLogin": true,
+    "theme": "dark",
+    "trimBlockSelection": true
 }
