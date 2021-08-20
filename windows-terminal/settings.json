@@ -82,6 +82,7 @@
             {
                 "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\linux.png",
                 "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
+		"icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\icons\\ubuntu.ico",
                 "hidden": false,
                 "name": "Ubuntu-CommPrev",
                 "source": "Windows.Terminal.Wsl",
