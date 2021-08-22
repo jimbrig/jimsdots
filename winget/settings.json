@@ -18,18 +18,18 @@
     "telemetry": {
         "disable": true
     },
-    // "network": {
-    //     "downloader": "default",
-    //     "doProgressTimeoutInSeconds": 60
-    // },
+    "network": {
+        "downloader": "default",
+        "doProgressTimeoutInSeconds": 60
+    },
     "experimentalFeatures": {
         "experimentalCmd": true,
         "experimentalArg": true,
         "list": true,
         "upgrade": true,
         "uninstall": true,
-        "experimentalMSStore": true
-        // "packagedAPI": true,
-        // "dependencies": true
+        "experimentalMSStore": true,
+        "packagedAPI": true,
+        "dependencies": true
     }
 }
