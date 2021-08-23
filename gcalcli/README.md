@@ -1,14 +1,29 @@
 # Google Calendar Command Line Interface - `gcalcli`
 
+## Setup
+
+To setup `gcalcli` after installing, add `.gcalclirc` to `$HOME`:
+
+- `gcalclirc`:
+
+```powershell
+--config-folder="c:\Users\jimmy\.config\gcalcli"
+--client-id=< RADACTED >
+--client-secret=< RADACTED >
+--default-calendar=Personal
+--calendar=["Personal", "Work", "Routines", "Travel", "Tickler", "Admin"]
+
+```
+
 ## Repository
 
 Repo: [insanum/gcalcli: Google Calendar Command Line Interface (github.com)](https://github.com/insanum/gcalcli)
 
 ## About
 
-`gcalcli` is a Python application that allows you to access your Google Calendar(s) from a command line. 
+`gcalcli` is a Python application that allows you to access your Google Calendar(s) from a command line.
 
-It's easy to get your agenda, search for events, add new events, delete events, edit events, see recently updated events, and even import those annoying ICS/vCal invites from Microsoft Exchange and/or other sources. 
+It's easy to get your agenda, search for events, add new events, delete events, edit events, see recently updated events, and even import those annoying ICS/vCal invites from Microsoft Exchange and/or other sources.
 
 Additionally, `gcalcli` can be used as a reminder service and execute any application you want when an event is coming up.
 
