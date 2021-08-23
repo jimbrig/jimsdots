@@ -61,3 +61,8 @@ dbdocs/dbdocstoken filter=git-crypt diff=git-crypt
 secrets/** filter=git-crypt diff=git-crypt
 code-insiders/dev.to_api_token filter=git-crypt diff=git-crypt
 powershell/psgallery-api-key
+gcalcli/.gcalcli_cache
+gcalcli/.gcalcli_oauth
+gcalcli/gcalcli/**
+
+
