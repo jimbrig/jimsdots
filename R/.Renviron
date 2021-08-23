@@ -1,22 +1,24 @@
 
-R_LIBS="~/.R/lib/4.0"
-R_LIBS_USER="~/.R/lib/4.0"
-R_ENVIRON_USER="~/.R/.Renviron"
-R_PROFILE_USER="~/.R/.Rprofile"
+R_LIBS="~/.config/R/lib/4.1"
+R_LIBS_USER="~/.config/R/lib/4.1"
+R_ENVIRON_USER="~/.config/R/.Renviron"
+R_PROFILE_USER="~/.config/R/.Rprofile"
 R_PROJ_DIR="~/Dev"
 R_ARCH="x64"
 R_INSTALL_TAR="tar.exe"
-DATABASECONNECTOR_JAR_FOLDER="~/.R/jdbcDrivers"
-TMPDIR="C:/tmp"
+DATABASECONNECTOR_JAR_FOLDER="~/.config/R/jdbcDrivers"
 FULLNAME="Jimmy Briggs"
 LANGUAGE="en-US"
 ORC_ID="0000-0002-7489-8787"
 GITHUB_USERNAME="jimbrig"
 PATH="${RTOOLS40_HOME}\usr\bin;${PATH}"
-R_QPDF="C:/tools/qpdf-10.0.4/bin/qpdf.exe"
-R_GSMD="C:/Program Files/gs/gs9.53.3/bin/gswin64c.exe"
-JAVA_HOME="C:/java/jdk-11"
-TWITTER_PAT="~/.R/.rtweet_token.rds"
+
+# R_QPDF="C:/tools/qpdf-10.0.4/bin/qpdf.exe"
+# R_GSMD="C:/Program Files/gs/gs9.53.3/bin/gswin64c.exe"
+# JAVA_HOME="C:/java/jdk-11"
+
+# TMPDIR="C:/tmp"
+# TWITTER_PAT="~/.R/.rtweet_token.rds"
 
 # NOT-USED
 # R_UNZIPCMD=
