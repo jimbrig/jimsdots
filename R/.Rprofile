@@ -7,9 +7,10 @@
 #
 #  ------------------------------------------------------------------------
 
-# rstudioapi::askForSecret("psql")
+# Ensure Library is set:
+.libPaths("~/.config/R/lib/4.1")
 
-# default options:
+# Set Default Options:
 options(
   repos = c(CRAN = "https://cran.rstudio.com"),
   editor = "notepad",
@@ -38,27 +39,21 @@ options(
   orcid = "0000-0002-7489-8787",
   blogdown.author = "Jimmy Briggs", # blogdown - https://bookdown.org/yihui/blogdown/global-options.html
   blogdown.ext = ".Rmd",
-  blogdown.insertimage.usebaseurl = TRUE
+  blogdown.insertimage.usebaseurl = TRUE,
+  shrtcts.path = path.expand("~/.config/R/config/.shrtcts.yml") #,
+  # gargle_oauth_email = "jimmy.briggs@jimbrig.com",
+  # gargle_oauth_cache = path.expand("~/.R/gargle/gargle-oauth")
 )
 
 # turn on completion of installed package names
 utils::rc.settings(ipck = TRUE)
 
-# various significant PATHs:
-options(
-  tychobra_dir = path.expand("~/Dev/tychobra"),
-  shrtcts.path = path.expand("~/.R/.shrtcts.yml"),
-  projects.dir = path.expand("~/Dev"),
-  gargle_oauth_email = "jimmy.briggs@tychobra.com",
-  gargle_oauth_cache = path.expand("~/.R/gargle/gargle-oauth")
-)
-
 # addinit options
-source(path.expand("~/.R/addinit_options.R"))
+source(path.expand("~/.config/R/scripts/addinit_options.R"))
 
 # history
-Sys.setenv("R_HISTFILE" = path.expand("~/.R/.Rhistory"))
-.Last <- function() if (interactive()) try(savehistory(path.expand("~/.R/.Rhistory")))
+Sys.setenv("R_HISTFILE" = path.expand("~/.config/R/.Rhistory"))
+.Last <- function() if (interactive()) try(savehistory(path.expand("~/.config/R/.Rhistory")))
 
 # error tracing
 if ('rlang' %in% loadedNamespaces()) options(error = rlang::entrace)
@@ -84,18 +79,21 @@ if (interactive() && curl::has_internet()) invisible(installr::check.for.updates
 if (nzchar(Sys.getenv("R_CMD")) && require("rcli", quietly = TRUE)) rcli::r_cmd_call()
 
 # shortcuts
-if (interactive() && requireNamespace("shrtcts", quietly = TRUE)) {
-  shrtcts::add_rstudio_shortcuts(
-    path = getOption("shrtcts.path"),
-    set_keyboard_shortcuts = TRUE
-  )
-}
+# if (interactive() && requireNamespace("shrtcts", quietly = TRUE)) {
+#   shrtcts::add_rstudio_shortcuts(
+#     path = getOption("shrtcts.path"),
+#     set_keyboard_shortcuts = TRUE
+#   )
+# }
 
 # load secret environment variables/tokens
 local({
-  if (!file.exists(fs::path_home(".R/secrets.Renviron"))) {
-    secrets <- yaml::read_yaml(path.expand("~/.R/config.yml"))
+  if (!file.exists(fs::path_home(".config/R/secrets/secrets.Renviron"))) {
+    secrets <- config::get("secrets", file = fs::path_home(".config/R/config.yml"))
     if (!require(gistr)) {
+      if (file.exists(secrets$local_path)) {
+        file.rename(secrets$local_path, paste0(secrets$local_path, ".bak"))
+      }
       suppressMessages(
         utils::download.file(secrets$url, secrets$local_path, quiet = TRUE)
       )
@@ -103,11 +101,11 @@ local({
   }
 })
 
-readRenviron(path.expand("~/.R/secrets.Renviron"))
+readRenviron(fs::path_home(".config/R/secrets/secrets.Renviron"))
 
 # attach extra helper functions
 .rprofile <- new.env()
-sys.source(path.expand("~/.R/rprofile_extras.R"), .rprofile)
+sys.source(path.expand("~/.config/R/scripts/rprofile_extras.R"), .rprofile)
 attach(.rprofile)
 
 # detach
@@ -118,6 +116,9 @@ rm(list = ls())
 
 # autoload magrittr PIPE
 autoload("%>%", "magrittr")
+
+# unload
+
 
 
 
