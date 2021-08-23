@@ -60,9 +60,9 @@ scoop/virustotalapikey filter=git-crypt diff=git-crypt
 dbdocs/dbdocstoken filter=git-crypt diff=git-crypt
 secrets/** filter=git-crypt diff=git-crypt
 code-insiders/dev.to_api_token filter=git-crypt diff=git-crypt
-powershell/psgallery-api-key
-gcalcli/.gcalcli_cache
-gcalcli/.gcalcli_oauth
-gcalcli/gcalcli/**
+powershell/psgallery-api-key filter=git-crypt diff=git-crypt
+gcalcli/.gcalcli_cache filter=git-crypt diff=git-crypt
+gcalcli/.gcalcli_oauth filter=git-crypt diff=git-crypt
+gcalcli/gcalcli/** filter=git-crypt diff=git-crypt
 
 
