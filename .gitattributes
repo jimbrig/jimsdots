@@ -43,11 +43,8 @@ obsidian/todoist-token filter=git-crypt diff=git-crypt
 gnupg/** filter=git-crypt diff=git-crypt
 keep/.keep/.credentials filter=git-crypt diff=git-crypt
 keep/.archive/.credentials filter=git-crypt diff=git-crypt
-R/secrets.Renviron filter=git-crypt diff=git-crypt
-R/cyphr_secret.rds filter=git-crypt diff=git-crypt
-R/.rtweet_token.rds filter=git-crypt diff=git-crypt
-R/gargle/gargle-oauth/** filter=git-crypt diff=git-crypt
-R/jimbrig2011_shiny_client_secret.json filter=git-crypt diff=git-crypt
+R/secrets/** filter=git-crypt diff=git-crypt
+R/gargle/** filter=git-crypt diff=git-crypt
 R/config.yml filter=git-crypt diff=git-crypt
 RStudio/localappdata/ctx/ctx-40565/environment_vars filter=git-crypt diff=git-crypt
 RStudio/localappdata/monitored/connection_history.json filter=git-crypt diff=git-crypt
