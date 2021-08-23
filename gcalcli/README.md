@@ -17,7 +17,7 @@ To setup `gcalcli` after installing, add `.gcalclirc` to `$HOME`:
 
 ### Add to PowerShell $PROFILE
 
-I add `gcalcli calw` to the end of my [PowerShell $PROFILE](../powershell/PowerShell/profile.ps1) so that my initial prompt looks like so:
+I add `gcalcli calw` to the end of my [PowerShell $PROFILE](https://github.com/jimbrig/PowerShell/blob/main/profile.ps1) so that my initial prompt looks like so:
 
 ![image](https://user-images.githubusercontent.com/32652297/130531361-b43a696c-639e-49ba-9d70-1f4e2fa9fa7b.png)
 
