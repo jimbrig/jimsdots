@@ -1,0 +1,30 @@
+options(radian.color_scheme = "monokai")
+options(radian.editing_mode = "vi")
+options(radian.indent_lines = TRUE)
+options(radian.auto_match = TRUE)
+options(radian.auto_suggest = FALSE)
+options(radian.highlight_matching_bracket = TRUE)
+options(radian.auto_indentation = TRUE)
+options(radian.tab_size = 2)
+options(radian.complete_while_typing = TRUE)
+options(radian.completion_prefix_length = 3)
+options(radian.completion_timeout = 0.05)
+options(radian.completion_adding_spaces_around_equals = TRUE)
+options(radian.auto_width = TRUE)
+options(radian.insert_new_line = TRUE)
+options(radian.global_history_file = "~/.radian_history")
+options(radian.history_search_no_duplicates = TRUE)
+options(radian.history_search_ignore_case = TRUE)
+
+options(radian.prompt = "\033[0;34mR>\033[0m ")
+options(radian.shell_prompt = "\033[0;34mR>\033[0m ")
+options(radian.browse_prompt = "\033[0;34mR>\033[0m ")
+
+options(radian.show_vi_mode_prompt = TRUE)
+options(radian.vi_mode_prompt = "")
+
+options(radian.stderr_format = "")
+
+options(radian.force_reticulate_python = TRUE)
+# enable reticulate prompt and trigger `~`
+options(radian.enable_reticulate_prompt = TRUE)
