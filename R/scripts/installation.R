@@ -7,8 +7,6 @@
 #
 #  ------------------------------------------------------------------------
 
-install.packages("pacman")
-
 # run as a background job
 
 pkgs <- c(
@@ -468,4 +466,4 @@ errors <- purrr::map_depth(results, 1, purrr::pluck, "error") %>%
   setNames(pkgs) %>%
   purrr::compact()
 
-qs::qsave(list(results, errors), fs::path_home(paste0(".config/R/lib/", Sys.Date(), "-results.qs")))
+qs::qsave(list(results, errors), fs::path_home(paste0(".R/lib/", Sys.Date(), "-results.qs")))
