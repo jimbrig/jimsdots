@@ -1,0 +1,164 @@
+{
+  "ItemHorizontalAlignment": 3,
+  "ItemWidth": 100.0,
+  "ItemHeight": -1.0,
+  "FileLine1": [
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Attributes",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 32.0,
+      "Padding": 0.0,
+      "TextAlign": 1,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 1.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "DateTime",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 70.0,
+      "Padding": 9.0,
+      "TextAlign": 1,
+      "StringFormat": "yyyy-MM-dd",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 3.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Time",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 35.0,
+      "Padding": 0.0,
+      "TextAlign": 1,
+      "StringFormat": " HH:mm",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 2.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Size",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 75.0,
+      "Padding": 0.0,
+      "TextAlign": 1,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 4.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Name",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 200.0,
+      "Padding": 20.0,
+      "TextAlign": 0,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 1000.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Extension",
+      "IsON": false,
+      "ElementAlign": 0,
+      "MinWidth": 40.0,
+      "Padding": 9.0,
+      "TextAlign": 0,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 100.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Age",
+      "IsON": false,
+      "ElementAlign": 0,
+      "MinWidth": 100.0,
+      "Padding": 0.0,
+      "TextAlign": 1,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 100.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Owner",
+      "IsON": false,
+      "ElementAlign": 0,
+      "MinWidth": 100.0,
+      "Padding": 0.0,
+      "TextAlign": 1,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 100.0
+    }
+  ],
+  "IconParams": {
+    "ImgPos": "-18,0",
+    "ImgSize": "16,16",
+    "IsON": true,
+    "IsAbsolute": false
+  },
+  "ThumbParams": {
+    "ImgPos": "0,0",
+    "ImgSize": "16,16",
+    "IsON": false,
+    "IsAbsolute": false
+  },
+  "ViewName": "Powershell"
+}

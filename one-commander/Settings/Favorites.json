@@ -1,0 +1,116 @@
+[
+  {
+    "FullPath": "\\",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "This PC"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "jimmy"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Desktop",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Desktop"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Documents",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Documents"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Pictures",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Pictures"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Videos",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Videos"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Music",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Music"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Downloads",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Downloads"
+  },
+  {
+    "FullPath": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Programs"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\OneDrive",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "OneDrive"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\AppData\\Roaming\\Microsoft\\Windows\\Recent",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Recent"
+  },
+  {
+    "FullPath": "%RecycleBin%",
+    "Project": "Favorites",
+    "SortOrder": 0,
+    "Alias": "Recycle Bin"
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\.dotfiles",
+    "Project": "Projects",
+    "SortOrder": 0,
+    "Alias": ""
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Dev\\Scripts",
+    "Project": "Projects",
+    "SortOrder": 0,
+    "Alias": ""
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Documents\\PowerShell",
+    "Project": "Projects",
+    "SortOrder": 0,
+    "Alias": ""
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Documents\\WindowsPowerShell",
+    "Project": "Projects",
+    "SortOrder": 0,
+    "Alias": ""
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Dev\\jimbrig\\wsl-dotfiles",
+    "Project": "Projects",
+    "SortOrder": 0,
+    "Alias": ""
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Dev\\docs\\obsidian\\.obsidian",
+    "Project": "Projects",
+    "SortOrder": 0,
+    "Alias": ""
+  },
+  {
+    "FullPath": "C:\\Users\\jimmy\\Dev\\docs\\obsidian\\Engineered-Knowledge",
+    "Project": "Projects",
+    "SortOrder": 0,
+    "Alias": ""
+  }
+]

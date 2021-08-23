@@ -1,0 +1,182 @@
+{
+  "ItemHorizontalAlignment": 3,
+  "ItemWidth": 100.0,
+  "ItemHeight": -1.0,
+  "FileLine1": [
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Name",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 180.0,
+      "Padding": 23.0,
+      "TextAlign": 0,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 1000.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Extension",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 40.0,
+      "Padding": 9.0,
+      "TextAlign": 0,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 30.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Age",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 34.0,
+      "Padding": 4.0,
+      "TextAlign": 1,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 40.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Size",
+      "IsON": true,
+      "ElementAlign": 2,
+      "MinWidth": 70.0,
+      "Padding": 12.0,
+      "TextAlign": 1,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 60.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "DateTime",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 70.0,
+      "Padding": 9.0,
+      "TextAlign": 0,
+      "StringFormat": "yyyy-MM-dd",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 50.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Time",
+      "IsON": true,
+      "ElementAlign": 0,
+      "MinWidth": 30.0,
+      "Padding": 8.0,
+      "TextAlign": 1,
+      "StringFormat": "HH:mm",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 20.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Attributes",
+      "IsON": false,
+      "ElementAlign": 0,
+      "MinWidth": 40.0,
+      "Padding": 0.0,
+      "TextAlign": 1,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 10.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Owner",
+      "IsON": false,
+      "ElementAlign": 0,
+      "MinWidth": 60.0,
+      "Padding": 0.0,
+      "TextAlign": 1,
+      "StringFormat": "Not yet",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 1.0
+    },
+    {
+      "MarkUnimportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RenderElement": "Parent",
+      "IsON": false,
+      "ElementAlign": 0,
+      "MinWidth": 300.0,
+      "Padding": 0.0,
+      "TextAlign": 0,
+      "StringFormat": "",
+      "MarkImportant": {
+        "Item1": -1,
+        "Item2": -1
+      },
+      "RemovalOrder": 1001.0
+    }
+  ],
+  "IconParams": {
+    "ImgPos": "-20,0",
+    "ImgSize": "16,16",
+    "IsON": true,
+    "IsAbsolute": false
+  },
+  "ThumbParams": {
+    "ImgPos": "-40,-4",
+    "ImgSize": "24,24",
+    "IsON": false,
+    "IsAbsolute": false
+  },
+  "ViewName": "Search"
+}

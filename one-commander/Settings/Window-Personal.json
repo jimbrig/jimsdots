@@ -1,0 +1,48 @@
+{
+  "Name": "Personal",
+  "WindowPlacement": {
+    "length": 44,
+    "flags": 2,
+    "showCmd": 3,
+    "ptMinPosition": {
+      "x": -1,
+      "y": -1
+    },
+    "ptMaxPosition": {
+      "x": -1,
+      "y": -1
+    },
+    "rcNormalPosition": {
+      "left": -1780,
+      "top": 157,
+      "right": 20,
+      "bottom": 839
+    }
+  },
+  "browsersLayoutSplit": 1,
+  "layout1Properties": {
+    "IsPathMode": true,
+    "DesiredColumnsHeight": 200.0,
+    "DesiredPreviewHeight": 100.0,
+    "DesiredPreviewWidth": 300.0,
+    "IsPreviewExpandedInHorizontalLayout": true,
+    "IsPreviewExpandedInVerticalLayout": true
+  },
+  "layout2Properties": {
+    "IsPathMode": true,
+    "DesiredColumnsHeight": 200.0,
+    "DesiredPreviewHeight": 100.0,
+    "DesiredPreviewWidth": 300.0,
+    "IsPreviewExpandedInHorizontalLayout": true,
+    "IsPreviewExpandedInVerticalLayout": true
+  },
+  "BrowserTopHeight": 1.0,
+  "BrowserBottomHeight": 1.0,
+  "BrowserLeftWidth": 1.0,
+  "BrowserRightWidth": 1.0,
+  "ActiveBrowserNumber": 0,
+  "ShowDualPane": true,
+  "SavedDualPane": true,
+  "SidebarExpandedWidth": 373.0,
+  "IsSidebarExpanded": true
+}
