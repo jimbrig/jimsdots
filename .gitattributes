@@ -31,9 +31,11 @@ docker/github_pat filter=git-crypt diff=git-crypt
 docker/github_cr_pat filter=git-crypt diff=git-crypt
 docker/acr_pat filter=git-crypt diff=git-crypt
 feedly/feedly_api_tokens.yml filter=git-crypt diff=git-crypt
-gcloud/credentials/** filter=git-crypt diff=git-crypt
-gcloud/legacy_credentials/** filter=git-crypt diff=git-crypt
-gcloud/miscellaneous/** filter=git-crypt diff=git-crypt
+gcloud/AppData/Roaming/gcloud/legacy_credentials/** filter=git-crypt diff=git-crypt
+gcloud/AppData/Roaming/gcloud/credentials/** filter=git-crypt diff=git-crypt
+gcloud/AppData/Roaming/gcloud/access_tokens.db filter=git-crypt diff=git-crypt
+gcloud/AppData/Roaming/gcloud/application_default_credentials.json filter=git-crypt diff=git-crypt
+gcloud/AppData/Roaming/gcloud/credentials.db filter=git-crypt diff=git-crypt
 boto/.boto filter=git-crypt diff=git-crypt
 gdrive/* filter=git-crypt diff=git-crypt
 vault/.vault-token filter=git-crypt diff=git-crypt
