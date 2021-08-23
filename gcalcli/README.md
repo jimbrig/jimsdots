@@ -15,6 +15,21 @@ To setup `gcalcli` after installing, add `.gcalclirc` to `$HOME`:
 
 ```
 
+### Add to PowerShell $PROFILE
+
+I add `gcalcli calw` to the end of my [PowerShell $PROFILE](../powershell/PowerShell/profile.ps1) so that my initial prompt looks like so:
+
+![image](https://user-images.githubusercontent.com/32652297/130531361-b43a696c-639e-49ba-9d70-1f4e2fa9fa7b.png)
+
+and in `~/Documents/PowerShell/profile.ps1`:
+
+```powershell
+# Prompt
+Set-PoshPrompt -Theme wopian
+Write-Color "Custom PowerShell Environment Loaded", "`n[ZLocation] knows about $((Get-ZLocation).Keys.Count) locations.`n", "Calendar:`n" -Color "Blue", "Green", "Yellow"
+gcalcli.exe calw
+```
+
 ## Repository
 
 Repo: [insanum/gcalcli: Google Calendar Command Line Interface (github.com)](https://github.com/insanum/gcalcli)
