@@ -28,11 +28,11 @@ if (!(Test-Installed("RTools"))) {
 # ensure R binaries in system %PATH%
 $rpath = "$env:programfiles\R\R-*\bin\x64" | Convert-Path
 $regexpath = [regex]::Escape($rpath)
-$arrpath = $env:Path -split ';' | Where-Object {$_ -notMatch "^$regexpath\\?"}
+$arrpath = $env:Path -split ';' | Where-Object { $_ -notMatch "^$regexpath\\?" }
 $env:Path = ($arrpath + $rpath) -join ';'
 
 $rscriptpath = which rscript
-Write-Host "✔️ Found RScript Binary via which rscript: $rscriptpath" -ForegroundColor Green 
+Write-Host "✔️ Found RScript Binary via which rscript: $rscriptpath" -ForegroundColor Green
 
 # configure R PATHS
 Write-Host "Review System Environment Variables for R Session" -ForegroundColor Magenta
@@ -47,7 +47,7 @@ $rprofilepath = "$rconfigdir\.Rprofile"
 $rhistpath = "$rconfigdir\.Rhistory"
 $rlibspath = "$rconfigdir\lib\4.1"
 
-[System.Environment]::SetEnvironmentVariable("R_HOME", $userhome, "User")
+[System.Environment]::SetEnvironmentVariable("HOME", $userhome, "User")
 [System.Environment]::SetEnvironmentVariable("R_ENVIRON_USER", $renvironpath, "User")
 [System.Environment]::SetEnvironmentVariable("R_PROFILE_USER", $rprofilepath, "User")
 [System.Environment]::SetEnvironmentVariable("R_LIBS_USER", $rlibspath, "User")
