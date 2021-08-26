@@ -8,7 +8,7 @@
 *.rtf linguist-vendored
 
 # Git-Crypt
-android/* filter=git-crypt diff=git-crypt
+secrets/android/* filter=git-crypt diff=git-crypt
 aws/credentials filter=git-crypt diff=git-crypt
 azure/accessTokens.json filter=git-crypt diff=git-crypt
 azure/azureProfile.json filter=git-crypt diff=git-crypt
