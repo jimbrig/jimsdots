@@ -1,0 +1,11 @@
+{
+  "DeletionModeIsPermanent": false,
+  "DuplicatesAutoSelected": true,
+  "IsMultipleFolderSelection": true,
+  "ScanTypeIsSameContent": true,
+  "ScanTypeSameName": false,
+  "ScanTypeSameNameSize": false,
+  "DeletionPromptEnabled": true,
+  "CustomFileTypes": ",css,html,md,yaml,yml",
+  "ExcludedFolderPaths": []
+}
