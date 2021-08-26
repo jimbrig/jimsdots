@@ -17,3 +17,5 @@ powertoys/PowerToys Run/LogsModuleInterface/
 
 powertoys/PowerToys Run/Cache/
 encrypted-files.txt
+
+wsl/dos2unix.exe
