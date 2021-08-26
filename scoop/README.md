@@ -26,12 +26,15 @@ iwr -useb get.scoop.sh | iex
 Once installed, run `scoop help` for instructions. Also run `scoop checkup` to see if any issues are affecting scoop's status. Some useful commands to run are:
 
 ```powershell
+# install sudo
+scoop install sudo
+
 # disable scoop from windows defender realtime scanning
 sudo Add-MpPreference -ExclusionPath 'C:\ProgramData\scoop'
 sudo Add-MpPreference -ExclusionPath 'C:\Users\jimbr\scoop'
 
 # enable long path support in registry
-Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+sSet-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
 ```
 
 ![image-20210428220135576](./img/image-20210428220135576.png)
