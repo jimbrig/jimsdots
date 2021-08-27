@@ -1,0 +1,180 @@
+{
+  "provider": "bing",
+  "customProviders": [
+    {
+      "name": "ghr",
+      "url": "https://github.com/search?q=%s+language:r",
+      "tags": [
+        "github",
+        "r",
+        "dev"
+      ]
+    },
+    {
+      "name": "myrepos",
+      "url": "https://github.com/search?q=%s+user:jimbrig",
+      "tags": [
+        "github",
+        "dev",
+        "mycontent"
+      ]
+    },
+    {
+      "name": "rseek",
+      "url": "http://rseek.org/?q=%s",
+      "tags": [
+        "r",
+        "dev"
+      ]
+    },
+    {
+      "name": "choco",
+      "url": "https://community.chocolatey.org/packages?q=%s",
+      "tags": [
+        "windows",
+        "config",
+        "packages",
+        "software",
+        "dev"
+      ]
+    },
+    {
+      "name": "metacran",
+      "url": "https://r-pkg.org/search.html?q=%s",
+      "tags": [
+        "r",
+        "dev",
+        "docs"
+      ]
+    },
+    {
+      "name": "psgallery",
+      "url": "https://www.powershellgallery.com/packages?q=%s",
+      "tags": [
+        "windows",
+        "software",
+        "packages",
+        "config",
+        "dev"
+      ]
+    },
+    {
+      "name": "gh",
+      "url": "https://github.com/search?q=%s&ref=opensearch",
+      "tags": [
+        "dev",
+        "github"
+      ]
+    },
+    {
+      "name": "obsidian",
+      "url": "https://forum.obsidian.md/search?q=%s",
+      "tags": [
+        "dev",
+        "docs",
+        "obsidian",
+        "forum"
+      ]
+    },
+    {
+      "name": "devto",
+      "url": "https://dev.to/search?q=%s",
+      "tags": [
+        "dev",
+        "forum"
+      ]
+    },
+    {
+      "name": "devdocs",
+      "url": "https://devdocs.io/#q=%s",
+      "tags": [
+        "dev",
+        "docs"
+      ]
+    },
+    {
+      "name": "hashnode",
+      "url": "https://hashnode.com/search?q=%s",
+      "tags": [
+        "dev",
+        "forum"
+      ]
+    },
+    {
+      "name": "gdrive",
+      "url": "https://drive.google.com/drive/u/0/search?q=%s",
+      "tags": [
+        "mycontent",
+        "cloud"
+      ]
+    },
+    {
+      "name": "rsite",
+      "url": "http://finzi.psych.upenn.edu/cgi-bin/namazu.cgi?query=%s&max=100&result=normal&sort=score&idxname=functions&idxname=views",
+      "tags": [
+        "r",
+        "dev"
+      ]
+    },
+    {
+      "name": "rproj",
+      "url": "https://www.google.com/search?q=%s&domains=r-project.org&sitesearch=r-project.org&btnG=Google+Search",
+      "tags": [
+        "r",
+        "dev"
+      ]
+    },
+    {
+      "name": "rdrr",
+      "url": "https://rdrr.io/search?q=%s",
+      "tags": [
+        "r",
+        "docs"
+      ]
+    },
+    {
+      "name": "edgesettings",
+      "url": "edge://settings/?search=%s",
+      "tags": [
+        "microsoft",
+        "edge",
+        "settings",
+        "config"
+      ]
+    },
+    {
+      "name": "gmail",
+      "url": "https://inbox.google.com/search/%s",
+      "tags": [
+        "email",
+        "google",
+        "mycontent"
+      ]
+    },
+    {
+      "name": "edgehist",
+      "url": "edge://history/all?q=%s",
+      "tags": [
+        "edge",
+        "mycontent"
+      ]
+    },
+    {
+      "name": "gistr",
+      "url": "https://gist.github.com/search?q=%s+language:r&ref=searchresults",
+      "tags": [
+        "r",
+        "github",
+        "dev"
+      ]
+    },
+    {
+      "name": "fa",
+      "url": "https://fontawesome.com/icons?d=gallery&q=%s",
+      "tags": [
+        "dev",
+        "design"
+      ]
+    }
+  ]
+}
