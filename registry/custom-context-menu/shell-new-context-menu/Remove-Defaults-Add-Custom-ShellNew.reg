@@ -1,0 +1,150 @@
+Windows Registry Editor Version 5.00
+
+;-----------------------------------
+; REMOVE DEFAULT NEW CONTEXT MENU ITEMS
+;-----------------------------------
+
+[-HKEY_CLASSES_ROOT\.accdb\Access.Application.16\ShellNew]
+[-HKEY_CLASSES_ROOT\.mdb\ShellNew]
+[-HKEY_CLASSES_ROOT\.bmp\ShellNew]
+[-HKEY_CLASSES_ROOT\.rtf\ShellNew]
+[-HKEY_CLASSES_ROOT\.zip\CompressedFolder\ShellNew]
+[-HKEY_CLASSES_ROOT\.pub\Publisher.Document.16\ShellNew]
+
+; ---------------------------------------
+; ADD CUSTOM SHELL NEW FILES BY EXTENSION
+; ---------------------------------------
+
+; BAT
+
+[HKEY_CLASSES_ROOT\.bat]
+@="bat"
+
+[HKEY_CLASSES_ROOT\.bat\ShellNew]
+"FileName"="Template.bat"
+
+[HKEY_CLASSES_ROOT\bat]
+@="Batch Script"
+
+; CMD
+
+[HKEY_CLASSES_ROOT\.cmd]
+@="cmd"
+
+[HKEY_CLASSES_ROOT\.cmd\ShellNew]
+"FileName"="Template.cmd"
+
+[HKEY_CLASSES_ROOT\cmd]
+@="Command Line Executable"
+
+; CSS
+
+[HKEY_CLASSES_ROOT\.css]
+@="css"
+
+[HKEY_CLASSES_ROOT\.css\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\css]
+@="CSS Stylesheet"
+
+
+; CSV
+
+[HKEY_CLASSES_ROOT\.csv]
+@="csv"
+
+[HKEY_CLASSES_ROOT\.csv\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\csv]
+@="Comma Separated CSV File"
+
+
+; JSON
+
+[HKEY_CLASSES_ROOT\.json]
+@="json"
+
+[HKEY_CLASSES_ROOT\.json\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\json]
+@="JSON File"
+
+; MARKDOWN
+
+[HKEY_CLASSES_ROOT\.md]
+@="markdown"
+
+[HKEY_CLASSES_ROOT\.md\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\markdown]
+@="Markdown Document"
+
+; PS1
+
+[HKEY_CLASSES_ROOT\.ps1]
+@="ps1"
+
+[HKEY_CLASSES_ROOT\.ps1\ShellNew]
+"FileName"="Script.ps1"
+
+[HKEY_CLASSES_ROOT\ps1]
+@="PowerShell Script"
+
+; REG
+
+[HKEY_CLASSES_ROOT\.reg]
+@="reg"
+
+[HKEY_CLASSES_ROOT\.reg\ShellNew]
+"FileName"="RegEdit.reg"
+
+[HKEY_CLASSES_ROOT\reg]
+@="Registration Entry"
+
+; R
+
+[HKEY_CLASSES_ROOT\.r]
+@="r"
+
+[HKEY_CLASSES_ROOT\.r\ShellNew]
+"FileName"="Template.R"
+
+[HKEY_CLASSES_ROOT\r]
+@="R Script"
+
+; TXT
+
+[HKEY_CLASSES_ROOT\.txt]
+@="txt"
+
+[HKEY_CLASSES_ROOT\.txt\ShellNew]
+"FileName"="Template.txt"
+
+[HKEY_CLASSES_ROOT\txt]
+@="Text Document"
+
+; VBS
+
+[HKEY_CLASSES_ROOT\.vbs]
+@="vbs"
+
+[HKEY_CLASSES_ROOT\.vbs\ShellNew]
+"FileName"="Template.vbs"
+
+[HKEY_CLASSES_ROOT\vbs]
+@="Visual Basic Script"
+
+; YML
+
+[HKEY_CLASSES_ROOT\.yml]
+@="yml"
+
+[HKEY_CLASSES_ROOT\.yml\ShellNew]
+"FileName"="comfig.yml"
+
+[HKEY_CLASSES_ROOT\yml]
+@="YAML Config"
