@@ -1,5 +1,19 @@
 Windows Registry Editor Version 5.00
 
+; Custom Shell New Template Files
+
+; CSS Style Sheet
+[HKEY_CLASSES_ROOT\.css]
+@="css"
+
+[HKEY_CLASSES_ROOT\.css\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\css]
+@="CSS Stylesheet"
+
+; 
+
 ; Created with Winaero Tweaker 0.17.1.0
 ; https://winaero.com
 
