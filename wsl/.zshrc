@@ -33,6 +33,7 @@ alias expl='explorer.exe'
 alias notepad='notepad.exe'
 alias npad='notepad.exe'
 alias clip='clip.exe'
+alias updatesys='sudo apt -y update && sudo apt -y upgrade && sudo apt -y autoremove'
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
