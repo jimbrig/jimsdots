@@ -101,11 +101,26 @@ mkdir etc/
 # install git-crypt
 brew install git-crypt
 
+# install cargo
+sudo apt-get update -y
+sudo apt-get install -y cargo
+
+echo '\n# Add .cargo to $PATH\nexport PATH="~/.cargo/bin:$PATH"\n' >> ~/.zshrc
+
+cargo install cargo-update
+cargo install exa
+cargo install topgrade
+
 
 # install gcloudsdk
 
 # install postgresql
 
-# install 
+# cheat.sh
+sudo apt-get install rlwrap xsel -y
+curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh
+sudo chmod +x /usr/local/bin/cht.sh
+
+
 
 
