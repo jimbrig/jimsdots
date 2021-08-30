@@ -2,6 +2,20 @@
 
 ## Contents
 
+- [SSH Keys](#ssh-keys)
+- [Scripts](#scripts)
+- [Notes](#notes)
+  - [SSH Setup and Key Generation](#ssh-setup-and-key-generation)
+    - [Windows](#windows)
+  - [Backup Keys to Dotfiles and Symlink Back](#backup-keys-to-dotfiles-and-symlink-back)
+    - [Windows - MSI](#windows---msi)
+    - [WSL - Ubuntu-CommPrev](#wsl---ubuntu-commprev)
+  - [Enabling OpenSSH client on Windows 10](#enabling-openssh-client-on-windows-10)
+    - [Configure your SSH keys](#configure-your-ssh-keys)
+  - [Add SSH key to your GitHub Account](#add-ssh-key-to-your-github-account)
+  - [Create SSH Keypair](#create-ssh-keypair)
+  - [Add Public Key to GitHub](#add-public-key-to-github)
+
 ## SSH Keys
 
 Currently, I have the following SSH keys under version control:
