@@ -65,5 +65,13 @@ gcalcli/.gcalcli_cache filter=git-crypt diff=git-crypt
 gcalcli/.gcalcli_oauth filter=git-crypt diff=git-crypt
 gcalcli/gcalcli/** filter=git-crypt diff=git-crypt
 gcalcli/.gcalclirc filter=git-crypt diff=git-crypt
-exported-configs/rapidee/**
+exported-configs/rapidee/** filter=git-crypt diff=git-crypt
+ssh/Lenovo/Lenovo_id_rsa filter=git-crypt diff=git-crypt
+ssh/Lenovo/Lenovo_id_rsa.pub filter=git-crypt diff=git-crypt
+ssh/MSI/MSI_id_rsa filter=git-crypt diff=git-crypt
+ssh/MSI/MSI_id_rsa.pub filter=git-crypt diff=git-crypt
+ssh/WSL-Ubuntu/WSL_Ubuntu_id_rsa filter=git-crypt diff=git-crypt
+ssh/WSL-Ubuntu/WSL_Ubuntu_id_rsa.pub filter=git-crypt diff=git-crypt
+ssh/WSL-Ubuntu-CommPrev/WSL_Ubuntu-CommPrev_id_rsa filter=git-crypt diff=git-crypt
+ssh/WSL-Ubuntu-CommPrev/WSL_Ubuntu-CommPrev_id_rsa.pub filter=git-crypt diff=git-crypt
 
