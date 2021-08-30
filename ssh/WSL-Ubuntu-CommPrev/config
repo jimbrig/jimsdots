@@ -1,0 +1,6 @@
+Host *
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/WSL_Ubuntu-CommPrev_id_rsa
+    IdentitiesOnly yes
+
