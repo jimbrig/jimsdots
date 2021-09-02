@@ -1,0 +1,1 @@
+.\setup.exe /configure configuration-Office365-x64.xml

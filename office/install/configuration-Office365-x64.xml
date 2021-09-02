@@ -1,0 +1,11 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="InsiderFast">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
+    </Product>
+    <Updates Enabled="TRUE" Channel="InsiderFast" />
+    <Display Level="None" AcceptEULA="TRUE" />
+    <Property Name="AUTOACTIVATE" Value="1" />
+  </Add>
+</Configuration>
+<!-- install via .\setup.exe /configure configuration-Office365-x64.xml -->
