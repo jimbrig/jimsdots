@@ -252,7 +252,7 @@ Add buckets:
 
 ```powershell
 scoop bucket add extras
-scoop bucket add scoop-completion
+scoop bucket add scoop-completion https://github.com/Moeologist/scoop-completion
 scoop bucket add nonportable
 scoop bucket add nerd-fonts
 scoop bucket add r-bucket https://github.com/cderv/r-bucket.git
