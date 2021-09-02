@@ -1,21 +1,14 @@
+*.log
+*.exe
+*.zip
 
 R/archive/
-
 git/.archive
-
 executables/
-
 powertoys/sync.ffs_db
-
 powertoys/Settings Logs/
-
 powertoys/RunnerLogs/
-
-*.log
-
 powertoys/PowerToys Run/LogsModuleInterface/
-
 powertoys/PowerToys Run/Cache/
 encrypted-files.txt
 
-wsl/dos2unix.exe
