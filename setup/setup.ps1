@@ -59,7 +59,8 @@ nvm install "latest"
 nvm on
 npm i -g npm@7.20.6
 npm login
-npm i -g tldr npm-windows-upgrade npm-check npm-user-cli doctoc npq nodemon save-local cross-env yarn prettier eslint create-react-app create-next-app dbdocs release-it
+npm i -g tldr doctoc cross-env prettier eslint dbdocs
+# npm i -g tldr npm-windows-upgrade npm-check npm-user-cli doctoc npq nodemon save-local cross-env yarn prettier eslint create-react-app create-next-app dbdocs release-it
 RefreshEnv.cmd
 cinst boxstarter choco-cleaner choco-package-list-backup instchoco winaero-tweaker linkshellextension
 RefreshEnv.cmd
