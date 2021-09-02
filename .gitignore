@@ -1,7 +1,7 @@
 *.log
 *.exe
 *.zip
-
+*/.history/*
 R/archive/
 git/.archive
 executables/
@@ -11,4 +11,5 @@ powertoys/RunnerLogs/
 powertoys/PowerToys Run/LogsModuleInterface/
 powertoys/PowerToys Run/Cache/
 encrypted-files.txt
+
 
