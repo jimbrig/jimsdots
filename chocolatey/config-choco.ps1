@@ -9,8 +9,7 @@ Function Add-PathVariable {
     )
     if (Test-Path $addPath){
         $regexAddPath = [regex]::Escape($addPath)
-        $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch 
-"^$regexAddPath\\?"}
+        $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch "^$regexAddPath\\?"}
         $env:Path = ($arrPath + $addPath) -join ';'
     } else {
         Throw "'$addPath' is not a valid path."
@@ -21,16 +20,23 @@ Function Add-PathVariable {
 # Chocolatey Configuration Script
 # --------------------------------
 
+Write-Host "Configuring Chocolatey" -ForegroundColor Blue
+
 # Check Administrative Priveledges
 $isadmin = (new-object System.Security.Principal.WindowsPrincipal([System.Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole("Administrators")
 if (-not ($isadmin)) { throw "Must have Admininstrative Priveledges..." }
 
-Write-Host "Configuring Chocolatey" -ForegroundColor Blue
+# Enable Long Path Support:
+Write-Host "Enabling Long Path Support through Registry..." -ForegroundColor Yellow
+Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
 
-# Initial Installations:
-Write-Host "Installing chocolatey helpers.." -ForegroundColor Yellow
-choco upgrade boxstarter choco-cleaner choco-package-list-backup instchoco chocolateygui 7zip -y
-refreshenv
+# Add to PATH:
+Write-Host "Ensuring Chocolatey on System %PATH%..." -ForegroundColor Yellow
+Add-PathVariable "$env:ALLUSERSPROFILE\chocolatey\bin"
+
+# Add Defender Exclusion:
+Write-Host "Adding Chocolatey to Defender Exclusion List..." -ForegroundColor Yellow
+App-MpPreference -ExclusionPath $env:chocolateyinstall
 
 # Configure Features and Settings:
 Write-Host "Configuring Chocolatey's Settings and Features..." -ForegroundColor Yellow
@@ -44,9 +50,15 @@ choco feature enable -n removePackageInformationOnUninstall
 Write-Host "Done. Current feature set is: " -ForegroundColor Green
 choco feature list
 
-# Add Defender Exclusion:
-Write-Host "Adding Chocolatey to Defender Exclusion List..." -ForegroundColor Yellow
-App-MpPreference -ExclusionPath $env:chocolateyinstall
+# Initial Installations:
+Write-Host "Installing chocolatey helpers.." -ForegroundColor Yellow
+choco upgrade boxstarter choco-cleaner choco-package-list-backup instchoco chocolateygui 7zip -y
+refreshenv
+
+# Install Git w/ Custom Parameters
+Write-Host "Installing Git with Custom Parameters..." -ForegroundColor Yellow
+choco upgrade git.install --params "/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration /NoAutoCrlf" --install-arguments='/COMPONENTS="icons,assoc,assoc_sh,autoupdate,windowsterminal,scalar"'
+refreshenv
 
 # Finish:
 refreshenv
