@@ -1,160 +1,31 @@
 [user]
 	name = Jimmy Briggs
-	email = jimmy.briggs@tychobra.com
-	signingKey = 274245153EC76E951D9850063226565967576947
-
-# managing profiles via gitkraken now!
-
-# if in tychobra directory use tychobra user config from "~/.gitconfig_tychobra"
-# [includeIf "gitdir:~/Dev/tychobra"]
-# 	path = ~/.gitconfig_tychobra
-# # ensure switch back to jimbrig profile is in other project directories
-# [includeIf "gitdir:~/Dev/jimbrig"]
-# 	path = ~/.gitconfig_jimbrig
-# [includeIf "gitdir:~/Dev/sandbox"]
-# 	path = ~/.gitconfig_jimbrig
-# [includeIf "gitdir:~/*"]
-# 	path = ~/.gitconfig_jimbrig
-
-# SSH protocol
+	email = jimmy.briggs@jimbrig.com
+	signingKey = 3970755CB8844CDACB681B4C0917266E974D7790
 [default]
 	protocol = ssh
-
-# editor set to vscode-insiders
-[core]
-	editor = code-insiders --wait --new-window
-	longpaths = true
-	# Use custom `.gitignore` and `.gitattributes`
-    excludesfile = ~/.gitignore
-    attributesfile = ~/.gitattributes
-	autocrlf = true
-	symlinks = true
-	safecrlf = warn
-	# Speed up commands involving untracked files such as `git status`.
-    # https://git-scm.com/docs/git-update-index#_untracked_cache
-    untrackedCache = true
-[diff]
-	tool = code-insiders
-	renames = copies
-[difftool "code-insiders"]
-	cmd = code-insiders --wait --diff $LOCAL $REMOTE
-[merge]
-	tool = code-insiders
-	# Include summaries of merged commits in newly created merge commit messages
-	log = true
-[mergetool "code-insiders"]
-	cmd = code-insders --wait $MERGED
-	trustexitcode = true
+[gpg]
+	program = gpg
 [commit]
 	gpgSign = true
 [tag]
 	forceSignAnnotated = true
-[gpg]
-	program = gpg
+[help]	
+	autocorrect = 1
 [color]
-	# Use colors in Git commands that are capable of colored output when
-    # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
 	ui = auto
 [color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
+	current = yellow reverse
+	local = yellow
+	remote = green
 [color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
+    	meta = yellow bold
+    	frag = magenta bold
+    	old = red bold
+    	new = green bold
 [color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
-    branch = magenta
-[credential]
-	helper = wincred
-[help]
-	autocorrect = 1
-[apply]
-	# Detect and fix whitespace errors when applying a patch
-	whitespace = fix
-[rerere]
-	enabled = true
-[help]
-    # Automatically correct and execute mistyped commands
-    autocorrect = 1
-[alias]
-	# List current aliases
-	aliases = "!git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / | grep -v ^'alias '"
-	# View abbreviated SHA, description, and history graph of the latest 20 commits
-    l = log --pretty=oneline -n 20 --graph --abbrev-commit
-	# View the current working tree status using the short format
-    s = status -s
-    st = status -s
-	# Show the diff between the latest commit and the current state
-    d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
-    # `git di $number` shows the diff between the state `$number` revisions ago and the current state
-    di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
-    # Pull in remote changes for the current repository and all its submodules
-    p = !"git pull; git submodule foreach git pull origin master"
-    # Clone a repository including all submodules
-    c = clone --recursive
-    # Commit all changes
-    ca = !git add -A && git commit -av
-    # Switch to a branch, but don't create it
-    co = checkout
-    # Switch to a branch, creating it if necessary
-    go = checkout -B
-    # Show verbose output about tags, branches or remotes
-    tags = tag -l
-    branches = branch -a
-    remotes = remote -v
-    # Credit an author on the latest commit
-    credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
-    # Interactive rebase with the given number of latest commits
-    reb = "!r() { git rebase -i HEAD~$1; }; r"
-    # Find branches containing commit
-    fb = "!f() { git branch -a --contains $1; }; f"
-    # Find tags containing commit
-    ft = "!f() { git describe --always --contains $1; }; f"
-    # Find commits by source code
-    fc = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
-    # Find commits by commit message
-    fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
-    # Remove branches that have already been merged with master
-    dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
-    # Undo Commit; leaves files. Only for non-public commits
-    uncommit = reset --soft HEAD^
-	last = cat-file commit HEAD
-	undo = reset --soft HEAD^
-	pullr = pull --rebase
-	count = shortlog -sn
-	reb = "!r() { git rebase -i HEAD~$1; }; r"
-	empty = "!git commit --allow-empty -m 'chore(deploy): trigger build with empty commit'"
-	whatsnew = "!git diff origin/$(git currbranch)...HEAD"
-	whatscoming = "!git diff HEAD...origin/$(git currbranch)"
-	currbranch = !git branch | grep \"^\\\\*\" | cut -d \" \" -f 2
-	currentbranch = currbranch
-	filelog = log -u
-	today = log --since=1am --author='Jimmy Briggs' --format='- %s'
-	ls = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	st = status -sb
-	s = status -sb
-	d = diff
-	grep = grep -n
-	newbranch = checkout -b
-[tag]
-	forceSignAnnotated = false
-[submodule]
-	recurse = true
-# URL shorthands
-[url "git@github.com:"]
-    insteadOf = "gh:"
-    pushInsteadOf = "github:"
-    pushInsteadOf = "git://github.com/"
-[url "git://github.com/"]
-    insteadOf = "github:"
-[url "git@gist.github.com:"]
-    insteadOf = "gst:"
-    pushInsteadOf = "gist:"
-    pushInsteadOf = "git://gist.github.com/"
-[url "git://gist.github.com/"]
-    insteadOf = "gist:"
+	added = yellow
+	changed = green
+	untracked = cyan
+	branch = magenta
+
