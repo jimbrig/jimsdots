@@ -22,6 +22,7 @@ Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40660       12.0.40660.0 
 Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40660      12.0.40660      Microsoft Corporation      
 MSI NBFoundation Service                                           1.0.2107.1601   MSI                        
 WD_BLACK AN1500                                                    1.0.12.0        ENE TECHNOLOGY INC.        
+GitHub CLI                                                         2.0.0           GitHub, Inc.               
 WD_BLACK D50                                                       1.0.9.0         ENE TECHNOLOGY INC.        
 Microsoft Edge Dev                                                 95.0.997.1      Microsoft Corporation      
 Intel(R) Chipset Device Software                                   10.1.18383.8213 Intel(R) Corporation       
