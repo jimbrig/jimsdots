@@ -5,6 +5,7 @@ Chocolatey is the best all-around, all-purpose package manager for Windows. It i
 ## Notes
 
 - Additional setup necessary for BoxStarter and Choco-Package-List-Backup. (*see [setup-choco-package-list-backup.ps1](./tools/setup-choco-package-list-backup.ps1)*)
+- Automatic push-to-github is done using the [post-cplb-git-push.bat](./tools/post-cplb-git-push.bat) Batch File in *tools*.
 
 ## Directory Layout
 
@@ -29,7 +30,21 @@ Chocolatey's core configuration file located at `C:ProgramData\chocolatey\config
 
 ## Setup Scripts
 
+Setup scripts are split into three parts:
+- Installation
+- Configuration
+- Bootstrap
+
 ### Installation
+
+The [install-choco.ps1](install-choco.ps1) script performs the following steps:
+
+1. Ensures Admin Priveledges
+2. Checks/Sets the PowerShell Execution Policy to *Unrestricted* (System and User Scope)
+3. Creates the PowerShell `$PROFILE` if does not exist (allows chocolatey to incorporate its profile and tab-autocompletion on install)
+4. Installs Chocolatey
+5. Dot-Sources `$PROFILE`
+6. Refreshes environment
 
 ```powershell
 #Requires -RunAsAdministrator
@@ -72,6 +87,32 @@ Write-Host "Finished Installing Chocolatey. Run Configuration script now." -Fore
 
 ### Configuration
 
+The configuration script setups up various features, settings, and system properties to make chocolatey ready for use.
+
+The [config-choco.ps1](config-choco.ps1) script performs the following steps:
+
+1. Ensures Admin
+2. Ensures Chocolatey is on System `%PATH%` (see helper function `Add-PathVariable`)
+3. Enables Long-Path-Support on Windows through Registry Edit
+4. Adds Microsoft Defender Exclusion for path: `$env:chocolateyinstall` (i.e. `C:\ProgramData\chocolatey`)
+5. Configures Chocolatey Settings/Features:
+   - enables `allowGlobalConfirmation`
+   - sets `cacheLocation` to $env:TEMP
+   - enables `logEnvironmentValues`
+   - enables `virusCheck`
+   - configures `virusScannerType` to `VirusTotal`
+   - enables `useRememberedArgumentsForUpgrades`
+   - enables `removePackageInformationOnUninstall`
+6. Installs initial chocolatey tools:
+   - Boxstarter
+   - choco-cleaner
+   - choco-package-list-backup
+   - instchoco
+   - chocolateygui
+   - 7zip
+7. Installs `git` to system with custom silent install parameters that add UNIX tools to PATH, add Git Bash Windows Terminal Profile, Configure AutoUpdate, etc. 
+8. Dot-Sources `$PROFILE` and Refreshes environment
+
 ```powershell
 #Requires -RunAsAdministrator
 
@@ -84,8 +125,7 @@ Function Add-PathVariable {
     )
     if (Test-Path $addPath){
         $regexAddPath = [regex]::Escape($addPath)
-        $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch 
-"^$regexAddPath\\?"}
+        $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch "^$regexAddPath\\?"}
         $env:Path = ($arrPath + $addPath) -join ';'
     } else {
         Throw "'$addPath' is not a valid path."
@@ -102,10 +142,17 @@ if (-not ($isadmin)) { throw "Must have Admininstrative Priveledges..." }
 
 Write-Host "Configuring Chocolatey" -ForegroundColor Blue
 
-# Initial Installations:
-Write-Host "Installing chocolatey helpers.." -ForegroundColor Yellow
-choco upgrade boxstarter choco-cleaner choco-package-list-backup instchoco chocolateygui 7zip -y
-refreshenv
+# Enable Long Path Support:
+Write-Host "Enabling Long Path Support through Registry..." -ForegroundColor Yellow
+Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+
+# Add to PATH:
+Write-Host "Ensuring Chocolatey on System %PATH%..." -ForegroundColor Yellow
+Add-PathVariable "$env:ALLUSERSPROFILE\chocolatey\bin"
+
+# Add Defender Exclusion:
+Write-Host "Adding Chocolatey to Defender Exclusion List..." -ForegroundColor Yellow
+App-MpPreference -ExclusionPath $env:chocolateyinstall
 
 # Configure Features and Settings:
 Write-Host "Configuring Chocolatey's Settings and Features..." -ForegroundColor Yellow
@@ -119,36 +166,28 @@ choco feature enable -n removePackageInformationOnUninstall
 Write-Host "Done. Current feature set is: " -ForegroundColor Green
 choco feature list
 
-# Add Defender Exclusion:
-Write-Host "Adding Chocolatey to Defender Exclusion List..." -ForegroundColor Yellow
-App-MpPreference -ExclusionPath $env:chocolateyinstall
+# Initial Installations:
+Write-Host "Installing chocolatey helpers.." -ForegroundColor Yellow
+choco upgrade boxstarter choco-cleaner choco-package-list-backup instchoco chocolateygui 7zip -y
+refreshenv
+
+# Install Git w/ Custom Parameters
+Write-Host "Installing Git with Custom Parameters..." -ForegroundColor Yellow
+choco upgrade git.install --params "/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration /NoAutoCrlf" --install-arguments='/COMPONENTS="icons,assoc,assoc_sh,autoupdate,windowsterminal,scalar"'
+refreshenv
 
 # Finish:
 refreshenv
 . $profile
 refreshenv
 Write-Host "Finished Configuring Chocolatey." -ForegroundColor Green
-
-### DEPRECATED: ###
-
-# choco feature enable -n allowEmptyChecksums
-
-# if (!(Test-Path -Path $PROFILE)) {
-#   Write-Host "Creating Powershell Profile" -ForegroundColor Green
-#   New-Item -ItemType File -Path $PROFILE -Force
-#
-#   Add-Content -Path $profile -Value '# chocolatey profile
-#   $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
-#   if (Test-Path($ChocolateyProfile)) {
-#     Import-Module "$ChocolateyProfile"
-#   }'
-#   Write-Host "Added Chocolatey to PowerShell Profile" -ForegroundColor Green
-#}
 ```
 
 ### Bootstrap
 
 The `bootstrap-choco.ps1` script re-installs all chocolatey packages for a system.
+
+See [packages.config](backup/MSI/packages.config).
 
 ```powershell
 $compinfo = Get-ComputerInfo
