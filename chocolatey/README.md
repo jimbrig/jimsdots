@@ -2,7 +2,34 @@
 
 Chocolatey is the best all-around, all-purpose package manager for Windows. It is build off PowerShell and NuGet and has a vast community full or resources and submitted packages for software installations.
 
-## Installation
+## Notes
+
+- Additional setup necessary for BoxStarter and Choco-Package-List-Backup.
+
+## Directory Layout
+
+### backup
+
+This directory houses backup files provided from the `choco-package-list-backup` tool. In particular it contains the latest `packages.config` file, the `choco-package-list-backup.config` configuration used to generate it, and a gitignored `InstChoco.exe` executable.
+
+### tools
+
+These tools are located under `C:\tools\BCURRAN3`.
+
+- choco-package-list-backup
+- choco-cleaner
+
+Additionally, I provide a custom batch file: `post-cplb-git-push.bat` to automatically push changes in the backups directory to Git/GitHub.
+
+- custom `post-cplb-git-push.bat` batch file
+
+### config
+
+Chocolatey's core configuration file located at `C:ProgramData\chocolatey\config`. (XML Formatted `.config` file).
+
+## Setup Scripts
+
+### Installation
 
 ```powershell
 #Requires -RunAsAdministrator
@@ -43,7 +70,7 @@ catch [System.Management.Automation.CommandNotFoundException] {
 Write-Host "Finished Installing Chocolatey. Run Configuration script now." -ForegroundColor Green
 ```
 
-## Configuration
+### Configuration
 
 ```powershell
 #Requires -RunAsAdministrator
@@ -119,28 +146,14 @@ Write-Host "Finished Configuring Chocolatey." -ForegroundColor Green
 #}
 ```
 
-## Notes
+### Bootstrap
 
-- Additional setup necessary for BoxStarter and Choco-Package-List-Backup.
+The `bootstrap-choco.ps1` script re-installs all chocolatey packages for a system.
 
-## Directory Layout
+```powershell
+$compinfo = Get-ComputerInfo
+$compname = $compinfo.CsDNSHostName
 
-### backup
-
-This directory houses backup files provided from the `choco-package-list-backup` tool. In particular it contains the latest `packages.config` file, the `choco-package-list-backup.config` configuration used to generate it, and a gitignored `InstChoco.exe` executable.
-
-### tools
-
-These tools are located under `C:\tools\BCURRAN3`.
-
-- choco-package-list-backup
-- choco-cleaner
-
-Additionally, I provide a custom batch file: `post-cplb-git-push.bat` to automatically push changes in the backups directory to Git/GitHub.
-
-- custom `post-cplb-git-push.bat` batch file
-
-### config
-
-Chocolatey's core configuration file located at `C:ProgramData\chocolatey\config`. (XML Formatted `.config` file).
-
+if ($compname -eq "DESKTOP-MSI") { choco install -y "$HOME\.dotfiles\chocolatey\backup\MSI\packages.config" }
+if ($compname -eq "DESKTOP-LENOVO") { choco install -y "$HOME\.dotfiles\chocolatey\backup\Lenovo\packages.config" }
+```
