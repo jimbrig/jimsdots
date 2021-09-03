@@ -2,8 +2,12 @@
 sudo apt -y update && sudo apt -y upgrade && sudo apt -y autoremove
 sudo apt -y install git-core build-essential dos2unix curl ubuntu-wsl gnupg file
 
-# import gpg keys
-gpg --import /mnt/c/users/jimmy/.gnupg/privatekeys.asc
+# import gpg keys (if exist)
+# if [[ -d /mnt/c/users/jimmy/.gnupg ]]
+# then
+#    echo "Found ~/.gnupg on windows filesystem. Exporting GPG keys from windows to Linux."
+#    /mnt/c/
+gpg --import /mnt/c/windows/program\ files/git/bin/ -command gpg --export users/jimmy/.gnupg/privatekeys.asc
 
 # link ssh keys
 mkdir .ssh
