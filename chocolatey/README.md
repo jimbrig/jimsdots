@@ -4,7 +4,7 @@ Chocolatey is the best all-around, all-purpose package manager for Windows. It i
 
 ## Notes
 
-- Additional setup necessary for BoxStarter and Choco-Package-List-Backup.
+- Additional setup necessary for BoxStarter and Choco-Package-List-Backup. (*see [setup-choco-package-list-backup.ps1](./tools/setup-choco-package-list-backup.ps1)*)
 
 ## Directory Layout
 
