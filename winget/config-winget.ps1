@@ -12,4 +12,6 @@ Copy-Item $dotfilespath $wingetsettingsdir
 
 # Refresh and test
 refreshenv
-winget settings
+
+# should see new experimental msstore and newstore here:
+winget source list
