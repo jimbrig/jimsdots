@@ -8,14 +8,10 @@
 *.rtf linguist-vendored
 
 # Git-Crypt
+b2/.b2_account_info filter=git-crypt diff=git-crypt
 secrets/android/* filter=git-crypt diff=git-crypt
 aws/credentials filter=git-crypt diff=git-crypt
-azure/accessTokens.json filter=git-crypt diff=git-crypt
-azure/azureProfile.json filter=git-crypt diff=git-crypt
-azure/AzureRmContext.json filter=git-crypt diff=git-crypt
-azure/clouds.config filter=git-crypt diff=git-crypt
-azure/dockerAccessToken.json filter=git-crypt diff=git-crypt
-azure/AzureRmContext.json filter=git-crypt diff=git-crypt
+azure-cli/azure/* filter=git-crypt diff=git-crypt
 azure-cli/accessTokens.json filter=git-crypt diff=git-crypt
 azure-cli/azureProfile.json filter=git-crypt diff=git-crypt
 azure-cli/AzureRmContext.json filter=git-crypt diff=git-crypt
