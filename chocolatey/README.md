@@ -196,3 +196,37 @@ $compname = $compinfo.CsDNSHostName
 if ($compname -eq "DESKTOP-MSI") { choco install -y "$HOME\.dotfiles\chocolatey\backup\MSI\packages.config" }
 if ($compname -eq "DESKTOP-LENOVO") { choco install -y "$HOME\.dotfiles\chocolatey\backup\Lenovo\packages.config" }
 ```
+
+### Custom Installs
+
+*Note the following installations utilize custom parameters during install:*
+
+#### Chocolatey
+
+- Git: 
+  - Git and UNIX Tools on %PATH%
+  - No `autocrlf` configuration
+  - Registry: File Extension Associations
+  - No Shell Context Menu Entries
+  - Auto-Update
+  - New Features: 
+    - *Window Terminal Profile/Integration* 
+    - *Scalar*
+- Python
+  - Append to %PATH%
+  - Install for ALLUSERS (System) - should default to `C:\Python39` or `C:\Program Files\Python39`
+
+```powershell
+# GIT.INSTALL
+choco install -y git.install `
+	--install-arguments='"/COMPONENTS=icons,assoc,assoc_sh,autoupdate,windowsterminal,scalar"' `
+	--package-parameters='"/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration /NoAutoCrlf"'
+
+# PYTHON3
+choco install python3 --install-arguments="'/quiet InstallAllUsers=1 PrependPath=1'"
+```
+
+
+
+
+
