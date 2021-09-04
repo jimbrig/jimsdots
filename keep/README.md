@@ -16,11 +16,39 @@ keep init
 
 which will setup the `~/.keep` directory and initialize your backup gist on GitHub.
 
-## Commands
+## Configure Keep
+
+Restore keep settings from this repo's [keep](../keep/) directory via:
 
 ```powershell
-~\.dotfiles :: git(main) 
-➜ cat keep/.keep/commands.json | jq
+# Run keep --help to generate ~/.keep/
+keep --help
+# Detected fresh installation. Initializing environment in ~/.keep directory
+
+Copy-Item -Path "keep/**" -Destination "~/.keep" -Recurse
+```
+
+Then run keep list to check it worked:
+
+```powershell
+keep list
+```
+
+***
+
+My Keep `commands.json` backup GitHub Gist is located at: <https://gist.github.com/jimbrig/da88cb0d6ad1ff9037ce4e209728adfa>
+
+Note that the Gist's ID is: `da88cb0d6ad1ff9037ce4e209728adfa`.
+
+Note: the [.keep](./.keep) folder is hard-linked to my actual `~/.keep` configuration folder and `.credentials` is encrypted via `git-crypt`.
+
+***
+
+### Keep Commands - `~/.keep/commands.json`:
+
+These are synced to my [github gist: Backup for keep](https://gist.githubusercontent.com/jimbrig/da88cb0d6ad1ff9037ce4e209728adfa/raw/0ba450e6b4baf9be77bf81faf02131ff8d8f098b/commands.json):
+
+```json
 {
   "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))": {
     "desc": "Installs chocolatey",
@@ -197,69 +225,6 @@ which will setup the `~/.keep` directory and initialize your backup gist on GitH
   "Dism.exe /online /Cleanup-Image /StartComponentCleanup": {
     "desc": "DISM component cleanup",
     "alias": "dismcleanup"
-  },
-  "mdsched.exe": {
-    "desc": "Windows Memory Diagnostic",
-    "alias": "testmemory"
-  },
-  "reg export HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites registry-favorites.reg": {
-    "desc": "Export Saved Registry Favorites",
-    "alias": "exportregfavs"
-  },
-  "C:\\ProgramData\\chocolatey\\lib\\cloneapp\\tools\\CloneApp.exe /CB \"C:\\Users\\jimbr\\OneDrive\\2-Areas\\System\\Backup\\CloneApp\"": {
-    "desc": "Backup all apps via CloneApp",
-    "alias": "cloneapps"
-  },
-  "curl.exe -A \"MS\" https://webinstall.dev/webi | powershell": {
-    "desc": "Install webi a script installer solution",
-    "alias": "instwebi"
-  },
-  "Set-ItemProperty 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\FileSystem' -Name 'LongPathsEnabled' -Value 1": {
-    "desc": "Enable long path support in registry",
-    "alias": "enablelongpaths"
-  },
-  "cat /mnt/c/users/admin/.docker/github_cr_pat | docker login ghcr.io -u jimbrig --password-stdin": {
-    "desc": "Login to GHCR with Docker for WSL/Linux",
-    "alias": "ghcrwsl"
-  },
-  "netsh wlan show wlanreport": {
-    "desc": "Create a Network Performance Windows Report",
-    "alias": "netreport"
-  },
-  "cmd.exe /c Cleanmgr /sageset:65535 & Cleanmgr /sagerun:65535": {
-    "desc": "Extended Disk Cleanup",
-    "alias": "deepclean"
-  },
-  "netsh wlan show profile name=fossbytes key=clear": {
-    "desc": "Wifi Passwords",
-    "alias": "wifi-details"
-  },
-  "Get-CimInstance Win32_WinSat": {
-    "desc": "Run WinSAT Diagnostics Score",
-    "alias": "winsat"
-  },
-  "msdt.exe -id DeviceDiagnostic": {
-    "desc": "Hardware Diagnostic Troubleshooter",
-    "alias": "devicediagnostic"
-  },
-  "Install-fromURL \"https://wureset.com/files/installers/wureset11009_setup_winx64.exe\" \"ResetWU\"": {
-    "desc": "Install windows update reset tool",
-    "alias": "install-wureset"
-  },
-  "start-mpscan -scantype fullscan": {
-    "desc": "Start Defender Virus Scan (Full)",
-    "alias": "virusscan"
   }
 }
-
 ```
-
-
-
-***
-
-My Keep `commands.json` backup GitHub Gist is located at: <https://gist.github.com/jimbrig/da88cb0d6ad1ff9037ce4e209728adfa>
-
-Note that the Gist's ID is: `da88cb0d6ad1ff9037ce4e209728adfa`.
-
-Note: the [.keep](./.keep) folder is hard-linked to my actual `~/.keep` configuration folder and `.credentials` is encrypted via `git-crypt`.
