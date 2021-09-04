@@ -1,0 +1,660 @@
+winget --version
+sfc /scannow
+$PROFILE
+winget --version
+winget list
+msdt.exe -id DeviceDiagnostic
+wsl --install
+choco search vim
+robocopy $env:ONEDRIVE\Music $HOME\Music /S
+wsl --update
+wsl --install -d Ubuntu
+wsl --set-default-version 2
+wsl --help
+touch .wslconfig
+new-item -ItemType file .wslconfig
+cls
+mkdir Dev
+cd Dev
+mkdir jimbrig
+cd jimbrig
+ls
+cd ~
+ls
+gpg --version
+cd dev
+cd jimbrig
+mkdir setup
+cd setup
+touch setup-windows-script.ps1
+new-item -itemtype file winsetup.ps1
+code-insiders .
+winget --version
+cd .\OneDrive\
+ls
+cd .\Backup\
+ls
+ls
+ls
+cd gpg
+ls
+explorer .
+sudo apt install zsh
+wsl --shutdown
+wsl --set-default-version 2
+wsl --status
+wsl --update
+wsl -d Ubuntu-CommPrev
+Checkpoint-Computer -Description "RestorePoint1" -RestorePointType "MODIFY_SETTINGS"
+sudo Checkpoint-Computer -Description "RestorePoint1" -RestorePointType "MODIFY_SETTINGS"
+Checkpoint-Computer -Description "RestorePoint1" -RestorePointType "MODIFY_SETTINGS"
+winget search powertoys
+winget install Microsoft.PowerToys --scope machine
+winget install --help
+winget install Microsoft.PowerToys --scope machine
+winget install Microsoft.PowerToys
+sfc /scannow
+wsl --update
+wsl --shutdown
+wsl
+wsl --set-default-version 2
+wsl -d Ubuntu-CommPrev
+wsl --help
+wsl -s Ubuntu-CommPrev
+wsl
+.\uup_download_windows.cmd
+Get-InstalledModule PowerShellGet,PackageManagement
+Get-Module -Online
+Get-Module -All
+Get-InstalledModule
+Get-InstalledModule -Name PowerShellGet
+sudo Get-InstalledModule -Name PowerShellGet
+Get-InstalledModule PowerShellGet
+Get-Help GetInstalledModule
+Get-Help Get-InstalledModule
+Update-Help
+exit
+Get-InstalledModule PowerShellGet
+get-command -module powershellget
+Get-PSRepository
+get-help Set-PSRepository -examples
+update-help -Module PowerShellGet
+$pshome
+Update-Help -Module PowerShellGet
+update-help
+get-help Set-PSRepository -examples
+Update-Help -Scope CurrentUser
+get-help tee-object
+get-help tee-object -examples
+winget install Obsidian.Obsidian
+winget install Obsidian.Obsidian --scope machine
+$uri = "https://secure.backblaze.com/win32/install_backblaze.exe"
+$name = "Backblaze"
+$out = "$env:USERPROFILE\Downloads\$name.exe"
+Invoke-WebRequest -Uri $uri -OutFile $out
+Start-Process $out
+$uri = "https://www.filehorse.com/download/file/p8ho9g89m4tr1OYsLTODC9xvYZi8mu6kAam6PUFDYwadqiM7i4fAsCaYRPJdXB98NC3SrnKNUKV1vrScZxu_HlGsptzPrcyczFCpYLMwGJA/"
+$name = "Copy-Handler"
+# Download
+$out = "$env:USERPROFILE\Downloads\$name.exe"
+Invoke-WebRequest -Uri $uri -OutFile $out
+Start-Process $out
+$uri = "https://www.fosshub.com/Copy-Handler.html?dwl=chsetup-1.46.exe"
+Invoke-WebRequest -Uri $uri -OutFile $out
+$uri = "https://download.fosshub.com/Protected/expiretime=1630671946;badurl=aHR0cHM6Ly93d3cuZm9zc2h1Yi5jb20vQ29weS1IYW5kbGVyLmh0bWw=/259baf873024c13d7ae48afd185b3da906192ba4a609de4bebc1cc2f14dfca1b/5b86ebe3f9ee5a5c3e97a252/5fe50d507374bc3a1191bbed/chsetup-1.46.exe"
+Invoke-WebRequest -Uri $uri -OutFile $out
+$uri = "https://download.getmailbird.com/installers/MailbirdAlphaInstaller.exe"
+$name = "Mailbird-Alpha"
+# Download
+$out = "$env:USERPROFILE\Downloads\$name.exe"
+Invoke-WebRequest -Uri $uri -OutFile $out
+Start-Process $out
+ssh -V
+ssh -T git@github.com
+if (!(Test-Path -Path $PROFILE)) {`
+  Write-Host "Creating Powershell Profile" -ForegroundColor Yellow`
+  New-Item -ItemType File -Path $PROFILE -Force`
+}
+try { Get-Command -Name choco -ErrorAction Stop }`
+catch [System.Management.Automation.CommandNotFoundException] {`
+    Write-Host "Installing Chocolatey..." -ForegroundColor Yellow`
+    Set-ExecutionPolicy Bypass -Scope Process -Force; `
+    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
+    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+    . $PROFILE`
+    refreshenv`
+}
+try { Get-Command -Name choco -ErrorAction Stop }`
+catch [System.Management.Automation.CommandNotFoundException] {`
+    Write-Host "Installing Chocolatey..." -ForegroundColor Yellow`
+    Set-ExecutionPolicy Bypass -Scope Process -Force; `
+    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
+    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+    . $PROFILE`
+    refreshenv`
+}
+. .\Add-PathVariable.ps1
+Function Add-PathVariable {`
+    param (`
+        [string]$addPath`
+    )`
+    if (Test-Path $addPath){`
+        $regexAddPath = [regex]::Escape($addPath)`
+        $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch `
+"^$regexAddPath\\?"}`
+        $env:Path = ($arrPath + $addPath) -join ';'`
+    } else {`
+        Throw "'$addPath' is not a valid path."`
+    }`
+}
+Add-PathVariable "$env:ALLUSERSPROFILE\chocolatey\bin"
+Write-Host "Configuring Chocolatey" -ForegroundColor Yellow
+choco config set cacheLocation $env:TEMP
+choco feature enable -n allowGlobalConfirmation
+choco feature enable -n logEnvironmentValues
+choco feature enable -n virusCheck
+choco feature enable -n useRememberedArgumentsForUpgrades
+choco feature enable -n removePackageInformationOnUninstall
+refreshenv
+# Add Defender Exclusion:
+Write-Host "Adding Chocolatey to Defender Exclusion List..." -ForegroundColor Yellow
+App-MpPreference -ExclusionPath $env:chocolateyinstall
+Add-MpPreference -ExclusionPath $env:chocolateyinstall
+Write-Host "Installing chocolatey helpers.." -ForegroundColor Yellow
+choco upgrade boxstarter choco-cleaner choco-package-list-backup instchoco chocolateygui 7zip -y
+refreshenv
+$features = @(`
+    "Windows-Defender-ApplicationGuard",`
+    "HypervisorPlatform",`
+    "Microsoft-Hyper-V-All",`
+    "Containers",`
+    "Microsoft-Hyper-V-Tools-All"`
+)
+foreach ($feature in $features) {`
+    Write-Host "Enabling optional feature: $feature" -ForegroundColor Yellow`
+    Enable-WindowsOptionalFeature -Online -FeatureName $feature -All -NoRestart`
+}
+cplb
+cinst git.install --params "/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration /NoAutoCrlf" --install-arguments='/COMPONENTS="icons,assoc,assoc_sh,autoupdate,windowsterminal,scalar"'
+refreshenv
+cplb
+cd .dotfiles
+cd .\chocolatey\
+ls
+cd lib
+cat .\packages.config
+cd ~
+rm -r .dotfiles
+ls
+git clone https://github.com/jimbrig/jimsdots .dotfiles
+gpg -k
+gpg -K
+cd ~/.dotfiles
+try { Get-Command -Name scoop -ErrorAction Stop }`
+catch [System.Management.Automation.CommandNotFoundException] {`
+    Write-Host "Installing Scoop..." -ForegroundColor Yellow`
+    Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')`
+}
+Add-MpPreference -ExclusionPath 'C:\Users\jimmy\scoop'
+Add-MpPreference -ExclusionPath 'C:\ProgramData\scoop'
+refreshenv
+scoop bucket add extras
+scoop bucket add scoop-completion https://github.com/Moeologist/scoop-completion
+scoop install 7-Zip innounp dark sudo aria2 topgrade git-crypt
+scoop install scoop-completion
+scoop install innounp dark sudo aria2 topgrade git-crypt wttop
+refreshenv
+cd .dotfiles
+git-crypt unlock
+cd ssh
+ls
+cd MSI
+ls
+cd ..
+Copy-Item MSI/* -Destination ~/.ssh
+cd MSI
+cd ..
+cd .\Lenovo\
+cd ..
+cd MSI
+ssh -T git@github.com
+get-command *history*
+Get-History
+get-help Get-History
+get-help invoke-history
+(Get-PSReadlineOption).HistorySavePath
+cat C:\Users\jimmy\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | clip
+exit
+cd .\OneDrive\
+ls
+cd .\ChocolateyPackageListBackup\
+ls
+cd .\DESKTOP-MSI\
+ls
+cat .\AllProgramsList.txt
+.\AllProgramsList.txt
+cd ..
+lss
+lsd
+ls
+cd .\Backup\
+ls
+cd .\Chocolatey\
+ls
+explorer .
+choco info au
+choco --help
+choco info help
+choco info -help
+choco info au
+choco info chocolatey
+choco search au
+cinst vscode-insiders
+ls
+wsl -e ls -a
+touch .gitconfig
+notepad .gitconfig
+where sudo
+scoop install sudo
+choco install --help
+choco install LENOVO.config
+sudo choco install LENOVO.config
+y
+cinst uninstalltool
+cinst uninstalltool --force
+choco uninstall uninstalltool
+cinst uninstalltool --force
+choco search uninstalltool
+cinst uninstalltool.portable
+cd .\Downloads\
+ls
+uninstalltools_setup.exe /Help
+.\uninstalltool_setup.exe /?
+choco search inno
+cinst InnoSetup
+cinst uninstalltool.portable
+Copy-Item B:\Apps\UninstallTool\Portable\config\* C:\tools\UninstallTool
+Start-Process C:\tools\UninstallTool\UninstallToolPortable.exe
+function Pin-App {`
+    param(`
+        [string]$appname,`
+        [switch]$unpin`
+    )`
+    try {`
+        if ($unpin.IsPresent) {`
+            ((New-Object -Com Shell.Application).NameSpace('shell:::{4234d49b-0245-4df3-b780-3893943456e1}').Items() | ? { $_.Name -eq $appname }).Verbs() | ? { $_.Name.replace('&', '') -match 'From "Start" UnPin|Unpin from Start' } | % { $_.DoIt() }`
+            return "App '$appname' unpinned from Start"`
+        }`
+        else {`
+            ((New-Object -Com Shell.Application).NameSpace('shell:::{4234d49b-0245-4df3-b780-3893943456e1}').Items() | ? { $_.Name -eq $appname }).Verbs() | ? { $_.Name.replace('&', '') -match 'To "Start" Pin|Pin to Start' } | % { $_.DoIt() }`
+            return "App '$appname' pinned to Start"`
+        }`
+    }`
+    catch {`
+        Write-Error "Error Pinning/Unpinning App! (App-Name correct?)"`
+    }`
+}
+choco search pintotaskbar
+scoop uninstall topgrade
+function Save-fromGH($repo, $pattern, $name) {`
+  $uri = Get-GHDownloadURL $repo $pattern`
+  $extension = $pattern.Replace("*", "")`
+  $out = $name + $extension`
+  Invoke-WebRequest -Uri $uri -OutFile "$env:USERPROFILE\Downloads\$out"`
+  explorer.exe "$env:USERPROFILE\Downloads"`
+}
+function Get-GHDownloadURL($repo, $pattern, $extension) {`
+  $releasesUri = "https://api.github.com/repos/$repo/releases/latest"`
+  ((Invoke-RestMethod -Method GET -Uri $releasesUri).assets | Where-Object name -like $pattern | Where-Object name -like $extension ).browser_download_url`
+}
+Get-GHDownloadURL "r-darwish/topgrade" "windows" "*.zip"
+Get-GHDownloadURL "r-darwish/topgrade" "windows" ".zip"
+function Get-GHDownloadURL($repo, $pattern) {`
+  $releasesUri = "https://api.github.com/repos/$repo/releases/latest"`
+  ((Invoke-RestMethod -Method GET -Uri $releasesUri).assets | Where-Object name -like $pattern).browser_download_url`
+}
+Get-GHDownloadURL "r-darwish/topgrade" "*windows*"
+function Save-fromGH($repo, $pattern, $extension, $name) {`
+  $uri = Get-GHDownloadURL $repo $pattern`
+  $ext = $extension.Replace("*", "")`
+  $out = $name + $ext`
+  Invoke-WebRequest -Uri $uri -OutFile "$env:USERPROFILE\Downloads\$out"`
+  explorer.exe "$env:USERPROFILE\Downloads"`
+}
+Save-fromGH "r-darwish/topgrade" "*windows*" "*.zip" "topgrade"
+Expand-Archive "~/Downloads/topgrade.zip" -DestinationPath "C:\bin"
+Expand-Archive "~/Downloads/topgrade.zip" -DestinationPath "C:\bin" -Force
+sudo topgrade
+Copy-Item topgrade.toml $env:APPDATA\topgrade.toml -Force
+.\Windows10Debloater.ps1
+$services = @(`
+    "diagnosticshub.standardcollector.service" # Microsoft (R) Diagnostics Hub Standard Collector Service`
+    "DiagTrack"                                # Diagnostics Tracking Service`
+    "dmwappushservice"                         # WAP Push Message Routing Service (see known issues)`
+    "lfsvc"                                    # Geolocation Service`
+    "MapsBroker"                               # Downloaded Maps Manager`
+    "NetTcpPortSharing"                        # Net.Tcp Port Sharing Service`
+    "RemoteAccess"                             # Routing and Remote Access`
+    "RemoteRegistry"                           # Remote Registry`
+    "SharedAccess"                             # Internet Connection Sharing (ICS)`
+    "TrkWks"                                   # Distributed Link Tracking Client`
+    "WbioSrvc"                                 # Windows Biometric Service (required for Fingerprint reader / facial detection)`
+    #"WlanSvc"                                 # WLAN AutoConfig`
+    "WMPNetworkSvc"                            # Windows Media Player Network Sharing Service`
+    "wscsvc"                                   # Windows Security Center Service`
+    #"WSearch"                                 # Windows Search`
+    "XblAuthManager"                           # Xbox Live Auth Manager`
+    "XblGameSave"                              # Xbox Live Game Save Service`
+    "XboxNetApiSvc"                            # Xbox Live Networking Service`
+    "ndu"                                      # Windows Network Data Usage Monitor`
+    # Services which cannot be disabled`
+    #"WdNisSvc"`
+)
+foreach ($service in $services) {`
+    Write-Output "Trying to disable $service"`
+    Get-Service -Name $service | Set-Service -StartupType Disabled`
+}
+cinst gitkraken
+choco search docker
+cinst docker-desktop
+choco search rapid
+cinst rapidEE
+cinst R.Project R.Studio
+cinst rtools
+choco search alt
+cinst alt-tab-terminator
+choco uninstall alt-tab-terminator
+cinst alt-tab-terminator
+Test-Path -LiteralPath "HKLM:\SOFTWARE\Alexander Avdonin\Alt-Tab Terminator"
+New-ItemProperty -LiteralPath "HKLM\SOFTWARE\Alexander Avdonin\Alt-Tab Terminator" -Name "RegName-TEST" -Value "Jimmy Briggs" -PropertyType String -Force -ea SilentlyContinue
+Set-Location -Path "HKLM:\SOFTWARE\Alexander Avdonin\Alt-Tab Terminator"
+Start-Process "$env:ProgramFiles\Alt-Tab Terminator\AltTabTer.exe"
+docker --version
+choco search cascadia
+choco search caskaydia
+choco search cascasia
+scoop search nerd
+scoop bucket list
+scoop bucket add nerd-fonts
+scoop search caskaydia
+scoop search NF
+scoop install Meslo-NF --global
+scoop install CascadiaCode-NF --global
+scoop install FiraCode-NF Regular-NF Ubuntu-NF Mononoki-NF --global
+scoop install FiraCode-NF Ubuntu-NF Mononoki-NF --global
+choco search powershell
+cinst powershell-core powershell-preview
+cinst Jump-Location
+cplb
+cinst git-lfs
+cplb
+.\Windows10Debloater.ps1
+Set-Service "DiagTrack" -StartupType Automatic
+    Start-Service "DiagTrack"
+cd B:\Apps
+ls
+cd .\UninstallTool\
+ls
+code-insiders .
+code-insiders --help
+s -p google create shortcut with powershell
+Update-Help
+Get-Module
+Get-Module -All
+Get-Module -ListAvailable
+get-help where-object
+get-help where-object -online
+$app = "keeper"
+powershell.exe -command Get-AppxPackage "*$app*" | Where-Object {$_.InstallLocation}
+powershell.exe -command Get-AppxPackage "*$app*"
+powershell.exe -command Get-AppxPackage "*$app*" | Select-Object *
+powershell.exe -command Get-AppxPackage "*$app*" | Get-Member
+powershell.exe -command { Get-AppxPackage "*$app*" | Get-Member -MemberType property }
+powershell.exe -command { Get-AppxPackage "*$app*" | Get-Member -Name InstallLocation }
+powershell.exe -command { Get-AppxPackage "*$app*" | Select-Object -Property InstallLocation }
+powershell.exe -command { Get-AppxPackage "*$app*" | Select-Object InstallLocation }
+powershell.exe -command { Get-AppxPackage "*$app*" | {$_.InstallLocation} }
+powershell.exe -command { Get-AppxPackage "*$app*" | Where-Object {$_.InstallLocation} }
+Get-AppxPackage "*$app*"
+powershell.exe -command Get-AppxPackage "*$app*"
+$info = powershell.exe -command Get-AppxPackage "*$app*"
+get-member $info
+Get-Member -Name InstallLocation -InputObject $info
+$info | Get-Member -Name InstallLocation
+$info
+powershell.exe -command { Get-AppxPackage "*$app*" | Get-Member -Name InstallLocation }
+powershell.exe -command { Get-AppxPackage "*$app*" | Where-Object {$_.InstallLocation} }
+powershell.exe -command { Get-AppxPackage "*$app*" | Get-ItemProperty $_.InstallLocation }
+powershell.exe -command { Get-AppxPackage "*$app*" | % Get-ItemProperty $_.InstallLocation }
+powershell.exe -command { Get-AppxPackage "*$app*" | Get-ItemProperty $_.PsPath }
+powershell.exe -command { Get-AppxPackage "*$app*" | Get-ItemProperty $_.InstallLocation }
+powershell.exe -command { Get-AppxPackage "*$app*" | { Get-ItemProperty $_.InstallLocation } }
+powershell.exe -command { Get-AppxPackage "*$app*" | % { Get-ItemProperty $_.InstallLocation } }
+powershell.exe -command { Get-AppxPackage "*$app*" | Select InstallLocation }
+powershell.exe -command { Get-AppxPackage -Filter "*$app*" | Select InstallLocation }
+powershell.exe -command { Get-AppxPackage "*$app*" | Select Name,InstallLocation }
+powershell.exe -command { Get-AppxPackage | Select Name,InstallLocation }
+powershell.exe -command { Get-AppxPackage | Select Name,InstallLocation | Where-Object {$_.Name -like $app} }
+powershell.exe -command { Get-AppxPackage | Select Name,InstallLocation | Where-Object {$_.Name -like *$app*} }
+powershell.exe -command { Get-AppxPackage | Select Name,InstallLocation | Where-Object {$_.Name -like "*$app*"} }
+powershell.exe -command { Get-AppxPackage | Select Name,InstallLocation | Where-Object {$_.Name -contains "*$app*"} }
+powershell.exe -command { Get-AppxPackage | Select Name,InstallLocation | Where-Object {$_.Name -contains "$app"} }
+$app
+powershell.exe -command { Get-AppxPackage | Select Name,InstallLocation | Where-Object {$_.Name -cin "$app"} }
+s -p bing powershell get all system settings
+Get-ComputerInfo
+topgrade
+cd .\.dotfiles\
+cd .\office\
+ls
+cd .\install\
+ls
+.\install.ps1
+code-insiders .
+vim install.ps1
+noteapd
+notepad
+Copy-Item "$HOME\OneDrive\Backup\Programs\Office\OfficeSetup.exe" -Destination .
+ls
+.\OfficeSetup.exe /configure configuration-Office365-x64.xml
+git add .\install.ps1
+git commit -m "fix office installation procedure"
+git push
+git status
+../
+cd ../..
+Move-Item -r excel office\excel
+Move-Item excel office\excel
+ls
+lsd
+cinst lsd
+cd .\.dotfiles\
+cd lsd
+copy-item config.yaml "$env:APPDATA\lsd\config.yaml" -force
+copy-item config.yaml "$env:APPDATA\lsd" -force
+git add .\setup-lsd.ps1
+git commit -m "lsd setup script"
+git push
+copy-item config.yaml "$env:APPDATA\lsd\*" -force
+copy-item -path .\config.yaml -destination "$env:APPDATA\lsd\*" -force
+copy-item -path .\config.yaml -destination "$env:APPDATA\lsd" -force
+get-help copy-item
+get-help copy-item -examples
+copy-item config.yaml "$env:APPDATA\lsd\" -force
+copy-item config.yaml "$env:APPDATA\lsd\config.yaml" -force
+copy-item -path .\config.yaml -destination "$env:APPDATA\lsd\config.yaml" -force
+copy-item -path .\config.yaml -destination "$env:APPDATA\lsd\" -force
+vim .\setup-lsd.ps1
+if (!(test-path "$env:appdata\lsd")) { New-Item -ItemType Directory "$env:appdata\lsd" }
+copy-item -path .\config.yaml -destination "$env:APPDATA\lsd\"
+git add .\setup-lsd.ps1
+git commit -m "fix"
+git push
+lsd
+sudo cinst lsd
+cls
+winget search spotify
+s ssh into other laptop
+s -p bing ssh into separate laptop
+s -p bing internet sucks windows 11 netgear nighthawk
+sudo Get-WindowsCapability -Online | ? Name -like 'OpenSSH*'
+Get-WindowsDriver
+Get-WindowsDriver -All
+Get-WindowsDriver -Online
+sudo Get-WindowsDriver -Online
+sudo Get-WindowsOptionalFeature -Online | ? Name -like "OpenSSH*"
+sudo Get-WindowsOptionalFeature | ? Name -like "OpenSSH*"
+Get-WindowsOptionalFeature -FeatureName *ssh*
+Get-WindowsOptionalFeature
+Get-WindowsOptionalFeature -Online -FeatureName "*ssh*"
+sudo Get-WindowsOptionalFeature -Online -FeatureName "*ssh*"
+sudo Get-WindowsOptionalFeature -Online -FeatureName "*SSH*"
+sudo Get-WindowsOptionalFeature -Online -FeatureName - like "*SSH*"
+sudo Get-WindowsOptionalFeature -Online -FeatureName -like "*SSH*"
+sudo Get-WindowsOptionalFeature "*ssh*"
+sudo Get-WindowsOptionalFeature -Online | ? Name -like "*SSH*"
+sudo Get-WindowsOptionalFeature -Online | ? FeatureName -like "*SSH*"
+Get-WindowsCapability -Online
+sudo Get-WindowsCapability -Online
+sudo Get-WindowsCapability -Online | \
+sudo Get-WindowsCapability -Online | Where-Object {$_.Name -like "*SSH*"}
+sudo Get-WindowsCapability -Online | Where-Object {$_.State -eq NotPresent}
+sudo Get-WindowsCapability -Online | Where-Object {$_.State -eq "NotPresent"}
+sudo { Get-WindowsCapability -Online | Where-Object {$_.State -eq "NotPresent"} }
+sudo Get-WindowsCapability -Online | sudo Where-Object {$_.State -eq "NotPresent"}
+Add-WindowsCapability -Online -Name OpenSSH.Serve~~~~0.0.1.0
+sudo Add-WindowsCapability -Online -Name OpenSSH.Serve~~~~0.0.1.0
+sudo Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+Start-Service sshd
+Get-Service sshd
+$PROFILE
+cat $PROFILE
+cat $PROFILE | clip
+cat $PROFILE
+New-Item -ItemType File -Path $PROFILE
+New-Item -ItemType File -Path $PROFILE.CurrentUserAllHosts
+vim $PROFILE.CurrentUserAllHosts
+cat $PROFILE.CurrentUserAllHosts
+. $PROFILE.CurrentUserAllHosts
+choco info python3
+ping http://192.168.1.9
+ping 192.168.1.9
+ping 192.168.1.9:50080
+cd .\.dotfiles\
+cd wsl
+cat .\.wslconfig
+choco search b2
+choco search backblze
+choco search backblaze
+ping yahoo.com
+cd Desktop
+cd OneDrive\Desktop
+ls
+cat .\ALL-POWERSHELL-HISTORY.txt
+cd ..
+ls
+lsd
+sudo cinst lsd
+cd $env:OneDrive
+ls
+cat .\LENOVO-PWSH-HISTORY.txt
+Move-Item .\LENOVO-PWSH-HISTORY.txt -Destination ~/OneDrive/Desktop
+cd .\Desktop\
+lsd
+choco search lsd
+wsl --shutdown
+choco search lsd
+refreshenv
+lsd
+notepad .\LENOVO-PWSH-HISTORY.txt
+Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit
+Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
+Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs pwsh.exe
+Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb sudo pwsh.exe
+Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb sudo
+clsStart-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb sudo
+cls
+Get-ComputerInfo -Property CsName
+$compname = Get-ComputerInfo -Property CsName
+$adminuser = $compname + "\" + "administrator"
+$adminuser = $compname + "\administrator"
+$adminuser = $compname.CsName + "\administrator"
+runas /noprofile /user:$adminuser powershell
+runas /profile /user:jimmy\admin
+runas /profile /env /user:jimmy\admin
+choco install python3 --params "/InstallDir:'C:\Program Files\Python39'" --install-arguments="'/quiet InstallAllUsers=1 PrependPath=1 TargetDir='C:\Program Files\Python39''" --override-arguments --confirm
+cd C:\Users\jimmy\.dotfiles\
+cd .\chocolatey\
+.\README.md
+cd .\backup\MSI\
+cat .\packages.config
+$wingetsettingsdir = "$env:LOCALAPPDATA\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState"
+# Rename as a backup the defaults:
+$wingetsettingspath = "$wingetsettingsdir\settings.json"
+$backuppath = "$wingetsettingsdir\settings.json.bak"
+Rename-Item $wingetsettingspath $backuppath
+# Copy settings.json to winget settings directory:
+winget settings
+$wingetsettingsdir = "$env:LOCALAPPDATA\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState"
+$wingetsettingspath = "$wingetsettingsdir\settings.json"
+$backuppath = "$wingetsettingsdir\settings.json.bak"
+$dotfilespath = "~/.dotfiles/winget/settings.json"
+# Rename current settings as a backup (if they exist):
+if (Test-Path $wingetsettingspath) { Rename-Item $wingetsettingspath $backuppath }
+# Copy settings.json to winget settings directory:
+Copy-Item $dotfilespath $wingetsettingsdir
+# Refresh and test
+refreshenv
+winget settings
+winget source list
+winget features
+winget settings
+cd .\.dotfiles\chocolatey\
+cd backup\MSI
+cat packages.config
+choco uninstall R.Project
+choco install R.Project --params "'/AddToPath'"
+winget search keeper
+cinst gcloudsdk --not-silent
+cd .\.dotfiles\chocolatey\
+nvm --version
+nvm list
+nvm install "latest"
+npm use 16.8.0
+nvm use 16.8.0
+npm i -g npm@latest
+refreshenv
+npm i -g npm@latest
+node --version
+nvm --version
+node --version
+nvm list
+nvm use 16.8.0
+npm i -g npm@latest
+npm install -g npm@7.22.0
+cinst gcloudsdk --not-silent
+npm i -g doctoc tldr
+npm login
+npm stars
+npm i -g nativefier prettier jshint eslint release-it dbdocs speed-test
+cinst gcloudsdk --not-silent
+npm doctor
+exit
+speed-test
+cd .\OneDrive\Desktop\
+ls
+cat .\ALL-POWERSHELL-HISTORY.txt
+(Get-PSReadlineOption).HistorySavePath
+cd C:\Users\jimmy\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine
+ls
+get-command -Module PSReadLine
+Get-PSReadLineOption
+get-module
+install-module oh-my-posh -scope currentuser
+$PROFILE
+$PROFILE.AllUsersAllHosts
+$PROFILE.AllUsersCurrentHost
+cd ~/Documents
+explorer .
+get-command Enable-WindowsOptionalFeature

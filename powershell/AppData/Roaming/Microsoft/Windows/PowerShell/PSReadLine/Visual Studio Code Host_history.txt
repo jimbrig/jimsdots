@@ -1,0 +1,66 @@
+powershell.exe -NoLogo -NoProfile -Command '[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Install-Module -Name PackageManagement -Force -MinimumVersion 1.4.6 -Scope CurrentUser -AllowClobber -Repository PSGallery'
+Get-ComputerInfo
+$compinfo = Get-ComputerInfo
+$compinfo.CsDNSHostName
+$compname = $compinfo.CsDNSHostName
+$configfile = "C:\Users\jimmy\.dotfiles\chocolatey\tools\choco-package-list-backup\MSI-choco-package-list-backup.config"
+New-Item -Path "C:\tools\BCURRAN3\choco-package-list-backup.config" -ItemType SymbolicLink -Value $configfile -Force
+sudo New-Item -Path "C:\tools\BCURRAN3\choco-package-list-backup.config" -ItemType SymbolicLink -Value $configfile -Force
+Function Create-Shortcut($source, $args, $destination) {`
+    $wshshell = New-Object -comObject WScript.Shell`
+    $shortcut = $wshshell.CreateShortcut($destination)`
+    $shortcut.TargetPath = $source`
+    if (-not ($args -eq $null)) { $shortcut.Arguments = $args }`
+    $shortcut.Save()`
+}
+Create-Shortcut "C:\tools\UninstallTool\UninstallToolPortable.exe" $null "$env:APPDATA\Microsoft\Windows\Start Menu\Programs"
+Function Create-Shortcut($source, $destination) { # $args`
+    $wshshell = New-Object -comObject WScript.Shell`
+    $shortcut = $wshshell.CreateShortcut($destination)`
+    $shortcut.TargetPath = $source`
+    #if (-not ($args -eq $null)) { $shortcut.Arguments = $args }`
+    $shortcut.Save()`
+}
+Create-Shortcut "C:\tools\UninstallTool\UninstallToolPortable.exe" $null "$env:APPDATA\Microsoft\Windows\Start Menu\Programs"
+Create-Shortcut "C:\tools\UninstallTool\UninstallToolPortable.exe"  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs"
+Create-Shortcut "C:\tools\UninstallTool\UninstallToolPortable.exe"  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Uninstall Tool.lnk"
+Function New-StartMenuLink($source, $name)  {`
+    $dest = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\$name.lnk"`
+    New-Shortcut $source $dest`
+}
+New-StartMenuLink "C:\tools\UninstallTool\UninstallToolPortable.exe"  "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Uninstall Tool.lnk"
+New-StartMenuLink "C:\tools\UninstallTool\UninstallToolPortable.exe"  "Uninstall Tool"
+Function New-StartMenuLink($source, $name)  {`
+    $dest = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\" + $name + ".lnk"`
+    New-Shortcut $source $dest`
+}
+New-StartMenuLink "C:\tools\UninstallTool\UninstallToolPortable.exe"  "Uninstall Tool"
+Function New-Shortcut($source, $destination) { # $args`
+    $wshshell = New-Object -comObject WScript.Shell`
+    $shortcut = $wshshell.CreateShortcut($destination)`
+    $shortcut.TargetPath = $source`
+    #if (-not ($args -eq $null)) { $shortcut.Arguments = $args }`
+    $shortcut.Save()`
+}
+New-StartMenuLink "C:\tools\UninstallTool\UninstallToolPortable.exe"  "Uninstall Tool"
+$app = "keeper"
+    $dest = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\" + $name + ".lnk"
+$dest = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\" + $name + ".lnk"
+Get-AppxPackage "*$app*"
+Import-Module Appx
+powershell.exe -command Get-AppxPackage "*$app*"
+Function Get-StoreAppPath($app) {`
+    $appinfo = powershell.exe -command Get-AppxPackage "*$app*"`
+    $path = $appinfo.InstallLocation`
+    $path`
+}
+Get-StoreAppPath "keeper"
+$app
+$appinfo = powershell.exe -command Get-AppxPackage "*$app*"
+$appinfo
+$appinfo.InstallLocation
+$appinfo = powershell.exe -command Get-AppxPackage "*$app*"
+$appinfo
+$appinfo.Get("InstallLocation")
+get-help where-object
+update-help
