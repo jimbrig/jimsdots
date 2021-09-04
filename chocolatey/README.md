@@ -220,6 +220,11 @@ if ($compname -eq "DESKTOP-LENOVO") { choco install -y "$HOME\.dotfiles\chocolat
 - R:
   - Append to %PATH%
 
+- GCloudSDK
+  - Exclude Bundled Python
+  - Setup Custom Python `CLOUSDK_PYTHON` Environment Variable
+  - Include *BETA* and *ALPHA* components
+
 ```powershell
 # GIT.INSTALL
 choco install -y git.install `
@@ -231,6 +236,9 @@ choco install python3 --install-arguments="'/quiet InstallAllUsers=1 PrependPath
 
 # R
 choco install R.Project --params "'/AddToPath'"
+
+# GCLOUD
+cinst gcloudsdk --not-silent
 ```
 
 
