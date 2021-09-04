@@ -212,9 +212,18 @@ if ($compname -eq "DESKTOP-LENOVO") { choco install -y "$HOME\.dotfiles\chocolat
   - New Features: 
     - *Window Terminal Profile/Integration* 
     - *Scalar*
-- Python
+
+- Python:
   - Append to %PATH%
   - Install for ALLUSERS (System) - should default to `C:\Python39` or `C:\Program Files\Python39`
+
+- R:
+  - Append to %PATH%
+
+- GCloudSDK
+  - Exclude Bundled Python
+  - Setup Custom Python `CLOUSDK_PYTHON` Environment Variable
+  - Include *BETA* and *ALPHA* components
 
 ```powershell
 # GIT.INSTALL
@@ -224,6 +233,12 @@ choco install -y git.install `
 
 # PYTHON3
 choco install python3 --install-arguments="'/quiet InstallAllUsers=1 PrependPath=1'"
+
+# R
+choco install R.Project --params "'/AddToPath'"
+
+# GCLOUD
+cinst gcloudsdk --not-silent
 ```
 
 

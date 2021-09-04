@@ -15,6 +15,9 @@ If you are using the non-packaged WinGet version by building it from source code
 
 ### My Settings:
 
+- Location: `"$env:LOCALAPPDATA\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json"`
+- Dot Files Path: `~/.dotfiles/winget/settings.json`
+
 ```powershell
 {
     "$schema": "https://aka.ms/winget-settings.schema.json",
