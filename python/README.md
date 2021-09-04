@@ -27,7 +27,13 @@ choco install python3 --install-arguments="'/quiet InstallAllUsers=1 PrependPath
 python.exe -m pip install --upgrade pip
 
 # essential installs
-pip install wheel setuptools easy_install virtualenv lastversion radian mkdocs keep b2
+pip install wheel setuptools easy_install pipx virtualenv lastversion radian mkdocs keep
+
+# others
+pip install lastversion # super useful for detecting GitHub versions and downloading from github using a CLI
+pip install b2 # backblaze B2 client
+pip install googleapis # google APIs client interface
+pip install Markdown # markdown and python
 
 # upgrades
 pip install --upgrade lastversion radian mkdocs keep b2
