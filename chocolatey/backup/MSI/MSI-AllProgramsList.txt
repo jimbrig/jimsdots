@@ -6,6 +6,7 @@ DisplayName                                                        DisplayVersio
 Alt-Tab Terminator                                                 4.9              NTWind Software            
 Backblaze                                                                           Backblaze, Inc             
                                                                                                                
+Google Cloud SDK                                                                    Google Inc.                
 Inno Setup version 6.2.0                                           6.2.0            jrsoftware.org             
 MSI NBFoundation Service                                           1.0.2107.1601    MSI                        
 Microsoft Edge                                                     93.0.961.38      Microsoft Corporation      
