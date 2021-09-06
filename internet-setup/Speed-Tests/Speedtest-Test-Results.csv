@@ -1,0 +1,2 @@
+﻿Id,Date,Latency,Download,Upload,ConnType,ServerName,Lat,Lon,InternalIp,ExternalIp
+4d20e598-b015-4490-aa17-f519e7c2a391,Sep/05/2021 0:56,22.621,480.5774,8.759264,Ethernet,Atlanta  GA,33.8134646602198,-84.3924124446365,2601:c0:c67f:d270:256d:73b8:9004:ebf,73.122.216.36
