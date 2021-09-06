@@ -6,6 +6,7 @@ DisplayName                                                        DisplayVersio
 Alt-Tab Terminator                                                 4.9              NTWind Software            
 Backblaze                                                                           Backblaze, Inc             
                                                                                                                
+GNU Privacy Guard                                                  2.3.1            The GnuPG Project          
 Google Cloud SDK                                                                    Google Inc.                
 Inno Setup version 6.2.0                                           6.2.0            jrsoftware.org             
 MSI NBFoundation Service                                           1.0.2107.1601    MSI                        
@@ -18,6 +19,7 @@ RStudio                                                            1.4.1717     
 Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.29.30133 14.29.30133.0    Microsoft Corporation      
 Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.29.30133 14.29.30133.0    Microsoft Corporation      
 Microsoft Visual C++ 2019 X86 Additional Runtime - 14.29.30133     14.29.30133      Microsoft Corporation      
+Microsoft .NET SDK 5.0.400 (x64)                                   5.4.21.37610     Microsoft Corporation      
 ENE_X-JMI_HAL                                                      1.0.5.1          ENE Tech                   
 ENE_DRAM_RGB_AIO                                                   1.0.2.33         Ene Tech.                  
 Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40660       12.0.40660.0     Microsoft Corporation      
