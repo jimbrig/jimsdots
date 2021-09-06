@@ -48,12 +48,14 @@ foreach ($file in $otherprofiles) {
 cinst cascadia-code-nerd-font
 
 # Modules
-$mods = Get-Content ~/.dotfiles/powershell/powershell/modules/modules.json | ConvertFrom-Json
+$mods = Get-Content ~/.dotfiles/powershell/modules.json | ConvertFrom-Json
 
 foreach ($mod in $mods) {
   Write-Host "Installing PowerShell Module for Current User: $mod" -ForegroundColor Yellow
   Install-Module $mod -Scope CurrentUser -Force
 }
+
+Install-Module ZLocation -Scope CurrentUser; Import-Module ZLocation; Add-Content -Value "`r`n`r`nImport-Module ZLocation`r`n" -Encoding utf8 -Path $PROFILE.CurrentUserAllHosts
 
 Install-Module -Scope CurrentUser -Force oh-my-posh
 Install-Module -Scope CurrentUser -Force powershell-yaml
