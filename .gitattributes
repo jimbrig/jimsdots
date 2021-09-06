@@ -44,11 +44,12 @@ R/gargle/** filter=git-crypt diff=git-crypt
 R/config.yml filter=git-crypt diff=git-crypt
 RStudio/localappdata/ctx/ctx-40565/environment_vars filter=git-crypt diff=git-crypt
 RStudio/localappdata/monitored/connection_history.json filter=git-crypt diff=git-crypt
-gpg/public_keys/* filter=git-crypt diff=git-crypt
-gpg/private_keys/* filter=git-crypt diff=git-crypt
-gpg/private_keys/** filter=git-crypt diff=git-crypt
-gpg/public_keys/** filter=git-crypt diff=git-crypt
-gpg/backup/** filter=git-crypt diff=git-crypt
+gpg/backup/public_keys/* filter=git-crypt diff=git-crypt
+gpg/backup/private_keys/* filter=git-crypt diff=git-crypt
+gpg/backup/private-keys.asc filter=git-crypt diff=git-crypt
+gpg/backup/public-keys.asc filter=git-crypt diff=git-crypt
+gpg/backup/owner-trust.txt filter=git-crypt diff=git-crypt
+gpg/backup/.gnupg/** filter=git-crypt diff=git-crypt
 ssh/gitkraken/* filter=git-crypt diff=git-crypt
 ssh/keys/** filter=git-crypt diff=git-crypt
 zapier/.zapierrc filter=git-crypt diff=git-crypt
