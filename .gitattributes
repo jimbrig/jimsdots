@@ -8,6 +8,7 @@
 *.rtf linguist-vendored
 
 # Git-Crypt
+nodejs/.npmrc filter=git-crypt diff=git-crypt
 b2/.b2_account_info filter=git-crypt diff=git-crypt
 secrets/android/* filter=git-crypt diff=git-crypt
 aws/credentials filter=git-crypt diff=git-crypt
