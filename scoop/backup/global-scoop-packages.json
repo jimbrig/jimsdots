@@ -1,0 +1,90 @@
+{
+  "NoBucketApps": {
+    "scoop-backup": {
+      "Url": "https://raw.githubusercontent.com/Cologler/cologler-scoop-bucket/master/bucket/scoop-backup.json",
+      "Arch": "64bit"
+    }
+  },
+  "Version": 1,
+  "Buckets": {
+    "https://github.com/Cologler/cologler-scoop-bucket": {
+      "BucketName": "cologler",
+      "RemoteUrl": "https://github.com/Cologler/cologler-scoop-bucket"
+    },
+    "https://github.com/ScoopInstaller/Main": {
+      "RemoteUrl": "https://github.com/ScoopInstaller/Main",
+      "BucketName": "main",
+      "Apps": {
+        "aria2": {
+          "Arch": "64bit"
+        },
+        "git-crypt": {
+          "Arch": "64bit"
+        },
+        "7zip": {
+          "Arch": "64bit"
+        },
+        "dark": {
+          "Arch": "64bit"
+        },
+        "wttop": {
+          "Arch": "64bit"
+        },
+        "sudo": {
+          "Arch": "64bit"
+        },
+        "innounp": {
+          "Arch": "64bit"
+        }
+      }
+    },
+    "https://github.com/matthewjberger/scoop-nerd-fonts": {
+      "RemoteUrl": "https://github.com/matthewjberger/scoop-nerd-fonts",
+      "BucketName": "nerd-fonts",
+      "Apps": {
+        "Ubuntu-NF": {
+          "Global": true,
+          "Arch": "64bit"
+        },
+        "FiraCode-NF": {
+          "Global": true,
+          "Arch": "64bit"
+        },
+        "CascadiaCode-NF": {
+          "Global": true,
+          "Arch": "64bit"
+        },
+        "Mononoki-NF": {
+          "Global": true,
+          "Arch": "64bit"
+        },
+        "Meslo-NF": {
+          "Global": true,
+          "Arch": "64bit"
+        }
+      }
+    },
+    "https://github.com/lukesampson/scoop-extras": {
+      "RemoteUrl": "https://github.com/lukesampson/scoop-extras",
+      "BucketName": "extras",
+      "Apps": {
+        "DockerCompletion": {
+          "Arch": "64bit"
+        }
+      }
+    },
+    "https://github.com/Moeologist/scoop-completion": {
+      "RemoteUrl": "https://github.com/Moeologist/scoop-completion",
+      "BucketName": "scoop-completion",
+      "Apps": {
+        "scoop-completion": {
+          "Arch": "64bit"
+        }
+      }
+    },
+    "https://git.irs.sh/KNOXDEV/knox-scoop": {
+      "BucketName": "knox-scoop",
+      "RemoteUrl": "https://git.irs.sh/KNOXDEV/knox-scoop"
+    }
+  }
+}
