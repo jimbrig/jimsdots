@@ -8,7 +8,7 @@
 #  ------------------------------------------------------------------------
 
 # Ensure Library is set:
-.libPaths("~/.config/R/lib/4.1")
+#.libPaths("~/.config/R/lib/4.1")
 
 # Set Default Options:
 options(
@@ -23,6 +23,7 @@ options(
   Ncpus = 4L, # parallel package installations (Sys.getenv("NUMBER_OF_PROCESSORS")` or parallel::detectCores())
   scipen = 999, # Remove Scientific Notation
   languageserver.snippet_support = FALSE, # vscode language server
+  vsc.use_httpgd = TRUE,
   languageserver.server_capabilities = list(documentHighlightProvider = FALSE),
   remotes.install.args = "--no-multiarch", # avoid i386 arch installations/compilations:
   devtools.install.args = "--no-multiarch",
@@ -30,7 +31,7 @@ options(
   usethis.protocol = "ssh",
   usethis.description = list(
     `Authors@R` = 'person("Jimmy", "Briggs",
-                         email = "jimmy.briggs@tychobra.com",
+                         email = "jimmy.briggs@jimbrig.com.com",
                          role = c("aut", "cre"),
                          comment = c(ORCID = "0000-0002-7489-8787"))',
     License = "MIT + file LICENSE",
