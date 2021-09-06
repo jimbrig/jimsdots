@@ -64,6 +64,9 @@ Install-Module -Scope CurrentUser -Force WSLInterop
 Install-Module -Scope CurrentUser -Force WindowsCompatibility
 Install-Module -Scope CurrentUser -Force ChocolateyGet
 Install-Module -Scope CurrentUser -Force PSFzf
+Install-Module -Scope CurrentUser -Force PSWindowsUpdate
+Install-Module -Scope CurrentUser -Force posh-git
+
 
 Import-Module posh-git
 Add-PoshGitToProfile
