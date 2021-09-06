@@ -1,0 +1,76 @@
+$featurestodisable = @(`
+    "Printing-XPSServices-Features",`
+    "MediaPlayback",`
+    "WindowsMediaPlayer",`
+    "WorkFolders-Client"`
+)
+
+foreach ($feature in $featurestodisable) {`
+    Disable-WindowsOptionalFeature -FeatureName $feature -NoRestart -Online`
+}
+
+$featurestoenable = @(`
+    "Windows-Defender-Default-Definitions",`
+    "HypervisorPlatform",`
+    "VirtualMachinePlatform",`
+    "Microsoft-Windows-Subsystem-Linux",`
+    "Containers-DisposableClientVM",`
+    "Microsoft-Hyper-V-All",`
+    "Microsoft-Hyper-V",`
+    "Microsoft-Hyper-V-Management-PowerShell",`
+    "Microsoft-Hyper-V-Hypervisor",`
+    "Microsoft-Hyper-V-Services",`
+    "Microsoft-Hyper-V-Management-Clients",`
+    "Windows-Defender-ApplicationGuard",`
+    "Containers"`
+)
+
+foreach ($feature in $featurestoenable) {`
+    Enable-WindowsOptionalFeature -FeatureName $feature -All -NoRestart -Online`
+}
+
+wsl --install
+wsl --update
+
+$restart = Read-Host -Prompt "Restart System (y/n)?"
+$restart -eq "y"
+if ($restart -eq "y") { Restart-Computer }
+
+$wingetapps = @(
+	"Microsoft.PowerToys"
+	"Microsoft.WindowsTerminalPreview"
+	"Microsoft.PowerShell.Preview"
+	"Microsoft.VisualStudioCode.Insiders"
+	"Microsoft.PowerShell"
+	"Docker.DockerDesktop"
+	"GitHub.cli"
+	"InSSIDer"
+	"Obsidian.Obsidian"
+	"Typora.Typora"
+	"7zip.7zip"
+)
+	
+for each ($appid in $wingetapps) { winget install --id=$appid -e -h }
+
+winget install --id=Git.Git -e -h --override "/GitAndUnixToolsOnPath /NoShellIntegration /NoGuiHereIntegration /WindowsTerminal"
+
+git --version
+gh --version
+gpg --version
+ssh --version
+
+gh auth login
+gh config set git_protocol https
+gh repo clone jimbrig/jimsdots ~/.dotfiles
+gh config set git_protocol ssh
+
+Function Import-GPGKeys {
+	gpg --import "$env:OneDrive\Backup\Secrets\Keys\GPG\private-keys.asc"
+	gpg --import "$env:OneDrive\Backup\Secrets\Keys\GPG\public-keys.asc"
+}
+
+ssh -T git@github.com
+
+pip install --upgrade lastversion radian mkdocs keep b2
+
+
