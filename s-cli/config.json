@@ -11,6 +11,16 @@
       ]
     },
     {
+      "name": "ghpwsh",
+      "url": "https://github.com/search?q=%s+language:powershell",
+      "tags": [
+        "github",
+        "powershell",
+        "dev",
+        "windows"
+      ]
+    },
+    {
       "name": "myrepos",
       "url": "https://github.com/search?q=%s+user:jimbrig",
       "tags": [
