@@ -1,2 +1,1 @@
-pip freeze > "~/.dotfiles/python/pip-packages.txt"
-
+pip freeze --all > $HOME\.dotfiles\python\pip-packages.txt
