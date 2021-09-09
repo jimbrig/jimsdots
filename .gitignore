@@ -12,4 +12,4 @@ powertoys/PowerToys Run/LogsModuleInterface/
 powertoys/PowerToys Run/Cache/
 encrypted-files.txt
 chocolatey/backup/lib/
-
+registry/snapshots/*
