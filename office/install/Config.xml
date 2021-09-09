@@ -1,0 +1,27 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="">
+    <Product ID="">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Excel" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="PowerPoint" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="Word" />
+    </Product>
+    <Product ID="ProofingTools">
+      <Language ID="en-us" />
+    </Product>
+    <Property Name="PinIconsToTaskbar" Value="TRUE" />
+    <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+    <Updates Enabled="TRUE" Channel="" />
+    <Display Level="Full" AcceptEULA="TRUE" />
+    <Property Name="AUTOACTIVATE" Value="1" />
+    <Logging Level="Off" />
+  </Add>
+</Configuration>
