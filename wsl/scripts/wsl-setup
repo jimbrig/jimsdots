@@ -1,0 +1,43 @@
+!#!/usr/bin/env bash
+
+# initial update, upgrade, and installs
+sudo apt -y update && sudo apt -y upgrade && sudo apt -y autoremove
+sudo apt -y install git-core build-essential dos2unix curl ubuntu-wsl gnupg file gdb wget
+sudo apt-get update -qq -y
+
+# Import GPG Keys - NOTE: must be created with git's provided usr/bin/gpg
+gpg --import /mnt/c/windows/program\ files/git/bin/ -command gpg -a --export users/jimmy/.gnupg/privatekeys.asc
+
+# Link SSH Keys from Windows and Adjust Permissions
+cd ~
+mkdir .ssh
+cd .ssh
+ln -s /mnt/c/users/jimmy/.ssh/* .
+sudo chmod 644 id_rsa.pub
+sudo chmod 600 id_rsa
+sudo chmod 644 known_hosts
+cd ../
+sudo chmod 700 .ssh/
+cd ~
+
+# Configure Git: .gitconfig
+git config --global user.name "Jimmy Briggs"
+git config --global user.email "jimmy.briggs@jimbrig.com"
+git config --global user.signingKey "B017D01C3C313622784505C187267697E08B0070"
+git config --global default.protocol "ssh"
+git config --global color.ui "auto"
+git config --global core.editor "vim"
+git config --global github.user "jimbrig"
+git config --global init.defaultBranch "main"
+git config --global tag.forceSignAnnotated true
+git config --global commit.gpgSign true
+
+# git config --global core.excludesfile "~/.gitignore_global"
+# git config --global core.attributesfile "~/.gitattributes_global"
+
+# dotfiles
+# mkdir ~/.dotfiles
+# cd .dotfiles
+# mkdir home/jimbrig
+# mkdir etc/
+
