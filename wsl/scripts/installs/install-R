@@ -1,0 +1,15 @@
+!#!/usr/bin/env bash
+
+# Install R on WSL
+sudo apt-get update -qq -y
+sudo apt-get install -y wget git
+OS_DISTRIBUTION=$(lsb_release -cs)
+wget -O- http://neuro.debian.net/lists/${OS_DISTRIBUTION}.us-nh.full | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
+sudo apt-key adv --recv-keys --keyserver hkp://pool.sks-keyservers.net:80 0xA5D32F012649A5A9
+sudo apt-get update
+
+sudo apt-get install libopenblas-base r-base
+sudo apt-get update -qq -y
+sudo apt-get install -y libgit2-dev
+sudo apt-get install -y libcurl4-openssl-dev libssl-dev
+sudo apt-get install -y zlib1g-dev libssh2-1-dev libpq-dev libxml2-dev
