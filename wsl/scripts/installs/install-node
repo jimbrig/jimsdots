@@ -1,0 +1,34 @@
+# install nvm, node, and npm
+sudo apt-get -y update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# confiure
+nvm alias default node # Always default to the latest available node version on a shell
+nvm set-colors "yMeBg"
+
+# install node
+nvm install node
+
+# update NPM
+nvm install-latest-npm
+# npm i -g npm@latest
+
+# setup npm
+nvm --version
+nvm install node
+node --version
+npm install -g npm@latest
+npm --version
+nvm set-colors cgYmW
+nvm use node
+npm login
+mkdir ~/node_modules
+mkdir ~/node_modules/.bin
+npm doctor
+sudo rm -r ~/node_modules
+
+# install global packages
+npm install --global eslint jshint prettier yarn npm-check http-server doctoc tldr speedtest-cli serve
