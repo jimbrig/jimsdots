@@ -1,0 +1,29 @@
+{
+  "ubuntu": {
+    "Interop": {
+      "guiintegration": "true",
+      "audiointegration": "false",
+      "advancedipdetection": "false"
+    },
+    "Motd": {
+      "wslnewsenabled": "true"
+    }
+  },
+  "wsl": {
+    "automount": {
+      "enabled": "true",
+      "mountfstab": "true",
+      "root": "/mnt/",
+      "options": "metadata,umsdk=11,fmask=22"
+    },
+    "network": {
+      "generatehosts": "true",
+      "generateresolvconf": "true"
+    },
+    "interop": {
+      "enabled": "true",
+      "appendwindowspath": "false"
+    }
+  },
+  "time_exported": "20210408144706UTC"
+}
