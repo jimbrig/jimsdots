@@ -6,15 +6,11 @@ This directory houses all search engine related files and configurations I use a
 
 ## Customized Search Engines
 
-See <about:preferences#search>.
+See <firefox://about:preferences#search>.
 
-![image-20211013021021394](C:\Users\jimmy\AppData\Roaming\Typora\typora-user-images\image-20211013021021394.png)
-
-![image-20211013021117626](C:\Users\jimmy\AppData\Roaming\Typora\typora-user-images\image-20211013021117626.png)
-
-![image-20211013020209450](C:\Users\jimmy\AppData\Roaming\Typora\typora-user-images\image-20211013020209450.png)
-
-
+![image](https://user-images.githubusercontent.com/32652297/137078020-c8454bb7-e492-4f5d-8237-fa7ea9a06daf.png)
+![image](https://user-images.githubusercontent.com/32652297/137077972-4001c422-8d7c-4d30-a015-ab427a622b0f.png)
+![image](https://user-images.githubusercontent.com/32652297/137078099-0fbadc95-c88c-4e4b-b3c8-a206257d3c07.png)
 
 ## Files
 
