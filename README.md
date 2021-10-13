@@ -1,6 +1,6 @@
 # Jim’s `.dotfiles`
 
-![terminal-screenshot](./windows-terminal/screenshot.png)
+*Note: These dotfiles are a comprehisive listing of all my backed up personalized, custom configurations and bootstrapping setup scripts specific to Windows 10/11 and WSL*
 
 ## Setup Guides
 
@@ -40,3 +40,6 @@ Install `git-crypt` via `scoop install git-crypt` on Windows or `brew install gi
 
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
+***
+
+![terminal-screenshot](./windows-terminal/screenshot.png)
