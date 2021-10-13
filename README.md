@@ -21,6 +21,7 @@
 - [RStudio](./rstudio/)
 - [python](./python/)
 - [topgrade](./topgrade/)
+- [Firefox Developer](./firefox/)
 
 ## All Directories
 
