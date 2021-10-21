@@ -1,5 +1,7 @@
 # Environment Variables
 
+📝 *Note: [RapidEE](https://rapidee.com) is the best way GUI interface to manage EnvVars on Windows*
+
 ```powershell
 PS C:\Users\Admin\Dev\jimbrig\jimsdots\PATH> gci env:* | sort-object name
 
