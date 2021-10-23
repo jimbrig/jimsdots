@@ -12,9 +12,8 @@ $exepath = "C:\tools\s-cli\" + $subdir.Name + "\s.exe"
 Copy-Item $exepath "c:\bin\"
 
 # Copy config to ~/.config/s
-New-Item -ItemType Directory ~/.config/s -Force
-Copy-Item $HOME\.dotfiles\s-cli\config -Destination $HOME\.config\s\
-
+New-Item -ItemType Directory "$HOME\.config\s" -Force
+Copy-Item "$HOME\.dotfiles\s-cli\config" -Destination "$HOME\.config\s\"
 
 # install from github
 # example: Install-Github "user/repo" "*.exe" "program-name"
