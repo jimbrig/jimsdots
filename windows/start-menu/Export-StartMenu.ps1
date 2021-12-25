@@ -1,0 +1,1 @@
+Export-StartLayout -Path "$HOME\.dotfiles\windows\start-menu\StartMenuLayout.json"
