@@ -1,0 +1,154 @@
+{
+    "pinnedList": [
+        {
+            "packagedAppId": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel"
+        },
+        {
+            "desktopAppLink": "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Control Panel.lnk"
+        },
+        {
+            "desktopAppLink": "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\File Explorer.lnk"
+        },
+        {
+            "packagedAppId": "Microsoft.WindowsNotepad_8wekyb3d8bbwe!App"
+        },
+        {
+            "packagedAppId": "Microsoft.WindowsStore_8wekyb3d8bbwe!App"
+        },
+        // {
+        //     "packagedAppId": "41747ArnoKlenke.CPUPulse_1wb57y56r5xww!App"
+        // },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Edge.lnk"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Firefox Developer Edition.lnk"
+        },
+        {
+            "desktopAppLink": "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk"
+        },
+        {
+            "packagedAppId": "microsoft.windowscommunicationsapps_8wekyb3d8bbwe!microsoft.windowslive.mail"
+        },
+        {
+            "packagedAppId": "microsoft.windowscommunicationsapps_8wekyb3d8bbwe!microsoft.windowslive.calendar"
+        },
+        {
+            "packagedAppId": "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
+        },
+        {
+            "packagedAppId": "Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe!App"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code\\Visual Studio Code.lnk"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Docker Desktop.lnk"
+        },
+        {
+            "packagedAppId": "Microsoft.Windows.Photos_8wekyb3d8bbwe!App"
+        },
+        {
+            "packagedAppId": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify"
+        },
+        {
+            "packagedAppId": "Microsoft.GamingApp_8wekyb3d8bbwe!Microsoft.Xbox.App"
+        },
+        {
+            "packagedAppId": "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+        },
+        {
+            "packagedAppId": "Microsoft.Paint_8wekyb3d8bbwe!App"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Uninstall Tool\\Uninstall Tool.lnk"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\RStudio\\RStudio.lnk"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Typora.lnk"
+        },
+        {
+            "desktopAppLink": "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Obsidian.lnk"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe Acrobat DC.lnk"
+        },
+        {
+            "packagedAppId": "54742Neromarah.JitHub_yh88b00q72bs0!App"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Backblaze\\Backblaze Control Panel.lnk"
+        },
+        {
+            "packagedAppId": "2420ShazApp.ClientforShazam_1c69h7y6sr26m!App"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\DB Browser (SQLite).lnk"
+        },
+        {
+            "packagedAppId": "Microsoft.DiagnosticDataViewer_8wekyb3d8bbwe!App"
+        },
+        {
+            "packagedAppId": "9426MICRO-STARINTERNATION.DragonCenter_kzh8wxbdkxb8p!App"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\EaseUS Partition Master\\EaseUS Partition Master.lnk"
+        },
+        {
+            "desktopAppLink": "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\espanso.lnk"
+        },
+        {
+            "packagedAppId": "Evernote.Evernote_q4d96b2w5wcc2!Evernote"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Everything.lnk"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Excel.lnk"
+        },
+        {
+            "packagedAppId": "6616hannesbarbez.ExperienceIndexSystemAssessmentTo_ykvsm2g95s45e!App"
+        },
+        {
+            "packagedAppId": "mail.google.com-2B04DAAA_vq8mrer2vmnwe!App"
+        },
+        {
+            "packagedAppId": "49306atecsolution.FilesUWP_et10x9a9vyk8t!App"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\FreeFileSync.lnk"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\NVIDIA Corporation\\GeForce Experience.lnk"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\Git Bash.lnk"
+        },
+        {
+            "packagedAppId": "forum.obsidian.md-69C14EFA_azqxs0jdzn0q2!App"
+        },
+        {
+            "packagedAppId": "calendar.google.com-366B1FCB_kv1kmfe1hm8sg!App"
+        },
+        {
+            "packagedAppId": "github.com-8556C150_2t1n1bqhyggy0!App"
+        },
+        {
+            "packagedAppId": "dev.to-EDDFFE17_9pg4a4g7sbn8m!App"
+        },
+        {
+            "packagedAppId": "medium.com-F04485A6_jtnf9tn58qbzt!App"
+        },
+        {
+            "packagedAppId": "www.amazon.com-B6711EF6_vkdxc5r7kxzmw!App"
+        },
+        {
+            "packagedAppId": "stackoverflow.com-916E702A_rcjny52mfwzsp!App"
+        },
+        {
+            "desktopAppLink": "%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\eDEX-UI.lnk"
+        }
+    ]
+}
