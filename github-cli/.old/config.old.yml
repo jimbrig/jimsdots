@@ -1,0 +1,18 @@
+# Protocol: ssh vs https
+git_protocol: ssh
+
+# Editors
+editor: code-insiders
+gh_editor: code-insiders
+git_editor: code-insiders
+visual_editor: code-insiders
+# Web Browser
+browser: edge
+# Prompt
+prompt: enabled
+# Pager
+pager:
+# Aliases
+aliases:
+  co: pr checkout
+  myissues: issue list -A jimbrig
