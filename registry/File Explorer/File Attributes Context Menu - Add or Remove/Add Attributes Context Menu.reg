@@ -1,0 +1,198 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Attributes]
+"MUIVerb"="Attributes"
+"SubCommands"=""
+
+
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\aShow]
+"MUIVerb"="Show current attributes"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\aShow\command]
+@="cmd.exe /k attrib \"%1\""
+
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\bReset]
+"MUIVerb"="Reset attributes"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\bReset\command]
+@="attrib -r -a -s -h -i \"%1\""
+
+
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\cReadOnlySet]
+"CommandFlags"=dword:00000020
+"MUIVerb"="Set Read-only attribute"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\cReadOnlySet\command]
+@="attrib +r \"%1\""
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\dReadOnlyRemove]
+"MUIVerb"="Remove Read-only attribute"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\dReadOnlyRemove\command]
+@="attrib -r \"%1\""
+
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\eHiddenSet]
+"CommandFlags"=dword:00000020
+"MUIVerb"="Set Hidden attribute"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\eHiddenSet\command]
+@="attrib +h \"%1\""
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\fHiddenRemove]
+"MUIVerb"="Remove Hidden attribute"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\fHiddenRemove\command]
+@="attrib -h \"%1\""
+
+
+
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\gSystemSet]
+"CommandFlags"=dword:00000020
+"MUIVerb"="Set System attribute"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\gSystemSet\command]
+@="attrib +s \"%1\""
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\hSystemRemove]
+"MUIVerb"="Remove System attribute"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\hSystemRemove\command]
+@="attrib -s \"%1\""
+
+
+
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\iArchiveSet]
+"CommandFlags"=dword:00000020
+"MUIVerb"="Set Archive attribute"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\iArchiveSet\command]
+@="attrib +a \"%1\""
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\jArchiveRemove]
+"MUIVerb"="Remove Archive attribute"
+
+[HKEY_CLASSES_ROOT\*\Shell\Attributes\Shell\jArchiveRemove\command]
+@="attrib -a \"%1\""
+
+
+
+; =============== for folders ================
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes]
+"SubCommands"=""
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\aShow]
+"MUIVerb"="Show current attributes"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\aShow\command]
+@="cmd.exe /k attrib \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\bShow]
+"MUIVerb"="Show attributes of this folder, subfolders and files"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\bShow\command]
+@="cmd.exe /k attrib \"%1\" & attrib \"%1\\*.*\" /s /d"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\cReset]
+"MUIVerb"="Reset attributes"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\cReset\command]
+@="cmd.exe /c attrib -r -a -s -h -i \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\dReset]
+"MUIVerb"="Reset attributes for this folder, subfolders and files"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\dReset\command]
+@="cmd.exe /c attrib -r -a -s -h -i \"%1\" & attrib -r -a -s -h -i \"%1\\*.*\" /s /d"
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\eReadOnlySet]
+"CommandFlags"=dword:00000020
+"MUIVerb"="Set Read-only attribute"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\eReadOnlySet\command]
+@="cmd.exe /c attrib +r \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\fReadOnlySet]
+"MUIVerb"="Set Read-only attribute to this folder, subfolders and files"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\fReadOnlySet\command]
+@="cmd.exe /c attrib +r \"%1\" & attrib +r \"%1\\*.*\" /s"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\gReadOnlyRemove]
+"MUIVerb"="Remove Read-only attribute"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\gReadOnlyRemove\command]
+@="cmd.exe /c attrib -r \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\hReadOnlyRemove]
+"MUIVerb"="Remove Read-only attribute from this folder and subfiles"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\hReadOnlyRemove\command]
+@="cmd.exe /c attrib -r \"%1\" & attrib -r \"%1\\*.*\" /s"
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\iHiddenSet]
+"CommandFlags"=dword:00000020
+"MUIVerb"="Set Hidden attribute"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\iHiddenSet\command]
+@="cmd.exe /c attrib +h \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\jHiddenSet]
+"MUIVerb"="Set Hidden attribute to this folder, subfolders and files"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\jHiddenSet\command]
+@="cmd.exe /c attrib +h \"%1\" & attrib +h \"%1\\*.*\" /s /d"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\kHiddenRemove]
+"MUIVerb"="Remove Hidden attribute"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\kHiddenRemove\command]
+@="cmd.exe /c attrib -h \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\lHiddenRemove]
+"MUIVerb"="Remove Hidden attribute from this folder, subfolders and files"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\lHiddenRemove\command]
+@="cmd.exe /c attrib -h \"%1\" & attrib -h \"%1\\*.*\" /s /d"
+
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\mSystemSet]
+"CommandFlags"=dword:00000020
+"MUIVerb"="Set System attribute"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\mSystemSet\command]
+@="cmd.exe /c attrib +s \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\oSystemRemove]
+"MUIVerb"="Remove System attribute"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\oSystemRemove\command]
+@="cmd.exe /c attrib -h \"%1\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\qArchiveSet]
+"CommandFlags"=dword:00000020
+"MUIVerb"="Set Archive attribute"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\qArchiveSet\command]
+@="cmd.exe /c attrib +a \"%1\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\sArchiveRemove]
+"MUIVerb"="Remove Archive attribute"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\Attributes\Shell\sArchiveRemove\command]
+@="cmd.exe /c attrib -a \"%1\""

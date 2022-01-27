@@ -1,0 +1,43 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier]
+"SubCommands"=""
+"MUIVerb"="Magnifier"
+"icon"="imageres.dll,-145"
+"Position"="Bottom"
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier\Shell\01Lens]
+"MUIVerb"="Lens Magnify"
+"Icon"="imageres.dll,-145"
+"Icon"="imageres.dll,-145"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier\Shell\01Lens\command]
+@="C:\\Windows\\System32\\Magnify.exe /lens"
+
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier\Shell\02Fullscreen]
+"MUIVerb"="Fullscreen Magnify"
+"Icon"="imageres.dll,-145"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier\Shell\02Fullscreen\command]
+@="C:\\Windows\\System32\\Magnify.exe /fullscreen"
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier\Shell\03Docked]
+"MUIVerb"="Docked Magnify"
+"Icon"="imageres.dll,-145"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier\Shell\03Docked\command]
+@="C:\\Windows\\System32\\Magnify.exe /docked"
+
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier\Shell\04Settings]
+"MUIVerb"="Magnifier Settings"
+"Icon"="imageres.dll,-145"
+"SettingsURI"="ms-settings:easeofaccess-magnifier"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier\Shell\04Settings\command]
+"DelegateExecute"="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"

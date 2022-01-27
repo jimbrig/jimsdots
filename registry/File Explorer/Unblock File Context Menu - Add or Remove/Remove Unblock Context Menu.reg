@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Add Unblock File Context Menu
+; https://www.majorgeeks.com/content/page/how_to_add_unblock_file_context_menu.html
+
+[-HKEY_CLASSES_ROOT\*\shell\unblock]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\unblock]

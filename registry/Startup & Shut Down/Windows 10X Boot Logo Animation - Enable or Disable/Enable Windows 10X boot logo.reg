@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Enable Windows 10X Boot Logo Animation
+; https://www.majorgeeks.com/content/page/enable_windows_10x_boot_logo.html
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\BootControl]
+"BootProgressAnimation"=dword:00000001

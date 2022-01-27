@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Add Troubleshooters Desktop Context Menu in Windows 10 & 11
+; https://www.majorgeeks.com/content/page/troubleshooter_context_menu.html
+
+[-HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters]

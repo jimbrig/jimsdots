@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Bypass Secure Boot and Trusted Platform Module (TPM) 2.0 Requirements and Install Windows 11
+; https://www.majorgeeks.com/content/page/bypass_tpm.html
+
+[-HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig]

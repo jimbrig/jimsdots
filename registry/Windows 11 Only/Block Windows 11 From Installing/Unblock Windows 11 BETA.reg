@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Block Windows 11 From Installing
+; https://www.majorgeeks.com/content/page/block_windows_11.html
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]

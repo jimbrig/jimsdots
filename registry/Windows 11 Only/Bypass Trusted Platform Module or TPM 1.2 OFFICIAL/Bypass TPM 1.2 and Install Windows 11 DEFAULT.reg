@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Bypass TPM 1.2 and Install Windows 11
+; https://www.majorgeeks.com/content/page/bypass_tpm_12.html
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup]
+"AllowUpgradesWithUnsupportedTPMOrCPU"=dword:00000000

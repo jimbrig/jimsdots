@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Add Windows Update to The Control Panel in Windows 10
+; https://www.majorgeeks.com/content/page/windows_update_control_panel.html
+
+
+[HKEY_CLASSES_ROOT\CLSID\{36eef7db-88ad-4e81-ad49-0e313f0c35f8}]
+@="@%SystemRoot%\\system32\\shell32.dll,-22068"
+"InfoTip"="@%SystemRoot%\\system32\\shell32.dll,-22580"
+"System.ApplicationName"="Microsoft.WindowsUpdate"
+"System.ControlPanel.Category"="5,10"
+"System.Software.TasksFileUrl"="Internal"
+
+[HKEY_CLASSES_ROOT\CLSID\{36eef7db-88ad-4e81-ad49-0e313f0c35f8}\DefaultIcon]
+@="%SystemRoot%\\shell32.dll,-47"
+
+[HKEY_CLASSES_ROOT\CLSID\{36eef7db-88ad-4e81-ad49-0e313f0c35f8}\Shell\Open\command]
+ @="control /name microsoft.WindowsUpdate"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{36eef7db-88ad-4e81-ad49-0e313f0c35f8}]
+@="Windows Update"
