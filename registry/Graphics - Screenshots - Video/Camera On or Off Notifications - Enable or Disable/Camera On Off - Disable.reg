@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Enable Camera On or Off Notifications
+; https://www.majorgeeks.com/content/page/camera_on_off.html
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OEM\Device\Capture]
+"NoPhysicalCameraLED"=dword:00000000

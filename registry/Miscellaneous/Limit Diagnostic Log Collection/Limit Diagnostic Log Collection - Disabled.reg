@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Limit Diagnostic Log Collection in Windows 10 & 11
+; https://www.majorgeeks.com/content/page/limit_diagnostic_log.html
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"LimitDiagnosticLogCollection"=dword:00000000

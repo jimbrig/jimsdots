@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.com
+; How to Add or Remove Optimize Drives Context Menu in Windows 10
+; https://www.majorgeeks.com/content/page/optimize_drives_context_menu.html
+
+[-HKEY_CLASSES_ROOT\Drive\shell\dfrgui]

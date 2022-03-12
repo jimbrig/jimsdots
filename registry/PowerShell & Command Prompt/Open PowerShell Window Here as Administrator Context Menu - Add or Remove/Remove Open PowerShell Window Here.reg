@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; https://www.majorgeeks.com/content/page/how_to_add_open_powershell_window_here_as_administrator_context_menu.html
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\PowerShellAsAdmin]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\PowerShellAsAdmin]
+
+[-HKEY_CLASSES_ROOT\Drive\shell\PowerShellAsAdmin]
+
+[-HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\PowerShellAsAdmin]

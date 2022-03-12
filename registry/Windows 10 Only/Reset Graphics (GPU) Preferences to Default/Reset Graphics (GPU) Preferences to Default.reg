@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Reset Graphics (GPU) Preferences to Default
+; https://www.majorgeeks.com/content/page/reset_gpu_preferences.html
+
+[-HKEY_CURRENT_USER\SOFTWARE\Microsoft\DirectX]

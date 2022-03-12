@@ -1,0 +1,92 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Add Troubleshooters Desktop Context Menu in Windows 10 & 11
+; https://www.majorgeeks.com/content/page/troubleshooter_context_menu.html
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters]
+"Icon"="DiagCpl.dll,-1"
+"MUIVerb"="Troubleshooters"
+"Position"="Bottom"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\01entry]
+"MUIVerb"="Troubleshoot Settings page" 
+"Icon"="DiagCpl.dll,-1" 
+"SettingsURI"="ms-settings:troubleshoot"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\01entry\command]
+"DelegateExecute"="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\02entry]
+"MUIVerb"="Classic Troubleshooting applet" 
+"Icon"="DiagCpl.dll,-1" 
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\02entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\03entry]
+"Icon"="DiagCpl.dll,-500"
+"MUIVerb"="Programs"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\03entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\applications"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\04entry]
+"Icon"="DiagCpl.dll,-501"
+"MUIVerb"="Hardware and Sound"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\04entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\devices"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\05entry]
+"Icon"="DiagCpl.dll,-503"
+"MUIVerb"="Network and Internet"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\05entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\network"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\06entry]
+"Icon"="DiagCpl.dll,-509"
+"MUIVerb"="System and Security"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\06entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\system"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\07entry]
+"MUIVerb"="All Categories"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\07entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\listAllPage"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\08entry]
+"MUIVerb"="History"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\08entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\historyPage"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\09entry]
+"MUIVerb"="Change settings"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\09entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\settingPage"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\10entry]
+"MUIVerb"="Additional Information"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\10entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\resultPage"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\11entry]
+"MUIVerb"="Search Results"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\11entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\searchPage"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\12entry]
+"MUIVerb"="Remote Assistance"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Troubleshooters\shell\12entry\command]
+@="explorer shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}\\raPage"

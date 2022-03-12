@@ -1,0 +1,1 @@
+PowerShell -NoProfile -ExecutionPolicy Unrestricted -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Unrestricted -File ""c:\users\[insert your username]\[insert the path to the ps1 file]\PrintSpooler.ps1""' -Verb RunAs}";

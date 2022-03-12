@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Add Color and Appearance to Control Panel in Windows
+; Tutorial: https://www.majorgeeks.com/content/page/how_to_add_color_and_appearance_to_control_panel_in_windows.html
+
+[HKEY_CLASSES_ROOT\CLSID\{106ee807-9e5d-451b-a9c5-74908630cefb}]
+@="Color and Appearance"
+"InfoTip"="Change the color of your taskbar, window borders, and Start menu"
+"System.ApplicationName"="Microsoft.Personalization"
+"System.ControlPanel.Category"=dword:00000001
+"System.Software.TasksFileUrl"="Internal"
+
+[HKEY_CLASSES_ROOT\CLSID\{106ee807-9e5d-451b-a9c5-74908630cefb}\DefaultIcon]
+@="%SystemRoot%\\System32\\imageres.dll,-197"
+
+[HKEY_CLASSES_ROOT\CLSID\{106ee807-9e5d-451b-a9c5-74908630cefb}\Shell\Open\command]
+@="explorer shell:::{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921} -Microsoft.Personalization\\pageColorization"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{106ee807-9e5d-451b-a9c5-74908630cefb}]
+@="Color and Appearance"

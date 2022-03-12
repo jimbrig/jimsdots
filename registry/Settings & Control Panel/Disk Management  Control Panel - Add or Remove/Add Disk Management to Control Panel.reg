@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Add Disk Management to Control Panel in Windows
+; https://www.majorgeeks.com/content/page/how_to_add_disk_management_to_control_panel_in_windows.html
+
+[HKEY_CLASSES_ROOT\CLSID\{403ac161-c813-4819-b37f-3aacf0e12e0e}]
+@="Disk Management"
+"InfoTip"="Create and format hard disk partitions"
+"System.ControlPanel.Category"="2"
+"System.ControlPanel.EnableInSafeMode"="3"
+
+[HKEY_CLASSES_ROOT\CLSID\{403ac161-c813-4819-b37f-3aacf0e12e0e}\DefaultIcon]
+@="%WinDir%\\System32\\dmdskres.dll,-344"
+
+[HKEY_CLASSES_ROOT\CLSID\{403ac161-c813-4819-b37f-3aacf0e12e0e}\Shell\Open\command]
+ @="mmc.exe diskmgmt.msc"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{403ac161-c813-4819-b37f-3aacf0e12e0e}]
+@="Disk Management"

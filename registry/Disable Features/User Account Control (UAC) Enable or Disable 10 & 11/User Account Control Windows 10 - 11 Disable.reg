@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Disable User Account Control (UAC) in Windows 10 & 11
+; https://www.majorgeeks.com/content/page/disable_uac_10_11.html
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"="0"

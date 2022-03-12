@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Disable the Insert Key in Windows 10
+; https://www.majorgeeks.com/content/page/how_to_disable_the_insert_key_in_windows_10.html
+
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"InsertKey"=-
