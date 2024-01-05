@@ -1,7 +1,8 @@
 repo_name: jimbrig/jimsdots
 report_id: 99307891bd97f8ee90f8d09ec5448526
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-07T20:32:06+00:00'
+timestamp: '2024-01-05T08:28:12+00:00'
 requested_by: jimbrig
 provider: github
 branch: main
@@ -17,7 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
-  detection_source_url: github.com/jimbrig/jimsdots/blob/main/qttabbar/Plugins/QTPluginLib/QTPluginLib.csproj
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/qttabbar/Plugins/QTPluginLib/QTPluginLib.csproj
   detection_source: qttabbar/Plugins/QTPluginLib/QTPluginLib.csproj
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-07-25 20:09:21.000000000 Z
@@ -30,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/jimbrig/jimsdots
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -40,6 +42,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/jimbrig/jimsdots
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -49,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/jimbrig/jimsdots
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -59,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/devspace/ui/v5.7.5-alpha.0/static/js/main.56de2568.js
   detection_source: devspace/ui/v5.7.5-alpha.0/static/js/main.56de2568.js
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-03-30 23:35:28.000000000 Z
@@ -71,6 +76,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/chocolatey/backup/MSI/packages.config
   detection_source: chocolatey/backup/MSI/packages.config
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-10-13 06:37:03.000000000 Z
@@ -82,6 +88,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source_url: https://github.com/jimbrig/jimsdots
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -92,6 +99,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/chocolatey/backup/MSI/packages.config
   detection_source: chocolatey/backup/MSI/packages.config
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-02 14:10:06.000000000 Z
@@ -105,6 +113,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/chocolatey/backup/MSI/packages.config
   detection_source: chocolatey/backup/MSI/packages.config
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-02 14:10:06.000000000 Z
@@ -116,6 +125,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/azure-cli/azure/telemetry.txt
   detection_source: azure-cli/azure/telemetry.txt
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-04 19:10:52.000000000 Z
@@ -127,6 +137,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/chocolatey/backup/MSI/packages.config
   detection_source: chocolatey/backup/MSI/packages.config
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-02 14:10:06.000000000 Z
@@ -138,6 +149,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/4153/eY1Bty7l_400x400.jpg
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/chocolatey/backup/MSI/packages.config
   detection_source: chocolatey/backup/MSI/packages.config
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-10-13 06:37:03.000000000 Z
@@ -149,6 +161,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jimbrig/jimsdots
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -158,6 +171,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/.github/workflows/stale.yml
   detection_source: ".github/workflows/stale.yml"
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-08-23 23:36:39.000000000 Z
@@ -169,6 +183,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/chocolatey/backup/MSI/packages.config
   detection_source: chocolatey/backup/MSI/packages.config
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-02 14:10:06.000000000 Z
@@ -180,6 +195,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/chocolatey/backup/MSI/packages.config
   detection_source: chocolatey/backup/MSI/packages.config
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-02 14:10:06.000000000 Z
@@ -191,6 +207,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/yarn/.yarnrc
   detection_source: yarn/.yarnrc
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-03-30 23:19:36.000000000 Z
@@ -200,6 +217,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/devspace/ui/v5.7.5-alpha.0/index.html
   detection_source: devspace/ui/v5.7.5-alpha.0/index.html
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-03-30 23:35:28.000000000 Z
@@ -211,6 +229,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/azure-cli/azure/telemetry.txt
   detection_source: azure-cli/azure/telemetry.txt
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-04 19:10:52.000000000 Z
@@ -222,6 +241,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/jimbrig/jimsdots
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -232,6 +252,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/jimbrig/jimsdots
   detection_source: Repo Metadata
 - name: nvm
   description: A tool to manage multiple versions of Node.js on the same machine
@@ -239,6 +260,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4764/ObS2CG3t_400x400.jpg
+  detection_source_url: https://github.com/jimbrig/jimsdots/blob/main/chocolatey/backup/MSI/packages.config
   detection_source: chocolatey/backup/MSI/packages.config
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-02 14:10:06.000000000 Z
