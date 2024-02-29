@@ -2,7 +2,7 @@ repo_name: jimbrig/jimsdots
 report_id: 99307891bd97f8ee90f8d09ec5448526
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:28:12+00:00'
+timestamp: '2024-02-29T18:58:39+00:00'
 requested_by: jimbrig
 provider: github
 branch: main
@@ -130,7 +130,7 @@ tools:
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-04 19:10:52.000000000 Z
 - name: CMake
-  description: 'An open-source system that manages the build process '
+  description: An open-source system that manages the build process
   website_url: http://www.cmake.org/
   open_source: false
   hosted_saas: false
@@ -142,7 +142,7 @@ tools:
   last_updated_by: Jimmy Briggs
   last_updated_on: 2021-09-02 14:10:06.000000000 Z
 - name: Chocolatey
-  description: 'A command line application installer for Windows '
+  description: A command line application installer for Windows
   website_url: https://chocolatey.org/
   open_source: false
   hosted_saas: false
